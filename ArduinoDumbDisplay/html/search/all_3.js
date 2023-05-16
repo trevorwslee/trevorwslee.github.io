@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ddbufferedtunnel_0',['DDBufferedTunnel',['../class_d_d_buffered_tunnel.html',1,'']]],
+  ['ddbufferedtunnel_0',['DDBufferedTunnel',['../class_d_d_buffered_tunnel.html',1,'DDBufferedTunnel'],['../class_d_d_buffered_tunnel.html#af11ffd6a0d68d3a993d2eed13f0835da',1,'DDBufferedTunnel::DDBufferedTunnel()']]],
   ['ddlayer_1',['DDLayer',['../class_d_d_layer.html',1,'']]],
   ['ddlocation_2',['DDLocation',['../struct_d_d_location.html',1,'']]],
   ['ddobject_3',['DDObject',['../struct_d_d_object.html',1,'']]],

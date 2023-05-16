@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -108,8 +108,7 @@ $(document).ready(function(){initNavTree('class_json_d_d_tunnel_multiplexer.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a218c8307cfb2010dbe0f98f1f808932b"><td class="memItemLeft" align="right" valign="top"><a id="a218c8307cfb2010dbe0f98f1f808932b" name="a218c8307cfb2010dbe0f98f1f808932b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>JsonDDTunnelMultiplexer</b> (<a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> **tunnels, int8_t tunnelCount)</td></tr>
+<tr class="memitem:a218c8307cfb2010dbe0f98f1f808932b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_json_d_d_tunnel_multiplexer.html#a218c8307cfb2010dbe0f98f1f808932b">JsonDDTunnelMultiplexer</a> (<a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> **tunnels, int8_t tunnelCount)</td></tr>
 <tr class="separator:a218c8307cfb2010dbe0f98f1f808932b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add95a8310a47d8c49cb065d0de19579f"><td class="memItemLeft" align="right" valign="top"><a id="add95a8310a47d8c49cb065d0de19579f" name="add95a8310a47d8c49cb065d0de19579f"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> ()</td></tr>
@@ -127,8 +126,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnect</b> ()</td>
 <tr class="separator:ac55639ea57a038fabafcdf57753266a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>will not delete "tunnels" passed in </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>Class for "tunnel" multiplexer </p><dl class="section attention"><dt>Attention</dt><dd>will not delete "tunnels" passed in </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a218c8307cfb2010dbe0f98f1f808932b" name="a218c8307cfb2010dbe0f98f1f808932b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218c8307cfb2010dbe0f98f1f808932b">&#9670;&#160;</a></span>JsonDDTunnelMultiplexer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JsonDDTunnelMultiplexer::JsonDDTunnelMultiplexer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> **&#160;</td>
+          <td class="paramname"><em>tunnels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>tunnelCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>constructed via <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> object </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a72790c148549ad95748712748d4ae75d" name="a72790c148549ad95748712748d4ae75d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72790c148549ad95748712748d4ae75d">&#9670;&#160;</a></span>read()</h2>
 
@@ -154,7 +183,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnect</b> ()</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return the index of the tunnel the field read from; -1 if non ready to read </p>
+<dl class="section return"><dt>Returns</dt><dd>the index of the tunnel the field read from; -1 if non ready to read </dd></dl>
 
 </div>
 </div>

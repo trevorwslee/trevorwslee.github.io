@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -118,14 +118,14 @@ Inheritance diagram for DDLayer:</div>
   <map id="DDLayer_map" name="DDLayer_map">
 <area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,171,24"/>
 <area href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer." alt="GraphicalDDLayer" shape="rect" coords="181,112,352,136"/>
-<area href="class_joystick_d_d_layer.html" alt="JoystickDDLayer" shape="rect" coords="181,168,352,192"/>
+<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer." alt="JoystickDDLayer" shape="rect" coords="181,168,352,192"/>
 <area href="class_lcd_d_d_layer.html" alt="LcdDDLayer" shape="rect" coords="181,224,352,248"/>
 <area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer." alt="LedGridDDLayer" shape="rect" coords="181,280,352,304"/>
 <area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer." alt="MbDDLayer" shape="rect" coords="181,336,352,360"/>
 <area href="class_plotter_d_d_layer.html" alt="PlotterDDLayer" shape="rect" coords="181,392,352,416"/>
-<area href="class_seven_segment_row_d_d_layer.html" alt="SevenSegmentRowDDLayer" shape="rect" coords="181,448,352,472"/>
-<area href="class_terminal_d_d_layer.html" alt="TerminalDDLayer" shape="rect" coords="181,504,352,528"/>
-<area href="class_tom_tom_map_d_d_layer.html" alt="TomTomMapDDLayer" shape="rect" coords="181,560,352,584"/>
+<area href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer." alt="SevenSegmentRowDDLayer" shape="rect" coords="181,448,352,472"/>
+<area href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc." alt="TerminalDDLayer" shape="rect" coords="181,504,352,528"/>
+<area href="class_tom_tom_map_d_d_layer.html" title="Class for TomTom map &quot;device dependent view&quot; layer, which means that it is solely rendered by the And..." alt="TomTomMapDDLayer" shape="rect" coords="181,560,352,584"/>
 <area href="class_turtle_d_d_layer.html" title="Class for Turtle-like DD layer." alt="TurtleDDLayer" shape="rect" coords="181,616,352,640"/>
   </map>
 </div></div>
@@ -204,13 +204,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> (
 <tr class="memitem:ad1b5dbef97985ed7855e078b10ab938a"><td class="memItemLeft" align="right" valign="top"><a id="ad1b5dbef97985ed7855e078b10ab938a" name="ad1b5dbef97985ed7855e078b10ab938a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:ad1b5dbef97985ed7855e078b10ab938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc6abcbd588363401272da9c7cda277"><td class="memItemLeft" align="right" valign="top"><a id="a8bc6abcbd588363401272da9c7cda277" name="a8bc6abcbd588363401272da9c7cda277"></a>
-DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackManager</b> () const</td></tr>
-<tr class="memdesc:a8bc6abcbd588363401272da9c7cda277"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a8bc6abcbd588363401272da9c7cda277"><td class="memItemLeft" align="right" valign="top">DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
 <tr class="separator:a8bc6abcbd588363401272da9c7cda277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="memItemLeft" align="right" valign="top"><a id="a6814e6037a1edbf7bf5cea95bffe3c62" name="a6814e6037a1edbf7bf5cea95bffe3c62"></a>
-DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackHandler</b> () const</td></tr>
-<tr class="memdesc:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="memItemLeft" align="right" valign="top">DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62">getFeedbackHandler</a> () const</td></tr>
 <tr class="separator:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -364,7 +360,14 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>rely on <a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback()</a> being called autoFeedbackMethod: . "" &ndash; no auto feedback . "f" &ndash; flash the default way (layer + border) . "fl" &ndash; flash the layer . "fa" &ndash; flash the area where the layer is clicked . "fas" &ndash; flash the area (as a spot) where the layer is clicked . "fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) </p>
+<p>rely on <a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback()</a> being called autoFeedbackMethod:</p><ul>
+<li>"" &ndash; no auto feedback</li>
+<li>"f" &ndash; flash the default way (layer + border)</li>
+<li>"fl" &ndash; flash the layer</li>
+<li>"fa" &ndash; flash the area where the layer is clicked</li>
+<li>"fas" &ndash; flash the area (as a spot) where the layer is clicked</li>
+<li>"fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) </li>
+</ul>
 
 </div>
 </div>
@@ -383,6 +386,58 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
       </table>
 </div><div class="memdoc">
 <p>get "feedback" </p><dl class="section return"><dt>Returns</dt><dd>NULL if no pending "feedback" </dd></dl>
+
+</div>
+</div>
+<a id="a6814e6037a1edbf7bf5cea95bffe3c62" name="a6814e6037a1edbf7bf5cea95bffe3c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6814e6037a1edbf7bf5cea95bffe3c62">&#9670;&#160;</a></span>getFeedbackHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DDFeedbackHandler DDLayer::getFeedbackHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>used internally </dd></dl>
+
+</div>
+</div>
+<a id="a8bc6abcbd588363401272da9c7cda277" name="a8bc6abcbd588363401272da9c7cda277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc6abcbd588363401272da9c7cda277">&#9670;&#160;</a></span>getFeedbackManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DDFeedbackManager * DDLayer::getFeedbackManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>used internally </dd></dl>
 
 </div>
 </div>
@@ -565,7 +620,14 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set explicit (and more responsive) "feedback" handler (and enable feedback) autoFeedbackMethod: . "" &ndash; no auto feedback . "f" &ndash; flash the default way (layer + border) . "fl" &ndash; flash the layer . "fa" &ndash; flash the area where the layer is clicked . "fas" &ndash; flash the area (as a spot) where the layer is clicked . "fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) </p>
+<p>set explicit (and more responsive) "feedback" handler (and enable feedback) autoFeedbackMethod:</p><ul>
+<li>"" &ndash; no auto feedback</li>
+<li>"f" &ndash; flash the default way (layer + border)</li>
+<li>"fl" &ndash; flash the layer</li>
+<li>"fa" &ndash; flash the area where the layer is clicked</li>
+<li>"fas" &ndash; flash the area (as a spot) where the layer is clicked</li>
+<li>"fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) </li>
+</ul>
 
 </div>
 </div>

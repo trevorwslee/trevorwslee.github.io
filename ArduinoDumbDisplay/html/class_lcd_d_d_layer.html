@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -118,8 +118,7 @@ Inheritance diagram for LcdDDLayer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad1663f3e4a3fea054660390f73a7deff"><td class="memItemLeft" align="right" valign="top"><a id="ad1663f3e4a3fea054660390f73a7deff" name="ad1663f3e4a3fea054660390f73a7deff"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>LcdDDLayer</b> (int8_t layerId)</td></tr>
+<tr class="memitem:ad1663f3e4a3fea054660390f73a7deff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lcd_d_d_layer.html#ad1663f3e4a3fea054660390f73a7deff">LcdDDLayer</a> (int8_t layerId)</td></tr>
 <tr class="separator:ad1663f3e4a3fea054660390f73a7deff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f73ded445b3cdc82779c2de15f644a7"><td class="memItemLeft" align="right" valign="top"><a id="a3f73ded445b3cdc82779c2de15f644a7" name="a3f73ded445b3cdc82779c2de15f644a7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>print</b> (const String &amp;text)</td></tr>
@@ -246,13 +245,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> (
 <tr class="memitem:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="ad1b5dbef97985ed7855e078b10ab938a" name="ad1b5dbef97985ed7855e078b10ab938a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a8bc6abcbd588363401272da9c7cda277" name="a8bc6abcbd588363401272da9c7cda277"></a>
-DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackManager</b> () const</td></tr>
-<tr class="memdesc:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
 <tr class="separator:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a6814e6037a1edbf7bf5cea95bffe3c62" name="a6814e6037a1edbf7bf5cea95bffe3c62"></a>
-DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackHandler</b> () const</td></tr>
-<tr class="memdesc:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62">getFeedbackHandler</a> () const</td></tr>
 <tr class="separator:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -285,7 +280,35 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 <div class="textblock"><p>Class for LCD layer </p><dl class="section note"><dt>Note</dt><dd>with "feedback" enabled, can be used as a button </dd>
 <dd>
 with "feedback" enabled, can be used as checkbox; consider using these emojis for checkbox &ndash; ☒☐✅❎🟩✔️ ☑️⬛✔✖ </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad1663f3e4a3fea054660390f73a7deff" name="ad1663f3e4a3fea054660390f73a7deff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1663f3e4a3fea054660390f73a7deff">&#9670;&#160;</a></span>LcdDDLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LcdDDLayer::LcdDDLayer </td>
+          <td>(</td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>layerId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>constructed via <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> object </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2996024f377937deee02b86b5685b367" name="a2996024f377937deee02b86b5685b367"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2996024f377937deee02b86b5685b367">&#9670;&#160;</a></span>bgPixelColor()</h2>
 

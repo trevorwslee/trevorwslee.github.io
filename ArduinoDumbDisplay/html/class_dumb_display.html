@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -103,53 +103,57 @@ $(document).ready(function(){initNavTree('class_dumb_display.html',''); initResi
   <div class="headertitle"><div class="title">DumbDisplay Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a>. Everything starts from here.  
+ <a href="class_dumb_display.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af9c4d4f4de064794675880dfe04e35d8"><td class="memItemLeft" align="right" valign="top"><a id="af9c4d4f4de064794675880dfe04e35d8" name="af9c4d4f4de064794675880dfe04e35d8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DumbDisplay</b> (DDInputOutput *pIO, uint16_t sendBufferSize=DD_DEF_SEND_BUFFER_SIZE)</td></tr>
 <tr class="separator:af9c4d4f4de064794675880dfe04e35d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memItemLeft" align="right" valign="top"><a id="a20e88f4b1c4b7ecf441d7e071021a747" name="a20e88f4b1c4b7ecf441d7e071021a747"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> ()</td></tr>
+<tr class="memitem:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a20e88f4b1c4b7ecf441d7e071021a747">connect</a> ()</td></tr>
 <tr class="separator:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b51a16f0ac941d330124918255457e"><td class="memItemLeft" align="right" valign="top"><a id="ae6b51a16f0ac941d330124918255457e" name="ae6b51a16f0ac941d330124918255457e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b> () const</td></tr>
+<tr class="memitem:ae6b51a16f0ac941d330124918255457e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ae6b51a16f0ac941d330124918255457e">connected</a> () const</td></tr>
 <tr class="separator:ae6b51a16f0ac941d330124918255457e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a2da2242a88df8b81eae09fd54cad45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a0a2da2242a88df8b81eae09fd54cad45">getConnectVersion</a> () const</td></tr>
 <tr class="separator:a0a2da2242a88df8b81eae09fd54cad45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab02a79c926114dd14147b6765b1d864f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ab02a79c926114dd14147b6765b1d864f">getCompatibilityVersion</a> () const</td></tr>
 <tr class="separator:ab02a79c926114dd14147b6765b1d864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memItemLeft" align="right" valign="top"><a id="aa77b3e0133025f22004bb7f35e6f54b3" name="aa77b3e0133025f22004bb7f35e6f54b3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setFeedbackSingleClickOnly</b> (bool singleClickOnly=true)</td></tr>
+<tr class="memitem:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aa77b3e0133025f22004bb7f35e6f54b3">setFeedbackSingleClickOnly</a> (bool singleClickOnly=true)</td></tr>
 <tr class="separator:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memItemLeft" align="right" valign="top"><a id="abae7b4a8cfc825e466a7f339704d0fe9" name="abae7b4a8cfc825e466a7f339704d0fe9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>configPinFrame</b> (int xUnitCount=100, int yUnitCount=100)</td></tr>
-<tr class="separator:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d8e89daf77a8762827cd042df6b772"><td class="memItemLeft" align="right" valign="top"><a id="a28d8e89daf77a8762827cd042df6b772" name="a28d8e89daf77a8762827cd042df6b772"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>configAutoPin</b> (const String &amp;layoutSpec)</td></tr>
+<tr class="memitem:a28d8e89daf77a8762827cd042df6b772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin</a> (const String &amp;layoutSpec)</td></tr>
 <tr class="separator:a28d8e89daf77a8762827cd042df6b772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top"><a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinConfig</b> (const String &amp;remainingLayoutSpec)</td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abae7b4a8cfc825e466a7f339704d0fe9">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100)</td></tr>
+<tr class="separator:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a5d548805b36244d453700afeeea4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
+<tr class="separator:a77a5d548805b36244d453700afeeea4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6162f07bfccc613bbd35e118ca58f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aef6162f07bfccc613bbd35e118ca58f8">pinAutoPinLayers</a> (const String &amp;layoutSpec, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
+<tr class="separator:aef6162f07bfccc613bbd35e118ca58f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a337c89743f3580d8f4f549650a048e"><td class="memItemLeft" align="right" valign="top"><a id="a7a337c89743f3580d8f4f549650a048e" name="a7a337c89743f3580d8f4f549650a048e"></a>
 <a class="el" href="class_mb_d_d_layer.html">MbDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createMicrobitLayer</b> (int width=5, int height=5)</td></tr>
-<tr class="memdesc:a7a337c89743f3580d8f4f549650a048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Microbit-like layer. <br /></td></tr>
+<tr class="memdesc:a7a337c89743f3580d8f4f549650a048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a Microbit-like layer <br /></td></tr>
 <tr class="separator:a7a337c89743f3580d8f4f549650a048e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d421f31c094624e8709fecc3badee04"><td class="memItemLeft" align="right" valign="top"><a id="a3d421f31c094624e8709fecc3badee04" name="a3d421f31c094624e8709fecc3badee04"></a>
 <a class="el" href="class_turtle_d_d_layer.html">TurtleDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createTurtleLayer</b> (int width, int height)</td></tr>
-<tr class="memdesc:a3d421f31c094624e8709fecc3badee04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Turtle-like layer. <br /></td></tr>
+<tr class="memdesc:a3d421f31c094624e8709fecc3badee04"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a Turtle-like layer <br /></td></tr>
 <tr class="separator:a3d421f31c094624e8709fecc3badee04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf71aac7991060289302d936ca51b8ba"><td class="memItemLeft" align="right" valign="top"><a id="adf71aac7991060289302d936ca51b8ba" name="adf71aac7991060289302d936ca51b8ba"></a>
 <a class="el" href="class_led_grid_d_d_layer.html">LedGridDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createLedGridLayer</b> (int colCount=1, int rowCount=1, int subColCount=1, int subRowCount=1)</td></tr>
-<tr class="memdesc:adf71aac7991060289302d936ca51b8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a LED-grid layer. <br /></td></tr>
+<tr class="memdesc:adf71aac7991060289302d936ca51b8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LED-grid layer <br /></td></tr>
 <tr class="separator:adf71aac7991060289302d936ca51b8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588e9f2696ef83249add36732604ed5c"><td class="memItemLeft" align="right" valign="top"><a id="a588e9f2696ef83249add36732604ed5c" name="a588e9f2696ef83249add36732604ed5c"></a>
 <a class="el" href="class_lcd_d_d_layer.html">LcdDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createLcdLayer</b> (int colCount=16, int rowCount=2, int charHeight=0, const String &amp;fontName=&quot;&quot;)</td></tr>
-<tr class="memdesc:a588e9f2696ef83249add36732604ed5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a LCD layer. <br /></td></tr>
+<tr class="memdesc:a588e9f2696ef83249add36732604ed5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LCD layer <br /></td></tr>
 <tr class="separator:a588e9f2696ef83249add36732604ed5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c7d95157e5b8075f05203fd05635a8"><td class="memItemLeft" align="right" valign="top"><a id="a37c7d95157e5b8075f05203fd05635a8" name="a37c7d95157e5b8075f05203fd05635a8"></a>
 <a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createGraphicalLayer</b> (int width, int height)</td></tr>
-<tr class="memdesc:a37c7d95157e5b8075f05203fd05635a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a graphical LCD layer. <br /></td></tr>
+<tr class="memdesc:a37c7d95157e5b8075f05203fd05635a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a graphical LCD layer <br /></td></tr>
 <tr class="separator:a37c7d95157e5b8075f05203fd05635a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_seven_segment_row_d_d_layer.html">SevenSegmentRowDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8c525bd171b39af67e9c915c7ca0a0f9">create7SegmentRowLayer</a> (int digitCount=1)</td></tr>
 <tr class="separator:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +182,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinCo
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a id="aff291b56128cb372c5045afd634b530f" name="aff291b56128cb372c5045afd634b530f"></a>
 <a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createGpsServiceTunnel</b> ()</td></tr>
-<tr class="memdesc:aff291b56128cb372c5045afd634b530f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a "service tunnel" for getting GPS info from phone. <br /></td></tr>
+<tr class="memdesc:aff291b56128cb372c5045afd634b530f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a "service tunnel" for getting GPS info from phone <br /></td></tr>
 <tr class="separator:aff291b56128cb372c5045afd634b530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5095ba15b92341fe4c7df5bc75e95203"><td class="memItemLeft" align="right" valign="top"><a id="a5095ba15b92341fe4c7df5bc75e95203" name="a5095ba15b92341fe4c7df5bc75e95203"></a>
 <a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createObjectDetectDemoServiceTunnel</b> (int scaleToWidth=0, int scaleToHeight=0)</td></tr>
@@ -188,90 +192,97 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a 
 <tr class="separator:a7759c27bea25dd216cb142ad06a68e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af37458f1034619132bca9ddeef1962"><td class="memItemLeft" align="right" valign="top"><a id="a1af37458f1034619132bca9ddeef1962" name="a1af37458f1034619132bca9ddeef1962"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>backgroundColor</b> (const String &amp;color)</td></tr>
+<tr class="memdesc:a1af37458f1034619132bca9ddeef1962"><td class="mdescLeft">&#160;</td><td class="mdescRight">set DD background color with common "color name" or DD_RGB_COLOR(...) <br /></td></tr>
 <tr class="separator:a1af37458f1034619132bca9ddeef1962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8adca053da4dfa85326381b77962a66a"><td class="memItemLeft" align="right" valign="top"><a id="a8adca053da4dfa85326381b77962a66a" name="a8adca053da4dfa85326381b77962a66a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>recordLayerSetupCommands</b> ()</td></tr>
+<tr class="memdesc:a8adca053da4dfa85326381b77962a66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">basically, functions the same as <a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">recordLayerCommands()</a> <br /></td></tr>
 <tr class="separator:a8adca053da4dfa85326381b77962a66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed399bf319526b8e6f764ccb95fb7150"><td class="memItemLeft" align="right" valign="top"><a id="aed399bf319526b8e6f764ccb95fb7150" name="aed399bf319526b8e6f764ccb95fb7150"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>playbackLayerSetupCommands</b> (const String &amp;persist_id)</td></tr>
+<tr class="memitem:aed399bf319526b8e6f764ccb95fb7150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aed399bf319526b8e6f764ccb95fb7150">playbackLayerSetupCommands</a> (const String &amp;persist_id)</td></tr>
 <tr class="separator:aed399bf319526b8e6f764ccb95fb7150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41583800e07dcdc7232678838764fa29"><td class="memItemLeft" align="right" valign="top"><a id="a41583800e07dcdc7232678838764fa29" name="a41583800e07dcdc7232678838764fa29"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>recordLayerCommands</b> ()</td></tr>
+<tr class="memitem:a41583800e07dcdc7232678838764fa29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">recordLayerCommands</a> ()</td></tr>
 <tr class="separator:a41583800e07dcdc7232678838764fa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab774f5365fbf619499fce8663c7ca802"><td class="memItemLeft" align="right" valign="top"><a id="ab774f5365fbf619499fce8663c7ca802" name="ab774f5365fbf619499fce8663c7ca802"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>playbackLayerCommands</b> ()</td></tr>
+<tr class="memdesc:ab774f5365fbf619499fce8663c7ca802"><td class="mdescLeft">&#160;</td><td class="mdescRight">playback recorded commands (unfreeze the display) <br /></td></tr>
 <tr class="separator:ab774f5365fbf619499fce8663c7ca802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f41348f4bc5cf96296766b40f98a5f6"><td class="memItemLeft" align="right" valign="top"><a id="a2f41348f4bc5cf96296766b40f98a5f6" name="a2f41348f4bc5cf96296766b40f98a5f6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>stopRecordLayerCommands</b> ()</td></tr>
+<tr class="memdesc:a2f41348f4bc5cf96296766b40f98a5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop recording commands (and forget what have recorded) <br /></td></tr>
 <tr class="separator:a2f41348f4bc5cf96296766b40f98a5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3824e1676bcf612eddc34120868ff8c3"><td class="memItemLeft" align="right" valign="top"><a id="a3824e1676bcf612eddc34120868ff8c3" name="a3824e1676bcf612eddc34120868ff8c3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>saveLayerCommands</b> (const String &amp;id, bool persist=false)</td></tr>
+<tr class="memitem:a3824e1676bcf612eddc34120868ff8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3824e1676bcf612eddc34120868ff8c3">saveLayerCommands</a> (const String &amp;id, bool persist=false)</td></tr>
 <tr class="separator:a3824e1676bcf612eddc34120868ff8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9691733a7c974a3c58424fdb4bd871b5"><td class="memItemLeft" align="right" valign="top"><a id="a9691733a7c974a3c58424fdb4bd871b5" name="a9691733a7c974a3c58424fdb4bd871b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loadLayerCommands</b> (const String &amp;id)</td></tr>
+<tr class="memitem:a9691733a7c974a3c58424fdb4bd871b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5">loadLayerCommands</a> (const String &amp;id)</td></tr>
 <tr class="separator:a9691733a7c974a3c58424fdb4bd871b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac515dd3defbfac8242fc5bfdfd708a0e"><td class="memItemLeft" align="right" valign="top"><a id="ac515dd3defbfac8242fc5bfdfd708a0e" name="ac515dd3defbfac8242fc5bfdfd708a0e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>capture</b> (const String &amp;imageFileName, int width, int height)</td></tr>
+<tr class="memitem:ac515dd3defbfac8242fc5bfdfd708a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac515dd3defbfac8242fc5bfdfd708a0e">capture</a> (const String &amp;imageFileName, int width, int height)</td></tr>
 <tr class="separator:ac515dd3defbfac8242fc5bfdfd708a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab263644dc77a65f87dbc91ad8b791b37"><td class="memItemLeft" align="right" valign="top"><a id="ab263644dc77a65f87dbc91ad8b791b37" name="ab263644dc77a65f87dbc91ad8b791b37"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>writeComment</b> (const String &amp;comment)</td></tr>
+<tr class="memdesc:ab263644dc77a65f87dbc91ad8b791b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">write out a comment to DD app <br /></td></tr>
 <tr class="separator:ab263644dc77a65f87dbc91ad8b791b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcfe6853200f6d99951eda5beb5d02c5"><td class="memItemLeft" align="right" valign="top"><a id="afcfe6853200f6d99951eda5beb5d02c5" name="afcfe6853200f6d99951eda5beb5d02c5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>tone</b> (uint32_t freq, uint32_t duration)</td></tr>
+<tr class="memdesc:afcfe6853200f6d99951eda5beb5d02c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">make DD app sound a tone <br /></td></tr>
 <tr class="separator:afcfe6853200f6d99951eda5beb5d02c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad10f69b2dfbed963c35f70f410b723c9"><td class="memItemLeft" align="right" valign="top"><a id="ad10f69b2dfbed963c35f70f410b723c9" name="ad10f69b2dfbed963c35f70f410b723c9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>notone</b> ()</td></tr>
 <tr class="separator:ad10f69b2dfbed963c35f70f410b723c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98dbc3c8ddb81fe1ecdc39c87aa8f62a"><td class="memItemLeft" align="right" valign="top"><a id="a98dbc3c8ddb81fe1ecdc39c87aa8f62a" name="a98dbc3c8ddb81fe1ecdc39c87aa8f62a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>playSound</b> (const String &amp;soundName)</td></tr>
+<tr class="memdesc:a98dbc3c8ddb81fe1ecdc39c87aa8f62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">make DD app play the sound of the given sound file <br /></td></tr>
 <tr class="separator:a98dbc3c8ddb81fe1ecdc39c87aa8f62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78c15f28c65c7b19d6f39ad1839d14ea"><td class="memItemLeft" align="right" valign="top"><a id="a78c15f28c65c7b19d6f39ad1839d14ea" name="a78c15f28c65c7b19d6f39ad1839d14ea"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>stopSound</b> ()</td></tr>
 <tr class="separator:a78c15f28c65c7b19d6f39ad1839d14ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae60134703ec91823f63e8bf3e148e9f8"><td class="memItemLeft" align="right" valign="top"><a id="ae60134703ec91823f63e8bf3e148e9f8" name="ae60134703ec91823f63e8bf3e148e9f8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveSound8</b> (const String &amp;soundName, const int8_t *bytes, int sampleCount, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:ae60134703ec91823f63e8bf3e148e9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">save 8-bit sound with the given sound samples <br /></td></tr>
 <tr class="separator:ae60134703ec91823f63e8bf3e148e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe3a33b757e2814b42dc8509888dcf8"><td class="memItemLeft" align="right" valign="top"><a id="abfe3a33b757e2814b42dc8509888dcf8" name="abfe3a33b757e2814b42dc8509888dcf8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveSound16</b> (const String &amp;soundName, const int16_t *data, int sampleCount, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:abfe3a33b757e2814b42dc8509888dcf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">save 16-bit sound with the given sound samples <br /></td></tr>
 <tr class="separator:abfe3a33b757e2814b42dc8509888dcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9869beab50079e632e3983b1a2a90cd3"><td class="memItemLeft" align="right" valign="top"><a id="a9869beab50079e632e3983b1a2a90cd3" name="a9869beab50079e632e3983b1a2a90cd3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cacheSound8</b> (const String &amp;soundName, const int8_t *bytes, int sampleCount, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:a9869beab50079e632e3983b1a2a90cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache 8-bit sound with the given sound samples <br /></td></tr>
 <tr class="separator:a9869beab50079e632e3983b1a2a90cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882a1dcde95b7ce37a31ada1ddc45f97"><td class="memItemLeft" align="right" valign="top"><a id="a882a1dcde95b7ce37a31ada1ddc45f97" name="a882a1dcde95b7ce37a31ada1ddc45f97"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cacheSound16</b> (const String &amp;soundName, const int16_t *data, int sampleCount, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:a882a1dcde95b7ce37a31ada1ddc45f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache 16-bit sound with the given sound samples <br /></td></tr>
 <tr class="separator:a882a1dcde95b7ce37a31ada1ddc45f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41d5af518757fcb21801054e584c328f"><td class="memItemLeft" align="right" valign="top"><a id="a41d5af518757fcb21801054e584c328f" name="a41d5af518757fcb21801054e584c328f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveCachedSound</b> (const String &amp;soundName)</td></tr>
+<tr class="memdesc:a41d5af518757fcb21801054e584c328f"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the cached sound <br /></td></tr>
 <tr class="separator:a41d5af518757fcb21801054e584c328f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9f01e896236cffc991ef2d6a9d605aa"><td class="memItemLeft" align="right" valign="top"><a id="ae9f01e896236cffc991ef2d6a9d605aa" name="ae9f01e896236cffc991ef2d6a9d605aa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>saveCachedSoundAsCC</b> (const String &amp;soundName)</td></tr>
-<tr class="separator:ae9f01e896236cffc991ef2d6a9d605aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e41545871cfa78c787db122dfe6ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a22e41545871cfa78c787db122dfe6ced">saveCachedSoundAsH</a> (const String &amp;soundName)</td></tr>
+<tr class="separator:a22e41545871cfa78c787db122dfe6ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676ce273fcee34d0e0c05a67973b5249"><td class="memItemLeft" align="right" valign="top"><a id="a676ce273fcee34d0e0c05a67973b5249" name="a676ce273fcee34d0e0c05a67973b5249"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>streamSound8</b> (int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:a676ce273fcee34d0e0c05a67973b5249"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream sound 8-bit sample (for playing sound) <br /></td></tr>
 <tr class="separator:a676ce273fcee34d0e0c05a67973b5249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c1940e717aed8d2605dd9939a0f620"><td class="memItemLeft" align="right" valign="top"><a id="a76c1940e717aed8d2605dd9939a0f620" name="a76c1940e717aed8d2605dd9939a0f620"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>streamSound16</b> (int sampleRate, int numChannels=1)</td></tr>
+<tr class="memdesc:a76c1940e717aed8d2605dd9939a0f620"><td class="mdescLeft">&#160;</td><td class="mdescRight">stream sound 16-bit sample (for playing sound) <br /></td></tr>
 <tr class="separator:a76c1940e717aed8d2605dd9939a0f620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d11da137d7c5faba954de8017f3416d"><td class="memItemLeft" align="right" valign="top"><a id="a7d11da137d7c5faba954de8017f3416d" name="a7d11da137d7c5faba954de8017f3416d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>saveSoundChunked8</b> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memitem:a7d11da137d7c5faba954de8017f3416d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a7d11da137d7c5faba954de8017f3416d">saveSoundChunked8</a> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
 <tr class="separator:a7d11da137d7c5faba954de8017f3416d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a2f144ae67aa3a71988f1b5d1f44267"><td class="memItemLeft" align="right" valign="top"><a id="a5a2f144ae67aa3a71988f1b5d1f44267" name="a5a2f144ae67aa3a71988f1b5d1f44267"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>saveSoundChunked16</b> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memitem:a5a2f144ae67aa3a71988f1b5d1f44267"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a5a2f144ae67aa3a71988f1b5d1f44267">saveSoundChunked16</a> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
 <tr class="separator:a5a2f144ae67aa3a71988f1b5d1f44267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041b963d1e93b0242975f2c27206c4f1"><td class="memItemLeft" align="right" valign="top"><a id="a041b963d1e93b0242975f2c27206c4f1" name="a041b963d1e93b0242975f2c27206c4f1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>cacheSoundChunked8</b> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memitem:a041b963d1e93b0242975f2c27206c4f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a041b963d1e93b0242975f2c27206c4f1">cacheSoundChunked8</a> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
 <tr class="separator:a041b963d1e93b0242975f2c27206c4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51fd188121839b55196644dabc08200c"><td class="memItemLeft" align="right" valign="top"><a id="a51fd188121839b55196644dabc08200c" name="a51fd188121839b55196644dabc08200c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>cacheSoundChunked16</b> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
+<tr class="memitem:a51fd188121839b55196644dabc08200c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a51fd188121839b55196644dabc08200c">cacheSoundChunked16</a> (const String &amp;soundName, int sampleRate, int numChannels=1)</td></tr>
 <tr class="separator:a51fd188121839b55196644dabc08200c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece7c06ff1a76e830f70e9f02658c003"><td class="memItemLeft" align="right" valign="top"><a id="aece7c06ff1a76e830f70e9f02658c003" name="aece7c06ff1a76e830f70e9f02658c003"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sendSoundChunk8</b> (int chunkId, const int8_t *bytes, int sampleCount, bool isFinal=false)</td></tr>
+<tr class="memdesc:aece7c06ff1a76e830f70e9f02658c003"><td class="mdescLeft">&#160;</td><td class="mdescRight">send 8-bit sound data chunk for saving/caching after calling <a class="el" href="class_dumb_display.html#a7d11da137d7c5faba954de8017f3416d">saveSoundChunked8()</a> or <a class="el" href="class_dumb_display.html#a041b963d1e93b0242975f2c27206c4f1">cacheSoundChunked8()</a> <br /></td></tr>
 <tr class="separator:aece7c06ff1a76e830f70e9f02658c003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeea00dec31466e29e5518279f080d9f7"><td class="memItemLeft" align="right" valign="top"><a id="aeea00dec31466e29e5518279f080d9f7" name="aeea00dec31466e29e5518279f080d9f7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sendSoundChunk16</b> (int chunkId, const int16_t *data, int sampleCount, bool isFinal=false)</td></tr>
+<tr class="memdesc:aeea00dec31466e29e5518279f080d9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">send 16-bit sound data chunk for saving/caching after calling <a class="el" href="class_dumb_display.html#a5a2f144ae67aa3a71988f1b5d1f44267">saveSoundChunked16()</a> or <a class="el" href="class_dumb_display.html#a51fd188121839b55196644dabc08200c">cacheSoundChunked16()</a> <br /></td></tr>
 <tr class="separator:aeea00dec31466e29e5518279f080d9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d7bebfbe42bd645c1d789868d5c81f"><td class="memItemLeft" align="right" valign="top"><a id="ac1d7bebfbe42bd645c1d789868d5c81f" name="ac1d7bebfbe42bd645c1d789868d5c81f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveImage</b> (const String &amp;imageName, const uint8_t *bytes, int byteCount)</td></tr>
+<tr class="memdesc:ac1d7bebfbe42bd645c1d789868d5c81f"><td class="mdescLeft">&#160;</td><td class="mdescRight">svae image with the given image data <br /></td></tr>
 <tr class="separator:ac1d7bebfbe42bd645c1d789868d5c81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1a4b8cbf5e547369ac1e322e0b6576"><td class="memItemLeft" align="right" valign="top"><a id="a7c1a4b8cbf5e547369ac1e322e0b6576" name="a7c1a4b8cbf5e547369ac1e322e0b6576"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImage</b> (const String &amp;imageName, const uint8_t *bytes, int width, int height, const String &amp;color=&quot;&quot;, char compressMethod=0)</td></tr>
@@ -282,18 +293,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImage16</b> 
 <tr class="memitem:aa8a46510963e0765ebd4759db05d6f79"><td class="memItemLeft" align="right" valign="top"><a id="aa8a46510963e0765ebd4759db05d6f79" name="aa8a46510963e0765ebd4759db05d6f79"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImageGS</b> (const String &amp;imageName, const uint8_t *data, int width, int height, const String &amp;options=&quot;&quot;, char compressMethod=0)</td></tr>
 <tr class="separator:aa8a46510963e0765ebd4759db05d6f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memItemLeft" align="right" valign="top"><a id="a31fa010b19bbf36f05bf1c6d3562c3eb" name="a31fa010b19bbf36f05bf1c6d3562c3eb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>stitchImages</b> (const String &amp;imageNames, const String &amp;asImageName)</td></tr>
+<tr class="memitem:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a31fa010b19bbf36f05bf1c6d3562c3eb">stitchImages</a> (const String &amp;imageNames, const String &amp;asImageName)</td></tr>
 <tr class="separator:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dded80f0e23d821821cb308ab0378e"><td class="memItemLeft" align="right" valign="top"><a id="a99dded80f0e23d821821cb308ab0378e" name="a99dded80f0e23d821821cb308ab0378e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:a99dded80f0e23d821821cb308ab0378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a5d548805b36244d453700afeeea4f"><td class="memItemLeft" align="right" valign="top"><a id="a77a5d548805b36244d453700afeeea4f" name="a77a5d548805b36244d453700afeeea4f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pinLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
-<tr class="separator:a77a5d548805b36244d453700afeeea4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef6162f07bfccc613bbd35e118ca58f8"><td class="memItemLeft" align="right" valign="top"><a id="aef6162f07bfccc613bbd35e118ca58f8" name="aef6162f07bfccc613bbd35e118ca58f8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pinAutoPinLayers</b> (const String &amp;layoutSpec, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
-<tr class="separator:aef6162f07bfccc613bbd35e118ca58f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf77c3d03199ce88434f7883609a3e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a9cf77c3d03199ce88434f7883609a3e9">reorderLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, const String &amp;how)</td></tr>
 <tr class="separator:a9cf77c3d03199ce88434f7883609a3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c01dc261524e91875e583b8f297d530"><td class="memItemLeft" align="right" valign="top"><a id="a9c01dc261524e91875e583b8f297d530" name="a9c01dc261524e91875e583b8f297d530"></a>
@@ -301,24 +305,230 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLayer</b> (<a c
 <tr class="separator:a9c01dc261524e91875e583b8f297d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad777166bf5236abead9c5e89676f5cf1"><td class="memItemLeft" align="right" valign="top"><a id="ad777166bf5236abead9c5e89676f5cf1" name="ad777166bf5236abead9c5e89676f5cf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>walkLayers</b> (void(*walker)(<a class="el" href="class_d_d_layer.html">DDLayer</a> *))</td></tr>
+<tr class="memdesc:ad777166bf5236abead9c5e89676f5cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loop through all the existing layers calling the function passed in <br /></td></tr>
 <tr class="separator:ad777166bf5236abead9c5e89676f5cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494c5947070af98c85d07f1f744cf320"><td class="memItemLeft" align="right" valign="top"><a id="a494c5947070af98c85d07f1f744cf320" name="a494c5947070af98c85d07f1f744cf320"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (int debugLedPin)</td></tr>
 <tr class="separator:a494c5947070af98c85d07f1f744cf320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top"><a id="a460986fc74d0ac16ea512accbebfb2c1" name="a460986fc74d0ac16ea512accbebfb2c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setIdleCallback</b> (DDIdleCallback idleCallback)</td></tr>
+<tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback</a> (DDIdleCallback idleCallback)</td></tr>
 <tr class="separator:a460986fc74d0ac16ea512accbebfb2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab055ea92790a5f8ec0ffb2813657538"><td class="memItemLeft" align="right" valign="top"><a id="aab055ea92790a5f8ec0ffb2813657538" name="aab055ea92790a5f8ec0ffb2813657538"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setIdleCalback</b> (DDIdleCallback idleCallback)</td></tr>
+<tr class="memitem:aab055ea92790a5f8ec0ffb2813657538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aab055ea92790a5f8ec0ffb2813657538">setIdleCalback</a> (DDIdleCallback idleCallback)</td></tr>
 <tr class="separator:aab055ea92790a5f8ec0ffb2813657538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cdcb71af2cdacf2cdf796787809e89"><td class="memItemLeft" align="right" valign="top"><a id="a44cdcb71af2cdacf2cdf796787809e89" name="a44cdcb71af2cdacf2cdf796787809e89"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectVersionChangedCalback</b> (DDConnectVersionChangedCallback connectVersionChangedCallback)</td></tr>
 <tr class="separator:a44cdcb71af2cdacf2cdf796787809e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d9545be267953b1ee0a78a7f0ced31"><td class="memItemLeft" align="right" valign="top"><a id="a32d9545be267953b1ee0a78a7f0ced31" name="a32d9545be267953b1ee0a78a7f0ced31"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (const String &amp;logLine)</td></tr>
+<tr class="memdesc:a32d9545be267953b1ee0a78a7f0ced31"><td class="mdescLeft">&#160;</td><td class="mdescRight">log line to serial; if it is not safe to output to Serial, will write comment with <a class="el" href="class_dumb_display.html#ab263644dc77a65f87dbc91ad8b791b37" title="write out a comment to DD app">writeComment()</a> instead <br /></td></tr>
 <tr class="separator:a32d9545be267953b1ee0a78a7f0ced31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a>. Everything starts from here. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a51fd188121839b55196644dabc08200c" name="a51fd188121839b55196644dabc08200c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51fd188121839b55196644dabc08200c">&#9670;&#160;</a></span>cacheSoundChunked16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DumbDisplay::cacheSoundChunked16 </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numChannels</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initiate caching of 16-bit sound sound chunked; use sendSoiundChunk16() to send sound data <br  />
+ </p>
+
+</div>
+</div>
+<a id="a041b963d1e93b0242975f2c27206c4f1" name="a041b963d1e93b0242975f2c27206c4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a041b963d1e93b0242975f2c27206c4f1">&#9670;&#160;</a></span>cacheSoundChunked8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DumbDisplay::cacheSoundChunked8 </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numChannels</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initiate caching of 8-bit sound sound chunked; use sendSoiundChunk8() to send sound data <br  />
+ </p>
+
+</div>
+</div>
+<a id="ac515dd3defbfac8242fc5bfdfd708a0e" name="ac515dd3defbfac8242fc5bfdfd708a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac515dd3defbfac8242fc5bfdfd708a0e">&#9670;&#160;</a></span>capture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::capture </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>imageFileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>capture and save display as image </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imageFileName</td><td>name of image file; if it ends with ".png", saved image format will be PNG; other, saved image format will be JPEG *&zwj;/ </td></tr>
+    <tr><td class="paramname">width</td><td>width of the display on which to render the layers </td></tr>
+    <tr><td class="paramname">height</td><td>height of the display on which to render the layers </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Attention</dt><dd>old file with the same name will be replaced </dd></dl>
+
+</div>
+</div>
+<a id="a28d8e89daf77a8762827cd042df6b772" name="a28d8e89daf77a8762827cd042df6b772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d8e89daf77a8762827cd042df6b772">&#9670;&#160;</a></span>configAutoPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::configAutoPin </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>layoutSpec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>configure "auto pinning of layers" with the layer spec provided</p><ul>
+<li>horizontal: H(*)</li>
+<li>vertical: V(*)</li>
+<li>or nested, like H(0+V(1+2)+3); where 0/1/2/3 are the layer ids</li>
+<li>consider using the macros DD_AP_XXX </li>
+</ul>
+
+</div>
+</div>
+<a id="abae7b4a8cfc825e466a7f339704d0fe9" name="abae7b4a8cfc825e466a7f339704d0fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae7b4a8cfc825e466a7f339704d0fe9">&#9670;&#160;</a></span>configPinFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::configPinFrame </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>xUnitCount</em> = <code>100</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>yUnitCount</em> = <code>100</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>configure "pin frame" to be x-units by y-units (default 100x100) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a20e88f4b1c4b7ecf441d7e071021a747" name="a20e88f4b1c4b7ecf441d7e071021a747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e88f4b1c4b7ecf441d7e071021a747">&#9670;&#160;</a></span>connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::connect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>explicitly make connection (blocking); implicitly called when configure or create a layer </p>
+
+</div>
+</div>
+<a id="ae6b51a16f0ac941d330124918255457e" name="ae6b51a16f0ac941d330124918255457e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b51a16f0ac941d330124918255457e">&#9670;&#160;</a></span>connected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DumbDisplay::connected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>connected or not </dd></dl>
+
+</div>
+</div>
 <a id="a8c525bd171b39af67e9c915c7ca0a0f9" name="a8c525bd171b39af67e9c915c7ca0a0f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c525bd171b39af67e9c915c7ca0a0f9">&#9670;&#160;</a></span>create7SegmentRowLayer()</h2>
 
@@ -334,7 +544,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a 7-segment layer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>create a 7-segment layer </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">digitCount</td><td>show how many digits; 1 by default </td></tr>
   </table>
@@ -374,7 +584,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a "tunnel" for accessing the Web. The 'tunnel' is ONLY supported with <a href="https://www.youtube.com/watch?v=0UhRmXXBQi8">DumbDisplayWifiBridge</a>. </p><dl class="section attention"><dt>Attention</dt><dd>MUST delete the 'tunnel' after use, by calling deleteTunnel() </dd></dl>
+<p>create a "tunnel" for accessing the Web; the 'tunnel' is ONLY supported with <a href="https://www.youtube.com/watch?v=0UhRmXXBQi8">DumbDisplayWifiBridge</a> </p><dl class="section attention"><dt>Attention</dt><dd>MUST delete the 'tunnel' after use, by calling deleteTunnel() </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
 
 </div>
@@ -393,7 +603,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a "service tunnel" for getting date-time info from phone. Use reconnectTo() with commands like . now . now-millis </p>
+<p>create a "service tunnel" for getting date-time info from phone; use reconnectTo() with commands like</p><ul>
+<li>now</li>
+<li>now-millis </li>
+</ul>
 
 </div>
 </div>
@@ -434,7 +647,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a JSON 'tunnel' (filtered). </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<p>create a JSON 'tunnel' (filtered for wanted fields) </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fieldNames</td><td>comma-delimited list of field names to accept; note that matching is 'case-insensitive containment match' <br  />
@@ -476,7 +689,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a "tunnel" to download image from the web and save the downloaded image to phone. You will get reuslt as JSON: {"result":"ok"} or {"result":"failed"}. For simplicity, use SimpleToolDDTunnel.checkResult() to check result. </p><dl class="section attention"><dt>Attention</dt><dd>MUST use deleteTunnel() to delete the "download tunnel" after use </dd></dl>
+<p>create a "tunnel" to download image from the web and save the downloaded image to phone; you will get reuslt as JSON: <code>{"result":"ok"}</code> or <code>{"result":"failed"}</code> for simplicity, use <a class="el" href="class_simple_tool_d_d_tunnel.html#a01d40332f072470ff61b73dcd1dcd8b0">SimpleToolDDTunnel.checkResult()</a> to check result </p>
 
 </div>
 </div>
@@ -505,7 +718,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a joystick layer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>create a joystick layer </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">directions</td><td>"lr": left-to-right; "tb": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mearn both directions; "" the same as "lr+tb" </td></tr>
     <tr><td class="paramname">maxStickScale</td><td><br  />
@@ -547,7 +760,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a JSON 'tunnel'. </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<p>create a JSON 'tunnel' </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
 
 </div>
 </div>
@@ -582,7 +795,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a TomTom map layer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>create a TomTom map layer </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mapKey</td><td>should be provided; plesae visit TomTom's website to get one of your own if pass in "" as mapKey, will use my testing one </td></tr>
   </table>
@@ -605,7 +818,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only meaningful after connection </p>
+<dl class="section return"><dt>Returns</dt><dd>compatibility version </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>only meaningful after connection </dd></dl>
 
 </div>
 </div>
@@ -623,7 +837,187 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>note that when reconnect, the connect version will be bumped up </p>
+<dl class="section return"><dt>Returns</dt><dd>the version of the connection, which when reconnected will be bumped up </dd></dl>
+
+</div>
+</div>
+<a id="a9691733a7c974a3c58424fdb4bd871b5" name="a9691733a7c974a3c58424fdb4bd871b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9691733a7c974a3c58424fdb4bd871b5">&#9670;&#160;</a></span>loadLayerCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::loadLayerCommands </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>load saved commands (as if recording those commands)</p><ul>
+<li>recording started or not, will add the commands to the buffer</li>
+<li>afterward, will keep recording</li>
+<li>use <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a> to playback loaded commands</li>
+<li>if not recording commands, this basically remove saved commands </li>
+</ul>
+
+</div>
+</div>
+<a id="aef6162f07bfccc613bbd35e118ca58f8" name="aef6162f07bfccc613bbd35e118ca58f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6162f07bfccc613bbd35e118ca58f8">&#9670;&#160;</a></span>pinAutoPinLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::pinAutoPinLayers </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>layoutSpec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>align</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>pin "auto pin" layers @ some position, like <a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layoutSpec</td><td>the "auto pin" layout specification to pin; see <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin()</a> for how spec is constructed </td></tr>
+    <tr><td class="paramname">align</td><td>(e.g. "LB") &ndash; left align "L"; right align "R"; top align "T"; bottom align "B"; default is center align *&zwj;/ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a77a5d548805b36244d453700afeeea4f" name="a77a5d548805b36244d453700afeeea4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a5d548805b36244d453700afeeea4f">&#9670;&#160;</a></span>pinLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::pinLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_d_layer.html">DDLayer</a> *&#160;</td>
+          <td class="paramname"><em>pLayer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>align</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>pin a layer @ some position of an imaginary grid of "pin grame"</p><ul>
+<li>the imaginary grid size can be configured when calling <a class="el" href="class_dumb_display.html#a20e88f4b1c4b7ecf441d7e071021a747">connect()</a> &ndash; default is 100x100 <br  />
+</li>
+<li>the input align (e.g. "LB") &ndash; left align "L"; right align "R"; top align "T"; bottom align "B"; default is center align </li>
+</ul>
+
+</div>
+</div>
+<a id="aed399bf319526b8e6f764ccb95fb7150" name="aed399bf319526b8e6f764ccb95fb7150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed399bf319526b8e6f764ccb95fb7150">&#9670;&#160;</a></span>playbackLayerSetupCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::playbackLayerSetupCommands </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>persist_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>basically, functions the same as <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a>. additionally: *&zwj;/</p><ul>
+<li>save and persiste the layer commands</li>
+<li>enable <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> reconnects </li>
+</ul>
+
+</div>
+</div>
+<a id="a41583800e07dcdc7232678838764fa29" name="a41583800e07dcdc7232678838764fa29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41583800e07dcdc7232678838764fa29">&#9670;&#160;</a></span>recordLayerCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::recordLayerCommands </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>start recording layer commands (of any layers); and sort of freeze the display, until playback </p>
 
 </div>
 </div>
@@ -652,9 +1046,241 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>recorder the layer</p><ul>
-<li>how: can be "T" for top; or "B" for bottom; "U" for up; or "D" for down </li>
+<p>reorder the layer (by moving one layer in the z-order plane) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">how</td><td>can be "T" for top; or "B" for bottom; "U" for up; or "D" for down </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a22e41545871cfa78c787db122dfe6ced" name="a22e41545871cfa78c787db122dfe6ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e41545871cfa78c787db122dfe6ced">&#9670;&#160;</a></span>saveCachedSoundAsH()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::saveCachedSoundAsH </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>save the cached sound as C .h file @warn this is experimental </p>
+
+</div>
+</div>
+<a id="a3824e1676bcf612eddc34120868ff8c3" name="a3824e1676bcf612eddc34120868ff8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3824e1676bcf612eddc34120868ff8c3">&#9670;&#160;</a></span>saveLayerCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::saveLayerCommands </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>persist</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>save the recorded commands (and continue recording) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>identifier of the recorded commands, overwriting and previous one; if not recording, will delete previous recorded commands </td></tr>
+    <tr><td class="paramname">persist</td><td>store it to your phone or not </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5a2f144ae67aa3a71988f1b5d1f44267" name="a5a2f144ae67aa3a71988f1b5d1f44267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2f144ae67aa3a71988f1b5d1f44267">&#9670;&#160;</a></span>saveSoundChunked16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DumbDisplay::saveSoundChunked16 </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numChannels</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initiate saving of 16-bit sound sound chunked; use sendSoiundChunk16() to send sound data <br  />
+ </p>
+
+</div>
+</div>
+<a id="a7d11da137d7c5faba954de8017f3416d" name="a7d11da137d7c5faba954de8017f3416d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d11da137d7c5faba954de8017f3416d">&#9670;&#160;</a></span>saveSoundChunked8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DumbDisplay::saveSoundChunked8 </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleRate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numChannels</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initiate saving of 8-bit sound sound chunked; use sendSoiundChunk8() to send sound data <br  />
+ </p>
+
+</div>
+</div>
+<a id="aa77b3e0133025f22004bb7f35e6f54b3" name="aa77b3e0133025f22004bb7f35e6f54b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77b3e0133025f22004bb7f35e6f54b3">&#9670;&#160;</a></span>setFeedbackSingleClickOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::setFeedbackSingleClickOnly </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>singleClickOnly</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>by default, "long press feedback" and "double click feedback" is enabled; however, this makes "click feedback" detection less responsive; one remedy is to set for "single click feedback" only </p>
+
+</div>
+</div>
+<a id="aab055ea92790a5f8ec0ffb2813657538" name="aab055ea92790a5f8ec0ffb2813657538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab055ea92790a5f8ec0ffb2813657538">&#9670;&#160;</a></span>setIdleCalback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::setIdleCalback </td>
+          <td>(</td>
+          <td class="paramtype">DDIdleCallback&#160;</td>
+          <td class="paramname"><em>idleCallback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>use <a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback()</a> instead </dd></dl>
+
+</div>
+</div>
+<a id="a460986fc74d0ac16ea512accbebfb2c1" name="a460986fc74d0ac16ea512accbebfb2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460986fc74d0ac16ea512accbebfb2c1">&#9670;&#160;</a></span>setIdleCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::setIdleCallback </td>
+          <td>(</td>
+          <td class="paramtype">DDIdleCallback&#160;</td>
+          <td class="paramname"><em>idleCallback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set 'idle callback', which will be called in 2 situations:</p><ul>
+<li>no connection response while connecting</li>
+<li>detected no 'keep alive' signal </li>
 </ul>
+
+</div>
+</div>
+<a id="a31fa010b19bbf36f05bf1c6d3562c3eb" name="a31fa010b19bbf36f05bf1c6d3562c3eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31fa010b19bbf36f05bf1c6d3562c3eb">&#9670;&#160;</a></span>stitchImages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::stitchImages </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>imageNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>asImageName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stitch images together </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imageNames</td><td>'+' delimited </td></tr>
+    <tr><td class="paramname">asImageName</td><td>name for the stitched image </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

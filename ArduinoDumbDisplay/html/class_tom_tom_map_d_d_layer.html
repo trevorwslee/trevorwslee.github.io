@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -104,6 +104,9 @@ $(document).ready(function(){initNavTree('class_tom_tom_map_d_d_layer.html','');
 </div><!--header-->
 <div class="contents">
 
+<p>Class for TomTom map "device dependent view" layer, which means that it is solely rendered by the Android view that it hosts.  
+ <a href="class_tom_tom_map_d_d_layer.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TomTomMapDDLayer:</div>
@@ -118,8 +121,7 @@ Inheritance diagram for TomTomMapDDLayer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f670bcd7553072eda3976ad83e1e9f8"><td class="memItemLeft" align="right" valign="top"><a id="a1f670bcd7553072eda3976ad83e1e9f8" name="a1f670bcd7553072eda3976ad83e1e9f8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>TomTomMapDDLayer</b> (int8_t layerId)</td></tr>
+<tr class="memitem:a1f670bcd7553072eda3976ad83e1e9f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tom_tom_map_d_d_layer.html#a1f670bcd7553072eda3976ad83e1e9f8">TomTomMapDDLayer</a> (int8_t layerId)</td></tr>
 <tr class="separator:a1f670bcd7553072eda3976ad83e1e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87f7fb6f1c9f6085cce214e20fc9c93e"><td class="memItemLeft" align="right" valign="top"><a id="a87f7fb6f1c9f6085cce214e20fc9c93e" name="a87f7fb6f1c9f6085cce214e20fc9c93e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>goTo</b> (float latitude, float longitude, const String &amp;label=&quot;&quot;)</td></tr>
@@ -203,13 +205,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> (
 <tr class="memitem:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="ad1b5dbef97985ed7855e078b10ab938a" name="ad1b5dbef97985ed7855e078b10ab938a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a8bc6abcbd588363401272da9c7cda277" name="a8bc6abcbd588363401272da9c7cda277"></a>
-DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackManager</b> () const</td></tr>
-<tr class="memdesc:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
 <tr class="separator:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a6814e6037a1edbf7bf5cea95bffe3c62" name="a6814e6037a1edbf7bf5cea95bffe3c62"></a>
-DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>getFeedbackHandler</b> () const</td></tr>
-<tr class="memdesc:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">mostly used internally <br /></td></tr>
+<tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62">getFeedbackHandler</a> () const</td></tr>
 <tr class="separator:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -239,8 +237,36 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 <tr class="separator:a6183f04462de94a40353166ff8b428f7 inherit pro_attribs_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>a 'device dependent view' layer, which means that it is solely rendered by the Android view that it hosts </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>Class for TomTom map "device dependent view" layer, which means that it is solely rendered by the Android view that it hosts. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1f670bcd7553072eda3976ad83e1e9f8" name="a1f670bcd7553072eda3976ad83e1e9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f670bcd7553072eda3976ad83e1e9f8">&#9670;&#160;</a></span>TomTomMapDDLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TomTomMapDDLayer::TomTomMapDDLayer </td>
+          <td>(</td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>layerId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section attention"><dt>Attention</dt><dd>constructed via <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> object </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

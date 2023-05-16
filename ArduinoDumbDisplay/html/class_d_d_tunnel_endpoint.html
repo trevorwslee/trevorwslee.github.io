@@ -29,9 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="dd-icon.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.7-r1</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -112,24 +112,29 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af84438823be29b0ee379e46795a19534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65148a4a14d5e051def7724438a4947"><td class="memItemLeft" align="right" valign="top"><a id="ae65148a4a14d5e051def7724438a4947" name="ae65148a4a14d5e051def7724438a4947"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetEndpoint</b> (const String &amp;endPoint)</td></tr>
+<tr class="memdesc:ae65148a4a14d5e051def7724438a4947"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset the endpoint <br /></td></tr>
 <tr class="separator:ae65148a4a14d5e051def7724438a4947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c0fde12e455b66d38dce2ff070f0da"><td class="memItemLeft" align="right" valign="top"><a id="a38c0fde12e455b66d38dce2ff070f0da" name="a38c0fde12e455b66d38dce2ff070f0da"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resetSoundAttachment</b> (const String &amp;soundName)</td></tr>
+<tr class="memitem:a38c0fde12e455b66d38dce2ff070f0da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da">resetSoundAttachment</a> (const String &amp;soundName)</td></tr>
 <tr class="separator:a38c0fde12e455b66d38dce2ff070f0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b646c88664ce4b0c7c5d117e4257f78"><td class="memItemLeft" align="right" valign="top"><a id="a4b646c88664ce4b0c7c5d117e4257f78" name="a4b646c88664ce4b0c7c5d117e4257f78"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetHeaders</b> ()</td></tr>
+<tr class="memdesc:a4b646c88664ce4b0c7c5d117e4257f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset headers <br /></td></tr>
 <tr class="separator:a4b646c88664ce4b0c7c5d117e4257f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f565d430c29e405c15acb5cda250f86"><td class="memItemLeft" align="right" valign="top"><a id="a2f565d430c29e405c15acb5cda250f86" name="a2f565d430c29e405c15acb5cda250f86"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resetParams</b> ()</td></tr>
+<tr class="memdesc:a2f565d430c29e405c15acb5cda250f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset params (to the endpoint query string) <br /></td></tr>
 <tr class="separator:a2f565d430c29e405c15acb5cda250f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a03c3decf7ff838b0b46eabdcd9ef7b"><td class="memItemLeft" align="right" valign="top"><a id="a4a03c3decf7ff838b0b46eabdcd9ef7b" name="a4a03c3decf7ff838b0b46eabdcd9ef7b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addParam</b> (const String &amp;param)</td></tr>
+<tr class="memdesc:a4a03c3decf7ff838b0b46eabdcd9ef7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">add param (to the endpoint query string) <br /></td></tr>
 <tr class="separator:a4a03c3decf7ff838b0b46eabdcd9ef7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae98e4531375cbd5f760e4c69e65b5f80"><td class="memItemLeft" align="right" valign="top"><a id="ae98e4531375cbd5f760e4c69e65b5f80" name="ae98e4531375cbd5f760e4c69e65b5f80"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addNamedParam</b> (const String &amp;paramName, const String &amp;paramValue)</td></tr>
+<tr class="memdesc:ae98e4531375cbd5f760e4c69e65b5f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">add named param (to the endpoint query string) <br /></td></tr>
 <tr class="separator:ae98e4531375cbd5f760e4c69e65b5f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92ad2f8c05e3eea2202ad794c2633bb5"><td class="memItemLeft" align="right" valign="top"><a id="a92ad2f8c05e3eea2202ad794c2633bb5" name="a92ad2f8c05e3eea2202ad794c2633bb5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addHeader</b> (const String &amp;headerKey, const String &amp;headerValue)</td></tr>
+<tr class="memdesc:a92ad2f8c05e3eea2202ad794c2633bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">add header to the request <br /></td></tr>
 <tr class="separator:a92ad2f8c05e3eea2202ad794c2633bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -147,6 +152,39 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>attachmentId</b></t
 String&#160;</td><td class="memItemRight" valign="bottom"><b>params</b></td></tr>
 <tr class="separator:a9d6aa8a46da226022f2076ba6bd1bebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a38c0fde12e455b66d38dce2ff070f0da" name="a38c0fde12e455b66d38dce2ff070f0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c0fde12e455b66d38dce2ff070f0da">&#9670;&#160;</a></span>resetSoundAttachment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDTunnelEndpoint::resetSoundAttachment </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>soundName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>reset the sound (saved or cached) to be attached with the request </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soundName</td><td>name of the sound to be attached (saved or cached), empty means no sound attachment </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

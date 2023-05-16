@@ -25,25 +25,24 @@
 var NAVTREE =
 [
   [ "ArduinoDumbDisplay", "index.html", [
+    [ "NOTES", "md__c___users_trevorlee__documents__my_projects__arduino__arduino_dumb_display__n_o_t_e_s.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"class_turtle_d_d_layer.html#ae34d783458b7e820ae5bad29680951c0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

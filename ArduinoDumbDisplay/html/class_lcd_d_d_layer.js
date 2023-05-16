@@ -1,5 +1,6 @@
 var class_lcd_d_d_layer =
 [
+    [ "LcdDDLayer", "class_lcd_d_d_layer.html#ad1663f3e4a3fea054660390f73a7deff", null ],
     [ "autoscroll", "class_lcd_d_d_layer.html#aa26d736cb20815d0be675b10c231a18a", null ],
     [ "bgPixelColor", "class_lcd_d_d_layer.html#a2996024f377937deee02b86b5685b367", null ],
     [ "cursor", "class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee", null ],

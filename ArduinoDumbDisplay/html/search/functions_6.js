@@ -6,5 +6,7 @@ var searchData=
   ['getfeedbackhandler_3',['getFeedbackHandler',['../class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62',1,'DDLayer']]],
   ['getfeedbackmanager_4',['getFeedbackManager',['../class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277',1,'DDLayer']]],
   ['goby_5',['goBy',['../class_turtle_d_d_layer.html#a2dcc37fd0c13ecb2f2ff156e58607828',1,'TurtleDDLayer']]],
-  ['goto_6',['goTo',['../class_turtle_d_d_layer.html#a317d1e6585996952edc64f4984e102cb',1,'TurtleDDLayer']]]
+  ['goto_6',['goTo',['../class_turtle_d_d_layer.html#a317d1e6585996952edc64f4984e102cb',1,'TurtleDDLayer']]],
+  ['gpsserviceddtunnel_7',['GpsServiceDDTunnel',['../class_gps_service_d_d_tunnel.html#a489527afa3a2fe9df53bda2149ddec49',1,'GpsServiceDDTunnel']]],
+  ['graphicalddlayer_8',['GraphicalDDLayer',['../class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e',1,'GraphicalDDLayer']]]
 ];
