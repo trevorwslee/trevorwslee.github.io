@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('class_d_d_buffered_tunnel.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>Class for DD "tunnel", with buffering support.  
+<p>Class for DD "tunnel", with buffering support; created with <a class="el" href="class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b">DumbDisplay::createBasicTunnel()</a>  
  <a href="class_d_d_buffered_tunnel.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -125,7 +125,9 @@ Inheritance diagram for DDBufferedTunnel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af11ffd6a0d68d3a993d2eed13f0835da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_buffered_tunnel.html#af11ffd6a0d68d3a993d2eed13f0835da">DDBufferedTunnel</a> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow, int8_t bufferSize)</td></tr>
+<tr class="memitem:af11ffd6a0d68d3a993d2eed13f0835da"><td class="memItemLeft" align="right" valign="top"><a id="af11ffd6a0d68d3a993d2eed13f0835da" name="af11ffd6a0d68d3a993d2eed13f0835da"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DDBufferedTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow, int8_t bufferSize)</td></tr>
+<tr class="memdesc:af11ffd6a0d68d3a993d2eed13f0835da"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
 <tr class="separator:af11ffd6a0d68d3a993d2eed13f0835da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ed2ce41d84e39d6a5130063b6e619ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_buffered_tunnel.html#a2ed2ce41d84e39d6a5130063b6e619ea">release</a> ()</td></tr>
 <tr class="separator:a2ed2ce41d84e39d6a5130063b6e619ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4cf168a03c66177f93bd6d7031585da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5bc57f4245af4ce98d5dd807568a8b5"><td class="memItemLeft" align="right" valign="top"><a id="af5bc57f4245af4ce98d5dd807568a8b5" name="af5bc57f4245af4ce98d5dd807568a8b5"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> ()</td></tr>
-<tr class="memdesc:af5bc57f4245af4ce98d5dd807568a8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">count buffer ready to be read <br /></td></tr>
+<tr class="memdesc:af5bc57f4245af4ce98d5dd807568a8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">count buffer ready read <br /></td></tr>
 <tr class="separator:af5bc57f4245af4ce98d5dd807568a8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c6b2c51198a1309557becce6642127"><td class="memItemLeft" align="right" valign="top"><a id="a59c6b2c51198a1309557becce6642127" name="a59c6b2c51198a1309557becce6642127"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>eof</b> ()</td></tr>
@@ -158,6 +160,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (String &amp
 <tr class="memdesc:a4514ee11a4131efa23364916e4221a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">read a piece of JSON data <br /></td></tr>
 <tr class="separator:a4514ee11a4131efa23364916e4221a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d_d_tunnel"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d_d_tunnel')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d_d_tunnel.html">DDTunnel</a></td></tr>
+<tr class="memitem:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a368f0c648542a20acc5d96ae39b4877c" name="a368f0c648542a20acc5d96ae39b4877c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DDTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow)</td></tr>
+<tr class="memdesc:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
+<tr class="separator:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a254036c176f445c2802708a544cda592 inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a254036c176f445c2802708a544cda592" name="a254036c176f445c2802708a544cda592"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>release</b> ()</td></tr>
 <tr class="separator:a254036c176f445c2802708a544cda592 inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +196,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_count</b> ()</td></tr
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_readLine</b> (String &amp;buffer)</td></tr>
 <tr class="separator:a55d2afe1e40b2d9b5173bffe33f94085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_d_d_tunnel"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_d_d_tunnel')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_d_d_tunnel.html">DDTunnel</a></td></tr>
-<tr class="memitem:a368f0c648542a20acc5d96ae39b4877c inherit pro_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a368f0c648542a20acc5d96ae39b4877c" name="a368f0c648542a20acc5d96ae39b4877c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DDTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow)</td></tr>
-<tr class="separator:a368f0c648542a20acc5d96ae39b4877c inherit pro_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb3f9823722f384d3d3b814f4a3d59df inherit pro_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="acb3f9823722f384d3d3b814f4a3d59df" name="acb3f9823722f384d3d3b814f4a3d59df"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_eof</b> ()</td></tr>
 <tr class="separator:acb3f9823722f384d3d3b814f4a3d59df inherit pro_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,62 +241,8 @@ long&#160;</td><td class="memItemRight" valign="bottom"><b>connectMillis</b></td
 <tr class="separator:a441357ab33de59aef4a49fa25ccc0c8a inherit pro_attribs_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for DD "tunnel", with buffering support. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af11ffd6a0d68d3a993d2eed13f0835da" name="af11ffd6a0d68d3a993d2eed13f0835da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af11ffd6a0d68d3a993d2eed13f0835da">&#9670;&#160;</a></span>DDBufferedTunnel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DDBufferedTunnel::DDBufferedTunnel </td>
-          <td>(</td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>tunnelId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>params</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>endPoint</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>connectNow</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>bufferSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section attention"><dt>Attention</dt><dd>constructed via <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> object </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>Class for DD "tunnel", with buffering support; created with <a class="el" href="class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b">DumbDisplay::createBasicTunnel()</a> </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac30d3fd4d04a77bcb5c973ddbd3b2a71" name="ac30d3fd4d04a77bcb5c973ddbd3b2a71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac30d3fd4d04a77bcb5c973ddbd3b2a71">&#9670;&#160;</a></span>_eof()</h2>
 

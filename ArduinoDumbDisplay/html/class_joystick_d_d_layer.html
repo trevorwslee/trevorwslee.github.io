@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('class_joystick_d_d_layer.html',''); in
 </div><!--header-->
 <div class="contents">
 
-<p>Class for virtual joystick layer.  
+<p>Class for virtual joystick layer; created with <a class="el" href="class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c">DumbDisplay::createJoystickLayer()</a>  
  <a href="class_joystick_d_d_layer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -114,7 +114,7 @@ Inheritance diagram for JoystickDDLayer:</div>
  <div class="center">
   <img src="class_joystick_d_d_layer.png" usemap="#JoystickDDLayer_map" alt=""/>
   <map id="JoystickDDLayer_map" name="JoystickDDLayer_map">
-<area href="class_d_d_layer.html" title="Class for DDLayer." alt="DDLayer" shape="rect" coords="0,56,109,80"/>
+<area href="class_d_d_layer.html" title="Class for DDLayer; created with various layer creation methods of DumbDispaly." alt="DDLayer" shape="rect" coords="0,56,109,80"/>
 <area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,109,24"/>
   </map>
 </div></div>
@@ -123,11 +123,15 @@ Inheritance diagram for JoystickDDLayer:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7afe92c83c8bb0211e616e2a4727a00a"><td class="memItemLeft" align="right" valign="top"><a id="a7afe92c83c8bb0211e616e2a4727a00a" name="a7afe92c83c8bb0211e616e2a4727a00a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>JoystickDDLayer</b> (int8_t layerId)</td></tr>
+<tr class="memdesc:a7afe92c83c8bb0211e616e2a4727a00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br  />
+ <br /></td></tr>
 <tr class="separator:a7afe92c83c8bb0211e616e2a4727a00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f51aaa9d108ffad00f2c71fa647fb8d"><td class="memItemLeft" align="right" valign="top"><a id="a5f51aaa9d108ffad00f2c71fa647fb8d" name="a5f51aaa9d108ffad00f2c71fa647fb8d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setAutoRecenter</b> (bool autoRecenter=true)</td></tr>
-<tr class="memdesc:a5f51aaa9d108ffad00f2c71fa647fb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set auto recenter of not; if auto recenter, after user releases the joystick, it will move back to center <br /></td></tr>
-<tr class="separator:a5f51aaa9d108ffad00f2c71fa647fb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5fed2db94a656cdf25f4a9a6e5981d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#aab5fed2db94a656cdf25f4a9a6e5981d">autoRecenter</a> (bool autoRecenter=true)</td></tr>
+<tr class="separator:aab5fed2db94a656cdf25f4a9a6e5981d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85824fcc9cf52720f516c4a686ced7f4"><td class="memItemLeft" align="right" valign="top"><a id="a85824fcc9cf52720f516c4a686ced7f4" name="a85824fcc9cf52720f516c4a686ced7f4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>colors</b> (const String &amp;stickColor, const String &amp;stickOutlineColor, const String &amp;socketColor, const String &amp;socketOutlineColor)</td></tr>
+<tr class="memdesc:a85824fcc9cf52720f516c4a686ced7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the colors of the stick UI <br /></td></tr>
+<tr class="separator:a85824fcc9cf52720f516c4a686ced7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bcc78cca3cb2fb07e029b7dfdb0796e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#a4bcc78cca3cb2fb07e029b7dfdb0796e">moveToPos</a> (int x, int y, bool sendFeedback=false)</td></tr>
 <tr class="separator:a4bcc78cca3cb2fb07e029b7dfdb0796e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b7b2ebbcbef78f64f035ee28fbe7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7">moveToCenter</a> (bool sendFeedback=false)</td></tr>
@@ -200,12 +204,12 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getLaye
 void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> ()</td></tr>
 <tr class="memdesc:ad84bd3eb933e9ecce03211021c150acb inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">disable "feedback" <br /></td></tr>
 <tr class="separator:ad84bd3eb933e9ecce03211021c150acb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7a0d5d87704b796e89f1a88ff3294fb inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">const DDFeedback *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback</a> ()</td></tr>
+<tr class="memitem:ac7a0d5d87704b796e89f1a88ff3294fb inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_d_d_feedback.html">DDFeedback</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback</a> ()</td></tr>
 <tr class="separator:ac7a0d5d87704b796e89f1a88ff3294fb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="ad1b5dbef97985ed7855e078b10ab938a" name="ad1b5dbef97985ed7855e078b10ab938a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:ad1b5dbef97985ed7855e078b10ab938a inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
+<tr class="memitem:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_feedback_manager.html">DDFeedbackManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
 <tr class="separator:a8bc6abcbd588363401272da9c7cda277 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62">getFeedbackHandler</a> () const</td></tr>
 <tr class="separator:a6814e6037a1edbf7bf5cea95bffe3c62 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,20 +229,42 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <tr class="memitem:a6d249dc66c0fe88de3eca791a5a7974b inherit pro_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a6d249dc66c0fe88de3eca791a5a7974b" name="a6d249dc66c0fe88de3eca791a5a7974b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDLayer</b> (int8_t layerId)</td></tr>
 <tr class="separator:a6d249dc66c0fe88de3eca791a5a7974b inherit pro_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2659fc20f79d1d15e5ad0c812fdc8e6 inherit pro_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="af2659fc20f79d1d15e5ad0c812fdc8e6" name="af2659fc20f79d1d15e5ad0c812fdc8e6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_enableFeedback</b> ()</td></tr>
+<tr class="separator:af2659fc20f79d1d15e5ad0c812fdc8e6 inherit pro_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_d_d_layer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_d_d_layer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_d_d_layer.html">DDLayer</a></td></tr>
 <tr class="memitem:a0155c8e74f65edb872873b5f305032a4 inherit pro_attribs_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a0155c8e74f65edb872873b5f305032a4" name="a0155c8e74f65edb872873b5f305032a4"></a>
 String&#160;</td><td class="memItemRight" valign="bottom"><b>layerId</b></td></tr>
 <tr class="separator:a0155c8e74f65edb872873b5f305032a4 inherit pro_attribs_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6a6644502e74b99cd09795f798f4c2 inherit pro_attribs_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="ace6a6644502e74b99cd09795f798f4c2" name="ace6a6644502e74b99cd09795f798f4c2"></a>
-DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedbackManager</b></td></tr>
+<a class="el" href="class_d_d_feedback_manager.html">DDFeedbackManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedbackManager</b></td></tr>
 <tr class="separator:ace6a6644502e74b99cd09795f798f4c2 inherit pro_attribs_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6183f04462de94a40353166ff8b428f7 inherit pro_attribs_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a6183f04462de94a40353166ff8b428f7" name="a6183f04462de94a40353166ff8b428f7"></a>
 DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedbackHandler</b></td></tr>
 <tr class="separator:a6183f04462de94a40353166ff8b428f7 inherit pro_attribs_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for virtual joystick layer. </p>
+<div class="textblock"><p>Class for virtual joystick layer; created with <a class="el" href="class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c">DumbDisplay::createJoystickLayer()</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aab5fed2db94a656cdf25f4a9a6e5981d" name="aab5fed2db94a656cdf25f4a9a6e5981d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5fed2db94a656cdf25f4a9a6e5981d">&#9670;&#160;</a></span>autoRecenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoystickDDLayer::autoRecenter </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>autoRecenter</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set joystick auto-recenter on / off; if auto recenter, after user releases the joystick, the joystick will move back to the center position automatically note that it will not affect the current position; use <a class="el" href="class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7">moveToCenter()</a> to move to the center </p>
+
+</div>
+</div>
 <a id="ab5b7b2ebbcbef78f64f035ee28fbe7d7" name="ab5b7b2ebbcbef78f64f035ee28fbe7d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5b7b2ebbcbef78f64f035ee28fbe7d7">&#9670;&#160;</a></span>moveToCenter()</h2>
 

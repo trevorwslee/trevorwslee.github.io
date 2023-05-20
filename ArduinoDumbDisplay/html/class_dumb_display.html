@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('class_dumb_display.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
-<p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a>. Everything starts from here.  
+<p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a>. Everything starts here.  
  <a href="class_dumb_display.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('class_dumb_display.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af9c4d4f4de064794675880dfe04e35d8"><td class="memItemLeft" align="right" valign="top"><a id="af9c4d4f4de064794675880dfe04e35d8" name="af9c4d4f4de064794675880dfe04e35d8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DumbDisplay</b> (DDInputOutput *pIO, uint16_t sendBufferSize=DD_DEF_SEND_BUFFER_SIZE)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DumbDisplay</b> (<a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *pIO, uint16_t sendBufferSize=DD_DEF_SEND_BUFFER_SIZE)</td></tr>
 <tr class="separator:af9c4d4f4de064794675880dfe04e35d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a20e88f4b1c4b7ecf441d7e071021a747">connect</a> ()</td></tr>
 <tr class="separator:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,8 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28d8e89daf77a8762827cd042df6b772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin</a> (const String &amp;layoutSpec)</td></tr>
 <tr class="separator:a28d8e89daf77a8762827cd042df6b772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top"><a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinConfig</b> (const String &amp;remainingLayoutSpec)</td></tr>
+<tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3">addRemainingAutoPinConfig</a> (const String &amp;remainingLayoutSpec)</td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abae7b4a8cfc825e466a7f339704d0fe9">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100)</td></tr>
 <tr class="separator:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,24 +150,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinCo
 <a class="el" href="class_lcd_d_d_layer.html">LcdDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createLcdLayer</b> (int colCount=16, int rowCount=2, int charHeight=0, const String &amp;fontName=&quot;&quot;)</td></tr>
 <tr class="memdesc:a588e9f2696ef83249add36732604ed5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LCD layer <br /></td></tr>
 <tr class="separator:a588e9f2696ef83249add36732604ed5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37c7d95157e5b8075f05203fd05635a8"><td class="memItemLeft" align="right" valign="top"><a id="a37c7d95157e5b8075f05203fd05635a8" name="a37c7d95157e5b8075f05203fd05635a8"></a>
-<a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createGraphicalLayer</b> (int width, int height)</td></tr>
-<tr class="memdesc:a37c7d95157e5b8075f05203fd05635a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a graphical LCD layer <br /></td></tr>
+<tr class="memitem:a37c7d95157e5b8075f05203fd05635a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8">createGraphicalLayer</a> (int width, int height)</td></tr>
 <tr class="separator:a37c7d95157e5b8075f05203fd05635a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_seven_segment_row_d_d_layer.html">SevenSegmentRowDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8c525bd171b39af67e9c915c7ca0a0f9">create7SegmentRowLayer</a> (int digitCount=1)</td></tr>
 <tr class="separator:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ee6a9b6212b9c4392ae99f19fe6b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac9ee6a9b6212b9c4392ae99f19fe6b4c">createJoystickLayer</a> (const String &amp;directions=&quot;&quot;, int maxStickScale=255)</td></tr>
-<tr class="separator:ac9ee6a9b6212b9c4392ae99f19fe6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430cdb489655aae2a3fa6a005230fc9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c">createJoystickLayer</a> (const String &amp;directions=&quot;&quot;, int maxStickValue=255, float stickLookScaleFactor=1.0)</td></tr>
+<tr class="separator:a430cdb489655aae2a3fa6a005230fc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="memItemLeft" align="right" valign="top"><a id="af94e59f25cc2f38c9c0c8264e9d73f96" name="af94e59f25cc2f38c9c0c8264e9d73f96"></a>
 <a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createPlotterLayer</b> (int width, int height, int pixelsPerSecond=10)</td></tr>
+<tr class="memdesc:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a plotter layer <br /></td></tr>
 <tr class="separator:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b74a3352e0b76716c6910a86306528e"><td class="memItemLeft" align="right" valign="top"><a id="a1b74a3352e0b76716c6910a86306528e" name="a1b74a3352e0b76716c6910a86306528e"></a>
-<a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createFixedRatePlotterLayer</b> (int width, int height, int pixelsPerScale=5)</td></tr>
+<tr class="memitem:a1b74a3352e0b76716c6910a86306528e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a1b74a3352e0b76716c6910a86306528e">createFixedRatePlotterLayer</a> (int width, int height, int pixelsPerScale=5)</td></tr>
 <tr class="separator:a1b74a3352e0b76716c6910a86306528e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9a251e1e7779d70cfe060711cf6c2fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tom_tom_map_d_d_layer.html">TomTomMapDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc">createTomTomMapLayer</a> (const String &amp;mapKey, int width, int height)</td></tr>
 <tr class="separator:ad9a251e1e7779d70cfe060711cf6c2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58ecf8df431cbd9ed7876984862bde7d"><td class="memItemLeft" align="right" valign="top"><a id="a58ecf8df431cbd9ed7876984862bde7d" name="a58ecf8df431cbd9ed7876984862bde7d"></a>
-<a class="el" href="class_terminal_d_d_layer.html">TerminalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createTerminalLayer</b> (int width, int height)</td></tr>
+<tr class="memitem:a58ecf8df431cbd9ed7876984862bde7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_terminal_d_d_layer.html">TerminalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d">createTerminalLayer</a> (int width, int height)</td></tr>
 <tr class="separator:a58ecf8df431cbd9ed7876984862bde7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b">createBasicTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,15 +176,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinCo
 <tr class="separator:a39ff653fedb03647a41af089649ca801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b3479a00f946e98675a8c6dc8df4de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a33b3479a00f946e98675a8c6dc8df4de">createDateTimeServiceTunnel</a> ()</td></tr>
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a id="aff291b56128cb372c5045afd634b530f" name="aff291b56128cb372c5045afd634b530f"></a>
-<a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createGpsServiceTunnel</b> ()</td></tr>
-<tr class="memdesc:aff291b56128cb372c5045afd634b530f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a "service tunnel" for getting GPS info from phone <br /></td></tr>
+<tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aff291b56128cb372c5045afd634b530f">createGpsServiceTunnel</a> ()</td></tr>
 <tr class="separator:aff291b56128cb372c5045afd634b530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5095ba15b92341fe4c7df5bc75e95203"><td class="memItemLeft" align="right" valign="top"><a id="a5095ba15b92341fe4c7df5bc75e95203" name="a5095ba15b92341fe4c7df5bc75e95203"></a>
-<a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createObjectDetectDemoServiceTunnel</b> (int scaleToWidth=0, int scaleToHeight=0)</td></tr>
+<tr class="memitem:a5095ba15b92341fe4c7df5bc75e95203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a5095ba15b92341fe4c7df5bc75e95203">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0)</td></tr>
 <tr class="separator:a5095ba15b92341fe4c7df5bc75e95203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7759c27bea25dd216cb142ad06a68e05"><td class="memItemLeft" align="right" valign="top"><a id="a7759c27bea25dd216cb142ad06a68e05" name="a7759c27bea25dd216cb142ad06a68e05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a class="el" href="class_d_d_tunnel.html">DDTunnel</a> *pTunnel)</td></tr>
+<tr class="memdesc:a7759c27bea25dd216cb142ad06a68e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">if finished using a "tunnel", delete it to release resource <br /></td></tr>
 <tr class="separator:a7759c27bea25dd216cb142ad06a68e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af37458f1034619132bca9ddeef1962"><td class="memItemLeft" align="right" valign="top"><a id="a1af37458f1034619132bca9ddeef1962" name="a1af37458f1034619132bca9ddeef1962"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>backgroundColor</b> (const String &amp;color)</td></tr>
@@ -302,6 +296,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <tr class="separator:a9cf77c3d03199ce88434f7883609a3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c01dc261524e91875e583b8f297d530"><td class="memItemLeft" align="right" valign="top"><a id="a9c01dc261524e91875e583b8f297d530" name="a9c01dc261524e91875e583b8f297d530"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer)</td></tr>
+<tr class="memdesc:a9c01dc261524e91875e583b8f297d530"><td class="mdescLeft">&#160;</td><td class="mdescRight">if layer is no longer used; delete it to release resources <br /></td></tr>
 <tr class="separator:a9c01dc261524e91875e583b8f297d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad777166bf5236abead9c5e89676f5cf1"><td class="memItemLeft" align="right" valign="top"><a id="ad777166bf5236abead9c5e89676f5cf1" name="ad777166bf5236abead9c5e89676f5cf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>walkLayers</b> (void(*walker)(<a class="el" href="class_d_d_layer.html">DDLayer</a> *))</td></tr>
@@ -309,6 +304,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>walkLayers</b> (void(
 <tr class="separator:ad777166bf5236abead9c5e89676f5cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494c5947070af98c85d07f1f744cf320"><td class="memItemLeft" align="right" valign="top"><a id="a494c5947070af98c85d07f1f744cf320" name="a494c5947070af98c85d07f1f744cf320"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (int debugLedPin)</td></tr>
+<tr class="memdesc:a494c5947070af98c85d07f1f744cf320"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the pin to flash when DD is sending data, for debugging purpose <br /></td></tr>
 <tr class="separator:a494c5947070af98c85d07f1f744cf320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback</a> (DDIdleCallback idleCallback)</td></tr>
 <tr class="separator:a460986fc74d0ac16ea512accbebfb2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -316,6 +312,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (int d
 <tr class="separator:aab055ea92790a5f8ec0ffb2813657538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cdcb71af2cdacf2cdf796787809e89"><td class="memItemLeft" align="right" valign="top"><a id="a44cdcb71af2cdacf2cdf796787809e89" name="a44cdcb71af2cdacf2cdf796787809e89"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectVersionChangedCalback</b> (DDConnectVersionChangedCallback connectVersionChangedCallback)</td></tr>
+<tr class="memdesc:a44cdcb71af2cdacf2cdf796787809e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">set callback when version changed (e.g. reconnected after disconnect) <br /></td></tr>
 <tr class="separator:a44cdcb71af2cdacf2cdf796787809e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d9545be267953b1ee0a78a7f0ced31"><td class="memItemLeft" align="right" valign="top"><a id="a32d9545be267953b1ee0a78a7f0ced31" name="a32d9545be267953b1ee0a78a7f0ced31"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (const String &amp;logLine)</td></tr>
@@ -323,8 +320,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 <tr class="separator:a32d9545be267953b1ee0a78a7f0ced31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a>. Everything starts from here. </p>
+<div class="textblock"><p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a>. Everything starts here. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4edf110fa40b238f1bdc6a2c1e91d3">&#9670;&#160;</a></span>addRemainingAutoPinConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::addRemainingAutoPinConfig </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>remainingLayoutSpec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">remainingLayoutSpec</td><td><br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a51fd188121839b55196644dabc08200c" name="a51fd188121839b55196644dabc08200c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51fd188121839b55196644dabc08200c">&#9670;&#160;</a></span>cacheSoundChunked16()</h2>
 
@@ -507,7 +529,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly make connection (blocking); implicitly called when configure or create a layer </p>
+<p>explicitly make connection (blocking); implicitly called in situations like create a layer </p>
 
 </div>
 </div>
@@ -550,6 +572,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer; created with DumbDisplay::create7SegmentRowLayer()">SevenSegmentRowDDLayer</a> </dd></dl>
 
 </div>
 </div>
@@ -584,8 +607,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a "tunnel" for accessing the Web; the 'tunnel' is ONLY supported with <a href="https://www.youtube.com/watch?v=0UhRmXXBQi8">DumbDisplayWifiBridge</a> </p><dl class="section attention"><dt>Attention</dt><dd>MUST delete the 'tunnel' after use, by calling deleteTunnel() </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<p>create a "tunnel" for accessing the Web </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
 
 </div>
 </div>
@@ -605,7 +628,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 </div><div class="memdoc">
 <p>create a "service tunnel" for getting date-time info from phone; use reconnectTo() with commands like</p><ul>
 <li>now</li>
-<li>now-millis </li>
+<li>now-millis <dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+</li>
 </ul>
 
 </div>
@@ -647,14 +671,96 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a JSON 'tunnel' (filtered for wanted fields) </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<p>create a JSON 'tunnel' for thing like making RESTful calls; with result filtered </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fieldNames</td><td>comma-delimited list of field names to accept; note that matching is 'case-insensitive containment match' <br  />
- </td></tr>
+    <tr><td class="paramname">fieldNames</td><td>comma-delimited list of field names to accept; note that matching is "case-insensitive containment match" </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd>JsonDDTunnel </dd></dl>
+
+</div>
+</div>
+<a id="a1b74a3352e0b76716c6910a86306528e" name="a1b74a3352e0b76716c6910a86306528e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b74a3352e0b76716c6910a86306528e">&#9670;&#160;</a></span>createFixedRatePlotterLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> * DumbDisplay::createFixedRatePlotterLayer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pixelsPerScale</em> = <code>5</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a fixed-rate plotter layer i.e. it will assume fixe-rate of PlotterDDLayer::set() </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa...">PlotterDDLayer</a> </dd></dl>
+
+</div>
+</div>
+<a id="aff291b56128cb372c5045afd634b530f" name="aff291b56128cb372c5045afd634b530f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff291b56128cb372c5045afd634b530f">&#9670;&#160;</a></span>createGpsServiceTunnel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> * DumbDisplay::createGpsServiceTunnel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a "service tunnel" for getting GPS info from phone </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_gps_service_d_d_tunnel.html" title="Class for GPS service &quot;tunnel&quot;.">GpsServiceDDTunnel</a> </dd></dl>
+
+</div>
+</div>
+<a id="a37c7d95157e5b8075f05203fd05635a8" name="a37c7d95157e5b8075f05203fd05635a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c7d95157e5b8075f05203fd05635a8">&#9670;&#160;</a></span>createGraphicalLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> * DumbDisplay::createGraphicalLayer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a graphical LCD layer </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()">GraphicalDDLayer</a> </dd></dl>
 
 </div>
 </div>
@@ -689,12 +795,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a "tunnel" to download image from the web and save the downloaded image to phone; you will get reuslt as JSON: <code>{"result":"ok"}</code> or <code>{"result":"failed"}</code> for simplicity, use <a class="el" href="class_simple_tool_d_d_tunnel.html#a01d40332f072470ff61b73dcd1dcd8b0">SimpleToolDDTunnel.checkResult()</a> to check result </p>
+<p>create a "tunnel" to download image from the web, and save the downloaded image to phone; you will get result in JSON format: <code>{"result":"ok"}</code> or <code>{"result":"failed"}</code> for simplicity, use <a class="el" href="class_simple_tool_d_d_tunnel.html#a01d40332f072470ff61b73dcd1dcd8b0">SimpleToolDDTunnel.checkResult()</a> to check the result </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_simple_tool_d_d_tunnel.html" title="Class for basic tool &quot;tunnel&quot;.">SimpleToolDDTunnel</a> </dd></dl>
 
 </div>
 </div>
-<a id="ac9ee6a9b6212b9c4392ae99f19fe6b4c" name="ac9ee6a9b6212b9c4392ae99f19fe6b4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9ee6a9b6212b9c4392ae99f19fe6b4c">&#9670;&#160;</a></span>createJoystickLayer()</h2>
+<a id="a430cdb489655aae2a3fa6a005230fc9c" name="a430cdb489655aae2a3fa6a005230fc9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430cdb489655aae2a3fa6a005230fc9c">&#9670;&#160;</a></span>createJoystickLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -709,7 +815,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxStickScale</em> = <code>255</code>&#160;</td>
+          <td class="paramname"><em>maxStickValue</em> = <code>255</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>stickLookScaleFactor</em> = <code>1.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -718,14 +830,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a joystick layer </p><dl class="params"><dt>Parameters</dt><dd>
+<p>create a joystick layer:</p><ul>
+<li>will send joystick positions as "feedback", and hence "feedback" is automatically enabled;</li>
+<li>initial position is (0, 0) <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">directions</td><td>"lr": left-to-right; "tb": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mearn both directions; "" the same as "lr+tb" </td></tr>
-    <tr><td class="paramname">maxStickScale</td><td><br  />
- </td></tr>
+    <tr><td class="paramname">maxStickValue</td><td>the max value of the stick; 255 by default; min is 15 </td></tr>
+    <tr><td class="paramname">stickLookScaleFactor</td><td>the scaling factor of the stick (UI); 1 by default </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()">JoystickDDLayer</a> </dd></dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -760,7 +877,66 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a JSON 'tunnel' </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<p>create a JSON 'tunnel' for thing like making RESTful calls </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+
+</div>
+</div>
+<a id="a5095ba15b92341fe4c7df5bc75e95203" name="a5095ba15b92341fe4c7df5bc75e95203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5095ba15b92341fe4c7df5bc75e95203">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> * DumbDisplay::createObjectDetectDemoServiceTunnel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>scaleToWidth</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>scaleToHeight</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a "service tunnel" for getting object detection info from phone; model used is the demo model <code>mobilenetv1.tflite</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;.">ObjectDetetDemoServiceDDTunnel</a> </dd></dl>
+
+</div>
+</div>
+<a id="a58ecf8df431cbd9ed7876984862bde7d" name="a58ecf8df431cbd9ed7876984862bde7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ecf8df431cbd9ed7876984862bde7d">&#9670;&#160;</a></span>createTerminalLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_terminal_d_d_layer.html">TerminalDDLayer</a> * DumbDisplay::createTerminalLayer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a terminal layer </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc; created with DumbDisplay::c...">TerminalDDLayer</a> </dd></dl>
 
 </div>
 </div>
@@ -801,6 +977,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -998,7 +1175,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 </div><div class="memdoc">
 <p>basically, functions the same as <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a>. additionally: *&zwj;/</p><ul>
 <li>save and persiste the layer commands</li>
-<li>enable <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts from here.">DumbDisplay</a> reconnects </li>
+<li>enable <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a> reconnects </li>
 </ul>
 
 </div>
@@ -1070,7 +1247,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         </tr>
       </table>
 </div><div class="memdoc">
-<p>save the cached sound as C .h file @warn this is experimental </p>
+<p>save the cached sound as C header file (.h) @warn this is experimental </p>
 
 </div>
 </div>

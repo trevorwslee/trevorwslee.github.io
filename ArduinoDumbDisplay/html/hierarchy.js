@@ -1,5 +1,18 @@
 var hierarchy =
 [
+    [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
+    [ "DDAutoPinConfigBuilder< MAX_DEPTH >", "class_d_d_auto_pin_config_builder.html", null ],
+    [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
+    [ "DDFadingLayers< MAX_LAYER_COUNT >", "class_d_d_fading_layers.html", null ],
+    [ "DDFeedback", "struct_d_d_feedback.html", null ],
+    [ "DDFeedbackManager", "class_d_d_feedback_manager.html", null ],
+    [ "DDInputOutput", "class_d_d_input_output.html", [
+      [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
+      [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
+      [ "DDWiFiServerIO", "class_d_d_wi_fi_server_i_o.html", null ]
+    ] ],
+    [ "DDIntEncoder", "class_d_d_int_encoder.html", null ],
+    [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
     [ "DDLocation", "struct_d_d_location.html", null ],
     [ "DDObject", "struct_d_d_object.html", [
       [ "DDLayer", "class_d_d_layer.html", [
@@ -23,7 +36,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
+    [ "DDPendingValue< T >", "class_d_d_pending_value.html", null ],
+    [ "DDSerial", "class_d_d_serial.html", null ],
     [ "DDTunnelEndpoint", "class_d_d_tunnel_endpoint.html", null ],
+    [ "DDValueRecord< T >", "class_d_d_value_record.html", null ],
+    [ "DDValueStore< T >", "class_d_d_value_store.html", null ],
     [ "DumbDisplay", "class_dumb_display.html", null ],
     [ "JsonDDTunnelMultiplexer", "class_json_d_d_tunnel_multiplexer.html", null ],
     [ "MbImage", "class_mb_image.html", null ]
