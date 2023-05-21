@@ -1,7 +1,6 @@
 var hierarchy =
 [
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
-    [ "DDAutoPinConfigBuilder< MAX_DEPTH >", "class_d_d_auto_pin_config_builder.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
     [ "DDFadingLayers< MAX_LAYER_COUNT >", "class_d_d_fading_layers.html", null ],
     [ "DDFeedback", "struct_d_d_feedback.html", null ],

@@ -269,15 +269,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cacheImage</b> (const
 <tr class="separator:ae2615a047b4a5ae66d72635269ae4ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968d50cef4dc6235584e46e3051f6f69"><td class="memItemLeft" align="right" valign="top"><a id="a968d50cef4dc6235584e46e3051f6f69" name="a968d50cef4dc6235584e46e3051f6f69"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cachePixelImage</b> (const String &amp;imageName, const uint8_t *bytes, int width, int height, const String &amp;color=&quot;&quot;, char compressionMethod=0)</td></tr>
-<tr class="memdesc:a968d50cef4dc6235584e46e3051f6f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache "8-bit pixel" image; not saved <br /></td></tr>
+<tr class="memdesc:a968d50cef4dc6235584e46e3051f6f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache single-bit "pixel" image; not saved <br /></td></tr>
 <tr class="separator:a968d50cef4dc6235584e46e3051f6f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0f776252ea259ff50686ff20d53aab"><td class="memItemLeft" align="right" valign="top"><a id="a1a0f776252ea259ff50686ff20d53aab" name="a1a0f776252ea259ff50686ff20d53aab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cachePixelImage16</b> (const String &amp;imageName, const uint16_t *data, int width, int height, const String &amp;options=&quot;&quot;, char compressMethod=0)</td></tr>
-<tr class="memdesc:a1a0f776252ea259ff50686ff20d53aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache "16-bit pixel" image; not saved <br /></td></tr>
+<tr class="memdesc:a1a0f776252ea259ff50686ff20d53aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache 16-bit "pixel" image; not saved <br /></td></tr>
 <tr class="separator:a1a0f776252ea259ff50686ff20d53aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66828b7ff989735afb5630b6cb8b6c4e"><td class="memItemLeft" align="right" valign="top"><a id="a66828b7ff989735afb5630b6cb8b6c4e" name="a66828b7ff989735afb5630b6cb8b6c4e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cachePixelImageGS</b> (const String &amp;imageName, const uint8_t *data, int width, int height, const String &amp;options=&quot;&quot;, char compressMethod=0)</td></tr>
-<tr class="memdesc:a66828b7ff989735afb5630b6cb8b6c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache greyscale image; as if image saved and loaded <br /></td></tr>
+<tr class="memdesc:a66828b7ff989735afb5630b6cb8b6c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">cache greyscale "pixel" image; as if image saved and loaded <br /></td></tr>
 <tr class="separator:a66828b7ff989735afb5630b6cb8b6c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7655099ce83681330ce619bd62aa53ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphical_d_d_layer.html#a7655099ce83681330ce619bd62aa53ca">saveCachedImageFile</a> (const String &amp;imageName)</td></tr>
 <tr class="separator:a7655099ce83681330ce619bd62aa53ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1280,7 +1280,7 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 </div><div class="memdoc">
 <p>set fill color (for shape) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color nam </td></tr>
+    <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
   </table>
   </dd>
 </dl>
@@ -1490,7 +1490,7 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 </div><div class="memdoc">
 <p>fill screen with color </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color name </td></tr>
+    <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
   </table>
   </dd>
 </dl>
@@ -1683,7 +1683,7 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 </div><div class="memdoc">
 <p>set pen color (i.e. text color) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color nam </td></tr>
+    <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
   </table>
   </dd>
 </dl>
@@ -1765,7 +1765,7 @@ DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedback
 </div><div class="memdoc">
 <p>set text color and text background color </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color name </td></tr>
+    <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
     <tr><td class="paramname">bgColor</td><td>empty background color means no background color </td></tr>
   </table>
   </dd>

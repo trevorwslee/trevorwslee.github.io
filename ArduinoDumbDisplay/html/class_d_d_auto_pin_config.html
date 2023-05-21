@@ -104,9 +104,6 @@ $(document).ready(function(){initNavTree('class_d_d_auto_pin_config.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>Class for building "auto pin" config. To be passed to <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">DumbDisplay::configAutoPin()</a>.  
- <a href="class_d_d_auto_pin_config.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -119,6 +116,12 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>endGroup</b> ()</td></tr>
 <tr class="memdesc:a2ea69cbbae99c2bd2a85edb0add2e80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a begun group, returning to the previous level of nesting <br /></td></tr>
 <tr class="separator:a2ea69cbbae99c2bd2a85edb0add2e80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f660e1312659bb0a1576428f4d7a0bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a0f660e1312659bb0a1576428f4d7a0bc">beginPaddedGroup</a> (char dir, int left, int top, int right, int bottom)</td></tr>
+<tr class="separator:a0f660e1312659bb0a1576428f4d7a0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f9d272945e1c135838b39858df5b3f6"><td class="memItemLeft" align="right" valign="top"><a id="a4f9d272945e1c135838b39858df5b3f6" name="a4f9d272945e1c135838b39858df5b3f6"></a>
+<a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>endPaddedGroup</b> ()</td></tr>
+<tr class="memdesc:a4f9d272945e1c135838b39858df5b3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">end begun padded group <br /></td></tr>
+<tr class="separator:a4f9d272945e1c135838b39858df5b3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a3812ad1dbd776054e764007c8107d"><td class="memItemLeft" align="right" valign="top"><a id="a80a3812ad1dbd776054e764007c8107d" name="a80a3812ad1dbd776054e764007c8107d"></a>
 <a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>addLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *layer)</td></tr>
 <tr class="memdesc:a80a3812ad1dbd776054e764007c8107d"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a layer to the current level <br /></td></tr>
@@ -133,7 +136,7 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
 <tr class="separator:a734a181879b7e4b8867aa83fae7b67d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for building "auto pin" config. To be passed to <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">DumbDisplay::configAutoPin()</a>. </p>
+<div class="textblock"><p>Class for building "auto pin" config. To be passed to <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">DumbDisplay::configAutoPin()</a>. </p><dl class="section since"><dt>Since</dt><dd>v0.9.7-r2 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a992f079d05a7c9a6aae345a04acd15ce" name="a992f079d05a7c9a6aae345a04acd15ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a992f079d05a7c9a6aae345a04acd15ce">&#9670;&#160;</a></span>DDAutoPinConfig()</h2>
@@ -279,6 +282,71 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
 <p>begin a layer group, creating a new level of nesting </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dir</td><td>directory of layers at the new level; can be 'H' for horizontal, 'V' for vertical and 'S' for stacked </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0f660e1312659bb0a1576428f4d7a0bc" name="a0f660e1312659bb0a1576428f4d7a0bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f660e1312659bb0a1576428f4d7a0bc">&#9670;&#160;</a></span>beginPaddedGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp; DDAutoPinConfig::beginPaddedGroup </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>begin a layer group, with specified padding </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>directory of layers at the new level; can be 'H' for horizontal, 'V' for vertical and 'S' for stacked </td></tr>
+    <tr><td class="paramname">left</td><td>left padding </td></tr>
+    <tr><td class="paramname">top</td><td>top padding <br  />
+ </td></tr>
+    <tr><td class="paramname">right</td><td>right padding </td></tr>
+    <tr><td class="paramname">bottom</td><td>bottom padding </td></tr>
   </table>
   </dd>
 </dl>

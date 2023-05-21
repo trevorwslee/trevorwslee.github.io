@@ -11,6 +11,8 @@ var searchData=
   ['resetendpoint_8',['resetEndpoint',['../class_d_d_tunnel_endpoint.html#ae65148a4a14d5e051def7724438a4947',1,'DDTunnelEndpoint']]],
   ['resetheaders_9',['resetHeaders',['../class_d_d_tunnel_endpoint.html#a4b646c88664ce4b0c7c5d117e4257f78',1,'DDTunnelEndpoint']]],
   ['resetparams_10',['resetParams',['../class_d_d_tunnel_endpoint.html#a2f565d430c29e405c15acb5cda250f86',1,'DDTunnelEndpoint']]],
-  ['resetsoundattachment_11',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
-  ['rightturn_12',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]]
+  ['resetsegmentoffcolor_11',['resetSegmentOffColor',['../class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1',1,'SevenSegmentRowDDLayer']]],
+  ['resetsegmentoffnocolor_12',['resetSegmentOffNoColor',['../class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4',1,'SevenSegmentRowDDLayer']]],
+  ['resetsoundattachment_13',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
+  ['rightturn_14',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]]
 ];

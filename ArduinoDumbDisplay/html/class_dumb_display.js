@@ -56,7 +56,6 @@ var class_dumb_display =
     [ "sendSoundChunk8", "class_dumb_display.html#aece7c06ff1a76e830f70e9f02658c003", null ],
     [ "setConnectVersionChangedCalback", "class_dumb_display.html#a44cdcb71af2cdacf2cdf796787809e89", null ],
     [ "setFeedbackSingleClickOnly", "class_dumb_display.html#aa77b3e0133025f22004bb7f35e6f54b3", null ],
-    [ "setIdleCalback", "class_dumb_display.html#aab055ea92790a5f8ec0ffb2813657538", null ],
     [ "setIdleCallback", "class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1", null ],
     [ "stitchImages", "class_dumb_display.html#a31fa010b19bbf36f05bf1c6d3562c3eb", null ],
     [ "stopRecordLayerCommands", "class_dumb_display.html#a2f41348f4bc5cf96296766b40f98a5f6", null ],

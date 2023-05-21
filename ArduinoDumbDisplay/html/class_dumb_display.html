@@ -184,9 +184,7 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a class="el" href="class_d_d_tunnel.html">DDTunnel</a> *pTunnel)</td></tr>
 <tr class="memdesc:a7759c27bea25dd216cb142ad06a68e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">if finished using a "tunnel", delete it to release resource <br /></td></tr>
 <tr class="separator:a7759c27bea25dd216cb142ad06a68e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af37458f1034619132bca9ddeef1962"><td class="memItemLeft" align="right" valign="top"><a id="a1af37458f1034619132bca9ddeef1962" name="a1af37458f1034619132bca9ddeef1962"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>backgroundColor</b> (const String &amp;color)</td></tr>
-<tr class="memdesc:a1af37458f1034619132bca9ddeef1962"><td class="mdescLeft">&#160;</td><td class="mdescRight">set DD background color with common "color name" or DD_RGB_COLOR(...) <br /></td></tr>
+<tr class="memitem:a1af37458f1034619132bca9ddeef1962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a1af37458f1034619132bca9ddeef1962">backgroundColor</a> (const String &amp;color)</td></tr>
 <tr class="separator:a1af37458f1034619132bca9ddeef1962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8adca053da4dfa85326381b77962a66a"><td class="memItemLeft" align="right" valign="top"><a id="a8adca053da4dfa85326381b77962a66a" name="a8adca053da4dfa85326381b77962a66a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>recordLayerSetupCommands</b> ()</td></tr>
@@ -308,8 +306,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (int d
 <tr class="separator:a494c5947070af98c85d07f1f744cf320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback</a> (DDIdleCallback idleCallback)</td></tr>
 <tr class="separator:a460986fc74d0ac16ea512accbebfb2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab055ea92790a5f8ec0ffb2813657538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aab055ea92790a5f8ec0ffb2813657538">setIdleCalback</a> (DDIdleCallback idleCallback)</td></tr>
-<tr class="separator:aab055ea92790a5f8ec0ffb2813657538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cdcb71af2cdacf2cdf796787809e89"><td class="memItemLeft" align="right" valign="top"><a id="a44cdcb71af2cdacf2cdf796787809e89" name="a44cdcb71af2cdacf2cdf796787809e89"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectVersionChangedCalback</b> (DDConnectVersionChangedCallback connectVersionChangedCallback)</td></tr>
 <tr class="memdesc:a44cdcb71af2cdacf2cdf796787809e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">set callback when version changed (e.g. reconnected after disconnect) <br /></td></tr>
@@ -341,6 +337,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   <table class="params">
     <tr><td class="paramname">remainingLayoutSpec</td><td><br  />
  </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1af37458f1034619132bca9ddeef1962" name="a1af37458f1034619132bca9ddeef1962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af37458f1034619132bca9ddeef1962">&#9670;&#160;</a></span>backgroundColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::backgroundColor </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set DD background color </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
   </table>
   </dd>
 </dl>
@@ -840,7 +860,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()">JoystickDDLayer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> </dd></dl>
 </li>
 </ul>
 
@@ -977,7 +997,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_tom_tom_map_d_d_layer.html">TomTomMapDDLayer</a> </dd></dl>
 
 </div>
 </div>
@@ -1374,33 +1394,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
       </table>
 </div><div class="memdoc">
 <p>by default, "long press feedback" and "double click feedback" is enabled; however, this makes "click feedback" detection less responsive; one remedy is to set for "single click feedback" only </p>
-
-</div>
-</div>
-<a id="aab055ea92790a5f8ec0ffb2813657538" name="aab055ea92790a5f8ec0ffb2813657538"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab055ea92790a5f8ec0ffb2813657538">&#9670;&#160;</a></span>setIdleCalback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DumbDisplay::setIdleCalback </td>
-          <td>(</td>
-          <td class="paramtype">DDIdleCallback&#160;</td>
-          <td class="paramname"><em>idleCallback</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section attention"><dt>Attention</dt><dd>use <a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback()</a> instead </dd></dl>
 
 </div>
 </div>

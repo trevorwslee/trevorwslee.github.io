@@ -1,16 +1,15 @@
 var annotated_dup =
 [
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", "class_d_d_auto_pin_config" ],
-    [ "DDAutoPinConfigBuilder", "class_d_d_auto_pin_config_builder.html", null ],
     [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html", "class_d_d_buffered_tunnel" ],
-    [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
+    [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", "class_d_d_connect_version_tracker" ],
     [ "DDFadingLayers", "class_d_d_fading_layers.html", null ],
     [ "DDFeedback", "struct_d_d_feedback.html", "struct_d_d_feedback" ],
     [ "DDFeedbackManager", "class_d_d_feedback_manager.html", null ],
     [ "DDInputOutput", "class_d_d_input_output.html", null ],
     [ "DDIntEncoder", "class_d_d_int_encoder.html", null ],
     [ "DDLayer", "class_d_d_layer.html", "class_d_d_layer" ],
-    [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
+    [ "DDLayoutHelper", "class_d_d_layout_helper.html", "class_d_d_layout_helper" ],
     [ "DDLocation", "struct_d_d_location.html", null ],
     [ "DDObject", "struct_d_d_object.html", "struct_d_d_object" ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
