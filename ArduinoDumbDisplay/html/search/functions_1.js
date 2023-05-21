@@ -1,14 +1,15 @@
 var searchData=
 [
-  ['backgroundcolor_0',['backgroundColor',['../class_d_d_layer.html#a2e0da9a45182f05833493a6b6a00272d',1,'DDLayer::backgroundColor()'],['../class_dumb_display.html#a1af37458f1034619132bca9ddeef1962',1,'DumbDisplay::backgroundColor()']]],
-  ['backward_1',['backward',['../class_turtle_d_d_layer.html#ae16ff313be61a311070506af100a3be3',1,'TurtleDDLayer']]],
-  ['begingroup_2',['beginGroup',['../class_d_d_auto_pin_config.html#a0373a2b1abc6bd40d8f99f31f8590c80',1,'DDAutoPinConfig']]],
-  ['beginpaddedgroup_3',['beginPaddedGroup',['../class_d_d_auto_pin_config.html#a0f660e1312659bb0a1576428f4d7a0bc',1,'DDAutoPinConfig']]],
-  ['bgpixelcolor_4',['bgPixelColor',['../class_lcd_d_d_layer.html#a2996024f377937deee02b86b5685b367',1,'LcdDDLayer']]],
-  ['bitwise_5',['bitwise',['../class_led_grid_d_d_layer.html#ac012cf16502beeb0257c3706f7ac10c7',1,'LedGridDDLayer']]],
-  ['bitwise2_6',['bitwise2',['../class_led_grid_d_d_layer.html#a17afafdcd7918a46a6a98e7d1bfb3892',1,'LedGridDDLayer']]],
-  ['bitwise3_7',['bitwise3',['../class_led_grid_d_d_layer.html#aa894beaeb28993090fbf0afd85ba5d58',1,'LedGridDDLayer']]],
-  ['bitwise4_8',['bitwise4',['../class_led_grid_d_d_layer.html#a4bc266c6d809e92a8e3fc92cb93c7fc9',1,'LedGridDDLayer']]],
-  ['border_9',['border',['../class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2',1,'DDLayer']]],
-  ['build_10',['build',['../class_d_d_auto_pin_config.html#a734a181879b7e4b8867aa83fae7b67d9',1,'DDAutoPinConfig']]]
+  ['acknowledge_0',['acknowledge',['../class_d_d_pending_value.html#ab49cf526f2d779ff9cab2aeb4ca0aa4f',1,'DDPendingValue']]],
+  ['addheader_1',['addHeader',['../class_d_d_tunnel_endpoint.html#a92ad2f8c05e3eea2202ad794c2633bb5',1,'DDTunnelEndpoint']]],
+  ['addlayer_2',['addLayer',['../class_d_d_auto_pin_config.html#a80a3812ad1dbd776054e764007c8107d',1,'DDAutoPinConfig']]],
+  ['addnamedparam_3',['addNamedParam',['../class_d_d_tunnel_endpoint.html#ae98e4531375cbd5f760e4c69e65b5f80',1,'DDTunnelEndpoint']]],
+  ['addparam_4',['addParam',['../class_d_d_tunnel_endpoint.html#a4a03c3decf7ff838b0b46eabdcd9ef7b',1,'DDTunnelEndpoint']]],
+  ['addremainingautopinconfig_5',['addRemainingAutoPinConfig',['../class_d_d_layout_helper.html#af575140784428656fb67ccbfbfcb0049',1,'DDLayoutHelper::addRemainingAutoPinConfig()'],['../class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3',1,'DumbDisplay::addRemainingAutoPinConfig()']]],
+  ['addremaininggroup_6',['addRemainingGroup',['../class_d_d_auto_pin_config.html#af9cb99d5308894409f4a13e4d1bb8813',1,'DDAutoPinConfig']]],
+  ['addspacer_7',['addSpacer',['../class_d_d_auto_pin_config.html#a06f7568bdf96d0f5986172c08f7952cd',1,'DDAutoPinConfig']]],
+  ['alpha_8',['alpha',['../class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003',1,'DDLayer']]],
+  ['arc_9',['arc',['../class_turtle_d_d_layer.html#a142c6c68e9e9c2ee5095f8ba55828ab3',1,'TurtleDDLayer::arc()'],['../class_graphical_d_d_layer.html#a64f8cffd2f8eb4f6d8f2bbc045d2d639',1,'GraphicalDDLayer::arc()']]],
+  ['autorecenter_10',['autoRecenter',['../class_joystick_d_d_layer.html#aab5fed2db94a656cdf25f4a9a6e5981d',1,'JoystickDDLayer']]],
+  ['autoscroll_11',['autoscroll',['../class_lcd_d_d_layer.html#aa26d736cb20815d0be675b10c231a18a',1,'LcdDDLayer']]]
 ];

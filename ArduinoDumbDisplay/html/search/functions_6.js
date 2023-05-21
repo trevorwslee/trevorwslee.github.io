@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['getcompatibilityversion_0',['getCompatibilityVersion',['../class_dumb_display.html#ab02a79c926114dd14147b6765b1d864f',1,'DumbDisplay']]],
-  ['getconnectversion_1',['getConnectVersion',['../class_dumb_display.html#a0a2da2242a88df8b81eae09fd54cad45',1,'DumbDisplay']]],
-  ['getfeedback_2',['getFeedback',['../class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb',1,'DDLayer']]],
-  ['getfeedbackhandler_3',['getFeedbackHandler',['../class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62',1,'DDLayer']]],
-  ['getfeedbackmanager_4',['getFeedbackManager',['../class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277',1,'DDLayer']]],
-  ['goby_5',['goBy',['../class_turtle_d_d_layer.html#a2dcc37fd0c13ecb2f2ff156e58607828',1,'TurtleDDLayer']]],
-  ['goto_6',['goTo',['../class_turtle_d_d_layer.html#a317d1e6585996952edc64f4984e102cb',1,'TurtleDDLayer']]],
-  ['gpsserviceddtunnel_7',['GpsServiceDDTunnel',['../class_gps_service_d_d_tunnel.html#a489527afa3a2fe9df53bda2149ddec49',1,'GpsServiceDDTunnel']]],
-  ['graphicalddlayer_8',['GraphicalDDLayer',['../class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e',1,'GraphicalDDLayer']]]
+  ['fillarc_0',['fillArc',['../class_graphical_d_d_layer.html#a92186eff0f998da0f67f906f6ca89579',1,'GraphicalDDLayer']]],
+  ['fillcircle_1',['fillCircle',['../class_graphical_d_d_layer.html#a62430c029f135e76dd0df0dd2c435eb9',1,'GraphicalDDLayer']]],
+  ['fillcolor_2',['fillColor',['../class_turtle_d_d_layer.html#ae34d783458b7e820ae5bad29680951c0',1,'TurtleDDLayer::fillColor()'],['../class_graphical_d_d_layer.html#aa3c134726845d46f8ac72018e49d9af1',1,'GraphicalDDLayer::fillColor(const String &amp;color)']]],
+  ['filloval_3',['fillOval',['../class_graphical_d_d_layer.html#af8287a78bf5524a22e128ba5b8bfbee3',1,'GraphicalDDLayer']]],
+  ['fillrect_4',['fillRect',['../class_graphical_d_d_layer.html#a666e17f8efc67fbeb844adbf1dea3a28',1,'GraphicalDDLayer']]],
+  ['fillroundrect_5',['fillRoundRect',['../class_graphical_d_d_layer.html#ae815e2106af7bf5c8d573b71ec612836',1,'GraphicalDDLayer']]],
+  ['fillscreen_6',['fillScreen',['../class_graphical_d_d_layer.html#a7b2e44b0000ba5c34542906578fb41ce',1,'GraphicalDDLayer']]],
+  ['filltriangle_7',['fillTriangle',['../class_graphical_d_d_layer.html#adeec82069cbbbe61ae6c0767550ea71f',1,'GraphicalDDLayer']]],
+  ['finishinitializelayout_8',['finishInitializeLayout',['../class_d_d_layout_helper.html#aca75f5af76695642465dc28b52c9f7bb',1,'DDLayoutHelper']]],
+  ['flash_9',['flash',['../class_d_d_layer.html#acff354518a030e79c7c5054a24fc5511',1,'DDLayer']]],
+  ['flasharea_10',['flashArea',['../class_d_d_layer.html#af348c91ff9a0d39c0db410a5b336fe57',1,'DDLayer']]],
+  ['forward_11',['forward',['../class_turtle_d_d_layer.html#a356788c392602788c88dca30c8d6d02f',1,'TurtleDDLayer::forward()'],['../class_graphical_d_d_layer.html#a333bec0c676d67731013e5bb8070b80c',1,'GraphicalDDLayer::forward()']]]
 ];
