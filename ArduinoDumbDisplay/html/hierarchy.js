@@ -9,6 +9,7 @@ var hierarchy =
     [ "DDInputOutput", "class_d_d_input_output.html", [
       [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
       [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],
+      [ "DDPicoUart1IO", "class_d_d_pico_uart1_i_o.html", null ],
       [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
       [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
       [ "DDWiFiServerIO", "class_d_d_wi_fi_server_i_o.html", null ]
