@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('class_dumb_display.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
-<p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a>. Everything starts here.  
+<p>The core class for <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; everything starts here. The most important argument to <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> is an <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a> object. For an example, please refer to <a href="https://www.instructables.com/Blink-Test-With-Virtual-Display-DumbDisplay/">Blink Test With Virtual Display, DumbDisplay</a>  
  <a href="class_dumb_display.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -154,8 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a37c7d95157e5b8075f05203fd05635a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_seven_segment_row_d_d_layer.html">SevenSegmentRowDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8c525bd171b39af67e9c915c7ca0a0f9">create7SegmentRowLayer</a> (int digitCount=1)</td></tr>
 <tr class="separator:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a430cdb489655aae2a3fa6a005230fc9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c">createJoystickLayer</a> (const String &amp;directions=&quot;&quot;, int maxStickValue=255, float stickLookScaleFactor=1.0)</td></tr>
-<tr class="separator:a430cdb489655aae2a3fa6a005230fc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fcf10e4cc656077b81155288fe34b65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3fcf10e4cc656077b81155288fe34b65">createJoystickLayer</a> (int maxStickValue=1023, const String &amp;directions=&quot;&quot;, float stickLookScaleFactor=1.0)</td></tr>
+<tr class="separator:a3fcf10e4cc656077b81155288fe34b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="memItemLeft" align="right" valign="top"><a id="af94e59f25cc2f38c9c0c8264e9d73f96" name="af94e59f25cc2f38c9c0c8264e9d73f96"></a>
 <a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createPlotterLayer</b> (int width, int height, int pixelsPerSecond=10)</td></tr>
 <tr class="memdesc:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a plotter layer <br /></td></tr>
@@ -316,7 +316,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 <tr class="separator:a32d9545be267953b1ee0a78a7f0ced31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a>. Everything starts here. </p>
+<div class="textblock"><p>The core class for <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; everything starts here. The most important argument to <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> is an <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a> object. For an example, please refer to <a href="https://www.instructables.com/Blink-Test-With-Virtual-Display-DumbDisplay/">Blink Test With Virtual Display, DumbDisplay</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c4edf110fa40b238f1bdc6a2c1e91d3">&#9670;&#160;</a></span>addRemainingAutoPinConfig()</h2>
@@ -819,8 +819,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 
 </div>
 </div>
-<a id="a430cdb489655aae2a3fa6a005230fc9c" name="a430cdb489655aae2a3fa6a005230fc9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a430cdb489655aae2a3fa6a005230fc9c">&#9670;&#160;</a></span>createJoystickLayer()</h2>
+<a id="a3fcf10e4cc656077b81155288fe34b65" name="a3fcf10e4cc656077b81155288fe34b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fcf10e4cc656077b81155288fe34b65">&#9670;&#160;</a></span>createJoystickLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -828,14 +828,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         <tr>
           <td class="memname"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> * DumbDisplay::createJoystickLayer </td>
           <td>(</td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>directions</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxStickValue</em> = <code>1023</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxStickValue</em> = <code>255</code>, </td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>directions</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -854,13 +854,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 <li>will send joystick positions as "feedback", and hence "feedback" is automatically enabled;</li>
 <li>initial position is (0, 0) <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">directions</td><td>"lr": left-to-right; "tb": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mearn both directions; "" the same as "lr+tb" </td></tr>
-    <tr><td class="paramname">maxStickValue</td><td>the max value of the stick; 255 by default; min is 15 </td></tr>
+    <tr><td class="paramname">maxStickValue</td><td>the max value of the stick; e.g. 255 or 1023 (the default); min is 15 </td></tr>
+    <tr><td class="paramname">directions</td><td>"lr" or "hori": left-to-right; "tb" or "vert": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mearn both directions; "" the same as "lr+tb" </td></tr>
     <tr><td class="paramname">stickLookScaleFactor</td><td>the scaling factor of the stick (UI); 1 by default </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()">JoystickDDLayer</a> </dd></dl>
 </li>
 </ul>
 
@@ -997,7 +997,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_tom_tom_map_d_d_layer.html">TomTomMapDDLayer</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_tom_tom_map_d_d_layer.html" title="Class for TomTom map &quot;device dependent view&quot; layer, which means that it is solely rendered by the And...">TomTomMapDDLayer</a> </dd></dl>
 
 </div>
 </div>
@@ -1195,7 +1195,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 </div><div class="memdoc">
 <p>basically, functions the same as <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a>. additionally: *&zwj;/</p><ul>
 <li>save and persiste the layer commands</li>
-<li>enable <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="Class for DumbDisplay. Everything starts here.">DumbDisplay</a> reconnects </li>
+<li>enable <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> reconnects </li>
 </ul>
 
 </div>

@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('class_d_d_layer.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 
-<p>Class for <a class="el" href="class_d_d_layer.html" title="Class for DDLayer; created with various layer creation methods of DumbDispaly.">DDLayer</a>; created with various layer creation methods of DumbDispaly.  
+<p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of DumbDispaly, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a>  
  <a href="class_d_d_layer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -118,14 +118,14 @@ Inheritance diagram for DDLayer:</div>
   <map id="DDLayer_map" name="DDLayer_map">
 <area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,171,24"/>
 <area href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()" alt="GraphicalDDLayer" shape="rect" coords="181,112,352,136"/>
-<area href="class_joystick_d_d_layer.html" alt="JoystickDDLayer" shape="rect" coords="181,168,352,192"/>
-<area href="class_lcd_d_d_layer.html" alt="LcdDDLayer" shape="rect" coords="181,224,352,248"/>
+<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()" alt="JoystickDDLayer" shape="rect" coords="181,168,352,192"/>
+<area href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()" alt="LcdDDLayer" shape="rect" coords="181,224,352,248"/>
 <area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer; created with DumbDisplay::createLedGridLayer()" alt="LedGridDDLayer" shape="rect" coords="181,280,352,304"/>
 <area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer; created with DumbDisplay::createMicrobitLayer()" alt="MbDDLayer" shape="rect" coords="181,336,352,360"/>
 <area href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa..." alt="PlotterDDLayer" shape="rect" coords="181,392,352,416"/>
 <area href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer; created with DumbDisplay::create7SegmentRowLayer()" alt="SevenSegmentRowDDLayer" shape="rect" coords="181,448,352,472"/>
 <area href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc; created with DumbDisplay::c..." alt="TerminalDDLayer" shape="rect" coords="181,504,352,528"/>
-<area href="class_tom_tom_map_d_d_layer.html" alt="TomTomMapDDLayer" shape="rect" coords="181,560,352,584"/>
+<area href="class_tom_tom_map_d_d_layer.html" title="Class for TomTom map &quot;device dependent view&quot; layer, which means that it is solely rendered by the And..." alt="TomTomMapDDLayer" shape="rect" coords="181,560,352,584"/>
 <area href="class_turtle_d_d_layer.html" title="Class for Turtle-like DD layer; created with DumbDisplay::createTurtleLayer()" alt="TurtleDDLayer" shape="rect" coords="181,616,352,640"/>
   </map>
 </div></div>
@@ -204,7 +204,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> (
 <tr class="memitem:ad1b5dbef97985ed7855e078b10ab938a"><td class="memItemLeft" align="right" valign="top"><a id="ad1b5dbef97985ed7855e078b10ab938a" name="ad1b5dbef97985ed7855e078b10ab938a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
 <tr class="separator:ad1b5dbef97985ed7855e078b10ab938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc6abcbd588363401272da9c7cda277"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_feedback_manager.html">DDFeedbackManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
+<tr class="memitem:a8bc6abcbd588363401272da9c7cda277"><td class="memItemLeft" align="right" valign="top">DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a8bc6abcbd588363401272da9c7cda277">getFeedbackManager</a> () const</td></tr>
 <tr class="separator:a8bc6abcbd588363401272da9c7cda277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="memItemLeft" align="right" valign="top">DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a6814e6037a1edbf7bf5cea95bffe3c62">getFeedbackHandler</a> () const</td></tr>
 <tr class="separator:a6814e6037a1edbf7bf5cea95bffe3c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,7 +224,7 @@ Protected Attributes</h2></td></tr>
 String&#160;</td><td class="memItemRight" valign="bottom"><b>layerId</b></td></tr>
 <tr class="separator:a0155c8e74f65edb872873b5f305032a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6a6644502e74b99cd09795f798f4c2"><td class="memItemLeft" align="right" valign="top"><a id="ace6a6644502e74b99cd09795f798f4c2" name="ace6a6644502e74b99cd09795f798f4c2"></a>
-<a class="el" href="class_d_d_feedback_manager.html">DDFeedbackManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedbackManager</b></td></tr>
+DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedbackManager</b></td></tr>
 <tr class="separator:ace6a6644502e74b99cd09795f798f4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6183f04462de94a40353166ff8b428f7"><td class="memItemLeft" align="right" valign="top"><a id="a6183f04462de94a40353166ff8b428f7" name="a6183f04462de94a40353166ff8b428f7"></a>
 DDFeedbackHandler&#160;</td><td class="memItemRight" valign="bottom"><b>feedbackHandler</b></td></tr>
@@ -243,7 +243,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <tr class="separator:a4a1c46c80b09ef2f351e307e71ded651 inherit pub_attribs_struct_d_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for <a class="el" href="class_d_d_layer.html" title="Class for DDLayer; created with various layer creation methods of DumbDispaly.">DDLayer</a>; created with various layer creation methods of DumbDispaly. </p>
+<div class="textblock"><p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of DumbDispaly, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acad4324f599ff6f85e00e79c5657d003" name="acad4324f599ff6f85e00e79c5657d003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad4324f599ff6f85e00e79c5657d003">&#9670;&#160;</a></span>alpha()</h2>
@@ -388,7 +388,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get "feedback" </p><dl class="section return"><dt>Returns</dt><dd>NULL if no pending "feedback" </dd></dl>
+<p>get "feedback" <a class="el" href="struct_d_d_feedback.html" title="The struct that captures info about &quot;feedback&quot;. See DDLayer::enableFeedback()">DDFeedback</a> </p><dl class="section return"><dt>Returns</dt><dd>NULL if no pending "feedback" </dd></dl>
 
 </div>
 </div>
@@ -428,7 +428,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_d_d_feedback_manager.html">DDFeedbackManager</a> * DDLayer::getFeedbackManager </td>
+          <td class="memname">DDFeedbackManager * DDLayer::getFeedbackManager </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

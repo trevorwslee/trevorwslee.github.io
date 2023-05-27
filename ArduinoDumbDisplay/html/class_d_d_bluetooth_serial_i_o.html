@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ArduinoDumbDisplay: DDWiFiServerIO Class Reference</title>
+<title>ArduinoDumbDisplay: DDBluetoothSerialIO Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_d_d_wi_fi_server_i_o.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_d_d_bluetooth_serial_i_o.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -99,50 +99,48 @@ $(document).ready(function(){initNavTree('class_d_d_wi_fi_server_i_o.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_d_d_wi_fi_server_i_o-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DDWiFiServerIO Class Reference</div></div>
+<a href="class_d_d_bluetooth_serial_i_o-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">DDBluetoothSerialIO Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Subclass of <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a>.  
- <a href="class_d_d_wi_fi_server_i_o.html#details">More...</a></p>
+ <a href="class_d_d_bluetooth_serial_i_o.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="wifidumbdisplay_8h_source.html">wifidumbdisplay.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="esp32dumbdisplay_8h_source.html">esp32dumbdisplay.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for DDWiFiServerIO:</div>
+Inheritance diagram for DDBluetoothSerialIO:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_d_d_wi_fi_server_i_o.png" usemap="#DDWiFiServerIO_map" alt=""/>
-  <map id="DDWiFiServerIO_map" name="DDWiFiServerIO_map">
-<area href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,..." alt="DDInputOutput" shape="rect" coords="0,0,107,24"/>
+  <img src="class_d_d_bluetooth_serial_i_o.png" usemap="#DDBluetoothSerialIO_map" alt=""/>
+  <map id="DDBluetoothSerialIO_map" name="DDBluetoothSerialIO_map">
+<area href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,..." alt="DDInputOutput" shape="rect" coords="0,0,128,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4aafb0d17baa1db52d1b01485f055f29"><td class="memItemLeft" align="right" valign="top"><a id="a4aafb0d17baa1db52d1b01485f055f29" name="a4aafb0d17baa1db52d1b01485f055f29"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DDWiFiServerIO</b> (const char *ssid, const char *passphrase, int serverPort=DD_WIFI_PORT, bool logToSerial=true, unsigned long serialBaud=DD_SERIAL_BAUD)</td></tr>
-<tr class="separator:a4aafb0d17baa1db52d1b01485f055f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f9964a0ce0e3c9f486b380d92c8ba4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a13f9964a0ce0e3c9f486b380d92c8ba4">available</a> ()</td></tr>
-<tr class="separator:a13f9964a0ce0e3c9f486b380d92c8ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0de39e0df32101299632eeb7dc7ae37"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#ac0de39e0df32101299632eeb7dc7ae37">read</a> ()</td></tr>
-<tr class="separator:ac0de39e0df32101299632eeb7dc7ae37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4595f42bb440e593d8a372c07a00299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#ad4595f42bb440e593d8a372c07a00299">print</a> (const String &amp;s)</td></tr>
-<tr class="separator:ad4595f42bb440e593d8a372c07a00299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1f3b13d9511d108029d109ffbe3ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#afd1f3b13d9511d108029d109ffbe3ffc">print</a> (const char *p)</td></tr>
-<tr class="separator:afd1f3b13d9511d108029d109ffbe3ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d1de0381bd63ac0650f49e2034625da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a3d1de0381bd63ac0650f49e2034625da">write</a> (uint8_t b)</td></tr>
-<tr class="separator:a3d1de0381bd63ac0650f49e2034625da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afbc81cdaad3b6372d091c45b2345dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a1afbc81cdaad3b6372d091c45b2345dc">write</a> (const uint8_t *buf, size_t size)</td></tr>
-<tr class="separator:a1afbc81cdaad3b6372d091c45b2345dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3111d4fc4b7a6983dc1e2e22a4a766f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#ac3111d4fc4b7a6983dc1e2e22a4a766f">preConnect</a> (bool firstCall)</td></tr>
-<tr class="separator:ac3111d4fc4b7a6983dc1e2e22a4a766f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ecfdc6312ddf5e9cf5cdd614ceccb3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a9ecfdc6312ddf5e9cf5cdd614ceccb3f">flush</a> ()</td></tr>
-<tr class="separator:a9ecfdc6312ddf5e9cf5cdd614ceccb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf3ac41ec12b34de27ef939b68b43a82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#abf3ac41ec12b34de27ef939b68b43a82">validConnection</a> ()</td></tr>
-<tr class="separator:abf3ac41ec12b34de27ef939b68b43a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb66089c4edf191af1c495682e742c58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#afb66089c4edf191af1c495682e742c58">canUseBuffer</a> ()</td></tr>
-<tr class="separator:afb66089c4edf191af1c495682e742c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d3b8a1bfa21b981f85b0c00349ee3c"><td class="memItemLeft" align="right" valign="top"><a id="a45d3b8a1bfa21b981f85b0c00349ee3c" name="a45d3b8a1bfa21b981f85b0c00349ee3c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DDBluetoothSerialIO</b> (const String &amp;btLocalName, bool enableSerial=false, unsigned long serialBaud=DD_SERIAL_BAUD)</td></tr>
+<tr class="separator:a45d3b8a1bfa21b981f85b0c00349ee3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200939f1e716536648d27e8d0fd51723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a200939f1e716536648d27e8d0fd51723">available</a> ()</td></tr>
+<tr class="separator:a200939f1e716536648d27e8d0fd51723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fdfd069953382d21ef26f939b1c9a3a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a5fdfd069953382d21ef26f939b1c9a3a">read</a> ()</td></tr>
+<tr class="separator:a5fdfd069953382d21ef26f939b1c9a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9059ab739bbddea7b20f43fb2d025fbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a9059ab739bbddea7b20f43fb2d025fbc">print</a> (const String &amp;s)</td></tr>
+<tr class="separator:a9059ab739bbddea7b20f43fb2d025fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a5ce530625fcc5ca8972b0ba6a379b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#aa5a5ce530625fcc5ca8972b0ba6a379b">print</a> (const char *p)</td></tr>
+<tr class="separator:aa5a5ce530625fcc5ca8972b0ba6a379b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac61fd3b4ca5fbd6fa8dd4a3701888499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#ac61fd3b4ca5fbd6fa8dd4a3701888499">write</a> (uint8_t b)</td></tr>
+<tr class="separator:ac61fd3b4ca5fbd6fa8dd4a3701888499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b75f0e635881e27c411cc257342548a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a5b75f0e635881e27c411cc257342548a">write</a> (const uint8_t *buf, size_t size)</td></tr>
+<tr class="separator:a5b75f0e635881e27c411cc257342548a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fff2afb87e9328542749f7f9f7abd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#ae9fff2afb87e9328542749f7f9f7abd3">preConnect</a> (bool firstCall)</td></tr>
+<tr class="separator:ae9fff2afb87e9328542749f7f9f7abd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ce6e30e4ebfccf2aab7750214901c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a46ce6e30e4ebfccf2aab7750214901c0">flush</a> ()</td></tr>
+<tr class="separator:a46ce6e30e4ebfccf2aab7750214901c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c34652f0039862a4cf22682cb2800d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a95c34652f0039862a4cf22682cb2800d">canUseBuffer</a> ()</td></tr>
+<tr class="separator:a95c34652f0039862a4cf22682cb2800d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d_d_input_output"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d_d_input_output')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a></td></tr>
 <tr class="memitem:aac8e6df724ce610d5a5f2e25a67769a0 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="aac8e6df724ce610d5a5f2e25a67769a0" name="aac8e6df724ce610d5a5f2e25a67769a0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDInputOutput</b> (unsigned long serialBaud=DD_SERIAL_BAUD)</td></tr>
@@ -210,8 +208,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Subclass of <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a13f9964a0ce0e3c9f486b380d92c8ba4" name="a13f9964a0ce0e3c9f486b380d92c8ba4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13f9964a0ce0e3c9f486b380d92c8ba4">&#9670;&#160;</a></span>available()</h2>
+<a id="a200939f1e716536648d27e8d0fd51723" name="a200939f1e716536648d27e8d0fd51723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200939f1e716536648d27e8d0fd51723">&#9670;&#160;</a></span>available()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +218,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DDWiFiServerIO::available </td>
+          <td class="memname">bool DDBluetoothSerialIO::available </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -237,8 +235,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="afb66089c4edf191af1c495682e742c58" name="afb66089c4edf191af1c495682e742c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb66089c4edf191af1c495682e742c58">&#9670;&#160;</a></span>canUseBuffer()</h2>
+<a id="a95c34652f0039862a4cf22682cb2800d" name="a95c34652f0039862a4cf22682cb2800d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c34652f0039862a4cf22682cb2800d">&#9670;&#160;</a></span>canUseBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +245,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DDWiFiServerIO::canUseBuffer </td>
+          <td class="memname">bool DDBluetoothSerialIO::canUseBuffer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -264,8 +262,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="a9ecfdc6312ddf5e9cf5cdd614ceccb3f" name="a9ecfdc6312ddf5e9cf5cdd614ceccb3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ecfdc6312ddf5e9cf5cdd614ceccb3f">&#9670;&#160;</a></span>flush()</h2>
+<a id="a46ce6e30e4ebfccf2aab7750214901c0" name="a46ce6e30e4ebfccf2aab7750214901c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ce6e30e4ebfccf2aab7750214901c0">&#9670;&#160;</a></span>flush()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +272,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDWiFiServerIO::flush </td>
+          <td class="memname">void DDBluetoothSerialIO::flush </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -291,8 +289,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="ac3111d4fc4b7a6983dc1e2e22a4a766f" name="ac3111d4fc4b7a6983dc1e2e22a4a766f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3111d4fc4b7a6983dc1e2e22a4a766f">&#9670;&#160;</a></span>preConnect()</h2>
+<a id="ae9fff2afb87e9328542749f7f9f7abd3" name="ae9fff2afb87e9328542749f7f9f7abd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9fff2afb87e9328542749f7f9f7abd3">&#9670;&#160;</a></span>preConnect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +299,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DDWiFiServerIO::preConnect </td>
+          <td class="memname">bool DDBluetoothSerialIO::preConnect </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>firstCall</em></td><td>)</td>
@@ -319,8 +317,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="afd1f3b13d9511d108029d109ffbe3ffc" name="afd1f3b13d9511d108029d109ffbe3ffc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd1f3b13d9511d108029d109ffbe3ffc">&#9670;&#160;</a></span>print() <span class="overload">[1/2]</span></h2>
+<a id="aa5a5ce530625fcc5ca8972b0ba6a379b" name="aa5a5ce530625fcc5ca8972b0ba6a379b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a5ce530625fcc5ca8972b0ba6a379b">&#9670;&#160;</a></span>print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +327,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDWiFiServerIO::print </td>
+          <td class="memname">void DDBluetoothSerialIO::print </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -347,8 +345,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="ad4595f42bb440e593d8a372c07a00299" name="ad4595f42bb440e593d8a372c07a00299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4595f42bb440e593d8a372c07a00299">&#9670;&#160;</a></span>print() <span class="overload">[2/2]</span></h2>
+<a id="a9059ab739bbddea7b20f43fb2d025fbc" name="a9059ab739bbddea7b20f43fb2d025fbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9059ab739bbddea7b20f43fb2d025fbc">&#9670;&#160;</a></span>print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +355,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDWiFiServerIO::print </td>
+          <td class="memname">void DDBluetoothSerialIO::print </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
@@ -375,8 +373,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="ac0de39e0df32101299632eeb7dc7ae37" name="ac0de39e0df32101299632eeb7dc7ae37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0de39e0df32101299632eeb7dc7ae37">&#9670;&#160;</a></span>read()</h2>
+<a id="a5fdfd069953382d21ef26f939b1c9a3a" name="a5fdfd069953382d21ef26f939b1c9a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fdfd069953382d21ef26f939b1c9a3a">&#9670;&#160;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +383,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char DDWiFiServerIO::read </td>
+          <td class="memname">char DDBluetoothSerialIO::read </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -402,8 +400,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="abf3ac41ec12b34de27ef939b68b43a82" name="abf3ac41ec12b34de27ef939b68b43a82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf3ac41ec12b34de27ef939b68b43a82">&#9670;&#160;</a></span>validConnection()</h2>
+<a id="a5b75f0e635881e27c411cc257342548a" name="a5b75f0e635881e27c411cc257342548a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b75f0e635881e27c411cc257342548a">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,34 +410,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDWiFiServerIO::validConnection </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a>.</p>
-
-</div>
-</div>
-<a id="a1afbc81cdaad3b6372d091c45b2345dc" name="a1afbc81cdaad3b6372d091c45b2345dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1afbc81cdaad3b6372d091c45b2345dc">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DDWiFiServerIO::write </td>
+          <td class="memname">void DDBluetoothSerialIO::write </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -467,8 +438,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 
 </div>
 </div>
-<a id="a3d1de0381bd63ac0650f49e2034625da" name="a3d1de0381bd63ac0650f49e2034625da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d1de0381bd63ac0650f49e2034625da">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
+<a id="ac61fd3b4ca5fbd6fa8dd4a3701888499" name="ac61fd3b4ca5fbd6fa8dd4a3701888499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61fd3b4ca5fbd6fa8dd4a3701888499">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -477,7 +448,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDWiFiServerIO::write </td>
+          <td class="memname">void DDBluetoothSerialIO::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
@@ -500,7 +471,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="class_d_d_wi_fi_server_i_o.html">DDWiFiServerIO</a></li>
+    <li class="navelem"><a class="el" href="class_d_d_bluetooth_serial_i_o.html">DDBluetoothSerialIO</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

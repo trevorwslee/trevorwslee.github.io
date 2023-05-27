@@ -28,7 +28,7 @@ var searchData=
   ['creategpsservicetunnel_25',['createGpsServiceTunnel',['../class_dumb_display.html#aff291b56128cb372c5045afd634b530f',1,'DumbDisplay']]],
   ['creategraphicallayer_26',['createGraphicalLayer',['../class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8',1,'DumbDisplay']]],
   ['createimagedownloadtunnel_27',['createImageDownloadTunnel',['../class_dumb_display.html#a39ff653fedb03647a41af089649ca801',1,'DumbDisplay']]],
-  ['createjoysticklayer_28',['createJoystickLayer',['../class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c',1,'DumbDisplay']]],
+  ['createjoysticklayer_28',['createJoystickLayer',['../class_dumb_display.html#a3fcf10e4cc656077b81155288fe34b65',1,'DumbDisplay']]],
   ['createjsontunnel_29',['createJsonTunnel',['../class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67',1,'DumbDisplay']]],
   ['createlcdlayer_30',['createLcdLayer',['../class_dumb_display.html#a588e9f2696ef83249add36732604ed5c',1,'DumbDisplay']]],
   ['createledgridlayer_31',['createLedGridLayer',['../class_dumb_display.html#adf71aac7991060289302d936ca51b8ba',1,'DumbDisplay']]],

@@ -19,7 +19,7 @@ var class_dumb_display =
     [ "createGpsServiceTunnel", "class_dumb_display.html#aff291b56128cb372c5045afd634b530f", null ],
     [ "createGraphicalLayer", "class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8", null ],
     [ "createImageDownloadTunnel", "class_dumb_display.html#a39ff653fedb03647a41af089649ca801", null ],
-    [ "createJoystickLayer", "class_dumb_display.html#a430cdb489655aae2a3fa6a005230fc9c", null ],
+    [ "createJoystickLayer", "class_dumb_display.html#a3fcf10e4cc656077b81155288fe34b65", null ],
     [ "createJsonTunnel", "class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67", null ],
     [ "createLcdLayer", "class_dumb_display.html#a588e9f2696ef83249add36732604ed5c", null ],
     [ "createLedGridLayer", "class_dumb_display.html#adf71aac7991060289302d936ca51b8ba", null ],

@@ -6,13 +6,14 @@ var hierarchy =
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
     [ "DDFadingLayers< MAX_LAYER_COUNT >", "class_d_d_fading_layers.html", null ],
     [ "DDFeedback", "struct_d_d_feedback.html", null ],
-    [ "DDFeedbackManager", "class_d_d_feedback_manager.html", null ],
     [ "DDInputOutput", "class_d_d_input_output.html", [
+      [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
+      [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],
+      [ "DDPicoUart1IO", "class_d_d_pico_uart1_i_o.html", null ],
       [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
       [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
       [ "DDWiFiServerIO", "class_d_d_wi_fi_server_i_o.html", null ]
     ] ],
-    [ "DDIntEncoder", "class_d_d_int_encoder.html", null ],
     [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
     [ "DDLocation", "struct_d_d_location.html", null ],
     [ "DDObject", "struct_d_d_object.html", [
