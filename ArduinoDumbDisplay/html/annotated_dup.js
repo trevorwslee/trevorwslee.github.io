@@ -19,7 +19,6 @@ var annotated_dup =
     [ "DDObject", "struct_d_d_object.html", "struct_d_d_object" ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
     [ "DDPendingValue", "class_d_d_pending_value.html", "class_d_d_pending_value" ],
-    [ "DDPicoUart1IO", "class_d_d_pico_uart1_i_o.html", null ],
     [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
     [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
     [ "DDTunnel", "class_d_d_tunnel.html", "class_d_d_tunnel" ],

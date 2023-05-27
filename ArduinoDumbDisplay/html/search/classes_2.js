@@ -14,14 +14,13 @@ var searchData=
   ['ddobject_11',['DDObject',['../struct_d_d_object.html',1,'']]],
   ['ddobjectdetectdemoresult_12',['DDObjectDetectDemoResult',['../struct_d_d_object_detect_demo_result.html',1,'']]],
   ['ddpendingvalue_13',['DDPendingValue',['../class_d_d_pending_value.html',1,'']]],
-  ['ddpicouart1io_14',['DDPicoUart1IO',['../class_d_d_pico_uart1_i_o.html',1,'']]],
-  ['ddserial2io_15',['DDSerial2IO',['../class_d_d_serial2_i_o.html',1,'']]],
-  ['ddsoftwareserialio_16',['DDSoftwareSerialIO',['../class_d_d_software_serial_i_o.html',1,'']]],
-  ['ddtunnel_17',['DDTunnel',['../class_d_d_tunnel.html',1,'']]],
-  ['ddtunnelendpoint_18',['DDTunnelEndpoint',['../class_d_d_tunnel_endpoint.html',1,'']]],
-  ['ddvaluerecord_19',['DDValueRecord',['../class_d_d_value_record.html',1,'']]],
-  ['ddvaluestore_20',['DDValueStore',['../class_d_d_value_store.html',1,'']]],
-  ['ddwifiserverio_21',['DDWiFiServerIO',['../class_d_d_wi_fi_server_i_o.html',1,'']]],
-  ['decodedjoystick_22',['DecodedJoystick',['../class_decoded_joystick.html',1,'']]],
-  ['dumbdisplay_23',['DumbDisplay',['../class_dumb_display.html',1,'']]]
+  ['ddserial2io_14',['DDSerial2IO',['../class_d_d_serial2_i_o.html',1,'']]],
+  ['ddsoftwareserialio_15',['DDSoftwareSerialIO',['../class_d_d_software_serial_i_o.html',1,'']]],
+  ['ddtunnel_16',['DDTunnel',['../class_d_d_tunnel.html',1,'']]],
+  ['ddtunnelendpoint_17',['DDTunnelEndpoint',['../class_d_d_tunnel_endpoint.html',1,'']]],
+  ['ddvaluerecord_18',['DDValueRecord',['../class_d_d_value_record.html',1,'']]],
+  ['ddvaluestore_19',['DDValueStore',['../class_d_d_value_store.html',1,'']]],
+  ['ddwifiserverio_20',['DDWiFiServerIO',['../class_d_d_wi_fi_server_i_o.html',1,'']]],
+  ['decodedjoystick_21',['DecodedJoystick',['../class_decoded_joystick.html',1,'']]],
+  ['dumbdisplay_22',['DumbDisplay',['../class_dumb_display.html',1,'']]]
 ];
