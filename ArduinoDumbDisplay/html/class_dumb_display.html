@@ -287,9 +287,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImageGS</b> 
 <tr class="separator:aa8a46510963e0765ebd4759db05d6f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a31fa010b19bbf36f05bf1c6d3562c3eb">stitchImages</a> (const String &amp;imageNames, const String &amp;asImageName)</td></tr>
 <tr class="separator:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99dded80f0e23d821821cb308ab0378e"><td class="memItemLeft" align="right" valign="top"><a id="a99dded80f0e23d821821cb308ab0378e" name="a99dded80f0e23d821821cb308ab0378e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
-<tr class="separator:a99dded80f0e23d821821cb308ab0378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf77c3d03199ce88434f7883609a3e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a9cf77c3d03199ce88434f7883609a3e9">reorderLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, const String &amp;how)</td></tr>
 <tr class="separator:a9cf77c3d03199ce88434f7883609a3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c01dc261524e91875e583b8f297d530"><td class="memItemLeft" align="right" valign="top"><a id="a9c01dc261524e91875e583b8f297d530" name="a9c01dc261524e91875e583b8f297d530"></a>
@@ -300,20 +297,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLayer</b> (<a c
 void&#160;</td><td class="memItemRight" valign="bottom"><b>walkLayers</b> (void(*walker)(<a class="el" href="class_d_d_layer.html">DDLayer</a> *))</td></tr>
 <tr class="memdesc:ad777166bf5236abead9c5e89676f5cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loop through all the existing layers calling the function passed in <br /></td></tr>
 <tr class="separator:ad777166bf5236abead9c5e89676f5cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a494c5947070af98c85d07f1f744cf320"><td class="memItemLeft" align="right" valign="top"><a id="a494c5947070af98c85d07f1f744cf320" name="a494c5947070af98c85d07f1f744cf320"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (int debugLedPin)</td></tr>
-<tr class="memdesc:a494c5947070af98c85d07f1f744cf320"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the pin to flash when DD is sending data, for debugging purpose <br /></td></tr>
-<tr class="separator:a494c5947070af98c85d07f1f744cf320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback</a> (DDIdleCallback idleCallback)</td></tr>
+<tr class="memitem:a460986fc74d0ac16ea512accbebfb2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a460986fc74d0ac16ea512accbebfb2c1">setIdleCallback</a> (<a class="el" href="struct_d_d_idle_callback.html">DDIdleCallback</a> idleCallback)</td></tr>
 <tr class="separator:a460986fc74d0ac16ea512accbebfb2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44cdcb71af2cdacf2cdf796787809e89"><td class="memItemLeft" align="right" valign="top"><a id="a44cdcb71af2cdacf2cdf796787809e89" name="a44cdcb71af2cdacf2cdf796787809e89"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setConnectVersionChangedCalback</b> (DDConnectVersionChangedCallback connectVersionChangedCallback)</td></tr>
-<tr class="memdesc:a44cdcb71af2cdacf2cdf796787809e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">set callback when version changed (e.g. reconnected after disconnect) <br /></td></tr>
-<tr class="separator:a44cdcb71af2cdacf2cdf796787809e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44695aecd6d66e3816403920cc084e0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a44695aecd6d66e3816403920cc084e0d">setConnectVersionChangedCallback</a> (<a class="el" href="struct_d_d_connect_version_changed_callback.html">DDConnectVersionChangedCallback</a> connectVersionChangedCallback)</td></tr>
+<tr class="separator:a44695aecd6d66e3816403920cc084e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d9545be267953b1ee0a78a7f0ced31"><td class="memItemLeft" align="right" valign="top"><a id="a32d9545be267953b1ee0a78a7f0ced31" name="a32d9545be267953b1ee0a78a7f0ced31"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (const String &amp;logLine)</td></tr>
 <tr class="memdesc:a32d9545be267953b1ee0a78a7f0ced31"><td class="mdescLeft">&#160;</td><td class="mdescRight">log line to serial; if it is not safe to output to Serial, will write comment with <a class="el" href="class_dumb_display.html#ab263644dc77a65f87dbc91ad8b791b37" title="write out a comment to DD app">writeComment()</a> instead <br /></td></tr>
 <tr class="separator:a32d9545be267953b1ee0a78a7f0ced31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5d687d2c380faae5c391c743f48c4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8b5d687d2c380faae5c391c743f48c4d">connectPassive</a> (bool *pReconnecting=NULL)</td></tr>
+<tr class="separator:a8b5d687d2c380faae5c391c743f48c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a0b220dd19b521c3da619c03a1f27a3">masterReset</a> ()</td></tr>
+<tr class="separator:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12138b5a37200df06dbfb21c50708d4e"><td class="memItemLeft" align="right" valign="top"><a id="a12138b5a37200df06dbfb21c50708d4e" name="a12138b5a37200df06dbfb21c50708d4e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (<a class="el" href="class_d_d_debug_interface.html">DDDebugInterface</a> *debugInterface)</td></tr>
+<tr class="separator:a12138b5a37200df06dbfb21c50708d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99dded80f0e23d821821cb308ab0378e"><td class="memItemLeft" align="right" valign="top"><a id="a99dded80f0e23d821821cb308ab0378e" name="a99dded80f0e23d821821cb308ab0378e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
+<tr class="separator:a99dded80f0e23d821821cb308ab0378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The core class for <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; everything starts here. The most important argument to <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> is an <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a> object. For an example, please refer to <a href="https://www.instructables.com/Blink-Test-With-Virtual-Display-DumbDisplay/">Blink Test With Virtual Display, DumbDisplay</a> </p>
@@ -568,6 +569,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>connected or not </dd></dl>
+
+</div>
+</div>
+<a id="a8b5d687d2c380faae5c391c743f48c4d" name="a8b5d687d2c380faae5c391c743f48c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5d687d2c380faae5c391c743f48c4d">&#9670;&#160;</a></span>connectPassive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DumbDisplay::connectPassive </td>
+          <td>(</td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>pReconnecting</em> = <code>NULL</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>EXPERIMENTAL; make connection passively; i.e. will not block, but will require continuous calling to for making connection; however, once started hand-shaking, will block until handshake done </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pConnecting</td><td>if not NULL, check if connection lost and is making reconnection </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1062,6 +1087,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 
 </div>
 </div>
+<a id="a8a0b220dd19b521c3da619c03a1f27a3" name="a8a0b220dd19b521c3da619c03a1f27a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0b220dd19b521c3da619c03a1f27a3">&#9670;&#160;</a></span>masterReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::masterReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>EXPERIMENTAL; "master reset" to be just like uninitialized; "master reset" will: . disconnect from DD app (if connected) . delete all created layers and tunnels; hence, DO NOT use the pointers to them after "master reset" . <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> object will be just like at initial state; it will <em>not</em> be deleted </p>
+
+</div>
+</div>
 <a id="aef6162f07bfccc613bbd35e118ca58f8" name="aef6162f07bfccc613bbd35e118ca58f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef6162f07bfccc613bbd35e118ca58f8">&#9670;&#160;</a></span>pinAutoPinLayers()</h2>
 
@@ -1378,6 +1421,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 
 </div>
 </div>
+<a id="a44695aecd6d66e3816403920cc084e0d" name="a44695aecd6d66e3816403920cc084e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44695aecd6d66e3816403920cc084e0d">&#9670;&#160;</a></span>setConnectVersionChangedCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::setConnectVersionChangedCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_connect_version_changed_callback.html">DDConnectVersionChangedCallback</a>&#160;</td>
+          <td class="paramname"><em>connectVersionChangedCallback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set callback when version changed (e.g. reconnected after disconnect) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectVersionChangedCallback</td><td>the callback function; see <a class="el" href="struct_d_d_connect_version_changed_callback.html" title="Type signature for callback function that will be called when connect version (couting up) changed....">DDConnectVersionChangedCallback</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aa77b3e0133025f22004bb7f35e6f54b3" name="aa77b3e0133025f22004bb7f35e6f54b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa77b3e0133025f22004bb7f35e6f54b3">&#9670;&#160;</a></span>setFeedbackSingleClickOnly()</h2>
 
@@ -1406,15 +1473,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
         <tr>
           <td class="memname">void DumbDisplay::setIdleCallback </td>
           <td>(</td>
-          <td class="paramtype">DDIdleCallback&#160;</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_idle_callback.html">DDIdleCallback</a>&#160;</td>
           <td class="paramname"><em>idleCallback</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set 'idle callback', which will be called in 2 situations:</p><ul>
+<p>set 'idle callback', which will be called repeatedly in 2 situations:</p><ul>
 <li>no connection response while connecting</li>
-<li>detected no 'keep alive' signal </li>
+<li>detected no 'keep alive' signal (i.e. reconnecting) <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idleCallback</td><td>the callback function; see <a class="el" href="struct_d_d_idle_callback.html" title="Type signature for callback function that will be called when idle. See DumbDisplay::setIdleCallback(...">DDIdleCallback</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
 </ul>
 
 </div>

@@ -3,9 +3,17 @@ var hierarchy =
     [ "ABCDPressed", "struct_a_b_c_d_pressed.html", null ],
     [ "ButtonPressTracker", "class_button_press_tracker.html", null ],
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
+    [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
+    [ "DDDebugInterface", "class_d_d_debug_interface.html", [
+      [ "ToSerialDDDebugInterface", "class_to_serial_d_d_debug_interface.html", null ]
+    ] ],
     [ "DDFadingLayers< MAX_LAYER_COUNT >", "class_d_d_fading_layers.html", null ],
     [ "DDFeedback", "struct_d_d_feedback.html", null ],
+    [ "DDFeedbackHandler", "struct_d_d_feedback_handler.html", null ],
+    [ "DDFeedbackType", "struct_d_d_feedback_type.html", null ],
+    [ "DDIdleCallback", "struct_d_d_idle_callback.html", null ],
+    [ "DDIdleConnectionState", "struct_d_d_idle_connection_state.html", null ],
     [ "DDInputOutput", "class_d_d_input_output.html", [
       [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
       [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],

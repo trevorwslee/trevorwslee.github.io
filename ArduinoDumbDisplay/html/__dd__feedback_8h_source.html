@@ -105,34 +105,34 @@ $(document).ready(function(){initNavTree('__dd__feedback_8h_source.html',''); in
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define DD_FEEDBACK_BUFFER_SIZE 4</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">enum</span> DDFeedbackType { CLICK, LONGPRESS, DOUBLECLICK, MOVE };  <span class="comment">// DOUBLECLICK needs special option for DumbDisplay</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a> {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">   12</a></span>  DDFeedbackType <a class="code hl_variable" href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">type</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">   14</a></span>  int16_t <a class="code hl_variable" href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">x</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">   16</a></span>  int16_t <a class="code hl_variable" href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">y</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">   18</a></span>  String <a class="code hl_variable" href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">text</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span>DDFeedbackManager {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keyword">public</span>: </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    DDFeedbackManager(int8_t bufferSize);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> <a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a>* getFeedback();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> pushFeedback(DDFeedbackType type, int16_t x, int16_t y, <span class="keyword">const</span> <span class="keywordtype">char</span>* pText);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a> feedbackArray[DD_FEEDBACK_BUFFER_SIZE];</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    int8_t nextArrayIdx;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    int8_t validArrayIdx;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="astruct_d_d_feedback_html"><div class="ttname"><a href="struct_d_d_feedback.html">DDFeedback</a></div><div class="ttdoc">The struct that captures info about &quot;feedback&quot;. See DDLayer::enableFeedback()</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:10</div></div>
-<div class="ttc" id="astruct_d_d_feedback_html_a325a37e9a3368fc568b93adaf08f60f4"><div class="ttname"><a href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">DDFeedback::text</a></div><div class="ttdeci">String text</div><div class="ttdoc">text input (if any)</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:18</div></div>
-<div class="ttc" id="astruct_d_d_feedback_html_a4d99e4a34f3f5be4d158fff5250cedec"><div class="ttname"><a href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">DDFeedback::x</a></div><div class="ttdeci">int16_t x</div><div class="ttdoc">x of the &quot;area&quot; on the layer where was clicked</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:14</div></div>
-<div class="ttc" id="astruct_d_d_feedback_html_a5b2fb3a720e468eca97df67f02fe3c7d"><div class="ttname"><a href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">DDFeedback::y</a></div><div class="ttdeci">int16_t y</div><div class="ttdoc">y of the &quot;area&quot; on the layer where was clicked</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:16</div></div>
-<div class="ttc" id="astruct_d_d_feedback_html_ad83f09e4374c00f8c66475a593cc2538"><div class="ttname"><a href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">DDFeedback::type</a></div><div class="ttdeci">DDFeedbackType type</div><div class="ttdoc">type of the &quot;feedback&quot;</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:12</div></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">enum</span> <a class="code hl_struct" href="struct_d_d_feedback_type.html">DDFeedbackType</a> { CLICK, LONGPRESS, DOUBLECLICK, MOVE };  <span class="comment">// DOUBLECLICK needs special option for DumbDisplay</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">   16</a></span>  <a class="code hl_struct" href="struct_d_d_feedback_type.html">DDFeedbackType</a> <a class="code hl_variable" href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">type</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">   18</a></span>  int16_t <a class="code hl_variable" href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">x</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">   20</a></span>  int16_t <a class="code hl_variable" href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">y</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">   22</a></span>  String <a class="code hl_variable" href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">text</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">class </span>DDFeedbackManager {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">public</span>: </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    DDFeedbackManager(int8_t bufferSize);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">const</span> <a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a>* getFeedback();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> pushFeedback(<a class="code hl_struct" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type, int16_t x, int16_t y, <span class="keyword">const</span> <span class="keywordtype">char</span>* pText);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_struct" href="struct_d_d_feedback.html">DDFeedback</a> feedbackArray[DD_FEEDBACK_BUFFER_SIZE];</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    int8_t nextArrayIdx;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    int8_t validArrayIdx;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astruct_d_d_feedback_html"><div class="ttname"><a href="struct_d_d_feedback.html">DDFeedback</a></div><div class="ttdoc">The struct that captures info about &quot;feedback&quot;. See DDLayer::enableFeedback()</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:14</div></div>
+<div class="ttc" id="astruct_d_d_feedback_html_a325a37e9a3368fc568b93adaf08f60f4"><div class="ttname"><a href="struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4">DDFeedback::text</a></div><div class="ttdeci">String text</div><div class="ttdoc">text input (if any)</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:22</div></div>
+<div class="ttc" id="astruct_d_d_feedback_html_a4d99e4a34f3f5be4d158fff5250cedec"><div class="ttname"><a href="struct_d_d_feedback.html#a4d99e4a34f3f5be4d158fff5250cedec">DDFeedback::x</a></div><div class="ttdeci">int16_t x</div><div class="ttdoc">x of the &quot;area&quot; on the layer where was clicked</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:18</div></div>
+<div class="ttc" id="astruct_d_d_feedback_html_a5b2fb3a720e468eca97df67f02fe3c7d"><div class="ttname"><a href="struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d">DDFeedback::y</a></div><div class="ttdeci">int16_t y</div><div class="ttdoc">y of the &quot;area&quot; on the layer where was clicked</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:20</div></div>
+<div class="ttc" id="astruct_d_d_feedback_html_ad83f09e4374c00f8c66475a593cc2538"><div class="ttname"><a href="struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538">DDFeedback::type</a></div><div class="ttdeci">DDFeedbackType type</div><div class="ttdoc">type of the &quot;feedback&quot;</div><div class="ttdef"><b>Definition:</b> _dd_feedback.h:16</div></div>
+<div class="ttc" id="astruct_d_d_feedback_type_html"><div class="ttname"><a href="struct_d_d_feedback_type.html">DDFeedbackType</a></div><div class="ttdoc">The enum indicating the type of &quot;feedback&quot;. See DDFeedback.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

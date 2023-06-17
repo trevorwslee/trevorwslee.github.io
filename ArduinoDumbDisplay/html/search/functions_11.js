@@ -14,7 +14,7 @@ var searchData=
   ['sendsoundchunk16_11',['sendSoundChunk16',['../class_dumb_display.html#aeea00dec31466e29e5518279f080d9f7',1,'DumbDisplay']]],
   ['sendsoundchunk8_12',['sendSoundChunk8',['../class_dumb_display.html#aece7c06ff1a76e830f70e9f02658c003',1,'DumbDisplay']]],
   ['set_13',['set',['../class_d_d_value_store.html#aef5d84b044d8f92fe80c2311d4a52c23',1,'DDValueStore']]],
-  ['setconnectversionchangedcalback_14',['setConnectVersionChangedCalback',['../class_dumb_display.html#a44cdcb71af2cdacf2cdf796787809e89',1,'DumbDisplay']]],
+  ['setconnectversionchangedcallback_14',['setConnectVersionChangedCallback',['../class_dumb_display.html#a44695aecd6d66e3816403920cc084e0d',1,'DumbDisplay']]],
   ['setcursor_15',['setCursor',['../class_lcd_d_d_layer.html#a3c681346860f394b92df0cb9ed45ee23',1,'LcdDDLayer::setCursor()'],['../class_graphical_d_d_layer.html#a73456b83227d85c3fd8b29f371ec1eb6',1,'GraphicalDDLayer::setCursor()']]],
   ['setfeedbackhandler_16',['setFeedbackHandler',['../class_d_d_layer.html#ad30bb2016420eb32eeee22408ea8a46c',1,'DDLayer']]],
   ['setfeedbacksingleclickonly_17',['setFeedbackSingleClickOnly',['../class_dumb_display.html#aa77b3e0133025f22004bb7f35e6f54b3',1,'DumbDisplay']]],
