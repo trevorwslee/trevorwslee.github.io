@@ -125,10 +125,10 @@ Inheritance diagram for DDBufferedTunnel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af11ffd6a0d68d3a993d2eed13f0835da"><td class="memItemLeft" align="right" valign="top"><a id="af11ffd6a0d68d3a993d2eed13f0835da" name="af11ffd6a0d68d3a993d2eed13f0835da"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DDBufferedTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow, int8_t bufferSize)</td></tr>
-<tr class="memdesc:af11ffd6a0d68d3a993d2eed13f0835da"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
-<tr class="separator:af11ffd6a0d68d3a993d2eed13f0835da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceeacfb5cc40570a0b89bd8abb95984c"><td class="memItemLeft" align="right" valign="top"><a id="aceeacfb5cc40570a0b89bd8abb95984c" name="aceeacfb5cc40570a0b89bd8abb95984c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DDBufferedTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, int8_t bufferSize)</td></tr>
+<tr class="memdesc:aceeacfb5cc40570a0b89bd8abb95984c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
+<tr class="separator:aceeacfb5cc40570a0b89bd8abb95984c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ed2ce41d84e39d6a5130063b6e619ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_buffered_tunnel.html#a2ed2ce41d84e39d6a5130063b6e619ea">release</a> ()</td></tr>
 <tr class="separator:a2ed2ce41d84e39d6a5130063b6e619ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1539f84c73953397d445cc35834c279"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_buffered_tunnel.html#ae1539f84c73953397d445cc35834c279">reconnect</a> ()</td></tr>
@@ -160,10 +160,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (String &amp
 <tr class="memdesc:a4514ee11a4131efa23364916e4221a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">read a piece of JSON data <br /></td></tr>
 <tr class="separator:a4514ee11a4131efa23364916e4221a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d_d_tunnel"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d_d_tunnel')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d_d_tunnel.html">DDTunnel</a></td></tr>
-<tr class="memitem:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a368f0c648542a20acc5d96ae39b4877c" name="a368f0c648542a20acc5d96ae39b4877c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DDTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint, bool connectNow)</td></tr>
-<tr class="memdesc:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
-<tr class="separator:a368f0c648542a20acc5d96ae39b4877c inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d06bce0a14451a815b3ceb0d52a6b7e inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a5d06bce0a14451a815b3ceb0d52a6b7e" name="a5d06bce0a14451a815b3ceb0d52a6b7e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DDTunnel</b> (const String &amp;type, int8_t tunnelId, const String &amp;params, const String &amp;endPoint)</td></tr>
+<tr class="memdesc:a5d06bce0a14451a815b3ceb0d52a6b7e inherit pub_methods_class_d_d_tunnel"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
+<tr class="separator:a5d06bce0a14451a815b3ceb0d52a6b7e inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ff57cd3c0a9ac32717a25c404a39eb inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="ad6ff57cd3c0a9ac32717a25c404a39eb" name="ad6ff57cd3c0a9ac32717a25c404a39eb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>afterConstruct</b> (bool connectNow)</td></tr>
+<tr class="separator:ad6ff57cd3c0a9ac32717a25c404a39eb inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a254036c176f445c2802708a544cda592 inherit pub_methods_class_d_d_tunnel"><td class="memItemLeft" align="right" valign="top"><a id="a254036c176f445c2802708a544cda592" name="a254036c176f445c2802708a544cda592"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>release</b> ()</td></tr>
 <tr class="separator:a254036c176f445c2802708a544cda592 inherit pub_methods_class_d_d_tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -9,6 +9,7 @@ var annotated_dup =
     [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
     [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],
     [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html", "class_d_d_buffered_tunnel" ],
+    [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", "struct_d_d_connect_passive_status" ],
     [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", "class_d_d_connect_version_tracker" ],
     [ "DDDebugInterface", "class_d_d_debug_interface.html", null ],

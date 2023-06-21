@@ -3,6 +3,7 @@ var hierarchy =
     [ "ABCDPressed", "struct_a_b_c_d_pressed.html", null ],
     [ "ButtonPressTracker", "class_button_press_tracker.html", null ],
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
+    [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", null ],
     [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
     [ "DDDebugInterface", "class_d_d_debug_interface.html", [

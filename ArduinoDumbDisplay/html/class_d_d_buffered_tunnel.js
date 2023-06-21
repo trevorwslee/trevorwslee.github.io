@@ -1,6 +1,6 @@
 var class_d_d_buffered_tunnel =
 [
-    [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html#af11ffd6a0d68d3a993d2eed13f0835da", null ],
+    [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html#aceeacfb5cc40570a0b89bd8abb95984c", null ],
     [ "count", "class_d_d_buffered_tunnel.html#af5bc57f4245af4ce98d5dd807568a8b5", null ],
     [ "eof", "class_d_d_buffered_tunnel.html#a59c6b2c51198a1309557becce6642127", null ],
     [ "handleInput", "class_d_d_buffered_tunnel.html#a4cf168a03c66177f93bd6d7031585da8", null ],

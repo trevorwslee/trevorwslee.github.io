@@ -1,9 +1,9 @@
 var searchData=
 [
   ['ddautopinconfig_0',['DDAutoPinConfig',['../class_d_d_auto_pin_config.html#a992f079d05a7c9a6aae345a04acd15ce',1,'DDAutoPinConfig']]],
-  ['ddbufferedtunnel_1',['DDBufferedTunnel',['../class_d_d_buffered_tunnel.html#af11ffd6a0d68d3a993d2eed13f0835da',1,'DDBufferedTunnel']]],
+  ['ddbufferedtunnel_1',['DDBufferedTunnel',['../class_d_d_buffered_tunnel.html#aceeacfb5cc40570a0b89bd8abb95984c',1,'DDBufferedTunnel']]],
   ['ddconnectversiontracker_2',['DDConnectVersionTracker',['../class_d_d_connect_version_tracker.html#aac0cbb179fc6eba49d95ad26f7509cbb',1,'DDConnectVersionTracker']]],
-  ['ddtunnel_3',['DDTunnel',['../class_d_d_tunnel.html#a368f0c648542a20acc5d96ae39b4877c',1,'DDTunnel']]],
+  ['ddtunnel_3',['DDTunnel',['../class_d_d_tunnel.html#a5d06bce0a14451a815b3ceb0d52a6b7e',1,'DDTunnel']]],
   ['ddvaluerecord_4',['DDValueRecord',['../class_d_d_value_record.html#abae9a34b630ec4fe817625d5446d0d70',1,'DDValueRecord::DDValueRecord(T value)'],['../class_d_d_value_record.html#a0f5a939d17e00c96a5ab9faaf1f57e18',1,'DDValueRecord::DDValueRecord(T value, T knownValue)']]],
   ['deletelayer_5',['deleteLayer',['../class_dumb_display.html#a9c01dc261524e91875e583b8f297d530',1,'DumbDisplay']]],
   ['deletetunnel_6',['deleteTunnel',['../class_dumb_display.html#a7759c27bea25dd216cb142ad06a68e05',1,'DumbDisplay']]],

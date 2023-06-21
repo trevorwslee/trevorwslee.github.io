@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ArduinoDumbDisplay: Class Members</title>
+<title>ArduinoDumbDisplay: DDPassiveConnectStatus Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_r.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('struct_d_d_passive_connect_status.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -96,34 +96,23 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </div>
 </div>
 
+<div class="header">
+  <div class="headertitle"><div class="title">DDPassiveConnectStatus Struct Reference</div></div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
-<h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
-<li>read()&#160;:&#160;<a class="el" href="class_d_d_buffered_tunnel.html#a4514ee11a4131efa23364916e4221a6f">DDBufferedTunnel</a>, <a class="el" href="class_json_d_d_tunnel_multiplexer.html#a72790c148549ad95748712748d4ae75d">JsonDDTunnelMultiplexer</a></li>
-<li>readLine()&#160;:&#160;<a class="el" href="class_d_d_buffered_tunnel.html#aca332c5f70b338e6d19309fb3a3dfa07">DDBufferedTunnel</a></li>
-<li>reconnectForLocation()&#160;:&#160;<a class="el" href="class_gps_service_d_d_tunnel.html#af3e13f9cbf941ff0abd3db45670d6456">GpsServiceDDTunnel</a></li>
-<li>reconnecting&#160;:&#160;<a class="el" href="struct_d_d_connect_passive_status.html#a4728f3679392c6b755fba5bd08258f81">DDConnectPassiveStatus</a></li>
-<li>reconnectToEndpoint()&#160;:&#160;<a class="el" href="class_d_d_tunnel.html#a41f4fa68494089e26687ebb3fd872641">DDTunnel</a></li>
-<li>reconnectToSetParams()&#160;:&#160;<a class="el" href="class_d_d_tunnel.html#a5233ddbdb27c7b315005456596152245">DDTunnel</a></li>
-<li>record()&#160;:&#160;<a class="el" href="class_d_d_value_record.html#a667a4f7662ad662ecaf34c4836084d31">DDValueRecord&lt; T &gt;</a></li>
-<li>recordLayerCommands()&#160;:&#160;<a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">DumbDisplay</a></li>
-<li>recordLayerSetupCommands()&#160;:&#160;<a class="el" href="class_dumb_display.html#a8adca053da4dfa85326381b77962a66a">DumbDisplay</a></li>
-<li>rectangle()&#160;:&#160;<a class="el" href="class_graphical_d_d_layer.html#aee958843fe4cee5d76f2a280ce1ffdda">GraphicalDDLayer</a>, <a class="el" href="class_turtle_d_d_layer.html#af671e427b52c8845525da9534552a357">TurtleDDLayer</a></li>
-<li>reorderLayer()&#160;:&#160;<a class="el" href="class_dumb_display.html#a9cf77c3d03199ce88434f7883609a3e9">DumbDisplay</a></li>
-<li>resetEndpoint()&#160;:&#160;<a class="el" href="class_d_d_tunnel_endpoint.html#ae65148a4a14d5e051def7724438a4947">DDTunnelEndpoint</a></li>
-<li>resetHeaders()&#160;:&#160;<a class="el" href="class_d_d_tunnel_endpoint.html#a4b646c88664ce4b0c7c5d117e4257f78">DDTunnelEndpoint</a></li>
-<li>resetParams()&#160;:&#160;<a class="el" href="class_d_d_tunnel_endpoint.html#a2f565d430c29e405c15acb5cda250f86">DDTunnelEndpoint</a></li>
-<li>resetSegmentOffColor()&#160;:&#160;<a class="el" href="class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1">SevenSegmentRowDDLayer</a></li>
-<li>resetSegmentOffNoColor()&#160;:&#160;<a class="el" href="class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4">SevenSegmentRowDDLayer</a></li>
-<li>resetSoundAttachment()&#160;:&#160;<a class="el" href="class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da">DDTunnelEndpoint</a></li>
-<li>rightTurn()&#160;:&#160;<a class="el" href="class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab">GraphicalDDLayer</a>, <a class="el" href="class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1">TurtleDDLayer</a></li>
-</ul>
-</div><!-- contents -->
+<p>Struct for the status values of calling <a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4" title="make connection passively; i.e. will not block, but will require continuous calling for making connec...">DumbDisplay::connectPassive()</a>  
+ <a href="struct_d_d_passive_connect_status.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struct for the status values of calling <a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4" title="make connection passively; i.e. will not block, but will require continuous calling for making connec...">DumbDisplay::connectPassive()</a> </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="struct_d_d_passive_connect_status.html">DDPassiveConnectStatus</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

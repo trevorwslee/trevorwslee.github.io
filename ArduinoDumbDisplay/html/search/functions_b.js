@@ -7,5 +7,5 @@ var searchData=
   ['loadimagefile_4',['loadImageFile',['../class_graphical_d_d_layer.html#a2cad3e85d630935cef72c6346c9aabf3',1,'GraphicalDDLayer']]],
   ['loadimagefilecropped_5',['loadImageFileCropped',['../class_graphical_d_d_layer.html#af2dd5af3b6719751bec6d67c5e0216f5',1,'GraphicalDDLayer']]],
   ['loadlayercommands_6',['loadLayerCommands',['../class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5',1,'DumbDisplay']]],
-  ['logtoserial_7',['logToSerial',['../class_dumb_display.html#a32d9545be267953b1ee0a78a7f0ced31',1,'DumbDisplay']]]
+  ['logtoserial_7',['logToSerial',['../class_dumb_display.html#acc8902381afdd76a77b0f9582acc6ee8',1,'DumbDisplay']]]
 ];

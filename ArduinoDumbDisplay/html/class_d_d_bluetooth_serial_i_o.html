@@ -139,6 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae9fff2afb87e9328542749f7f9f7abd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ce6e30e4ebfccf2aab7750214901c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a46ce6e30e4ebfccf2aab7750214901c0">flush</a> ()</td></tr>
 <tr class="separator:a46ce6e30e4ebfccf2aab7750214901c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05441749937ce91255f64b3cac57c802"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a05441749937ce91255f64b3cac57c802">canConnectPassive</a> ()</td></tr>
+<tr class="separator:a05441749937ce91255f64b3cac57c802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c34652f0039862a4cf22682cb2800d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a95c34652f0039862a4cf22682cb2800d">canUseBuffer</a> ()</td></tr>
 <tr class="separator:a95c34652f0039862a4cf22682cb2800d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d_d_input_output"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d_d_input_output')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a></td></tr>
@@ -178,12 +180,18 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>validConnecti
 <tr class="memitem:ab8ad4e52b01f3d7d654eabd808b6d030 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ab8ad4e52b01f3d7d654eabd808b6d030" name="ab8ad4e52b01f3d7d654eabd808b6d030"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>preConnect</b> (bool firstCall)</td></tr>
 <tr class="separator:ab8ad4e52b01f3d7d654eabd808b6d030 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a67c1141919533ebc4449ebf475675 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a08a67c1141919533ebc4449ebf475675" name="a08a67c1141919533ebc4449ebf475675"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canConnectPassive</b> ()</td></tr>
+<tr class="separator:a08a67c1141919533ebc4449ebf475675 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b291ea1f2c31c5c95d40808de202101 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a6b291ea1f2c31c5c95d40808de202101" name="a6b291ea1f2c31c5c95d40808de202101"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canUseBuffer</b> ()</td></tr>
 <tr class="separator:a6b291ea1f2c31c5c95d40808de202101 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5d75542cb31d49290577551575530fa inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ab5d75542cb31d49290577551575530fa" name="ab5d75542cb31d49290577551575530fa"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSerial</b> ()</td></tr>
 <tr class="separator:ab5d75542cb31d49290577551575530fa inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00766b8c81b53d465c33b73b7d53f4f5 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a00766b8c81b53d465c33b73b7d53f4f5" name="a00766b8c81b53d465c33b73b7d53f4f5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isForSerial</b> ()</td></tr>
+<tr class="separator:a00766b8c81b53d465c33b73b7d53f4f5 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c346adf4cbfdb13618225a1e483f612 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a5c346adf4cbfdb13618225a1e483f612" name="a5c346adf4cbfdb13618225a1e483f612"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isBackupBySerial</b> ()</td></tr>
 <tr class="separator:a5c346adf4cbfdb13618225a1e483f612 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +227,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
       <table class="memname">
         <tr>
           <td class="memname">bool DDBluetoothSerialIO::available </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a>.</p>
+
+</div>
+</div>
+<a id="a05441749937ce91255f64b3cac57c802" name="a05441749937ce91255f64b3cac57c802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05441749937ce91255f64b3cac57c802">&#9670;&#160;</a></span>canConnectPassive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DDBluetoothSerialIO::canConnectPassive </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
