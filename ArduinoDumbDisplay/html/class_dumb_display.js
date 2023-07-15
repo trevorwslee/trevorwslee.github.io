@@ -31,6 +31,7 @@ var class_dumb_display =
     [ "createTerminalLayer", "class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d", null ],
     [ "createTomTomMapLayer", "class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc", null ],
     [ "createTurtleLayer", "class_dumb_display.html#a3d421f31c094624e8709fecc3badee04", null ],
+    [ "debugSetup", "class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e", null ],
     [ "deleteLayer", "class_dumb_display.html#a9c01dc261524e91875e583b8f297d530", null ],
     [ "deleteTunnel", "class_dumb_display.html#a7759c27bea25dd216cb142ad06a68e05", null ],
     [ "getCompatibilityVersion", "class_dumb_display.html#ab02a79c926114dd14147b6765b1d864f", null ],

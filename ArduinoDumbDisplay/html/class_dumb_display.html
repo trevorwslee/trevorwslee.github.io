@@ -318,8 +318,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (cons
 <tr class="separator:a4028834fea73745fe1be119c0ff74aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a0b220dd19b521c3da619c03a1f27a3">masterReset</a> ()</td></tr>
 <tr class="separator:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12138b5a37200df06dbfb21c50708d4e"><td class="memItemLeft" align="right" valign="top"><a id="a12138b5a37200df06dbfb21c50708d4e" name="a12138b5a37200df06dbfb21c50708d4e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>debugSetup</b> (<a class="el" href="class_d_d_debug_interface.html">DDDebugInterface</a> *debugInterface)</td></tr>
+<tr class="memitem:a12138b5a37200df06dbfb21c50708d4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e">debugSetup</a> (<a class="el" href="class_d_d_debug_interface.html">DDDebugInterface</a> *debugInterface)</td></tr>
 <tr class="separator:a12138b5a37200df06dbfb21c50708d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dded80f0e23d821821cb308ab0378e"><td class="memItemLeft" align="right" valign="top"><a id="a99dded80f0e23d821821cb308ab0378e" name="a99dded80f0e23d821821cb308ab0378e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)</td></tr>
@@ -1033,6 +1032,31 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
+<a id="a12138b5a37200df06dbfb21c50708d4e" name="a12138b5a37200df06dbfb21c50708d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12138b5a37200df06dbfb21c50708d4e">&#9670;&#160;</a></span>debugSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::debugSetup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_d_debug_interface.html">DDDebugInterface</a> *&#160;</td>
+          <td class="paramname"><em>debugInterface</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set debug use callback </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">debugInterface</td><td>a concrete implementation of <a class="el" href="class_d_d_debug_interface.html" title="Base class for debug callback set by calling DumbDisplay::debugSetup()">DDDebugInterface</a> <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ab02a79c926114dd14147b6765b1d864f" name="ab02a79c926114dd14147b6765b1d864f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab02a79c926114dd14147b6765b1d864f">&#9670;&#160;</a></span>getCompatibilityVersion()</h2>
 
@@ -1066,7 +1090,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>the version of the connection, which when reconnected will be bumped up </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the version of the connection, which when reconnected will be bumped up; note that if not connected, version will be 0 </dd></dl>
 
 </div>
 </div>

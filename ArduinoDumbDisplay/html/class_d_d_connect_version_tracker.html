@@ -104,9 +104,6 @@ $(document).ready(function(){initNavTree('class_d_d_connect_version_tracker.html
 </div><!--header-->
 <div class="contents">
 
-<p>Helper class for tracking connection "version" change, say, when reconnected afte disconnect.  
- <a href="class_d_d_connect_version_tracker.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -118,7 +115,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkChanged</b> (<a 
 <tr class="separator:ab3ed9bc7a8bd8f4bfbce4a637b3910cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class for tracking connection "version" change, say, when reconnected afte disconnect. </p>
+<div class="textblock"><p>Helper class for tracking connection "version" change.</p><ul>
+<li>initial connection will have version 1</li>
+<li>when reconnected (after disconnect) version will be incremented every such event </li>
+</ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aac0cbb179fc6eba49d95ad26f7509cbb" name="aac0cbb179fc6eba49d95ad26f7509cbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac0cbb179fc6eba49d95ad26f7509cbb">&#9670;&#160;</a></span>DDConnectVersionTracker()</h2>
@@ -145,7 +145,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkChanged</b> (<a 
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">version</td><td>version number to start with; -1 so that it will be considered a version change even when fresh start </td></tr>
+    <tr><td class="paramname">version</td><td>start-off version number; 0 so that it will be considered a version change even when first start, 1 if only want to detect re-connect </td></tr>
   </table>
   </dd>
 </dl>

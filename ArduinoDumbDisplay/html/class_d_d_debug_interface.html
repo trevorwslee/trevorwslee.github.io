@@ -103,22 +103,103 @@ $(document).ready(function(){initNavTree('class_d_d_debug_interface.html',''); i
   <div class="headertitle"><div class="title">DDDebugInterface Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for debug callback set by calling <a class="el" href="class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e">DumbDisplay::debugSetup()</a>  
+ <a href="class_d_d_debug_interface.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DDDebugInterface:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_d_d_debug_interface.png" usemap="#DDDebugInterface_map" alt=""/>
   <map id="DDDebugInterface_map" name="DDDebugInterface_map">
-<area href="class_to_serial_d_d_debug_interface.html" alt="ToSerialDDDebugInterface" shape="rect" coords="0,56,164,80"/>
+<area href="class_composit_d_d_debug_intreface.html" alt="CompositDDDebugIntreface" shape="rect" coords="0,56,168,80"/>
+<area href="class_led_d_d_debug_interface.html" alt="LedDDDebugInterface" shape="rect" coords="178,56,346,80"/>
+<area href="class_oled_d_d_debug_interface.html" alt="OledDDDebugInterface" shape="rect" coords="356,56,524,80"/>
+<area href="class_tft_d_d_debug_interface.html" alt="TftDDDebugInterface" shape="rect" coords="534,56,702,80"/>
+<area href="class_to_serial_d_d_debug_interface.html" alt="ToSerialDDDebugInterface" shape="rect" coords="712,56,880,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aceb994cd8f63918ad3af71469640e825"><td class="memItemLeft" align="right" valign="top"><a id="aceb994cd8f63918ad3af71469640e825" name="aceb994cd8f63918ad3af71469640e825"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>logConnectionState</b> (DDDebugConnectionState connectionState)</td></tr>
+<tr class="memitem:aceb994cd8f63918ad3af71469640e825"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_debug_interface.html#aceb994cd8f63918ad3af71469640e825">logConnectionState</a> (<a class="el" href="struct_d_d_debug_connection_state.html">DDDebugConnectionState</a> connectionState)</td></tr>
+<tr class="memdesc:aceb994cd8f63918ad3af71469640e825"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="struct_d_d_debug_connection_state.html" title="See DDDebugInterface.">DDDebugConnectionState</a>.  <br /></td></tr>
 <tr class="separator:aceb994cd8f63918ad3af71469640e825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8aedfa326403d2c382ebae4a5952d6b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_debug_interface.html#ae8aedfa326403d2c382ebae4a5952d6b">logSendCommand</a> (int state)</td></tr>
+<tr class="separator:ae8aedfa326403d2c382ebae4a5952d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5ca7c7eb4d2982309f1f03f72c6f2d"><td class="memItemLeft" align="right" valign="top"><a id="a0e5ca7c7eb4d2982309f1f03f72c6f2d" name="a0e5ca7c7eb4d2982309f1f03f72c6f2d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>logError</b> (const String &amp;errMsg)</td></tr>
+<tr class="separator:a0e5ca7c7eb4d2982309f1f03f72c6f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for debug callback set by calling <a class="el" href="class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e">DumbDisplay::debugSetup()</a> </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aceb994cd8f63918ad3af71469640e825" name="aceb994cd8f63918ad3af71469640e825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb994cd8f63918ad3af71469640e825">&#9670;&#160;</a></span>logConnectionState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void DDDebugInterface::logConnectionState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_debug_connection_state.html">DDDebugConnectionState</a>&#160;</td>
+          <td class="paramname"><em>connectionState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>See <a class="el" href="struct_d_d_debug_connection_state.html" title="See DDDebugInterface.">DDDebugConnectionState</a>. </p>
+
+<p>Reimplemented in <a class="el" href="class_to_serial_d_d_debug_interface.html#a3f20855da08da4059809d48bfa57aa27">ToSerialDDDebugInterface</a>, <a class="el" href="class_composit_d_d_debug_intreface.html#a59e65457b0a52092c5b9d0d6e7e3cfa1">CompositDDDebugIntreface</a>, <a class="el" href="class_oled_d_d_debug_interface.html#adb92162b014e877cd791526ac521e280">OledDDDebugInterface</a>, and <a class="el" href="class_tft_d_d_debug_interface.html#a442a477d64f5d9eefdd13177025f8ace">TftDDDebugInterface</a>.</p>
+
+</div>
+</div>
+<a id="ae8aedfa326403d2c382ebae4a5952d6b" name="ae8aedfa326403d2c382ebae4a5952d6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8aedfa326403d2c382ebae4a5952d6b">&#9670;&#160;</a></span>logSendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void DDDebugInterface::logSendCommand </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>1: start sending; 0: stop sending </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_led_d_d_debug_interface.html#ab125276020574c449a8313e3ec355225">LedDDDebugInterface</a>, <a class="el" href="class_composit_d_d_debug_intreface.html#a36d790d0ac367bdc0c58b5e286751432">CompositDDDebugIntreface</a>, <a class="el" href="class_oled_d_d_debug_interface.html#ab46643c8d4569fd9803a3008b3ab0784">OledDDDebugInterface</a>, and <a class="el" href="class_tft_d_d_debug_interface.html#a8ba13fc0218da62ad0978fb5846f4812">TftDDDebugInterface</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

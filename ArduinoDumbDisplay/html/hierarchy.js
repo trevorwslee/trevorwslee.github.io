@@ -6,7 +6,12 @@ var hierarchy =
     [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", null ],
     [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
+    [ "DDDebugConnectionState", "struct_d_d_debug_connection_state.html", null ],
     [ "DDDebugInterface", "class_d_d_debug_interface.html", [
+      [ "CompositDDDebugIntreface", "class_composit_d_d_debug_intreface.html", null ],
+      [ "LedDDDebugInterface", "class_led_d_d_debug_interface.html", null ],
+      [ "OledDDDebugInterface", "class_oled_d_d_debug_interface.html", null ],
+      [ "TftDDDebugInterface", "class_tft_d_d_debug_interface.html", null ],
       [ "ToSerialDDDebugInterface", "class_to_serial_d_d_debug_interface.html", null ]
     ] ],
     [ "DDFadingLayers< MAX_LAYER_COUNT >", "class_d_d_fading_layers.html", null ],
