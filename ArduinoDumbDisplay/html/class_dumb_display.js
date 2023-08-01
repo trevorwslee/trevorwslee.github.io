@@ -37,6 +37,7 @@ var class_dumb_display =
     [ "getCompatibilityVersion", "class_dumb_display.html#ab02a79c926114dd14147b6765b1d864f", null ],
     [ "getConnectVersion", "class_dumb_display.html#a0a2da2242a88df8b81eae09fd54cad45", null ],
     [ "loadLayerCommands", "class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5", null ],
+    [ "log", "class_dumb_display.html#a7d5e115fb5a202ef6af041969bdc2c8c", null ],
     [ "logToSerial", "class_dumb_display.html#acc8902381afdd76a77b0f9582acc6ee8", null ],
     [ "masterReset", "class_dumb_display.html#a8a0b220dd19b521c3da619c03a1f27a3", null ],
     [ "pinAutoPinLayers", "class_dumb_display.html#aef6162f07bfccc613bbd35e118ca58f8", null ],

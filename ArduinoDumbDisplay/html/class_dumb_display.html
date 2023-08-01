@@ -313,6 +313,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>canPrintToSerial</b> 
 void&#160;</td><td class="memItemRight" valign="bottom"><b>logToSerial</b> (const String &amp;logLine, bool force=false)</td></tr>
 <tr class="memdesc:acc8902381afdd76a77b0f9582acc6ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">log line to Serial; if it is not safe to output to Serial, will write comment with <a class="el" href="class_dumb_display.html#ab263644dc77a65f87dbc91ad8b791b37" title="write out a comment to DD app">DumbDisplay::writeComment()</a> instead <br /></td></tr>
 <tr class="separator:acc8902381afdd76a77b0f9582acc6ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5e115fb5a202ef6af041969bdc2c8c"><td class="memItemLeft" align="right" valign="top"><a id="a7d5e115fb5a202ef6af041969bdc2c8c" name="a7d5e115fb5a202ef6af041969bdc2c8c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>log</b> (const String &amp;logLine, boolean isError=false)</td></tr>
+<tr class="memdesc:a7d5e115fb5a202ef6af041969bdc2c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">like to Serial (if safe to do so); and if connected, will log as comment to DD as well <br  />
+ <br /></td></tr>
+<tr class="separator:a7d5e115fb5a202ef6af041969bdc2c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4028834fea73745fe1be119c0ff74aa4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">connectPassive</a> (<a class="el" href="struct_d_d_connect_passive_status.html">DDConnectPassiveStatus</a> *pStatus=NULL)</td></tr>
 <tr class="memdesc:a4028834fea73745fe1be119c0ff74aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">make connection passively; i.e. will not block, but will require continuous calling for making connection  <br /></td></tr>
 <tr class="separator:a4028834fea73745fe1be119c0ff74aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>

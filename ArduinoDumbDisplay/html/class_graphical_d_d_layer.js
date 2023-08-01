@@ -11,7 +11,7 @@ var class_graphical_d_d_layer =
     [ "drawArc", "class_graphical_d_d_layer.html#ae3adc7cebc84bd132e14f00eae37b219", null ],
     [ "drawChar", "class_graphical_d_d_layer.html#a974bf95d14b0b5ad493e5d6ec8ea4e4c", null ],
     [ "drawCircle", "class_graphical_d_d_layer.html#a0dd04bfef369473a3898d24682ee5ec7", null ],
-    [ "drawImageFile", "class_graphical_d_d_layer.html#a1cf2c35e10cec69687a7b5dbc6be7f63", null ],
+    [ "drawImageFile", "class_graphical_d_d_layer.html#ae0d09a7bba06644147ea468b148ed6d2", null ],
     [ "drawImageFileFit", "class_graphical_d_d_layer.html#a4eef3e19d4b186e2bc65932c50de51ef", null ],
     [ "drawLine", "class_graphical_d_d_layer.html#ad4f439fb5d2d22a0a863c7694cbc623f", null ],
     [ "drawOval", "class_graphical_d_d_layer.html#a630db633045b13da1b6a18ecc0cbf6af", null ],
