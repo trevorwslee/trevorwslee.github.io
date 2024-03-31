@@ -178,8 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aff291b56128cb372c5045afd634b530f">createGpsServiceTunnel</a> ()</td></tr>
 <tr class="separator:aff291b56128cb372c5045afd634b530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5095ba15b92341fe4c7df5bc75e95203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a5095ba15b92341fe4c7df5bc75e95203">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0)</td></tr>
-<tr class="separator:a5095ba15b92341fe4c7df5bc75e95203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c9fb59205e95ec45737671f5deb9bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a74c9fb59205e95ec45737671f5deb9bd">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0, int maxNumObjs=3)</td></tr>
+<tr class="separator:a74c9fb59205e95ec45737671f5deb9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7759c27bea25dd216cb142ad06a68e05"><td class="memItemLeft" align="right" valign="top"><a id="a7759c27bea25dd216cb142ad06a68e05" name="a7759c27bea25dd216cb142ad06a68e05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a class="el" href="class_d_d_tunnel.html">DDTunnel</a> *pTunnel)</td></tr>
 <tr class="memdesc:a7759c27bea25dd216cb142ad06a68e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">if finished using a "tunnel", delete it to release resource <br /></td></tr>
@@ -319,7 +319,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>log</b> (const String
  <br /></td></tr>
 <tr class="separator:a7d5e115fb5a202ef6af041969bdc2c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4028834fea73745fe1be119c0ff74aa4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">connectPassive</a> (<a class="el" href="struct_d_d_connect_passive_status.html">DDConnectPassiveStatus</a> *pStatus=NULL)</td></tr>
-<tr class="memdesc:a4028834fea73745fe1be119c0ff74aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">make connection passively; i.e. will not block, but will require continuous calling for making connection  <br /></td></tr>
 <tr class="separator:a4028834fea73745fe1be119c0ff74aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a0b220dd19b521c3da619c03a1f27a3">masterReset</a> ()</td></tr>
 <tr class="separator:a8a0b220dd19b521c3da619c03a1f27a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,10 +599,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>make connection passively; i.e. will not block, but will require continuous calling for making connection </p>
-<dl class="section return"><dt>Returns</dt><dd>connection made or not (note that even if connection lost and requires reconnecting, it is still considered connected) </dd></dl>
+<p>make connection passively; i.e. will not block, but will require continuous calling for making connection </p><dl class="section return"><dt>Returns</dt><dd>connection made or not (note that even if connection lost and requires reconnecting, it is still considered connected) </dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.9.8-r1 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>if you will not be making use of "passive" connection, you can disable it by defining DD_NO_PASSIVE_CONNECT in order to reduce footprint <br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -891,7 +890,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <li>initial position is (0, 0) <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">maxStickValue</td><td>the max value of the stick; e.g. 255 or 1023 (the default); min is 15 </td></tr>
-    <tr><td class="paramname">directions</td><td>"lr" or "hori": left-to-right; "tb" or "vert": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mearn both directions; "" the same as "lr+tb" </td></tr>
+    <tr><td class="paramname">directions</td><td>"lr" or "hori": left-to-right; "tb" or "vert": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mean both directions; "" the same as "lr+tb" </td></tr>
     <tr><td class="paramname">stickLookScaleFactor</td><td>the scaling factor of the stick (UI); 1 by default </td></tr>
   </table>
   </dd>
@@ -938,8 +937,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a5095ba15b92341fe4c7df5bc75e95203" name="a5095ba15b92341fe4c7df5bc75e95203"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5095ba15b92341fe4c7df5bc75e95203">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
+<a id="a74c9fb59205e95ec45737671f5deb9bd" name="a74c9fb59205e95ec45737671f5deb9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c9fb59205e95ec45737671f5deb9bd">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -954,7 +953,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>scaleToHeight</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>scaleToHeight</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxNumObjs</em> = <code>3</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1137,7 +1142,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>EXPERIMENTAL; "master reset" to be just like uninitialized; "master reset" will: . disconnect from DD app (if connected) . delete all created layers and tunnels; hence, DO NOT use the pointers to them after "master reset" . <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> object will be just like at initial state; it will <em>not</em> be deleted </p><dl class="section since"><dt>Since</dt><dd>0.9.8-r1 </dd></dl>
+<p>"master reset" will: . disconnect from DD app (if connected) . delete all created layers and tunnels; hence, DO NOT use the pointers to them after "master reset" . <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> object will be just like at initial state; it will <em>not</em> be deleted </p><dl class="section since"><dt>Since</dt><dd>0.9.8-r1 </dd></dl>
 
 </div>
 </div>

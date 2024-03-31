@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['backgroundcolor_0',['backgroundColor',['../class_d_d_layer.html#a2e0da9a45182f05833493a6b6a00272d',1,'DDLayer::backgroundColor()'],['../class_dumb_display.html#a1af37458f1034619132bca9ddeef1962',1,'DumbDisplay::backgroundColor()']]],
+  ['backgroundcolor_0',['backgroundColor',['../class_d_d_layer.html#aacbea5532035ff4c35778748a082f2cb',1,'DDLayer::backgroundColor()'],['../class_dumb_display.html#a1af37458f1034619132bca9ddeef1962',1,'DumbDisplay::backgroundColor()']]],
   ['backward_1',['backward',['../class_turtle_d_d_layer.html#ae16ff313be61a311070506af100a3be3',1,'TurtleDDLayer']]],
   ['begingroup_2',['beginGroup',['../class_d_d_auto_pin_config.html#a0373a2b1abc6bd40d8f99f31f8590c80',1,'DDAutoPinConfig']]],
   ['beginpaddedgroup_3',['beginPaddedGroup',['../class_d_d_auto_pin_config.html#a0f660e1312659bb0a1576428f4d7a0bc',1,'DDAutoPinConfig']]],

@@ -103,8 +103,14 @@ $(document).ready(function(){initNavTree('md__c___users_trevorlee__documents__my
 <div class="textblock"><p>Notes:</p>
 <ul>
 <li>GitHub repository for <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> Arduino Library is <a href="https://github.com/trevorwslee/Arduino-DumbDisplay">https://github.com/trevorwslee/Arduino-DumbDisplay</a></li>
-<li>The doc here is updated for v0.9.8</li>
+<li>The doc here is updated for v0.9.8-r7</li>
 <li>Other than reading the <a href="https://github.com/trevorwslee/Arduino-DumbDisplay#readme">README</a> of the GitHub project, you might be kick-started with what described in <a href="https://www.instructables.com/Blink-Test-With-Virtual-Display-DumbDisplay/">Blink Test With Virtual Display, DumbDisplay</a></li>
+<li>Some little tips for reducing the library's footprint<ul>
+<li>if you will not be making use of "tunnel", define the compile-time macro <code>DD_NO_TUNNEL</code></li>
+<li>if you will not be making use of "feedback", define the compile-time macro <code>DD_NO_FEEDBACK</code></li>
+<li>if you will not be making use of "passive" connection, define the compile-time macro <code>DD_NO_PASSIVE_CONNECT</code></li>
+</ul>
+</li>
 <li><em><b>Have Fun! Peace be with you! May God bless you! Jesus loves you!</b></em> <br  />
  </li>
 </ul>

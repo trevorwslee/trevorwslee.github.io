@@ -1,11 +1,18 @@
 var annotated_dup =
 [
+    [ "LOEspAt", null, [
+      [ "AtResposeInterpreter", "class_l_o_esp_at_1_1_at_respose_interpreter.html", null ],
+      [ "AtResposeInterpreter1", "class_l_o_esp_at_1_1_at_respose_interpreter1.html", null ],
+      [ "AtResposeInterpreter2", "class_l_o_esp_at_1_1_at_respose_interpreter2.html", null ],
+      [ "ReceiveAtDataInterpreter", "class_l_o_esp_at_1_1_receive_at_data_interpreter.html", null ]
+    ] ],
     [ "ABCDPressed", "struct_a_b_c_d_pressed.html", null ],
     [ "ButtonJoystick", "class_button_joystick.html", null ],
     [ "ButtonJoystickBasic", "class_button_joystick_basic.html", null ],
     [ "ButtonPressTracker", "class_button_press_tracker.html", null ],
     [ "ButtonsOnly", "class_buttons_only.html", null ],
     [ "CompositDDDebugIntreface", "class_composit_d_d_debug_intreface.html", "class_composit_d_d_debug_intreface" ],
+    [ "DDATWiFiIO", "class_d_d_a_t_wi_fi_i_o.html", null ],
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", "class_d_d_auto_pin_config" ],
     [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
     [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],
@@ -19,6 +26,7 @@ var annotated_dup =
     [ "DDFeedback", "struct_d_d_feedback.html", "struct_d_d_feedback" ],
     [ "DDFeedbackHandler", "struct_d_d_feedback_handler.html", null ],
     [ "DDFeedbackType", "struct_d_d_feedback_type.html", null ],
+    [ "DDGenericIO", "class_d_d_generic_i_o.html", null ],
     [ "DDIdleCallback", "struct_d_d_idle_callback.html", null ],
     [ "DDIdleConnectionState", "struct_d_d_idle_connection_state.html", null ],
     [ "DDInputOutput", "class_d_d_input_output.html", null ],
@@ -28,7 +36,7 @@ var annotated_dup =
     [ "DDObject", "struct_d_d_object.html", "struct_d_d_object" ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
     [ "DDPendingValue", "class_d_d_pending_value.html", "class_d_d_pending_value" ],
-    [ "DDPicoUart1IO", "class_d_d_pico_uart1_i_o.html", null ],
+    [ "DDPicoSerialIO", "class_d_d_pico_serial_i_o.html", null ],
     [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
     [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
     [ "DDTunnel", "class_d_d_tunnel.html", "class_d_d_tunnel" ],
@@ -37,6 +45,7 @@ var annotated_dup =
     [ "DDValueStore", "class_d_d_value_store.html", "class_d_d_value_store" ],
     [ "DDWiFiServerIO", "class_d_d_wi_fi_server_i_o.html", null ],
     [ "DecodedJoystick", "class_decoded_joystick.html", null ],
+    [ "DrawTextDDDebugInterface", "class_draw_text_d_d_debug_interface.html", "class_draw_text_d_d_debug_interface" ],
     [ "DumbDisplay", "class_dumb_display.html", "class_dumb_display" ],
     [ "GpsServiceDDTunnel", "class_gps_service_d_d_tunnel.html", "class_gps_service_d_d_tunnel" ],
     [ "GraphicalDDLayer", "class_graphical_d_d_layer.html", "class_graphical_d_d_layer" ],

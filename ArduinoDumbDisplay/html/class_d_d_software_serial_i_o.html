@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef73fdc835b4b84686f6495fc36469e2"><td class="memItemLeft" align="right" valign="top"><a id="aef73fdc835b4b84686f6495fc36469e2" name="aef73fdc835b4b84686f6495fc36469e2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDSoftwareSerialIO</b> (SoftwareSerial *pSS, unsigned long baud=DD_SERIAL_BAUD, bool enableSerial=false, unsigned long serialBaud=DD_SERIAL_BAUD)</td></tr>
 <tr class="separator:aef73fdc835b4b84686f6495fc36469e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433bdeb977f8460d839bb2bdec667b08"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_software_serial_i_o.html#a433bdeb977f8460d839bb2bdec667b08">getWhat</a> ()</td></tr>
+<tr class="separator:a433bdeb977f8460d839bb2bdec667b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76033079f91ba5a763f9ca7e42798793"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_software_serial_i_o.html#a76033079f91ba5a763f9ca7e42798793">available</a> ()</td></tr>
 <tr class="separator:a76033079f91ba5a763f9ca7e42798793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae473b53a794dc2d4e41aa86c647e2817"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_software_serial_i_o.html#ae473b53a794dc2d4e41aa86c647e2817">read</a> ()</td></tr>
@@ -150,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a292f72b6135cd9b50e304bac1a82358c" name="a292f72b6135cd9b50e304bac1a82358c"></a>
 <a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>newForSerialConnection</b> ()</td></tr>
 <tr class="separator:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ae8b6f5b0886aaeb96a14f212af0f7951" name="ae8b6f5b0886aaeb96a14f212af0f7951"></a>
+virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getWhat</b> ()</td></tr>
+<tr class="separator:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ab0e0664e8f4015371965939de1ccc77f" name="ab0e0664e8f4015371965939de1ccc77f"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>available</b> ()</td></tr>
 <tr class="separator:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +313,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
       <table class="memname">
         <tr>
           <td class="memname">void DDSoftwareSerialIO::flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a>.</p>
+
+</div>
+</div>
+<a id="a433bdeb977f8460d839bb2bdec667b08" name="a433bdeb977f8460d839bb2bdec667b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433bdeb977f8460d839bb2bdec667b08">&#9670;&#160;</a></span>getWhat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * DDSoftwareSerialIO::getWhat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

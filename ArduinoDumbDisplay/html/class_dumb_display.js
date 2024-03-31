@@ -26,7 +26,7 @@ var class_dumb_display =
     [ "createLcdLayer", "class_dumb_display.html#a588e9f2696ef83249add36732604ed5c", null ],
     [ "createLedGridLayer", "class_dumb_display.html#adf71aac7991060289302d936ca51b8ba", null ],
     [ "createMicrobitLayer", "class_dumb_display.html#a7a337c89743f3580d8f4f549650a048e", null ],
-    [ "createObjectDetectDemoServiceTunnel", "class_dumb_display.html#a5095ba15b92341fe4c7df5bc75e95203", null ],
+    [ "createObjectDetectDemoServiceTunnel", "class_dumb_display.html#a74c9fb59205e95ec45737671f5deb9bd", null ],
     [ "createPlotterLayer", "class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96", null ],
     [ "createTerminalLayer", "class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d", null ],
     [ "createTomTomMapLayer", "class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc", null ],

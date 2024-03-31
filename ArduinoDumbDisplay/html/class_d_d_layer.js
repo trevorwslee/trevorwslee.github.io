@@ -1,10 +1,11 @@
 var class_d_d_layer =
 [
     [ "alpha", "class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003", null ],
-    [ "backgroundColor", "class_d_d_layer.html#a2e0da9a45182f05833493a6b6a00272d", null ],
+    [ "backgroundColor", "class_d_d_layer.html#aacbea5532035ff4c35778748a082f2cb", null ],
     [ "border", "class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2", null ],
     [ "clear", "class_d_d_layer.html#a3255c9efadbdf3ac0e283b287eb4e698", null ],
-    [ "disabled", "class_d_d_layer.html#aaee71110b65f93869fd0ee532e70d8e5", null ],
+    [ "debugOnly", "class_d_d_layer.html#ad1b5dbef97985ed7855e078b10ab938a", null ],
+    [ "disabled", "class_d_d_layer.html#a33af44a362010163f3be2a62fa1079d5", null ],
     [ "disableFeedback", "class_d_d_layer.html#ad84bd3eb933e9ecce03211021c150acb", null ],
     [ "enableFeedback", "class_d_d_layer.html#a23ef07b5f2616ee89a2c9a785c9d53a5", null ],
     [ "flash", "class_d_d_layer.html#acff354518a030e79c7c5054a24fc5511", null ],

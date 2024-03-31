@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45d3b8a1bfa21b981f85b0c00349ee3c"><td class="memItemLeft" align="right" valign="top"><a id="a45d3b8a1bfa21b981f85b0c00349ee3c" name="a45d3b8a1bfa21b981f85b0c00349ee3c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDBluetoothSerialIO</b> (const String &amp;btLocalName, bool enableSerial=false, unsigned long serialBaud=DD_SERIAL_BAUD)</td></tr>
 <tr class="separator:a45d3b8a1bfa21b981f85b0c00349ee3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae40cfc34f2f5633d251b6e289cf19dd6"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#ae40cfc34f2f5633d251b6e289cf19dd6">getWhat</a> ()</td></tr>
+<tr class="separator:ae40cfc34f2f5633d251b6e289cf19dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a200939f1e716536648d27e8d0fd51723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a200939f1e716536648d27e8d0fd51723">available</a> ()</td></tr>
 <tr class="separator:a200939f1e716536648d27e8d0fd51723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fdfd069953382d21ef26f939b1c9a3a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_bluetooth_serial_i_o.html#a5fdfd069953382d21ef26f939b1c9a3a">read</a> ()</td></tr>
@@ -150,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a292f72b6135cd9b50e304bac1a82358c" name="a292f72b6135cd9b50e304bac1a82358c"></a>
 <a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>newForSerialConnection</b> ()</td></tr>
 <tr class="separator:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ae8b6f5b0886aaeb96a14f212af0f7951" name="ae8b6f5b0886aaeb96a14f212af0f7951"></a>
+virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getWhat</b> ()</td></tr>
+<tr class="separator:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ab0e0664e8f4015371965939de1ccc77f" name="ab0e0664e8f4015371965939de1ccc77f"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>available</b> ()</td></tr>
 <tr class="separator:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +313,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
       <table class="memname">
         <tr>
           <td class="memname">void DDBluetoothSerialIO::flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a>.</p>
+
+</div>
+</div>
+<a id="ae40cfc34f2f5633d251b6e289cf19dd6" name="ae40cfc34f2f5633d251b6e289cf19dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae40cfc34f2f5633d251b6e289cf19dd6">&#9670;&#160;</a></span>getWhat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * DDBluetoothSerialIO::getWhat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

@@ -123,6 +123,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad69cbc0bab728ec946a5f043f78419f6"><td class="memItemLeft" align="right" valign="top"><a id="ad69cbc0bab728ec946a5f043f78419f6" name="ad69cbc0bab728ec946a5f043f78419f6"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDWiFiServerIO</b> (const char *ssid, const char *passphrase, int serverPort=DD_WIFI_PORT)</td></tr>
 <tr class="separator:ad69cbc0bab728ec946a5f043f78419f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb4942a11f6646199f28fb52c6a38d5"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a5cb4942a11f6646199f28fb52c6a38d5">getWhat</a> ()</td></tr>
+<tr class="separator:a5cb4942a11f6646199f28fb52c6a38d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63eef706b2474f2082c7971c2a9805df"><td class="memItemLeft" align="right" valign="top"><a id="a63eef706b2474f2082c7971c2a9805df" name="a63eef706b2474f2082c7971c2a9805df"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>availableAdditionalClient</b> (WiFiClient &amp;additionalClient)</td></tr>
+<tr class="separator:a63eef706b2474f2082c7971c2a9805df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13f9964a0ce0e3c9f486b380d92c8ba4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#a13f9964a0ce0e3c9f486b380d92c8ba4">available</a> ()</td></tr>
 <tr class="separator:a13f9964a0ce0e3c9f486b380d92c8ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0de39e0df32101299632eeb7dc7ae37"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_wi_fi_server_i_o.html#ac0de39e0df32101299632eeb7dc7ae37">read</a> ()</td></tr>
@@ -152,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="a292f72b6135cd9b50e304bac1a82358c" name="a292f72b6135cd9b50e304bac1a82358c"></a>
 <a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>newForSerialConnection</b> ()</td></tr>
 <tr class="separator:a292f72b6135cd9b50e304bac1a82358c inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ae8b6f5b0886aaeb96a14f212af0f7951" name="ae8b6f5b0886aaeb96a14f212af0f7951"></a>
+virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getWhat</b> ()</td></tr>
+<tr class="separator:ae8b6f5b0886aaeb96a14f212af0f7951 inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memItemLeft" align="right" valign="top"><a id="ab0e0664e8f4015371965939de1ccc77f" name="ab0e0664e8f4015371965939de1ccc77f"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>available</b> ()</td></tr>
 <tr class="separator:ab0e0664e8f4015371965939de1ccc77f inherit pub_methods_class_d_d_input_output"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,6 +318,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
       <table class="memname">
         <tr>
           <td class="memname">void DDWiFiServerIO::flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_d_d_input_output.html">DDInputOutput</a>.</p>
+
+</div>
+</div>
+<a id="a5cb4942a11f6646199f28fb52c6a38d5" name="a5cb4942a11f6646199f28fb52c6a38d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb4942a11f6646199f28fb52c6a38d5">&#9670;&#160;</a></span>getWhat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * DDWiFiServerIO::getWhat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
