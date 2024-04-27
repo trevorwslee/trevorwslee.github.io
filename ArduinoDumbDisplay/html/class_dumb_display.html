@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.8-r7</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -124,8 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab02a79c926114dd14147b6765b1d864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aa77b3e0133025f22004bb7f35e6f54b3">setFeedbackSingleClickOnly</a> (bool singleClickOnly=true)</td></tr>
 <tr class="separator:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d8e89daf77a8762827cd042df6b772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin</a> (const String &amp;layoutSpec)</td></tr>
-<tr class="separator:a28d8e89daf77a8762827cd042df6b772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636d84c7088b2f73d0e26b00519c78a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a636d84c7088b2f73d0e26b00519c78a5">configAutoPin</a> (const String &amp;layoutSpec=DD_AP_VERT)</td></tr>
+<tr class="separator:a636d84c7088b2f73d0e26b00519c78a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3">addRemainingAutoPinConfig</a> (const String &amp;remainingLayoutSpec)</td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abae7b4a8cfc825e466a7f339704d0fe9">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100)</td></tr>
@@ -166,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad9a251e1e7779d70cfe060711cf6c2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58ecf8df431cbd9ed7876984862bde7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_terminal_d_d_layer.html">TerminalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d">createTerminalLayer</a> (int width, int height)</td></tr>
 <tr class="separator:a58ecf8df431cbd9ed7876984862bde7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787b78a8880d469ff832fbed01cbf06f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_web_view_d_d_layer.html">WebViewDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a787b78a8880d469ff832fbed01cbf06f">createWebViewLayer</a> (int width, int height, const String &amp;jsObjectName=&quot;DD&quot;)</td></tr>
+<tr class="separator:a787b78a8880d469ff832fbed01cbf06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b">createBasicTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a341c2ab8a3ec964fc70b8c26908a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67">createJsonTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
@@ -346,7 +348,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a636d84c7088b2f73d0e26b00519c78a5">configAutoPin()</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">remainingLayoutSpec</td><td><br  />
  </td></tr>
@@ -495,8 +497,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a28d8e89daf77a8762827cd042df6b772" name="a28d8e89daf77a8762827cd042df6b772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d8e89daf77a8762827cd042df6b772">&#9670;&#160;</a></span>configAutoPin()</h2>
+<a id="a636d84c7088b2f73d0e26b00519c78a5" name="a636d84c7088b2f73d0e26b00519c78a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a636d84c7088b2f73d0e26b00519c78a5">&#9670;&#160;</a></span>configAutoPin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +507,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="memname">void DumbDisplay::configAutoPin </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>layoutSpec</em></td><td>)</td>
+          <td class="paramname"><em>layoutSpec</em> = <code>DD_AP_VERT</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1042,6 +1044,41 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
+<a id="a787b78a8880d469ff832fbed01cbf06f" name="a787b78a8880d469ff832fbed01cbf06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a787b78a8880d469ff832fbed01cbf06f">&#9670;&#160;</a></span>createWebViewLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_web_view_d_d_layer.html">WebViewDDLayer</a> * DumbDisplay::createWebViewLayer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>jsObjectName</em> = <code>&quot;DD&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a WebView layer </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_web_view_d_d_layer.html" title="Class for a WebView &quot;device dependent view&quot; layer.">WebViewDDLayer</a> </dd></dl>
+
+</div>
+</div>
 <a id="a12138b5a37200df06dbfb21c50708d4e" name="a12138b5a37200df06dbfb21c50708d4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12138b5a37200df06dbfb21c50708d4e">&#9670;&#160;</a></span>debugSetup()</h2>
 
@@ -1197,7 +1234,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 </div><div class="memdoc">
 <p>pin "auto pin" layers @ some position, like <a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">layoutSpec</td><td>the "auto pin" layout specification to pin; see <a class="el" href="class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772">configAutoPin()</a> for how spec is constructed </td></tr>
+    <tr><td class="paramname">layoutSpec</td><td>the "auto pin" layout specification to pin; see <a class="el" href="class_dumb_display.html#a636d84c7088b2f73d0e26b00519c78a5">configAutoPin()</a> for how spec is constructed </td></tr>
     <tr><td class="paramname">align</td><td>(e.g. "LB") &ndash; left align "L"; right align "R"; top align "T"; bottom align "B"; default is center align *&zwj;/ </td></tr>
   </table>
   </dd>

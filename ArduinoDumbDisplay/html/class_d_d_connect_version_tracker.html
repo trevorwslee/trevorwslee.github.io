@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.8-r7</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -104,6 +104,9 @@ $(document).ready(function(){initNavTree('class_d_d_connect_version_tracker.html
 </div><!--header-->
 <div class="contents">
 
+<p>Helper class for tracking connection "version" change.  
+ <a href="class_d_d_connect_version_tracker.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -115,7 +118,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkChanged</b> (<a 
 <tr class="separator:ab3ed9bc7a8bd8f4bfbce4a637b3910cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class for tracking connection "version" change.</p><ul>
+<div class="textblock"><p>Helper class for tracking connection "version" change. </p>
+<ul>
 <li>initial connection will have version 1</li>
 <li>when reconnected (after disconnect) version will be incremented every such event </li>
 </ul>

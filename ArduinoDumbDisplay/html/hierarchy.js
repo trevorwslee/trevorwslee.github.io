@@ -39,6 +39,7 @@ var hierarchy =
     ] ],
     [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
     [ "DDLocation", "struct_d_d_location.html", null ],
+    [ "DDMasterResetPassiveConnectionHelper", "class_d_d_master_reset_passive_connection_helper.html", null ],
     [ "DDObject", "struct_d_d_object.html", [
       [ "DDLayer", "class_d_d_layer.html", [
         [ "GraphicalDDLayer", "class_graphical_d_d_layer.html", null ],
@@ -50,7 +51,8 @@ var hierarchy =
         [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", null ],
         [ "TerminalDDLayer", "class_terminal_d_d_layer.html", null ],
         [ "TomTomMapDDLayer", "class_tom_tom_map_d_d_layer.html", null ],
-        [ "TurtleDDLayer", "class_turtle_d_d_layer.html", null ]
+        [ "TurtleDDLayer", "class_turtle_d_d_layer.html", null ],
+        [ "WebViewDDLayer", "class_web_view_d_d_layer.html", null ]
       ] ],
       [ "DDTunnel", "class_d_d_tunnel.html", [
         [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html", [
@@ -62,6 +64,7 @@ var hierarchy =
     ] ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
     [ "DDPendingValue< T >", "class_d_d_pending_value.html", null ],
+    [ "DDReconnectPassiveConnectionHelper", "class_d_d_reconnect_passive_connection_helper.html", null ],
     [ "DDTunnelEndpoint", "class_d_d_tunnel_endpoint.html", null ],
     [ "DDValueRecord< T >", "class_d_d_value_record.html", null ],
     [ "DDValueStore< T >", "class_d_d_value_store.html", null ],

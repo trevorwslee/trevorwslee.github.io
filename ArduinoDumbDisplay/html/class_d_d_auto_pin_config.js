@@ -1,6 +1,6 @@
 var class_d_d_auto_pin_config =
 [
-    [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html#a992f079d05a7c9a6aae345a04acd15ce", null ],
+    [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html#a2cd07e65bf143f657ba2e933385627ef", null ],
     [ "addLayer", "class_d_d_auto_pin_config.html#a80a3812ad1dbd776054e764007c8107d", null ],
     [ "addRemainingGroup", "class_d_d_auto_pin_config.html#af9cb99d5308894409f4a13e4d1bb8813", null ],
     [ "addSpacer", "class_d_d_auto_pin_config.html#a06f7568bdf96d0f5986172c08f7952cd", null ],

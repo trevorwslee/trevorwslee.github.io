@@ -33,10 +33,12 @@ var annotated_dup =
     [ "DDLayer", "class_d_d_layer.html", "class_d_d_layer" ],
     [ "DDLayoutHelper", "class_d_d_layout_helper.html", "class_d_d_layout_helper" ],
     [ "DDLocation", "struct_d_d_location.html", null ],
+    [ "DDMasterResetPassiveConnectionHelper", "class_d_d_master_reset_passive_connection_helper.html", "class_d_d_master_reset_passive_connection_helper" ],
     [ "DDObject", "struct_d_d_object.html", "struct_d_d_object" ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
     [ "DDPendingValue", "class_d_d_pending_value.html", "class_d_d_pending_value" ],
     [ "DDPicoSerialIO", "class_d_d_pico_serial_i_o.html", null ],
+    [ "DDReconnectPassiveConnectionHelper", "class_d_d_reconnect_passive_connection_helper.html", "class_d_d_reconnect_passive_connection_helper" ],
     [ "DDSerial2IO", "class_d_d_serial2_i_o.html", null ],
     [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
     [ "DDTunnel", "class_d_d_tunnel.html", "class_d_d_tunnel" ],
@@ -70,5 +72,6 @@ var annotated_dup =
     [ "TftDDDebugInterface", "class_tft_d_d_debug_interface.html", "class_tft_d_d_debug_interface" ],
     [ "TomTomMapDDLayer", "class_tom_tom_map_d_d_layer.html", "class_tom_tom_map_d_d_layer" ],
     [ "ToSerialDDDebugInterface", "class_to_serial_d_d_debug_interface.html", "class_to_serial_d_d_debug_interface" ],
-    [ "TurtleDDLayer", "class_turtle_d_d_layer.html", "class_turtle_d_d_layer" ]
+    [ "TurtleDDLayer", "class_turtle_d_d_layer.html", "class_turtle_d_d_layer" ],
+    [ "WebViewDDLayer", "class_web_view_d_d_layer.html", "class_web_view_d_d_layer" ]
 ];

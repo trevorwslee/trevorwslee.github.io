@@ -16,7 +16,7 @@ var searchData=
   ['circle_13',['circle',['../class_turtle_d_d_layer.html#a598028d895dbb02521f5ab4aaab3e5eb',1,'TurtleDDLayer::circle()'],['../class_graphical_d_d_layer.html#a426fca3826fee8cddd89871ac7e9ec4d',1,'GraphicalDDLayer::circle()']]],
   ['clear_14',['clear',['../class_d_d_layer.html#a3255c9efadbdf3ac0e283b287eb4e698',1,'DDLayer']]],
   ['colors_15',['colors',['../class_joystick_d_d_layer.html#a85824fcc9cf52720f516c4a686ced7f4',1,'JoystickDDLayer']]],
-  ['configautopin_16',['configAutoPin',['../class_d_d_layout_helper.html#a3fc1efad09cfacfa61008317bf1fbb79',1,'DDLayoutHelper::configAutoPin()'],['../class_dumb_display.html#a28d8e89daf77a8762827cd042df6b772',1,'DumbDisplay::configAutoPin()']]],
+  ['configautopin_16',['configAutoPin',['../class_d_d_layout_helper.html#a3fc1efad09cfacfa61008317bf1fbb79',1,'DDLayoutHelper::configAutoPin()'],['../class_dumb_display.html#a636d84c7088b2f73d0e26b00519c78a5',1,'DumbDisplay::configAutoPin()']]],
   ['configpinframe_17',['configPinFrame',['../class_d_d_layout_helper.html#a56034b9aadebb265f1b5269070aa52c7',1,'DDLayoutHelper::configPinFrame()'],['../class_dumb_display.html#abae7b4a8cfc825e466a7f339704d0fe9',1,'DumbDisplay::configPinFrame(int xUnitCount=100, int yUnitCount=100)']]],
   ['connect_18',['connect',['../class_dumb_display.html#a20e88f4b1c4b7ecf441d7e071021a747',1,'DumbDisplay']]],
   ['connected_19',['connected',['../class_dumb_display.html#ae6b51a16f0ac941d330124918255457e',1,'DumbDisplay']]],
@@ -40,5 +40,6 @@ var searchData=
   ['createterminallayer_37',['createTerminalLayer',['../class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d',1,'DumbDisplay']]],
   ['createtomtommaplayer_38',['createTomTomMapLayer',['../class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc',1,'DumbDisplay']]],
   ['createturtlelayer_39',['createTurtleLayer',['../class_dumb_display.html#a3d421f31c094624e8709fecc3badee04',1,'DumbDisplay']]],
-  ['cursor_40',['cursor',['../class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee',1,'LcdDDLayer']]]
+  ['createwebviewlayer_40',['createWebViewLayer',['../class_dumb_display.html#a787b78a8880d469ff832fbed01cbf06f',1,'DumbDisplay']]],
+  ['cursor_41',['cursor',['../class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee',1,'LcdDDLayer']]]
 ];
