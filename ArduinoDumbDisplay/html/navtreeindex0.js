@@ -23,9 +23,10 @@ var NAVTREEINDEX0 =
 "class_d_d_bluetooth_serial_i_o.html":[1,0,10],
 "class_d_d_buffered_tunnel.html":[1,0,11],
 "class_d_d_buffered_tunnel.html#a3a8070a4c4d0684e9cefaf865667d1a9":[1,0,11,6],
+"class_d_d_buffered_tunnel.html#a4199e15a76ad313015680e2c3fcb7995":[1,0,11,7],
 "class_d_d_buffered_tunnel.html#a4514ee11a4131efa23364916e4221a6f":[1,0,11,4],
 "class_d_d_buffered_tunnel.html#a4cf168a03c66177f93bd6d7031585da8":[1,0,11,3],
-"class_d_d_buffered_tunnel.html#a837b78448ccfa67a3d34adf6763bac44":[1,0,11,7],
+"class_d_d_buffered_tunnel.html#a837b78448ccfa67a3d34adf6763bac44":[1,0,11,8],
 "class_d_d_buffered_tunnel.html#aa762dcfaa998bc6b58b2aa772d1fedef":[1,0,11,2],
 "class_d_d_buffered_tunnel.html#aca332c5f70b338e6d19309fb3a3dfa07":[1,0,11,5],
 "class_d_d_buffered_tunnel.html#aceeacfb5cc40570a0b89bd8abb95984c":[1,0,11,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_joystick_press_tracker.html":[1,0,51],
 "class_joystick_press_tracker.html#a1785930dbf75236667d120a92b456564":[1,0,51,0],
 "class_json_d_d_tunnel_multiplexer.html":[1,0,52],
-"class_json_d_d_tunnel_multiplexer.html#a218c8307cfb2010dbe0f98f1f808932b":[1,0,52,0],
-"class_json_d_d_tunnel_multiplexer.html#a72790c148549ad95748712748d4ae75d":[1,0,52,1]
+"class_json_d_d_tunnel_multiplexer.html#a218c8307cfb2010dbe0f98f1f808932b":[1,0,52,0]
 };

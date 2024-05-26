@@ -7,5 +7,6 @@ var class_d_d_buffered_tunnel =
     [ "read", "class_d_d_buffered_tunnel.html#a4514ee11a4131efa23364916e4221a6f", null ],
     [ "readLine", "class_d_d_buffered_tunnel.html#aca332c5f70b338e6d19309fb3a3dfa07", null ],
     [ "readLine", "class_d_d_buffered_tunnel.html#a3a8070a4c4d0684e9cefaf865667d1a9", null ],
+    [ "timedOut", "class_d_d_buffered_tunnel.html#a4199e15a76ad313015680e2c3fcb7995", null ],
     [ "writeLine", "class_d_d_buffered_tunnel.html#a837b78448ccfa67a3d34adf6763bac44", null ]
 ];

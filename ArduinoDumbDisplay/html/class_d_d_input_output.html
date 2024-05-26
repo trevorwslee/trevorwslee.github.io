@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r02</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('class_d_d_input_output.html',''); init
 </div><!--header-->
 <div class="contents">
 
-<p>Class for DD input/output; you explicitly constructed it, pass in when instantiate <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, then it will be use by DD internally for communication with <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> app. There are several derived class like <a class="el" href="class_d_d_software_serial_i_o.html" title="Subclass of DDInputOutput.">DDSoftwareSerialIO</a>, <a class="el" href="class_d_d_wi_fi_server_i_o.html" title="Subclass of DDInputOutput.">DDWiFiServerIO</a>, <a class="el" href="class_d_d_bluetooth_serial_i_o.html" title="Subclass of DDInputOutput.">DDBluetoothSerialIO</a>, <a class="el" href="class_d_d_b_l_e_serial_i_o.html" title="Subclass of DDInputOutput.">DDBLESerialIO</a>, DDPicoUart1IO etc.  
+<p>Class for DD input/output; you explicitly constructed it, pass in when instantiate <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, then it will be use by DD internally for communication with <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> app. There are several derived class like <a class="el" href="class_d_d_software_serial_i_o.html" title="Subclass of DDInputOutput.">DDSoftwareSerialIO</a>, <a class="el" href="class_d_d_wi_fi_server_i_o.html" title="Subclass of DDInputOutput.">DDWiFiServerIO</a>, <a class="el" href="class_d_d_bluetooth_serial_i_o.html" title="Subclass of DDInputOutput.">DDBluetoothSerialIO</a>, <a class="el" href="class_d_d_b_l_e_serial_i_o.html" title="Subclass of DDInputOutput.">DDBLESerialIO</a>, <a class="el" href="class_d_d_pico_serial_i_o.html" title="Deprecated. Use DDGenericIO (in genericdumbdisplay.h) instead.">DDPicoSerialIO</a> etc.  
  <a href="class_d_d_input_output.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="__dd__io_8h_source.html">_dd_io.h</a>&gt;</code></p>
@@ -119,9 +119,9 @@ Inheritance diagram for DDInputOutput:</div>
 <area href="class_d_d_a_t_wi_fi_i_o.html" title="Subclass of DDInputOutput." alt="DDATWiFiIO" shape="rect" coords="138,56,266,80"/>
 <area href="class_d_d_b_l_e_serial_i_o.html" title="Subclass of DDInputOutput." alt="DDBLESerialIO" shape="rect" coords="138,112,266,136"/>
 <area href="class_d_d_bluetooth_serial_i_o.html" title="Subclass of DDInputOutput." alt="DDBluetoothSerialIO" shape="rect" coords="138,168,266,192"/>
-<area href="class_d_d_generic_i_o.html" title="Subclass of DDInputOutput." alt="DDGenericIO" shape="rect" coords="138,224,266,248"/>
-<area href="class_d_d_pico_serial_i_o.html" title="Subclass of DDInputOutput." alt="DDPicoSerialIO" shape="rect" coords="138,280,266,304"/>
-<area href="class_d_d_serial2_i_o.html" title="Subclass of DDInputOutput." alt="DDSerial2IO" shape="rect" coords="138,336,266,360"/>
+<area href="class_d_d_generic_i_o.html" alt="DDGenericIO" shape="rect" coords="138,224,266,248"/>
+<area href="class_d_d_pico_serial_i_o.html" title="Deprecated. Use DDGenericIO (in genericdumbdisplay.h) instead." alt="DDPicoSerialIO" shape="rect" coords="138,280,266,304"/>
+<area href="class_d_d_serial2_i_o.html" title="Deprecated. Use DDGenericIO (in genericdumbdisplay.h) instead." alt="DDSerial2IO" shape="rect" coords="138,336,266,360"/>
 <area href="class_d_d_software_serial_i_o.html" title="Subclass of DDInputOutput." alt="DDSoftwareSerialIO" shape="rect" coords="138,392,266,416"/>
 <area href="class_d_d_wi_fi_server_i_o.html" title="Subclass of DDInputOutput." alt="DDWiFiServerIO" shape="rect" coords="138,448,266,472"/>
   </map>
@@ -203,7 +203,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setupForSerial</b></t
 <tr class="separator:a2ec4d8bc6aa327f66c7cf410b11005a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for DD input/output; you explicitly constructed it, pass in when instantiate <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, then it will be use by DD internally for communication with <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> app. There are several derived class like <a class="el" href="class_d_d_software_serial_i_o.html" title="Subclass of DDInputOutput.">DDSoftwareSerialIO</a>, <a class="el" href="class_d_d_wi_fi_server_i_o.html" title="Subclass of DDInputOutput.">DDWiFiServerIO</a>, <a class="el" href="class_d_d_bluetooth_serial_i_o.html" title="Subclass of DDInputOutput.">DDBluetoothSerialIO</a>, <a class="el" href="class_d_d_b_l_e_serial_i_o.html" title="Subclass of DDInputOutput.">DDBLESerialIO</a>, DDPicoUart1IO etc. </p>
+<div class="textblock"><p>Class for DD input/output; you explicitly constructed it, pass in when instantiate <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, then it will be use by DD internally for communication with <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> app. There are several derived class like <a class="el" href="class_d_d_software_serial_i_o.html" title="Subclass of DDInputOutput.">DDSoftwareSerialIO</a>, <a class="el" href="class_d_d_wi_fi_server_i_o.html" title="Subclass of DDInputOutput.">DDWiFiServerIO</a>, <a class="el" href="class_d_d_bluetooth_serial_i_o.html" title="Subclass of DDInputOutput.">DDBluetoothSerialIO</a>, <a class="el" href="class_d_d_b_l_e_serial_i_o.html" title="Subclass of DDInputOutput.">DDBLESerialIO</a>, <a class="el" href="class_d_d_pico_serial_i_o.html" title="Deprecated. Use DDGenericIO (in genericdumbdisplay.h) instead.">DDPicoSerialIO</a> etc. </p>
 <dl class="section since"><dt>Since</dt><dd>v0.9.8 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
