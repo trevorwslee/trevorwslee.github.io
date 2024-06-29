@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r02</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -230,8 +230,8 @@ IMPORTANT:</p><ul>
 <li>e.g. Arduino Mega &ndash; 17 ==&gt; TX; 16 ==&gt; RX <br  />
 <code>#define DD_SERIAL Serial2</code></li>
 <li>e.g. STM32F103 &ndash; PA3 (RX2) ==&gt; TX; PA2 (TX2) ==&gt; RX <br  />
-<code>HardwareSerial Serial2(USART2);</code> <br  />
-<code>#define DD_SERIAL Serial2</code> </li>
+<code>HardwareSerial hs(USART2);</code> <br  />
+<code>#define DD_SERIAL hs</code> </li>
 </ul>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a46c45f3e0eebcd264ceaed8594774682" name="a46c45f3e0eebcd264ceaed8594774682"></a>

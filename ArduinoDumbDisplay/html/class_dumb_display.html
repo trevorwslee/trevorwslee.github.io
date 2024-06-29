@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r02</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -111,9 +111,9 @@ $(document).ready(function(){initNavTree('class_dumb_display.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af9c4d4f4de064794675880dfe04e35d8"><td class="memItemLeft" align="right" valign="top"><a id="af9c4d4f4de064794675880dfe04e35d8" name="af9c4d4f4de064794675880dfe04e35d8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DumbDisplay</b> (<a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *pIO, uint16_t sendBufferSize=DD_DEF_SEND_BUFFER_SIZE)</td></tr>
-<tr class="separator:af9c4d4f4de064794675880dfe04e35d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f404dac1ca02b5ea2cc469fdd4891a1"><td class="memItemLeft" align="right" valign="top"><a id="a8f404dac1ca02b5ea2cc469fdd4891a1" name="a8f404dac1ca02b5ea2cc469fdd4891a1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DumbDisplay</b> (<a class="el" href="class_d_d_input_output.html">DDInputOutput</a> *pIO, uint16_t sendBufferSize=DD_DEF_SEND_BUFFER_SIZE, long idleTimeout=DD_DEF_IDLE_TIMEOUT)</td></tr>
+<tr class="separator:a8f404dac1ca02b5ea2cc469fdd4891a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a20e88f4b1c4b7ecf441d7e071021a747">connect</a> ()</td></tr>
 <tr class="separator:a20e88f4b1c4b7ecf441d7e071021a747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6b51a16f0ac941d330124918255457e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ae6b51a16f0ac941d330124918255457e">connected</a> () const</td></tr>
@@ -180,8 +180,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aff291b56128cb372c5045afd634b530f">createGpsServiceTunnel</a> ()</td></tr>
 <tr class="separator:aff291b56128cb372c5045afd634b530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74c9fb59205e95ec45737671f5deb9bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a74c9fb59205e95ec45737671f5deb9bd">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0, int maxNumObjs=3)</td></tr>
-<tr class="separator:a74c9fb59205e95ec45737671f5deb9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3baf7308c481e5a6641035e923d6cc06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detect_demo_service_d_d_tunnel.html">ObjectDetectDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3baf7308c481e5a6641035e923d6cc06">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0, int maxNumObjs=3)</td></tr>
+<tr class="separator:a3baf7308c481e5a6641035e923d6cc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af446ec0240fba85be440baa5d525d13f"><td class="memItemLeft" align="right" valign="top"><a id="af446ec0240fba85be440baa5d525d13f" name="af446ec0240fba85be440baa5d525d13f"></a>
+<a class="el" href="class_image_retriever_d_d_tunnel.html">ImageRetrieverDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createImageRetrieverTunnel</b> ()</td></tr>
+<tr class="separator:af446ec0240fba85be440baa5d525d13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7759c27bea25dd216cb142ad06a68e05"><td class="memItemLeft" align="right" valign="top"><a id="a7759c27bea25dd216cb142ad06a68e05" name="a7759c27bea25dd216cb142ad06a68e05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a class="el" href="class_d_d_tunnel.html">DDTunnel</a> *pTunnel)</td></tr>
 <tr class="memdesc:a7759c27bea25dd216cb142ad06a68e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">if finished using a "tunnel", delete it to release resource <br /></td></tr>
@@ -284,12 +287,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>saveImage</b> (const 
 <tr class="separator:ac1d7bebfbe42bd645c1d789868d5c81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1a4b8cbf5e547369ac1e322e0b6576"><td class="memItemLeft" align="right" valign="top"><a id="a7c1a4b8cbf5e547369ac1e322e0b6576" name="a7c1a4b8cbf5e547369ac1e322e0b6576"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImage</b> (const String &amp;imageName, const uint8_t *bytes, int width, int height, const String &amp;color=&quot;&quot;, char compressMethod=0)</td></tr>
+<tr class="memdesc:a7c1a4b8cbf5e547369ac1e322e0b6576"><td class="mdescLeft">&#160;</td><td class="mdescRight">save single-bit "pixel" image (i.e. B&amp;W image) with the given image data <br /></td></tr>
 <tr class="separator:a7c1a4b8cbf5e547369ac1e322e0b6576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b95e1f8813075e0abd4a831247c6ee6"><td class="memItemLeft" align="right" valign="top"><a id="a1b95e1f8813075e0abd4a831247c6ee6" name="a1b95e1f8813075e0abd4a831247c6ee6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImage16</b> (const String &amp;imageName, const uint16_t *data, int width, int height, const String &amp;options=&quot;&quot;, char compressMethod=0)</td></tr>
+<tr class="memdesc:a1b95e1f8813075e0abd4a831247c6ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">save 16-bit "pixel" image (i.e. 565 RGB image) with the given image data <br /></td></tr>
 <tr class="separator:a1b95e1f8813075e0abd4a831247c6ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8a46510963e0765ebd4759db05d6f79"><td class="memItemLeft" align="right" valign="top"><a id="aa8a46510963e0765ebd4759db05d6f79" name="aa8a46510963e0765ebd4759db05d6f79"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>savePixelImageGS</b> (const String &amp;imageName, const uint8_t *data, int width, int height, const String &amp;options=&quot;&quot;, char compressMethod=0)</td></tr>
+<tr class="memdesc:aa8a46510963e0765ebd4759db05d6f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">save grayscale "pixel" image with the given image data <br /></td></tr>
 <tr class="separator:aa8a46510963e0765ebd4759db05d6f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a31fa010b19bbf36f05bf1c6d3562c3eb">stitchImages</a> (const String &amp;imageNames, const String &amp;asImageName)</td></tr>
 <tr class="separator:a31fa010b19bbf36f05bf1c6d3562c3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -939,14 +945,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a74c9fb59205e95ec45737671f5deb9bd" name="a74c9fb59205e95ec45737671f5deb9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74c9fb59205e95ec45737671f5deb9bd">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
+<a id="a3baf7308c481e5a6641035e923d6cc06" name="a3baf7308c481e5a6641035e923d6cc06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3baf7308c481e5a6641035e923d6cc06">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html">ObjectDetetDemoServiceDDTunnel</a> * DumbDisplay::createObjectDetectDemoServiceTunnel </td>
+          <td class="memname"><a class="el" href="class_object_detect_demo_service_d_d_tunnel.html">ObjectDetectDemoServiceDDTunnel</a> * DumbDisplay::createObjectDetectDemoServiceTunnel </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>scaleToWidth</em> = <code>0</code>, </td>
@@ -970,7 +976,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a "service tunnel" for getting object detection info from phone; model used is the demo model <code>mobilenetv1.tflite</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object_detet_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;.">ObjectDetetDemoServiceDDTunnel</a> </dd></dl>
+<p>create a "service tunnel" for getting object detection info from phone; model used is the demo model <code>mobilenetv1.tflite</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object_detect_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;.">ObjectDetectDemoServiceDDTunnel</a> </dd></dl>
 
 </div>
 </div>
@@ -1315,7 +1321,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
       </table>
 </div><div class="memdoc">
 <p>basically, functions the same as <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a>. additionally:</p><ul>
-<li>save and persiste the layer commands</li>
+<li>save and persist the layer commands</li>
 <li>enable <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> reconnect feature &ndash; tells the layer setup commands to use when <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> reconnects </li>
 </ul>
 

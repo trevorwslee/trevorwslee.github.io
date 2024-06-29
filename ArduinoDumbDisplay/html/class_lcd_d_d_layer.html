@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r02</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -165,6 +165,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>scrollDisplayRight</b
 <tr class="separator:a96399da1c4fc2d3dcb2e5e84f70fe748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a6c7341fdc2d9bb062979be09fd85d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lcd_d_d_layer.html#ae8a6c7341fdc2d9bb062979be09fd85d">writeLine</a> (const String &amp;text, int y=0, const String &amp;align=&quot;L&quot;)</td></tr>
 <tr class="separator:ae8a6c7341fdc2d9bb062979be09fd85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae067a837906e1072ca1ddfd6cd6c1d5"><td class="memItemLeft" align="right" valign="top"><a id="aae067a837906e1072ca1ddfd6cd6c1d5" name="aae067a837906e1072ca1ddfd6cd6c1d5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writeRightAlignedLine</b> (const String &amp;text, int y=0)</td></tr>
+<tr class="memdesc:aae067a837906e1072ca1ddfd6cd6c1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">write text as a right-aligned line <br /></td></tr>
+<tr class="separator:aae067a837906e1072ca1ddfd6cd6c1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa789e7a00d523819b969ed1296ed9637"><td class="memItemLeft" align="right" valign="top"><a id="aa789e7a00d523819b969ed1296ed9637" name="aa789e7a00d523819b969ed1296ed9637"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>writeCenteredLine</b> (const String &amp;text, int y=0)</td></tr>
 <tr class="memdesc:aa789e7a00d523819b969ed1296ed9637"><td class="mdescLeft">&#160;</td><td class="mdescRight">write text as a line, with align "centered" <br /></td></tr>
@@ -405,7 +409,7 @@ with "feedback" enabled, can be used as checkbox; consider using these emojis fo
         </tr>
       </table>
 </div><div class="memdoc">
-<p>write text as a line </p><dl class="params"><dt>Parameters</dt><dd>
+<p>write text as a line (by default, left-aligned) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">align</td><td>'L', 'C', or 'R' </td></tr>
   </table>

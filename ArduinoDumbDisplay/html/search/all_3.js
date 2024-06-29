@@ -37,7 +37,7 @@ var searchData=
   ['createlcdlayer_34',['createLcdLayer',['../class_dumb_display.html#a588e9f2696ef83249add36732604ed5c',1,'DumbDisplay']]],
   ['createledgridlayer_35',['createLedGridLayer',['../class_dumb_display.html#adf71aac7991060289302d936ca51b8ba',1,'DumbDisplay']]],
   ['createmicrobitlayer_36',['createMicrobitLayer',['../class_dumb_display.html#a7a337c89743f3580d8f4f549650a048e',1,'DumbDisplay']]],
-  ['createobjectdetectdemoservicetunnel_37',['createObjectDetectDemoServiceTunnel',['../class_dumb_display.html#a74c9fb59205e95ec45737671f5deb9bd',1,'DumbDisplay']]],
+  ['createobjectdetectdemoservicetunnel_37',['createObjectDetectDemoServiceTunnel',['../class_dumb_display.html#a3baf7308c481e5a6641035e923d6cc06',1,'DumbDisplay']]],
   ['createplotterlayer_38',['createPlotterLayer',['../class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96',1,'DumbDisplay']]],
   ['createterminallayer_39',['createTerminalLayer',['../class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d',1,'DumbDisplay']]],
   ['createtomtommaplayer_40',['createTomTomMapLayer',['../class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc',1,'DumbDisplay']]],

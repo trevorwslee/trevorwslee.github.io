@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r02</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -116,11 +116,12 @@ Inheritance diagram for DDTunnel:</div>
  <div class="center">
   <img src="class_d_d_tunnel.png" usemap="#DDTunnel_map" alt=""/>
   <map id="DDTunnel_map" name="DDTunnel_map">
-<area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="220,0,430,24"/>
-<area href="class_d_d_buffered_tunnel.html" title="Class for DD &quot;tunnel&quot;, with buffering support; created with DumbDisplay::createBasicTunnel()" alt="DDBufferedTunnel" shape="rect" coords="220,112,430,136"/>
-<area href="class_gps_service_d_d_tunnel.html" title="Class for GPS service &quot;tunnel&quot;." alt="GpsServiceDDTunnel" shape="rect" coords="0,168,210,192"/>
-<area href="class_object_detet_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;." alt="ObjectDetetDemoServiceDDTunnel" shape="rect" coords="220,168,430,192"/>
-<area href="class_simple_tool_d_d_tunnel.html" title="Class for basic tool &quot;tunnel&quot;." alt="SimpleToolDDTunnel" shape="rect" coords="440,168,650,192"/>
+<area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="340,0,557,24"/>
+<area href="class_d_d_buffered_tunnel.html" title="Class for DD &quot;tunnel&quot;, with buffering support; created with DumbDisplay::createBasicTunnel()" alt="DDBufferedTunnel" shape="rect" coords="340,112,557,136"/>
+<area href="class_gps_service_d_d_tunnel.html" title="Class for GPS service &quot;tunnel&quot;." alt="GpsServiceDDTunnel" shape="rect" coords="0,168,217,192"/>
+<area href="class_image_retriever_d_d_tunnel.html" alt="ImageRetrieverDDTunnel" shape="rect" coords="227,168,444,192"/>
+<area href="class_object_detect_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;." alt="ObjectDetectDemoServiceDDTunnel" shape="rect" coords="454,168,671,192"/>
+<area href="class_simple_tool_d_d_tunnel.html" title="Class for basic tool &quot;tunnel&quot;." alt="SimpleToolDDTunnel" shape="rect" coords="681,168,898,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -151,8 +152,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnectToEndpoint</
 <tr class="memitem:a41eb7267e5adee66b7b6673917665fff"><td class="memItemLeft" align="right" valign="top"><a id="a41eb7267e5adee66b7b6673917665fff" name="a41eb7267e5adee66b7b6673917665fff"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getTunnelId</b> () const</td></tr>
 <tr class="separator:a41eb7267e5adee66b7b6673917665fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532d8bc07fa894af38e97eff2ca9363b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel.html#a532d8bc07fa894af38e97eff2ca9363b">handleInput</a> (const String &amp;data, bool final)</td></tr>
-<tr class="separator:a532d8bc07fa894af38e97eff2ca9363b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb182729c557c8a66a2305ae43502670"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel.html#afb182729c557c8a66a2305ae43502670">handleInput</a> (const String &amp;data, uint8_t *fbBytes, bool final)</td></tr>
+<tr class="separator:afb182729c557c8a66a2305ae43502670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -168,6 +169,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_writeLine</b> (const
 <tr class="memitem:af33604d37bba6a9a48ea13e1310d8024"><td class="memItemLeft" align="right" valign="top"><a id="af33604d37bba6a9a48ea13e1310d8024" name="af33604d37bba6a9a48ea13e1310d8024"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_writeSound</b> (const String &amp;soundName)</td></tr>
 <tr class="separator:af33604d37bba6a9a48ea13e1310d8024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dee6f237f255e711fe14c25e4e79762"><td class="memItemLeft" align="right" valign="top"><a id="a3dee6f237f255e711fe14c25e4e79762" name="a3dee6f237f255e711fe14c25e4e79762"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>doneHandleInput</b> (bool final)</td></tr>
+<tr class="separator:a3dee6f237f255e711fe14c25e4e79762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -208,8 +212,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for DD "tunnel". </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a532d8bc07fa894af38e97eff2ca9363b" name="a532d8bc07fa894af38e97eff2ca9363b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a532d8bc07fa894af38e97eff2ca9363b">&#9670;&#160;</a></span>handleInput()</h2>
+<a id="afb182729c557c8a66a2305ae43502670" name="afb182729c557c8a66a2305ae43502670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb182729c557c8a66a2305ae43502670">&#9670;&#160;</a></span>handleInput()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,6 +230,12 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>fbBytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>final</em>&#160;</td>
         </tr>
@@ -237,12 +247,12 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_d_d_buffered_tunnel.html#a4cf168a03c66177f93bd6d7031585da8">DDBufferedTunnel</a>.</p>
+<p>Reimplemented in <a class="el" href="class_d_d_buffered_tunnel.html#aae3bebb6ca279ed397341a8351a9f13f">DDBufferedTunnel</a>.</p>
 
 </div>
 </div>

@@ -12,5 +12,6 @@ var class_lcd_d_d_layer =
     [ "print", "class_lcd_d_d_layer.html#a3f73ded445b3cdc82779c2de15f644a7", null ],
     [ "setCursor", "class_lcd_d_d_layer.html#a3c681346860f394b92df0cb9ed45ee23", null ],
     [ "writeCenteredLine", "class_lcd_d_d_layer.html#aa789e7a00d523819b969ed1296ed9637", null ],
-    [ "writeLine", "class_lcd_d_d_layer.html#ae8a6c7341fdc2d9bb062979be09fd85d", null ]
+    [ "writeLine", "class_lcd_d_d_layer.html#ae8a6c7341fdc2d9bb062979be09fd85d", null ],
+    [ "writeRightAlignedLine", "class_lcd_d_d_layer.html#aae067a837906e1072ca1ddfd6cd6c1d5", null ]
 ];

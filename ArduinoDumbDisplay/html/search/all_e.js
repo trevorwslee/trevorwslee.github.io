@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['objectdetetdemoserviceddtunnel_0',['ObjectDetetDemoServiceDDTunnel',['../class_object_detet_demo_service_d_d_tunnel.html',1,'ObjectDetetDemoServiceDDTunnel'],['../class_object_detet_demo_service_d_d_tunnel.html#a5f68ec6f131181995f3d067fdbdd681b',1,'ObjectDetetDemoServiceDDTunnel::ObjectDetetDemoServiceDDTunnel()']]],
+  ['objectdetectdemoserviceddtunnel_0',['ObjectDetectDemoServiceDDTunnel',['../class_object_detect_demo_service_d_d_tunnel.html',1,'ObjectDetectDemoServiceDDTunnel'],['../class_object_detect_demo_service_d_d_tunnel.html#a70681bd34d10ab5c445ac07d8446abde',1,'ObjectDetectDemoServiceDDTunnel::ObjectDetectDemoServiceDDTunnel()']]],
   ['objecttype_1',['objectType',['../struct_d_d_object.html#a3ddc915c2cb8320191acc51681a6b2d9',1,'DDObject']]],
   ['offcolor_2',['offColor',['../class_led_grid_d_d_layer.html#aa380bf7fca0c9fb193b690195715142a',1,'LedGridDDLayer']]],
   ['oleddddebuginterface_3',['OledDDDebugInterface',['../class_oled_d_d_debug_interface.html',1,'']]],

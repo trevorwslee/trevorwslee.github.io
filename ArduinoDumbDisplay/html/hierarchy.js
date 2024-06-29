@@ -15,6 +15,7 @@ var hierarchy =
     [ "DDDebugInterface", "class_d_d_debug_interface.html", [
       [ "CompositDDDebugIntreface", "class_composit_d_d_debug_intreface.html", null ],
       [ "DrawTextDDDebugInterface", "class_draw_text_d_d_debug_interface.html", [
+        [ "AfTftDDDebugInterface", "class_af_tft_d_d_debug_interface.html", null ],
         [ "OledDDDebugInterface", "class_oled_d_d_debug_interface.html", null ],
         [ "TftDDDebugInterface", "class_tft_d_d_debug_interface.html", null ]
       ] ],
@@ -27,6 +28,10 @@ var hierarchy =
     [ "DDFeedbackType", "struct_d_d_feedback_type.html", null ],
     [ "DDIdleCallback", "struct_d_d_idle_callback.html", null ],
     [ "DDIdleConnectionState", "struct_d_d_idle_connection_state.html", null ],
+    [ "DDImageData", "struct_d_d_image_data.html", [
+      [ "DDJpegImage", "struct_d_d_jpeg_image.html", null ],
+      [ "DDPixelImage", "struct_d_d_pixel_image.html", null ]
+    ] ],
     [ "DDInputOutput", "class_d_d_input_output.html", [
       [ "DDATWiFiIO", "class_d_d_a_t_wi_fi_i_o.html", null ],
       [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
@@ -57,13 +62,15 @@ var hierarchy =
       [ "DDTunnel", "class_d_d_tunnel.html", [
         [ "DDBufferedTunnel", "class_d_d_buffered_tunnel.html", [
           [ "GpsServiceDDTunnel", "class_gps_service_d_d_tunnel.html", null ],
-          [ "ObjectDetetDemoServiceDDTunnel", "class_object_detet_demo_service_d_d_tunnel.html", null ],
+          [ "ImageRetrieverDDTunnel", "class_image_retriever_d_d_tunnel.html", null ],
+          [ "ObjectDetectDemoServiceDDTunnel", "class_object_detect_demo_service_d_d_tunnel.html", null ],
           [ "SimpleToolDDTunnel", "class_simple_tool_d_d_tunnel.html", null ]
         ] ]
       ] ]
     ] ],
     [ "DDObjectDetectDemoResult", "struct_d_d_object_detect_demo_result.html", null ],
     [ "DDPendingValue< T >", "class_d_d_pending_value.html", null ],
+    [ "DDPixelImage16", "struct_d_d_pixel_image16.html", null ],
     [ "DDReconnectPassiveConnectionHelper", "class_d_d_reconnect_passive_connection_helper.html", null ],
     [ "DDTunnelEndpoint", "class_d_d_tunnel_endpoint.html", null ],
     [ "DDValueRecord< T >", "class_d_d_value_record.html", null ],
