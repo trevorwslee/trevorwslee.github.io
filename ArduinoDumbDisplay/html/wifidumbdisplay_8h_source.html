@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r10</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -390,25 +390,27 @@ $(document).ready(function(){initNavTree('wifidumbdisplay_8h_source.html',''); i
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>            connectionState = <span class="charliteral">&#39;C&#39;</span>;</div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>            stateMillis = 0;</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            Serial.println(<span class="stringliteral">&quot;client connected&quot;</span>);</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>          }</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        }  </div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>      }</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>    }</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* ssid;</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *password;</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    <span class="keywordtype">int</span> port;</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    <span class="comment">//bool logToSerial;</span></div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    <span class="keywordtype">char</span> connectionState;</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    <span class="keywordtype">long</span> stateMillis;</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    WiFiServer server;</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    WiFiClient client;</div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>};</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>          } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>            <span class="comment">//Serial.print(&quot;~&quot;);</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>          }</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        }  </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      }</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>    }</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* ssid;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> *password;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    <span class="keywordtype">int</span> port;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    <span class="comment">//bool logToSerial;</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordtype">char</span> connectionState;</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keywordtype">long</span> stateMillis;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    WiFiServer server;</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    WiFiClient client;</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>};</div>
 <div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
 <div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_d_d_input_output_html"><div class="ttname"><a href="class_d_d_input_output.html">DDInputOutput</a></div><div class="ttdoc">Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...</div><div class="ttdef"><b>Definition:</b> _dd_io.h:9</div></div>
 <div class="ttc" id="aclass_d_d_wi_fi_server_i_o_html"><div class="ttname"><a href="class_d_d_wi_fi_server_i_o.html">DDWiFiServerIO</a></div><div class="ttdoc">Subclass of DDInputOutput.</div><div class="ttdef"><b>Definition:</b> wifidumbdisplay.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -43,7 +43,7 @@ var class_graphical_d_d_layer =
     [ "println", "class_graphical_d_d_layer.html#a0f8509256a3e50d08accf4eb7526bf7c", null ],
     [ "rectangle", "class_graphical_d_d_layer.html#aee958843fe4cee5d76f2a280ce1ffdda", null ],
     [ "rightTurn", "class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab", null ],
-    [ "saveCachedImageFile", "class_graphical_d_d_layer.html#a7655099ce83681330ce619bd62aa53ca", null ],
+    [ "saveCachedImageFile", "class_graphical_d_d_layer.html#a77a3d8e2acc182bf94200281a79e03f6", null ],
     [ "saveCachedImageFiles", "class_graphical_d_d_layer.html#a390fed0501d163ae9668288eea942822", null ],
     [ "setCursor", "class_graphical_d_d_layer.html#a73456b83227d85c3fd8b29f371ec1eb6", null ],
     [ "setHeading", "class_graphical_d_d_layer.html#a41908ebf46163ba95d81fc9c1c4df672", null ],
@@ -53,6 +53,7 @@ var class_graphical_d_d_layer =
     [ "setTextSize", "class_graphical_d_d_layer.html#a0ac95af9b6b79b4242d73bff72fd7247", null ],
     [ "setTextWrap", "class_graphical_d_d_layer.html#a31de6623e5a36ca637c277d642d51d4a", null ],
     [ "triangle", "class_graphical_d_d_layer.html#add7525a943f869012e6911a718bc97a5", null ],
+    [ "unloadAllImageFiles", "class_graphical_d_d_layer.html#a8c65cfe054ab42919992c5cd22784109", null ],
     [ "unloadImageFile", "class_graphical_d_d_layer.html#a856dad01ff779eb336e98ff9eac1a640", null ],
     [ "write", "class_graphical_d_d_layer.html#a9615cf6f75306da8d4104edc57f66714", null ]
 ];

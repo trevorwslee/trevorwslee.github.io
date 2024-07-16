@@ -53,6 +53,7 @@ var hierarchy =
         [ "LedGridDDLayer", "class_led_grid_d_d_layer.html", null ],
         [ "MbDDLayer", "class_mb_d_d_layer.html", null ],
         [ "PlotterDDLayer", "class_plotter_d_d_layer.html", null ],
+        [ "SelectionDDLayer", "class_selection_d_d_layer.html", null ],
         [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", null ],
         [ "TerminalDDLayer", "class_terminal_d_d_layer.html", null ],
         [ "TomTomMapDDLayer", "class_tom_tom_map_d_d_layer.html", null ],

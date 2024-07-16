@@ -72,6 +72,7 @@ var annotated_dup =
     [ "ObjectDetectDemoServiceDDTunnel", "class_object_detect_demo_service_d_d_tunnel.html", "class_object_detect_demo_service_d_d_tunnel" ],
     [ "OledDDDebugInterface", "class_oled_d_d_debug_interface.html", "class_oled_d_d_debug_interface" ],
     [ "PlotterDDLayer", "class_plotter_d_d_layer.html", "class_plotter_d_d_layer" ],
+    [ "SelectionDDLayer", "class_selection_d_d_layer.html", "class_selection_d_d_layer" ],
     [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", "class_seven_segment_row_d_d_layer" ],
     [ "SimpleToolDDTunnel", "class_simple_tool_d_d_tunnel.html", "class_simple_tool_d_d_tunnel" ],
     [ "TerminalDDLayer", "class_terminal_d_d_layer.html", "class_terminal_d_d_layer" ],

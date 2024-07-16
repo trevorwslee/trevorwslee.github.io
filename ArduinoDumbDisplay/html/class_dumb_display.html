@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r03</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r10</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -150,12 +150,16 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_lcd_d_d_layer.html">LcdDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createLcdLayer</b> (int colCount=16, int rowCount=2, int charHeight=0, const String &amp;fontName=&quot;&quot;)</td></tr>
 <tr class="memdesc:a588e9f2696ef83249add36732604ed5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a LCD layer <br /></td></tr>
 <tr class="separator:a588e9f2696ef83249add36732604ed5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0cfb6a72fc08429f390ea9faba4c90"><td class="memItemLeft" align="right" valign="top"><a id="afb0cfb6a72fc08429f390ea9faba4c90" name="afb0cfb6a72fc08429f390ea9faba4c90"></a>
+<a class="el" href="class_selection_d_d_layer.html">SelectionDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createSelectionLayer</b> (int colCount=16, int rowCount=2, int horiSelectionCount=1, int vertSelectionCount=1, int charHeight=0, const String &amp;fontName=&quot;&quot;, float selectionBorderSizeCharHeightFactor=0.3)</td></tr>
+<tr class="memdesc:afb0cfb6a72fc08429f390ea9faba4c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a "selection" layer <br /></td></tr>
+<tr class="separator:afb0cfb6a72fc08429f390ea9faba4c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c7d95157e5b8075f05203fd05635a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8">createGraphicalLayer</a> (int width, int height)</td></tr>
 <tr class="separator:a37c7d95157e5b8075f05203fd05635a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_seven_segment_row_d_d_layer.html">SevenSegmentRowDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8c525bd171b39af67e9c915c7ca0a0f9">create7SegmentRowLayer</a> (int digitCount=1)</td></tr>
 <tr class="separator:a8c525bd171b39af67e9c915c7ca0a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fcf10e4cc656077b81155288fe34b65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3fcf10e4cc656077b81155288fe34b65">createJoystickLayer</a> (int maxStickValue=1023, const String &amp;directions=&quot;&quot;, float stickLookScaleFactor=1.0)</td></tr>
-<tr class="separator:a3fcf10e4cc656077b81155288fe34b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641d5f8dda1d0d0cea585bfa88601c7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joystick_d_d_layer.html">JoystickDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a641d5f8dda1d0d0cea585bfa88601c7a">createJoystickLayer</a> (int maxStickValue=1023, const String &amp;directions=&quot;&quot;, float stickSizeFactor=1.0, int stickValueDivider=1)</td></tr>
+<tr class="separator:a641d5f8dda1d0d0cea585bfa88601c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="memItemLeft" align="right" valign="top"><a id="af94e59f25cc2f38c9c0c8264e9d73f96" name="af94e59f25cc2f38c9c0c8264e9d73f96"></a>
 <a class="el" href="class_plotter_d_d_layer.html">PlotterDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createPlotterLayer</b> (int width, int height, int pixelsPerSecond=10)</td></tr>
 <tr class="memdesc:af94e59f25cc2f38c9c0c8264e9d73f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a plotter layer <br /></td></tr>
@@ -862,8 +866,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a3fcf10e4cc656077b81155288fe34b65" name="a3fcf10e4cc656077b81155288fe34b65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fcf10e4cc656077b81155288fe34b65">&#9670;&#160;</a></span>createJoystickLayer()</h2>
+<a id="a641d5f8dda1d0d0cea585bfa88601c7a" name="a641d5f8dda1d0d0cea585bfa88601c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641d5f8dda1d0d0cea585bfa88601c7a">&#9670;&#160;</a></span>createJoystickLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -884,7 +888,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>stickLookScaleFactor</em> = <code>1.0</code>&#160;</td>
+          <td class="paramname"><em>stickSizeFactor</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stickValueDivider</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -899,7 +909,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
   <table class="params">
     <tr><td class="paramname">maxStickValue</td><td>the max value of the stick; e.g. 255 or 1023 (the default); min is 15 </td></tr>
     <tr><td class="paramname">directions</td><td>"lr" or "hori": left-to-right; "tb" or "vert": top-to-bottom; "rl": right-to-left; "bt": bottom-to-top; use "+" combines the above like "lr+tb" to mean both directions; "" the same as "lr+tb" </td></tr>
-    <tr><td class="paramname">stickLookScaleFactor</td><td>the scaling factor of the stick (UI); 1 by default </td></tr>
+    <tr><td class="paramname">stickSizeFactor</td><td>the size factor of the stick (UI); 1 by default </td></tr>
+    <tr><td class="paramname">stickValueDivider</td><td>the divider of the stick value; 1 by default </td></tr>
   </table>
   </dd>
 </dl>

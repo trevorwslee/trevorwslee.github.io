@@ -1,7 +1,7 @@
 var searchData=
 [
   ['terminalddlayer_0',['TerminalDDLayer',['../class_terminal_d_d_layer.html',1,'TerminalDDLayer'],['../class_terminal_d_d_layer.html#ab97f10fd7bc2b8056fc713b1da2fcb40',1,'TerminalDDLayer::TerminalDDLayer()']]],
-  ['text_1',['text',['../struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4',1,'DDFeedback']]],
+  ['text_1',['text',['../struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4',1,'DDFeedback::text()'],['../class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9',1,'SelectionDDLayer::text()']]],
   ['tftdddebuginterface_2',['TftDDDebugInterface',['../class_tft_d_d_debug_interface.html',1,'']]],
   ['timedout_3',['timedOut',['../class_d_d_buffered_tunnel.html#a4199e15a76ad313015680e2c3fcb7995',1,'DDBufferedTunnel']]],
   ['toggle_4',['toggle',['../class_mb_d_d_layer.html#aa27ffe867b3a9baddeaea643fdb081e4',1,'MbDDLayer::toggle()'],['../class_led_grid_d_d_layer.html#a2b3aa6f41f5f2cf91d4b0af33bf9f462',1,'LedGridDDLayer::toggle()']]],

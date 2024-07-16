@@ -30,16 +30,17 @@ var searchData=
   ['creategpsservicetunnel_27',['createGpsServiceTunnel',['../class_dumb_display.html#aff291b56128cb372c5045afd634b530f',1,'DumbDisplay']]],
   ['creategraphicallayer_28',['createGraphicalLayer',['../class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8',1,'DumbDisplay']]],
   ['createimagedownloadtunnel_29',['createImageDownloadTunnel',['../class_dumb_display.html#a39ff653fedb03647a41af089649ca801',1,'DumbDisplay']]],
-  ['createjoysticklayer_30',['createJoystickLayer',['../class_dumb_display.html#a3fcf10e4cc656077b81155288fe34b65',1,'DumbDisplay']]],
+  ['createjoysticklayer_30',['createJoystickLayer',['../class_dumb_display.html#a641d5f8dda1d0d0cea585bfa88601c7a',1,'DumbDisplay']]],
   ['createjsontunnel_31',['createJsonTunnel',['../class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67',1,'DumbDisplay']]],
   ['createlcdlayer_32',['createLcdLayer',['../class_dumb_display.html#a588e9f2696ef83249add36732604ed5c',1,'DumbDisplay']]],
   ['createledgridlayer_33',['createLedGridLayer',['../class_dumb_display.html#adf71aac7991060289302d936ca51b8ba',1,'DumbDisplay']]],
   ['createmicrobitlayer_34',['createMicrobitLayer',['../class_dumb_display.html#a7a337c89743f3580d8f4f549650a048e',1,'DumbDisplay']]],
   ['createobjectdetectdemoservicetunnel_35',['createObjectDetectDemoServiceTunnel',['../class_dumb_display.html#a3baf7308c481e5a6641035e923d6cc06',1,'DumbDisplay']]],
   ['createplotterlayer_36',['createPlotterLayer',['../class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96',1,'DumbDisplay']]],
-  ['createterminallayer_37',['createTerminalLayer',['../class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d',1,'DumbDisplay']]],
-  ['createtomtommaplayer_38',['createTomTomMapLayer',['../class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc',1,'DumbDisplay']]],
-  ['createturtlelayer_39',['createTurtleLayer',['../class_dumb_display.html#a3d421f31c094624e8709fecc3badee04',1,'DumbDisplay']]],
-  ['createwebviewlayer_40',['createWebViewLayer',['../class_dumb_display.html#a787b78a8880d469ff832fbed01cbf06f',1,'DumbDisplay']]],
-  ['cursor_41',['cursor',['../class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee',1,'LcdDDLayer']]]
+  ['createselectionlayer_37',['createSelectionLayer',['../class_dumb_display.html#afb0cfb6a72fc08429f390ea9faba4c90',1,'DumbDisplay']]],
+  ['createterminallayer_38',['createTerminalLayer',['../class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d',1,'DumbDisplay']]],
+  ['createtomtommaplayer_39',['createTomTomMapLayer',['../class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc',1,'DumbDisplay']]],
+  ['createturtlelayer_40',['createTurtleLayer',['../class_dumb_display.html#a3d421f31c094624e8709fecc3badee04',1,'DumbDisplay']]],
+  ['createwebviewlayer_41',['createWebViewLayer',['../class_dumb_display.html#a787b78a8880d469ff832fbed01cbf06f',1,'DumbDisplay']]],
+  ['cursor_42',['cursor',['../class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee',1,'LcdDDLayer']]]
 ];
