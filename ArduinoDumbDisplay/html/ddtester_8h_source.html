@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r10</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r11</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -106,11 +106,14 @@ $(document).ready(function(){initNavTree('ddtester_8h_source.html',''); initResi
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;dumbdisplay.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keywordtype">void</span> BasicDDTestLoop(<a class="code hl_class" href="class_dumb_display.html">DumbDisplay</a>&amp; dumbdisplay, <span class="keywordtype">bool</span> passiveConnect = <span class="keyword">false</span>, <span class="keywordtype">int</span> builtinLEDPin = -1);</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_dumb_display_html"><div class="ttname"><a href="class_dumb_display.html">DumbDisplay</a></div><div class="ttdoc">The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1226</div></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// #if  __GNUC__ &gt;= 8</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// void BasicDDTestLoop(DumbDisplay&amp; dumbdisplay, bool passiveConnect = false, int builtinLEDPin = -1, std::function&lt;void(bool connected)&gt; notConnectedCallback = NULL);</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// #else</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">void</span> BasicDDTestLoop(<a class="code hl_class" href="class_dumb_display.html">DumbDisplay</a>&amp; dumbdisplay, <span class="keywordtype">bool</span> passiveConnect = <span class="keyword">false</span>, <span class="keywordtype">int</span> builtinLEDPin = -1, <span class="keywordtype">void</span> (*notConnectedCallback)(<span class="keywordtype">bool</span>) = NULL);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">//#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_dumb_display_html"><div class="ttname"><a href="class_dumb_display.html">DumbDisplay</a></div><div class="ttdoc">The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1245</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

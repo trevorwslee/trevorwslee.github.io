@@ -44,6 +44,7 @@ var class_graphical_d_d_layer =
     [ "rectangle", "class_graphical_d_d_layer.html#aee958843fe4cee5d76f2a280ce1ffdda", null ],
     [ "rightTurn", "class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab", null ],
     [ "saveCachedImageFile", "class_graphical_d_d_layer.html#a77a3d8e2acc182bf94200281a79e03f6", null ],
+    [ "saveCachedImageFileAsync", "class_graphical_d_d_layer.html#a9912a92496a46ae47e6830f181c907c3", null ],
     [ "saveCachedImageFiles", "class_graphical_d_d_layer.html#a390fed0501d163ae9668288eea942822", null ],
     [ "setCursor", "class_graphical_d_d_layer.html#a73456b83227d85c3fd8b29f371ec1eb6", null ],
     [ "setHeading", "class_graphical_d_d_layer.html#a41908ebf46163ba95d81fc9c1c4df672", null ],
