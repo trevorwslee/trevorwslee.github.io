@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r11</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r20</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -128,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e84b3a8a6724da87d86013bf710956c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3">addRemainingAutoPinConfig</a> (const String &amp;remainingLayoutSpec)</td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abae7b4a8cfc825e466a7f339704d0fe9">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100)</td></tr>
-<tr class="separator:abae7b4a8cfc825e466a7f339704d0fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#af4aa1442419d92e5a72f0bd8b2627f9d">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100, bool autoShowHideLayers=false)</td></tr>
+<tr class="separator:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a5d548805b36244d453700afeeea4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
 <tr class="separator:a77a5d548805b36244d453700afeeea4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6162f07bfccc613bbd35e118ca58f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aef6162f07bfccc613bbd35e118ca58f8">pinAutoPinLayers</a> (const String &amp;layoutSpec, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
@@ -180,12 +180,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39ff653fedb03647a41af089649ca801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_tool_d_d_tunnel.html">SimpleToolDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a39ff653fedb03647a41af089649ca801">createImageDownloadTunnel</a> (const String &amp;endPoint, const String &amp;imageName, boolean redownload=true)</td></tr>
 <tr class="separator:a39ff653fedb03647a41af089649ca801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33b3479a00f946e98675a8c6dc8df4de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a33b3479a00f946e98675a8c6dc8df4de">createDateTimeServiceTunnel</a> ()</td></tr>
+<tr class="memitem:a33b3479a00f946e98675a8c6dc8df4de"><td class="memItemLeft" align="right" valign="top"><a id="a33b3479a00f946e98675a8c6dc8df4de" name="a33b3479a00f946e98675a8c6dc8df4de"></a>
+<a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createDateTimeServiceTunnel</b> ()</td></tr>
+<tr class="memdesc:a33b3479a00f946e98675a8c6dc8df4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">use <a class="el" href="class_dumb_display.html#a14bff551a40621aa11eb0d1964d118fd">createGeneralServiceTunnel()</a> instead <br /></td></tr>
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bff551a40621aa11eb0d1964d118fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a14bff551a40621aa11eb0d1964d118fd">createGeneralServiceTunnel</a> ()</td></tr>
+<tr class="separator:a14bff551a40621aa11eb0d1964d118fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff291b56128cb372c5045afd634b530f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_gps_service_d_d_tunnel.html">GpsServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aff291b56128cb372c5045afd634b530f">createGpsServiceTunnel</a> ()</td></tr>
 <tr class="separator:aff291b56128cb372c5045afd634b530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3baf7308c481e5a6641035e923d6cc06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detect_demo_service_d_d_tunnel.html">ObjectDetectDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3baf7308c481e5a6641035e923d6cc06">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0, int maxNumObjs=3)</td></tr>
-<tr class="separator:a3baf7308c481e5a6641035e923d6cc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18565c92861353757ad8ce1b8aca53f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_detect_demo_service_d_d_tunnel.html">ObjectDetectDemoServiceDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a18565c92861353757ad8ce1b8aca53f1">createObjectDetectDemoServiceTunnel</a> (int scaleToWidth=0, int scaleToHeight=0, int maxNumObjs=1)</td></tr>
+<tr class="separator:a18565c92861353757ad8ce1b8aca53f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af446ec0240fba85be440baa5d525d13f"><td class="memItemLeft" align="right" valign="top"><a id="af446ec0240fba85be440baa5d525d13f" name="af446ec0240fba85be440baa5d525d13f"></a>
 <a class="el" href="class_image_retriever_d_d_tunnel.html">ImageRetrieverDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createImageRetrieverTunnel</b> ()</td></tr>
 <tr class="separator:af446ec0240fba85be440baa5d525d13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -548,8 +552,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="abae7b4a8cfc825e466a7f339704d0fe9" name="abae7b4a8cfc825e466a7f339704d0fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abae7b4a8cfc825e466a7f339704d0fe9">&#9670;&#160;</a></span>configPinFrame()</h2>
+<a id="af4aa1442419d92e5a72f0bd8b2627f9d" name="af4aa1442419d92e5a72f0bd8b2627f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4aa1442419d92e5a72f0bd8b2627f9d">&#9670;&#160;</a></span>configPinFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +568,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>yUnitCount</em> = <code>100</code>&#160;</td>
+          <td class="paramname"><em>yUnitCount</em> = <code>100</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>autoShowHideLayers</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -573,7 +583,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>configure "pin frame" to be x-units by y-units (default 100x100) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </dd></dl>
+<p>configure "pin frame" to be x-units by y-units (default 100x100) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">autoShowHideLayers</td><td>auto set layer visible (visibility) according whether the layer is specified in the layoutSpec or not; false by default </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </dd></dl>
 
 </div>
 </div>
@@ -696,28 +712,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a33b3479a00f946e98675a8c6dc8df4de" name="a33b3479a00f946e98675a8c6dc8df4de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33b3479a00f946e98675a8c6dc8df4de">&#9670;&#160;</a></span>createDateTimeServiceTunnel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> * DumbDisplay::createDateTimeServiceTunnel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>create a "service tunnel" for getting date-time info from phone; use reconnectTo() with commands like</p><ul>
-<li>now</li>
-<li>now-millis <dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
-</li>
-</ul>
-
-</div>
-</div>
 <a id="abef3c3e2958fd86dee4907f78aaf7f13" name="abef3c3e2958fd86dee4907f78aaf7f13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abef3c3e2958fd86dee4907f78aaf7f13">&#9670;&#160;</a></span>createFilteredJsonTunnel()</h2>
 
@@ -797,7 +791,29 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a fixed-rate plotter layer i.e. it will assume fixe-rate of PlotterDDLayer::set() </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa...">PlotterDDLayer</a> </dd></dl>
+<p>create a fixed-rate plotter layer i.e. it will assume fixe-rate of <a class="el" href="class_plotter_d_d_layer.html#aee9f781d914627d896d04845491ec8d9">PlotterDDLayer::set()</a> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa...">PlotterDDLayer</a> </dd></dl>
+
+</div>
+</div>
+<a id="a14bff551a40621aa11eb0d1964d118fd" name="a14bff551a40621aa11eb0d1964d118fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bff551a40621aa11eb0d1964d118fd">&#9670;&#160;</a></span>createGeneralServiceTunnel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> * DumbDisplay::createGeneralServiceTunnel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>create a general "service tunnel" for purposes like getting date-time info from phone; use reconnectTo() with commands like</p><ul>
+<li>now</li>
+<li>now-millis <dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -966,8 +982,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a3baf7308c481e5a6641035e923d6cc06" name="a3baf7308c481e5a6641035e923d6cc06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3baf7308c481e5a6641035e923d6cc06">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
+<a id="a18565c92861353757ad8ce1b8aca53f1" name="a18565c92861353757ad8ce1b8aca53f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18565c92861353757ad8ce1b8aca53f1">&#9670;&#160;</a></span>createObjectDetectDemoServiceTunnel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -988,7 +1004,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxNumObjs</em> = <code>3</code>&#160;</td>
+          <td class="paramname"><em>maxNumObjs</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

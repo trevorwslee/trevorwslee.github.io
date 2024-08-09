@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r11</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r20</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -131,17 +131,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d50b19ef0c278eb6692ff32bac605f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322ee37f03ab7fc9331090db8e86fa29"><td class="memItemLeft" align="right" valign="top"><a id="a322ee37f03ab7fc9331090db8e86fa29" name="a322ee37f03ab7fc9331090db8e86fa29"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>textCentered</b> (const String &amp;<a class="el" href="class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9">text</a>, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0)</td></tr>
+<tr class="memdesc:a322ee37f03ab7fc9331090db8e86fa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a "selection" unit centered text (of y-th row) <br /></td></tr>
 <tr class="separator:a322ee37f03ab7fc9331090db8e86fa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceb95964f1a63b85d16fb00054122812"><td class="memItemLeft" align="right" valign="top"><a id="aceb95964f1a63b85d16fb00054122812" name="aceb95964f1a63b85d16fb00054122812"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>textRightAligned</b> (const String &amp;<a class="el" href="class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9">text</a>, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0)</td></tr>
+<tr class="memdesc:aceb95964f1a63b85d16fb00054122812"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a "selection" unit right-aligned text (of y-th row) <br /></td></tr>
 <tr class="separator:aceb95964f1a63b85d16fb00054122812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae74d7e4bcaa0fa9f53dda48db483586a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_d_d_layer.html#ae74d7e4bcaa0fa9f53dda48db483586a">unselectedText</a> (const String &amp;<a class="el" href="class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9">text</a>, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0, const String &amp;align=&quot;L&quot;)</td></tr>
 <tr class="separator:ae74d7e4bcaa0fa9f53dda48db483586a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69dd6dad7f11596f93cf7cdb2b4bd55a"><td class="memItemLeft" align="right" valign="top"><a id="a69dd6dad7f11596f93cf7cdb2b4bd55a" name="a69dd6dad7f11596f93cf7cdb2b4bd55a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>unselectedTextCentered</b> (const String &amp;<a class="el" href="class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9">text</a>, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0)</td></tr>
+<tr class="memdesc:a69dd6dad7f11596f93cf7cdb2b4bd55a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a "selection" unit centered text (of y-th row) when unselected (it defaults to the same text as selected) <br /></td></tr>
 <tr class="separator:a69dd6dad7f11596f93cf7cdb2b4bd55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f40dde7618432cfd709621d97dcc5bb"><td class="memItemLeft" align="right" valign="top"><a id="a0f40dde7618432cfd709621d97dcc5bb" name="a0f40dde7618432cfd709621d97dcc5bb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>unselectedTextRightAligned</b> (const String &amp;<a class="el" href="class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9">text</a>, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0)</td></tr>
+<tr class="memdesc:a0f40dde7618432cfd709621d97dcc5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a "selection" unit right-aligned text (of y-th row) when unselected (it defaults to the same text as selected) <br /></td></tr>
 <tr class="separator:a0f40dde7618432cfd709621d97dcc5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8872203f8532e099fbb8ee3ed443c3b9"><td class="memItemLeft" align="right" valign="top"><a id="a8872203f8532e099fbb8ee3ed443c3b9" name="a8872203f8532e099fbb8ee3ed443c3b9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>select</b> (int horiSelectionIdx=0, int vertSelectionIdx=0, bool deselectTheOthers=true)</td></tr>
@@ -151,6 +155,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>select</b> (int horiS
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deselect</b> (int horiSelectionIdx=0, int vertSelectionIdx=0, bool selectTheOthers=false)</td></tr>
 <tr class="memdesc:ae8c3af51003d12e803a8ced11ef1c7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">deselect a "selection" unit <br /></td></tr>
 <tr class="separator:ae8c3af51003d12e803a8ced11ef1c7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c70f2be42369a3bac3d43ba40c6166d"><td class="memItemLeft" align="right" valign="top"><a id="a5c70f2be42369a3bac3d43ba40c6166d" name="a5c70f2be42369a3bac3d43ba40c6166d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>selected</b> (bool selected, int horiSelectionIdx=0, int vertSelectionIdx=0, bool reverseTheOthers=false)</td></tr>
+<tr class="memdesc:a5c70f2be42369a3bac3d43ba40c6166d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a "selection" unit selected or not <br /></td></tr>
+<tr class="separator:a5c70f2be42369a3bac3d43ba40c6166d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e8c8001c336cbc98b9b38e3327b4cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_d_d_layer.html#ad2e8c8001c336cbc98b9b38e3327b4cb">highlightBorder</a> (bool forSelected, const String &amp;borderColor=&quot;&quot;, const String &amp;borderShape=&quot;&quot;)</td></tr>
 <tr class="separator:ad2e8c8001c336cbc98b9b38e3327b4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d_d_layer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d_d_layer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d_d_layer.html">DDLayer</a></td></tr>

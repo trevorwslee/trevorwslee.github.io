@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r11</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r20</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -125,17 +125,16 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>PlotterDDLayer</b> (int8_t layerId)</td></tr>
 <tr class="memdesc:af6bb67db94976b775a350ad92c397813"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
 <tr class="separator:af6bb67db94976b775a350ad92c397813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15910c94ba0af326b569e468c9c0ff8a"><td class="memItemLeft" align="right" valign="top"><a id="a15910c94ba0af326b569e468c9c0ff8a" name="a15910c94ba0af326b569e468c9c0ff8a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>label</b> (const String &amp;key, const String &amp;lab)</td></tr>
+<tr class="memitem:a15910c94ba0af326b569e468c9c0ff8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plotter_d_d_layer.html#a15910c94ba0af326b569e468c9c0ff8a">label</a> (const String &amp;key, const String &amp;lab)</td></tr>
 <tr class="separator:a15910c94ba0af326b569e468c9c0ff8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd97f7ed17dfe318129e409c3006420"><td class="memItemLeft" align="right" valign="top"><a id="a6bd97f7ed17dfe318129e409c3006420" name="a6bd97f7ed17dfe318129e409c3006420"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>label</b> (const String &amp;lab)</td></tr>
 <tr class="separator:a6bd97f7ed17dfe318129e409c3006420"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9f781d914627d896d04845491ec8d9"><td class="memItemLeft" align="right" valign="top"><a id="aee9f781d914627d896d04845491ec8d9" name="aee9f781d914627d896d04845491ec8d9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (const String &amp;key, float value)</td></tr>
+<tr class="memitem:aee9f781d914627d896d04845491ec8d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plotter_d_d_layer.html#aee9f781d914627d896d04845491ec8d9">set</a> (const String &amp;key, float value)</td></tr>
 <tr class="separator:aee9f781d914627d896d04845491ec8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa2032fcd0c64cb985fe025fd347b23"><td class="memItemLeft" align="right" valign="top"><a id="acaa2032fcd0c64cb985fe025fd347b23" name="acaa2032fcd0c64cb985fe025fd347b23"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (float value)</td></tr>
+<tr class="memdesc:acaa2032fcd0c64cb985fe025fd347b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">set value with empty key <br /></td></tr>
 <tr class="separator:acaa2032fcd0c64cb985fe025fd347b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79d07c126c540a510c12521092626c25"><td class="memItemLeft" align="right" valign="top"><a id="a79d07c126c540a510c12521092626c25" name="a79d07c126c540a510c12521092626c25"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (const String &amp;key1, float value1, const String &amp;key2, float value2)</td></tr>
@@ -256,7 +255,66 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for plotter layer; created with <a class="el" href="class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96" title="create a plotter layer">DumbDisplay::createPlotterLayer()</a> or <a class="el" href="class_dumb_display.html#a1b74a3352e0b76716c6910a86306528e">DumbDisplay::createFixedRatePlotterLayer()</a> </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a15910c94ba0af326b569e468c9c0ff8a" name="a15910c94ba0af326b569e468c9c0ff8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15910c94ba0af326b569e468c9c0ff8a">&#9670;&#160;</a></span>label()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlotterDDLayer::label </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>lab</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set label of value with certain key if key has no label, the key will be the label </p>
+
+</div>
+</div>
+<a id="aee9f781d914627d896d04845491ec8d9" name="aee9f781d914627d896d04845491ec8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee9f781d914627d896d04845491ec8d9">&#9670;&#160;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlotterDDLayer::set </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set value of certain key note that key can be empty </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

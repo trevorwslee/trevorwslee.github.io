@@ -5,6 +5,7 @@ var class_joystick_d_d_layer =
     [ "colors", "class_joystick_d_d_layer.html#a365d5462105d7c12abb2da7354811dc5", null ],
     [ "moveToCenter", "class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7", null ],
     [ "moveToPos", "class_joystick_d_d_layer.html#a4bcc78cca3cb2fb07e029b7dfdb0796e", null ],
+    [ "showValue", "class_joystick_d_d_layer.html#abe6f45cfdbfa26075e6c6f60eb9f0a77", null ],
     [ "snappy", "class_joystick_d_d_layer.html#a51a073834481d458a389fb378b8ab385", null ],
     [ "valueRange", "class_joystick_d_d_layer.html#a939e12109037f5191bdeaa750083898a", null ]
 ];
