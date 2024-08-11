@@ -23,7 +23,7 @@ var searchData=
   ['ddlayer_20',['DDLayer',['../class_d_d_layer.html',1,'']]],
   ['ddlayouthelper_21',['DDLayoutHelper',['../class_d_d_layout_helper.html',1,'']]],
   ['ddlocation_22',['DDLocation',['../struct_d_d_location.html',1,'']]],
-  ['ddmasterresetpassiveconnectionhelper_23',['DDMasterResetPassiveConnectionHelper',['../class_d_d_master_reset_passive_connection_helper.html',1,'']]],
+  ['ddmasterresetpassiveconnectionhelper_23',['DDMasterResetPassiveConnectionHelper',['../class_d_d_master_reset_passive_connection_helper.html',1,'DDMasterResetPassiveConnectionHelper'],['../class_d_d_master_reset_passive_connection_helper.html#a28e8e24f386c020b517d0a6919616072',1,'DDMasterResetPassiveConnectionHelper::DDMasterResetPassiveConnectionHelper()']]],
   ['ddobject_24',['DDObject',['../struct_d_d_object.html',1,'']]],
   ['ddobjectdetectdemoresult_25',['DDObjectDetectDemoResult',['../struct_d_d_object_detect_demo_result.html',1,'']]],
   ['ddpendingvalue_26',['DDPendingValue',['../class_d_d_pending_value.html',1,'']]],

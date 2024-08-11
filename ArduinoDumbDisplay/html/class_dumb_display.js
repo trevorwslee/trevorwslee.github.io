@@ -1,6 +1,7 @@
 var class_dumb_display =
 [
     [ "addRemainingAutoPinConfig", "class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3", null ],
+    [ "alert", "class_dumb_display.html#a8be956a225685f7ef1437665c686a4cd", null ],
     [ "backgroundColor", "class_dumb_display.html#a1af37458f1034619132bca9ddeef1962", null ],
     [ "cacheSound16", "class_dumb_display.html#a882a1dcde95b7ce37a31ada1ddc45f97", null ],
     [ "cacheSound8", "class_dumb_display.html#a9869beab50079e632e3983b1a2a90cd3", null ],

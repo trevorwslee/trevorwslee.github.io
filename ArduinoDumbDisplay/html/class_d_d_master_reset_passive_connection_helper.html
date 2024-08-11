@@ -112,9 +112,8 @@ $(document).ready(function(){initNavTree('class_d_d_master_reset_passive_connect
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a517dfc5992fbe3683587d663b70df9fc"><td class="memItemLeft" align="right" valign="top"><a id="a517dfc5992fbe3683587d663b70df9fc" name="a517dfc5992fbe3683587d663b70df9fc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DDMasterResetPassiveConnectionHelper</b> (<a class="el" href="class_dumb_display.html">DumbDisplay</a> &amp;dumbdisplay)</td></tr>
-<tr class="separator:a517dfc5992fbe3683587d663b70df9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e8e24f386c020b517d0a6919616072"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_master_reset_passive_connection_helper.html#a28e8e24f386c020b517d0a6919616072">DDMasterResetPassiveConnectionHelper</a> (<a class="el" href="class_dumb_display.html">DumbDisplay</a> &amp;dumbdisplay, bool saveAndPlaybackWhenInit=false)</td></tr>
+<tr class="separator:a28e8e24f386c020b517d0a6919616072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d59df5e37e3c59d8ad8775c86a6f0b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_master_reset_passive_connection_helper.html#a9d59df5e37e3c59d8ad8775c86a6f0b4">loop</a> (void(*initializeCallback)(), void(*updateCallback)(), void(*disconnectedCallback)()=NULL)</td></tr>
 <tr class="separator:a9d59df5e37e3c59d8ad8775c86a6f0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062f5b7d5527b2348a85390f4bf3291a"><td class="memItemLeft" align="right" valign="top"><a id="a062f5b7d5527b2348a85390f4bf3291a" name="a062f5b7d5527b2348a85390f4bf3291a"></a>
@@ -139,7 +138,50 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to manage passive connection to <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>. The only method that should be called in <code>void <a class="el" href="class_d_d_master_reset_passive_connection_helper.html#a9d59df5e37e3c59d8ad8775c86a6f0b4">loop()</a> {}</code> is DDPassiveConnectionHelper::loop(), passing to it some callbacks Note that it will call <a class="el" href="class_dumb_display.html#a8a0b220dd19b521c3da619c03a1f27a3">DumbDisplay::masterReset()</a> when reconnected (i.e. lost previous connection) </p>
 <dl class="section since"><dt>Since</dt><dd>v0.9.9 </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a28e8e24f386c020b517d0a6919616072" name="a28e8e24f386c020b517d0a6919616072"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e8e24f386c020b517d0a6919616072">&#9670;&#160;</a></span>DDMasterResetPassiveConnectionHelper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DDMasterResetPassiveConnectionHelper::DDMasterResetPassiveConnectionHelper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_dumb_display.html">DumbDisplay</a> &amp;&#160;</td>
+          <td class="paramname"><em>dumbdisplay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>saveAndPlaybackWhenInit</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveAndPlaybackWhenInit</td><td>if true, will call <a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">DumbDisplay::recordLayerCommands()</a> / <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">DumbDisplay::playbackLayerCommands()</a> before and after calling <code>initializeCallback</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9d59df5e37e3c59d8ad8775c86a6f0b4" name="a9d59df5e37e3c59d8ad8775c86a6f0b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d59df5e37e3c59d8ad8775c86a6f0b4">&#9670;&#160;</a></span>loop()</h2>
 

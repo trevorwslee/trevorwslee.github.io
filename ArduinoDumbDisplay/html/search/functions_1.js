@@ -8,8 +8,9 @@ var searchData=
   ['addremainingautopinconfig_5',['addRemainingAutoPinConfig',['../class_d_d_layout_helper.html#af575140784428656fb67ccbfbfcb0049',1,'DDLayoutHelper::addRemainingAutoPinConfig()'],['../class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3',1,'DumbDisplay::addRemainingAutoPinConfig()']]],
   ['addremaininggroup_6',['addRemainingGroup',['../class_d_d_auto_pin_config.html#af9cb99d5308894409f4a13e4d1bb8813',1,'DDAutoPinConfig']]],
   ['addspacer_7',['addSpacer',['../class_d_d_auto_pin_config.html#a06f7568bdf96d0f5986172c08f7952cd',1,'DDAutoPinConfig']]],
-  ['alpha_8',['alpha',['../class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003',1,'DDLayer']]],
-  ['arc_9',['arc',['../class_turtle_d_d_layer.html#a142c6c68e9e9c2ee5095f8ba55828ab3',1,'TurtleDDLayer::arc()'],['../class_graphical_d_d_layer.html#a64f8cffd2f8eb4f6d8f2bbc045d2d639',1,'GraphicalDDLayer::arc()']]],
-  ['autorecenter_10',['autoRecenter',['../class_joystick_d_d_layer.html#aab5fed2db94a656cdf25f4a9a6e5981d',1,'JoystickDDLayer']]],
-  ['autoscroll_11',['autoscroll',['../class_lcd_d_d_layer.html#aa26d736cb20815d0be675b10c231a18a',1,'LcdDDLayer']]]
+  ['alert_8',['alert',['../class_dumb_display.html#a8be956a225685f7ef1437665c686a4cd',1,'DumbDisplay']]],
+  ['alpha_9',['alpha',['../class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003',1,'DDLayer']]],
+  ['arc_10',['arc',['../class_turtle_d_d_layer.html#a142c6c68e9e9c2ee5095f8ba55828ab3',1,'TurtleDDLayer::arc()'],['../class_graphical_d_d_layer.html#a64f8cffd2f8eb4f6d8f2bbc045d2d639',1,'GraphicalDDLayer::arc()']]],
+  ['autorecenter_11',['autoRecenter',['../class_joystick_d_d_layer.html#aab5fed2db94a656cdf25f4a9a6e5981d',1,'JoystickDDLayer']]],
+  ['autoscroll_12',['autoscroll',['../class_lcd_d_d_layer.html#aa26d736cb20815d0be675b10c231a18a',1,'LcdDDLayer']]]
 ];
