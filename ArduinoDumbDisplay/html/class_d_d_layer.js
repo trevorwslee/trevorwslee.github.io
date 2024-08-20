@@ -2,6 +2,7 @@ var class_d_d_layer =
 [
     [ "alpha", "class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003", null ],
     [ "backgroundColor", "class_d_d_layer.html#aacbea5532035ff4c35778748a082f2cb", null ],
+    [ "blend", "class_d_d_layer.html#a27e4f289108d48fde2962113c8435831", null ],
     [ "border", "class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2", null ],
     [ "clear", "class_d_d_layer.html#a3255c9efadbdf3ac0e283b287eb4e698", null ],
     [ "debugOnly", "class_d_d_layer.html#ad1b5dbef97985ed7855e078b10ab938a", null ],
@@ -16,6 +17,7 @@ var class_d_d_layer =
     [ "margin", "class_d_d_layer.html#ad0e407a8f7fb093725f542bd2c32452a", null ],
     [ "margin", "class_d_d_layer.html#ad6281025d338dd92e172ffce158fad37", null ],
     [ "noBackgroundColor", "class_d_d_layer.html#ad6effca7f22a44ee10afc44f478dfbf0", null ],
+    [ "noblend", "class_d_d_layer.html#a30f8ca91f81ce101d085a3f6799e034a", null ],
     [ "noBorder", "class_d_d_layer.html#a144aa8c2ab2f50fe9ad2882e91855713", null ],
     [ "noMargin", "class_d_d_layer.html#a94862658a6710ed15d35e95e6ac99d1a", null ],
     [ "noPadding", "class_d_d_layer.html#aa065c36b3a49ef05a859dade7b5bd406", null ],

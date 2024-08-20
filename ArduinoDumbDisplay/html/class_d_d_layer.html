@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r20</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r30</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -116,19 +116,20 @@ Inheritance diagram for DDLayer:</div>
  <div class="center">
   <img src="class_d_d_layer.png" usemap="#DDLayer_map" alt=""/>
   <map id="DDLayer_map" name="DDLayer_map">
-<area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,171,24"/>
-<area href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()" alt="GraphicalDDLayer" shape="rect" coords="181,112,352,136"/>
-<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()" alt="JoystickDDLayer" shape="rect" coords="181,168,352,192"/>
-<area href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()" alt="LcdDDLayer" shape="rect" coords="181,224,352,248"/>
-<area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer; created with DumbDisplay::createLedGridLayer()" alt="LedGridDDLayer" shape="rect" coords="181,280,352,304"/>
-<area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer; created with DumbDisplay::createMicrobitLayer()" alt="MbDDLayer" shape="rect" coords="181,336,352,360"/>
-<area href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa..." alt="PlotterDDLayer" shape="rect" coords="181,392,352,416"/>
-<area href="class_selection_d_d_layer.html" title="Class for &quot;selection&quot; layer of multiple LCD-like &quot;selection&quot; units; created with DumbDisplay::createS..." alt="SelectionDDLayer" shape="rect" coords="181,448,352,472"/>
-<area href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer; created with DumbDisplay::create7SegmentRowLayer()" alt="SevenSegmentRowDDLayer" shape="rect" coords="181,504,352,528"/>
-<area href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc; created with DumbDisplay::c..." alt="TerminalDDLayer" shape="rect" coords="181,560,352,584"/>
-<area href="class_tom_tom_map_d_d_layer.html" title="Class for TomTom map &quot;device dependent view&quot; layer, which means that it is solely rendered by the And..." alt="TomTomMapDDLayer" shape="rect" coords="181,616,352,640"/>
-<area href="class_turtle_d_d_layer.html" title="Class for Turtle-like DD layer; created with DumbDisplay::createTurtleLayer()" alt="TurtleDDLayer" shape="rect" coords="181,672,352,696"/>
-<area href="class_web_view_d_d_layer.html" title="Class for a WebView &quot;device dependent view&quot; layer." alt="WebViewDDLayer" shape="rect" coords="181,728,352,752"/>
+<area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,181,24"/>
+<area href="class_dumb_display_window_d_d_layer.html" alt="DumbDisplayWindowDDLayer" shape="rect" coords="191,112,372,136"/>
+<area href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()" alt="GraphicalDDLayer" shape="rect" coords="191,168,372,192"/>
+<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()" alt="JoystickDDLayer" shape="rect" coords="191,224,372,248"/>
+<area href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()" alt="LcdDDLayer" shape="rect" coords="191,280,372,304"/>
+<area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer; created with DumbDisplay::createLedGridLayer()" alt="LedGridDDLayer" shape="rect" coords="191,336,372,360"/>
+<area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer; created with DumbDisplay::createMicrobitLayer()" alt="MbDDLayer" shape="rect" coords="191,392,372,416"/>
+<area href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa..." alt="PlotterDDLayer" shape="rect" coords="191,448,372,472"/>
+<area href="class_selection_d_d_layer.html" title="Class for &quot;selection&quot; layer of multiple LCD-like &quot;selection&quot; units; created with DumbDisplay::createS..." alt="SelectionDDLayer" shape="rect" coords="191,504,372,528"/>
+<area href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer; created with DumbDisplay::create7SegmentRowLayer()" alt="SevenSegmentRowDDLayer" shape="rect" coords="191,560,372,584"/>
+<area href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc; created with DumbDisplay::c..." alt="TerminalDDLayer" shape="rect" coords="191,616,372,640"/>
+<area href="class_tom_tom_map_d_d_layer.html" alt="TomTomMapDDLayer" shape="rect" coords="191,672,372,696"/>
+<area href="class_turtle_d_d_layer.html" title="Class for Turtle-like DD layer; created with DumbDisplay::createTurtleLayer()" alt="TurtleDDLayer" shape="rect" coords="191,728,372,752"/>
+<area href="class_web_view_d_d_layer.html" alt="WebViewDDLayer" shape="rect" coords="191,784,372,808"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -182,6 +183,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disabled</b> (bool di
 <tr class="separator:a9dd22c2a594cdfe81f3b5e4969eccbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acad4324f599ff6f85e00e79c5657d003"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003">alpha</a> (int alpha)</td></tr>
 <tr class="separator:acad4324f599ff6f85e00e79c5657d003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27e4f289108d48fde2962113c8435831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a27e4f289108d48fde2962113c8435831">blend</a> (const String &amp;color, int <a class="el" href="class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003">alpha</a>=255, const String &amp;mode=&quot;darken&quot;)</td></tr>
+<tr class="separator:a27e4f289108d48fde2962113c8435831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f8ca91f81ce101d085a3f6799e034a"><td class="memItemLeft" align="right" valign="top"><a id="a30f8ca91f81ce101d085a3f6799e034a" name="a30f8ca91f81ce101d085a3f6799e034a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>noblend</b> ()</td></tr>
+<tr class="memdesc:a30f8ca91f81ce101d085a3f6799e034a"><td class="mdescLeft">&#160;</td><td class="mdescRight">no blending <br /></td></tr>
+<tr class="separator:a30f8ca91f81ce101d085a3f6799e034a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acff354518a030e79c7c5054a24fc5511"><td class="memItemLeft" align="right" valign="top"><a id="acff354518a030e79c7c5054a24fc5511" name="acff354518a030e79c7c5054a24fc5511"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr>
 <tr class="memdesc:acff354518a030e79c7c5054a24fc5511"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the default way (layer + border) <br /></td></tr>
@@ -301,6 +308,48 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   <table class="params">
     <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
     <tr><td class="paramname">opacity</td><td>background opacity (0 - 100) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a27e4f289108d48fde2962113c8435831" name="a27e4f289108d48fde2962113c8435831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27e4f289108d48fde2962113c8435831">&#9670;&#160;</a></span>blend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::blend </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>alpha</em> = <code>255</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>&quot;darken&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>blending with "film" of color over the layer </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td></td></tr>
+    <tr><td class="paramname">alpha</td><td></td></tr>
+    <tr><td class="paramname">mode</td><td>xfermode "darken" / "lighten" / "screen" / "overlay" / "" (no xfermode) </td></tr>
   </table>
   </dd>
 </dl>

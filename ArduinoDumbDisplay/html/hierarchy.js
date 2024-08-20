@@ -11,9 +11,10 @@ var hierarchy =
     [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", null ],
     [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
+    [ "DDDateTime", "class_d_d_date_time.html", null ],
     [ "DDDebugConnectionState", "struct_d_d_debug_connection_state.html", null ],
     [ "DDDebugInterface", "class_d_d_debug_interface.html", [
-      [ "CompositDDDebugIntreface", "class_composit_d_d_debug_intreface.html", null ],
+      [ "CompositeDDDebugInterface", "class_composite_d_d_debug_interface.html", null ],
       [ "DrawTextDDDebugInterface", "class_draw_text_d_d_debug_interface.html", [
         [ "AfTftDDDebugInterface", "class_af_tft_d_d_debug_interface.html", null ],
         [ "OledDDDebugInterface", "class_oled_d_d_debug_interface.html", null ],
@@ -47,6 +48,7 @@ var hierarchy =
     [ "DDMasterResetPassiveConnectionHelper", "class_d_d_master_reset_passive_connection_helper.html", null ],
     [ "DDObject", "struct_d_d_object.html", [
       [ "DDLayer", "class_d_d_layer.html", [
+        [ "DumbDisplayWindowDDLayer", "class_dumb_display_window_d_d_layer.html", null ],
         [ "GraphicalDDLayer", "class_graphical_d_d_layer.html", null ],
         [ "JoystickDDLayer", "class_joystick_d_d_layer.html", null ],
         [ "LcdDDLayer", "class_lcd_d_d_layer.html", null ],

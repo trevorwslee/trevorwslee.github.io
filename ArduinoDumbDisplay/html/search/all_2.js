@@ -9,10 +9,11 @@ var searchData=
   ['bitwise2_6',['bitwise2',['../class_led_grid_d_d_layer.html#ae3ada504f9fda53a86e373310ea42fc1',1,'LedGridDDLayer']]],
   ['bitwise3_7',['bitwise3',['../class_led_grid_d_d_layer.html#a3d4f2f88add9148e27cacea6319708ae',1,'LedGridDDLayer']]],
   ['bitwise4_8',['bitwise4',['../class_led_grid_d_d_layer.html#a95e81cd1a75381a9a34386ccf37c9b7a',1,'LedGridDDLayer']]],
-  ['border_9',['border',['../class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2',1,'DDLayer']]],
-  ['build_10',['build',['../class_d_d_auto_pin_config.html#a734a181879b7e4b8867aa83fae7b67d9',1,'DDAutoPinConfig']]],
-  ['buttonjoystick_11',['ButtonJoystick',['../class_button_joystick.html',1,'']]],
-  ['buttonjoystickbasic_12',['ButtonJoystickBasic',['../class_button_joystick_basic.html',1,'']]],
-  ['buttonpresstracker_13',['ButtonPressTracker',['../class_button_press_tracker.html',1,'']]],
-  ['buttonsonly_14',['ButtonsOnly',['../class_buttons_only.html',1,'']]]
+  ['blend_9',['blend',['../class_d_d_layer.html#a27e4f289108d48fde2962113c8435831',1,'DDLayer']]],
+  ['border_10',['border',['../class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2',1,'DDLayer']]],
+  ['build_11',['build',['../class_d_d_auto_pin_config.html#a734a181879b7e4b8867aa83fae7b67d9',1,'DDAutoPinConfig']]],
+  ['buttonjoystick_12',['ButtonJoystick',['../class_button_joystick.html',1,'']]],
+  ['buttonjoystickbasic_13',['ButtonJoystickBasic',['../class_button_joystick_basic.html',1,'']]],
+  ['buttonpresstracker_14',['ButtonPressTracker',['../class_button_press_tracker.html',1,'']]],
+  ['buttonsonly_15',['ButtonsOnly',['../class_buttons_only.html',1,'']]]
 ];
