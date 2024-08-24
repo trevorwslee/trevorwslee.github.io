@@ -128,6 +128,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isIdle</b> ()</td></t
 <tr class="memitem:a49a3f215aaa1ddce1a57834e0527086a"><td class="memItemLeft" align="right" valign="top"><a id="a49a3f215aaa1ddce1a57834e0527086a" name="a49a3f215aaa1ddce1a57834e0527086a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>justBecameIdle</b> ()</td></tr>
 <tr class="separator:a49a3f215aaa1ddce1a57834e0527086a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a55ac426aa33ecb528c294162cccb27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_master_reset_passive_connection_helper.html#a1a55ac426aa33ecb528c294162cccb27">masterReset</a> ()</td></tr>
+<tr class="separator:a1a55ac426aa33ecb528c294162cccb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -229,6 +231,32 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a1a55ac426aa33ecb528c294162cccb27" name="a1a55ac426aa33ecb528c294162cccb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a55ac426aa33ecb528c294162cccb27">&#9670;&#160;</a></span>masterReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDMasterResetPassiveConnectionHelper::masterReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>normally, "master reset" will be called automatically when lost connection; but can be called explicitly; note that if called explicitly, will not call disconnectedCallback; IMPORTANT: should only call it in updateCallback, and after calling it, should return immediately </p>
 
 </div>
 </div>
