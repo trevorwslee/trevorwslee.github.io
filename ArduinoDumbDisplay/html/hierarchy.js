@@ -6,6 +6,7 @@ var hierarchy =
       [ "LOEspAt::AtResposeInterpreter2", "class_l_o_esp_at_1_1_at_respose_interpreter2.html", null ],
       [ "LOEspAt::ReceiveAtDataInterpreter", "class_l_o_esp_at_1_1_receive_at_data_interpreter.html", null ]
     ] ],
+    [ "BasicDDTunnel", "struct_basic_d_d_tunnel.html", null ],
     [ "ButtonPressTracker", "class_button_press_tracker.html", null ],
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
     [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", null ],
@@ -91,6 +92,7 @@ var hierarchy =
     [ "JoystickPress", "struct_joystick_press.html", null ],
     [ "JoystickPressCode", "struct_joystick_press_code.html", null ],
     [ "JoystickPressTracker", "class_joystick_press_tracker.html", null ],
+    [ "JsonDDTunnel", "struct_json_d_d_tunnel.html", null ],
     [ "JsonDDTunnelMultiplexer", "class_json_d_d_tunnel_multiplexer.html", null ],
     [ "MbImage", "class_mb_image.html", null ]
 ];

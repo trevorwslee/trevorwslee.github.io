@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ArduinoDumbDisplay: DDConnectPassiveStatus Struct Reference</title>
+<title>ArduinoDumbDisplay: JsonDDTunnel Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('struct_d_d_connect_passive_status.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('struct_json_d_d_tunnel.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -97,41 +97,36 @@ $(document).ready(function(){initNavTree('struct_d_d_connect_passive_status.html
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_d_d_connect_passive_status-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DDConnectPassiveStatus Struct Reference</div></div>
+  <div class="headertitle"><div class="title">JsonDDTunnel Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Struct for the status values of calling <a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">DumbDisplay::connectPassive()</a>  
- <a href="struct_d_d_connect_passive_status.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac31717b9f085f8d1963f423446717ebf"><td class="memItemLeft" align="right" valign="top"><a id="ac31717b9f085f8d1963f423446717ebf" name="ac31717b9f085f8d1963f423446717ebf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
-<tr class="memdesc:ac31717b9f085f8d1963f423446717ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">connection made or not &ndash; same as the return value of <a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">DumbDisplay::connectPassive()</a> <br /></td></tr>
-<tr class="separator:ac31717b9f085f8d1963f423446717ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a754546ce645bbdc3bf7a5eb25a845fe6"><td class="memItemLeft" align="right" valign="top"><a id="a754546ce645bbdc3bf7a5eb25a845fe6" name="a754546ce645bbdc3bf7a5eb25a845fe6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>connecting</b></td></tr>
-<tr class="memdesc:a754546ce645bbdc3bf7a5eb25a845fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">connecting: when not connected; starting to establish connection by sending hand-shake messages <br /></td></tr>
-<tr class="separator:a754546ce645bbdc3bf7a5eb25a845fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4728f3679392c6b755fba5bd08258f81"><td class="memItemLeft" align="right" valign="top"><a id="a4728f3679392c6b755fba5bd08258f81" name="a4728f3679392c6b755fba5bd08258f81"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>reconnecting</b></td></tr>
-<tr class="memdesc:a4728f3679392c6b755fba5bd08258f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">reconnecting: when connected; detected reconnecting (after lost of connection) <br /></td></tr>
-<tr class="separator:a4728f3679392c6b755fba5bd08258f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Struct for the status values of calling <a class="el" href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">DumbDisplay::connectPassive()</a> </p>
+<div class="textblock"><p>support simple REST GET api .. e.g. </p><div class="fragment"><div class="line">pTunnel = dumbdisplay.createJsonTunnel(<span class="stringliteral">&quot;http://worldtimeapi.org/api/timezone/Asia/Hong_Kong&quot;</span>) </div>
+</div><!-- fragment --><p> . read() will read JSON one piece at a time ... e.g. </p><div class="fragment"><div class="line">{ </div>
+<div class="line">  <span class="stringliteral">&quot;full_name&quot;</span>: <span class="stringliteral">&quot;Bruce Lee&quot;</span>,</div>
+<div class="line">  <span class="stringliteral">&quot;name&quot;</span>:</div>
+<div class="line">  {</div>
+<div class="line">    <span class="stringliteral">&quot;first&quot;</span>: <span class="stringliteral">&quot;Bruce&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;last&quot;</span>: <span class="stringliteral">&quot;Lee&quot;</span></div>
+<div class="line">  },</div>
+<div class="line">  <span class="stringliteral">&quot;gender&quot;</span>:<span class="stringliteral">&quot;Male&quot;</span>,</div>
+<div class="line">  <span class="stringliteral">&quot;age&quot;</span>:32</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> ==&gt;</p><ul>
+<li><code>full_name</code> = <code>Bruce Lee</code></li>
+<li><code>name.first</code> = <code>Bruce</code></li>
+<li><code>name.last</code> = <code>Lee</code></li>
+<li><code>gender</code> = <code>Male</code></li>
+<li><code>age</code> = <code>32</code> </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="struct_d_d_connect_passive_status.html">DDConnectPassiveStatus</a></li>
+    <li class="navelem"><a class="el" href="struct_json_d_d_tunnel.html">JsonDDTunnel</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

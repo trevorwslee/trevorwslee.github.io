@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r30</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r31</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('class_d_d_layer.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 
-<p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of DumbDispaly, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a>  
+<p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a>  
  <a href="class_d_d_layer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="dumbdisplay_8h_source.html">dumbdisplay.h</a>&gt;</code></p>
@@ -197,13 +197,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flashArea</b> (int x, int y)</td></tr>
 <tr class="memdesc:af348c91ff9a0d39c0db410a5b336fe57"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the area (x, y) where the layer is clicked <br /></td></tr>
 <tr class="separator:af348c91ff9a0d39c0db410a5b336fe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0f602e3da3549f6e0572ec7ff17956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0d0f602e3da3549f6e0572ec7ff17956">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=CLICK, const String &amp;option=&quot;&quot;)</td></tr>
+<tr class="separator:a0d0f602e3da3549f6e0572ec7ff17956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0000f5bf64344786a3c43999c3bc8c26"><td class="memItemLeft" align="right" valign="top"><a id="a0000f5bf64344786a3c43999c3bc8c26" name="a0000f5bf64344786a3c43999c3bc8c26"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getLayerId</b> () const</td></tr>
 <tr class="separator:a0000f5bf64344786a3c43999c3bc8c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad30bb2016420eb32eeee22408ea8a46c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad30bb2016420eb32eeee22408ea8a46c">setFeedbackHandler</a> (<a class="el" href="struct_d_d_feedback_handler.html">DDFeedbackHandler</a> handler, const String &amp;autoFeedbackMethod=&quot;&quot;)</td></tr>
-<tr class="separator:ad30bb2016420eb32eeee22408ea8a46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ef07b5f2616ee89a2c9a785c9d53a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a23ef07b5f2616ee89a2c9a785c9d53a5">enableFeedback</a> (const String &amp;autoFeedbackMethod=&quot;&quot;)</td></tr>
-<tr class="separator:a23ef07b5f2616ee89a2c9a785c9d53a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c03348b0b066608e11252279acb23dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a2c03348b0b066608e11252279acb23dd">setFeedbackHandler</a> (<a class="el" href="struct_d_d_feedback_handler.html">DDFeedbackHandler</a> handler, const String &amp;autoFeedbackMethod=&quot;&quot;, const String &amp;allowFeedbackTypes=&quot;&quot;)</td></tr>
+<tr class="separator:a2c03348b0b066608e11252279acb23dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a8ec4e16b6b9cdb6e6fe0857f3db24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a15a8ec4e16b6b9cdb6e6fe0857f3db24">enableFeedback</a> (const String &amp;autoFeedbackMethod=&quot;&quot;, const String &amp;allowFeedbackTypes=&quot;&quot;)</td></tr>
+<tr class="separator:a15a8ec4e16b6b9cdb6e6fe0857f3db24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad84bd3eb933e9ecce03211021c150acb"><td class="memItemLeft" align="right" valign="top"><a id="ad84bd3eb933e9ecce03211021c150acb" name="ad84bd3eb933e9ecce03211021c150acb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>disableFeedback</b> ()</td></tr>
 <tr class="memdesc:ad84bd3eb933e9ecce03211021c150acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">disable "feedback" <br /></td></tr>
@@ -253,7 +255,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <tr class="separator:a4a1c46c80b09ef2f351e307e71ded651 inherit pub_attribs_struct_d_d_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of DumbDispaly, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a> </p>
+<div class="textblock"><p>Base class for the different layers support by <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; created with various layer creation methods of <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>, <a class="el" href="class_dumb_display.html#adf71aac7991060289302d936ca51b8ba" title="create a LED-grid layer">DumbDisplay::createLedGridLayer()</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acad4324f599ff6f85e00e79c5657d003" name="acad4324f599ff6f85e00e79c5657d003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad4324f599ff6f85e00e79c5657d003">&#9670;&#160;</a></span>alpha()</h2>
@@ -412,8 +414,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 
 </div>
 </div>
-<a id="a23ef07b5f2616ee89a2c9a785c9d53a5" name="a23ef07b5f2616ee89a2c9a785c9d53a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ef07b5f2616ee89a2c9a785c9d53a5">&#9670;&#160;</a></span>enableFeedback()</h2>
+<a id="a15a8ec4e16b6b9cdb6e6fe0857f3db24" name="a15a8ec4e16b6b9cdb6e6fe0857f3db24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a8ec4e16b6b9cdb6e6fe0857f3db24">&#9670;&#160;</a></span>enableFeedback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,21 +424,96 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
           <td class="memname">void DDLayer::enableFeedback </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>autoFeedbackMethod</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td class="paramname"><em>autoFeedbackMethod</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>allowFeedbackTypes</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>rely on <a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback()</a> being called acceptable value for autoFeedbackMethod:</p><ul>
+<p>rely on <a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback()</a> being called </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">autoFeedbackMethod</td><td><ul>
 <li>"" &ndash; no auto feedback (the default)</li>
 <li>"f" &ndash; flash the standard way (layer + border)</li>
 <li>"fl" &ndash; flash the layer</li>
 <li>"fa" &ndash; flash the area where the layer is clicked</li>
 <li>"fas" &ndash; flash the area (as a spot) where the layer is clicked</li>
-<li>"fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) <dl class="section note"><dt>Note</dt><dd>if you will not be making use of "feedback", you can disable it by defining DD_NO_FEEDBACK in order to reduce footprint <br  />
- </dd></dl>
-</li>
+<li>"fs" &ndash; flash the spot where the layer is clicked (regardless of any area boundary) </li>
 </ul>
+</td></tr>
+    <tr><td class="paramname">allowedFeedbackType</td><td>can be comma-delimited list of "CLICK", "LONGPRESS" and "DOUBLECLICK" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>if you will not be making use of "feedback", you can disable it by defining DD_NO_FEEDBACK in order to reduce footprint <br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a0d0f602e3da3549f6e0572ec7ff17956" name="a0d0f602e3da3549f6e0572ec7ff17956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0f602e3da3549f6e0572ec7ff17956">&#9670;&#160;</a></span>explicitFeedback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::explicitFeedback </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>x</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>y</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>text</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a>&#160;</td>
+          <td class="paramname"><em>type</em> = <code>CLICK</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>option</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>trigger explicit "feedback" to the layer (similar to implicit "feedback" when layer is clicked) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>other than CLICK etc, can be CUSTOM (which is only possible with explicit "feedback"); </td></tr>
+    <tr><td class="paramname">option</td><td>can be "" / "keys" / "numkeys" / "confirm";<ul>
+<li>in case of "keys" / "numkeys", input box will be popped up for user to enter the "text" of the "feedback"; and the "text" in the parameter will be the "hint"</li>
+<li>in case of "confirm", a confirmation dialog will be popped up with "text" as the message, and the "feedback" "text" will be "Yes" or "No"; </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>feedback must be enabled for this to work </dd></dl>
 
 </div>
 </div>
@@ -664,8 +741,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 
 </div>
 </div>
-<a id="ad30bb2016420eb32eeee22408ea8a46c" name="ad30bb2016420eb32eeee22408ea8a46c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad30bb2016420eb32eeee22408ea8a46c">&#9670;&#160;</a></span>setFeedbackHandler()</h2>
+<a id="a2c03348b0b066608e11252279acb23dd" name="a2c03348b0b066608e11252279acb23dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c03348b0b066608e11252279acb23dd">&#9670;&#160;</a></span>setFeedbackHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -680,7 +757,13 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>autoFeedbackMethod</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>autoFeedbackMethod</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>allowFeedbackTypes</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -692,7 +775,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <p>set explicit (and more responsive) "feedback" handler (and enable feedback) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">handler</td><td>"feedback" handler; see <a class="el" href="struct_d_d_feedback_handler.html" title="Type signature for &quot;feedback&quot; handler. See DDLayer::setFeedbackHandler()">DDFeedbackHandler</a> </td></tr>
-    <tr><td class="paramname">autoFeedbackMethod</td><td>see <a class="el" href="class_d_d_layer.html#a23ef07b5f2616ee89a2c9a785c9d53a5">DDLayer::enableFeedback()</a> </td></tr>
+    <tr><td class="paramname">autoFeedbackMethod</td><td>see <a class="el" href="class_d_d_layer.html#a15a8ec4e16b6b9cdb6e6fe0857f3db24">DDLayer::enableFeedback()</a> </td></tr>
+    <tr><td class="paramname">allowedFeedbackType</td><td>can be comma-delimited list of "CLICK", "LONGPRESS" and "DOUBLECLICK" </td></tr>
   </table>
   </dd>
 </dl>

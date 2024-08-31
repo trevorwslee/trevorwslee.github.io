@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r30</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r31</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -176,9 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa35f2113b942898427ce460fa8e99dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b">createBasicTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:ac4bc42eee673fd44f5f9837ccf2f8f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a341c2ab8a3ec964fc70b8c26908a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67">createJsonTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
+<tr class="memitem:a8a341c2ab8a3ec964fc70b8c26908a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_basic_d_d_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a341c2ab8a3ec964fc70b8c26908a67">createJsonTunnel</a> (const String &amp;endPoint, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:a8a341c2ab8a3ec964fc70b8c26908a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abef3c3e2958fd86dee4907f78aaf7f13">createFilteredJsonTunnel</a> (const String &amp;endPoint, const String &amp;fileNames, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
+<tr class="memitem:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_basic_d_d_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abef3c3e2958fd86dee4907f78aaf7f13">createFilteredJsonTunnel</a> (const String &amp;endPoint, const String &amp;fileNames, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39ff653fedb03647a41af089649ca801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_tool_d_d_tunnel.html">SimpleToolDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a39ff653fedb03647a41af089649ca801">createImageDownloadTunnel</a> (const String &amp;endPoint, const String &amp;imageName, boolean redownload=true)</td></tr>
 <tr class="separator:a39ff653fedb03647a41af089649ca801"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -712,7 +712,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
       </table>
 </div><div class="memdoc">
 <p>create a "tunnel" for accessing the Web </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_basic_d_d_tunnel.html">BasicDDTunnel</a> </dd></dl>
 
 </div>
 </div>
@@ -769,7 +769,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> * DumbDisplay::createFilteredJsonTunnel </td>
+          <td class="memname"><a class="el" href="struct_basic_d_d_tunnel.html">JsonDDTunnel</a> * DumbDisplay::createFilteredJsonTunnel </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
           <td class="paramname"><em>endPoint</em>, </td>
@@ -806,7 +806,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd>JsonDDTunnel </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_json_d_d_tunnel.html">JsonDDTunnel</a> </dd></dl>
 
 </div>
 </div>
@@ -862,7 +862,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <p>create a general "service tunnel" for purposes like getting date-time info from phone; use reconnectTo() with commands like</p><ul>
 <li><code>now</code> &ndash; e.g <code>now:yyyy-MM-dd-hh-mm-ss</code> where <code>yyyy-MM-dd-hh-mm-ss</code> is the format</li>
 <li><code>now-millis</code></li>
-<li><code>confirm</code> &ndash; pop up a dialog to confirm; e.g. <code>confirm?title=Confirm&amp;message=Are%20you%20sure%3F&amp;ok=Yes&amp;cancel=No</code> <dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+<li><code>confirm</code> &ndash; pop up a dialog to confirm; e.g. <code>confirm?title=Confirm&amp;message=Are%20you%20sure%3F&amp;ok=Yes&amp;cancel=No</code> <dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_basic_d_d_tunnel.html">BasicDDTunnel</a> </dd></dl>
 </li>
 </ul>
 
@@ -1004,7 +1004,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_d_d_buffered_tunnel.html">JsonDDTunnel</a> * DumbDisplay::createJsonTunnel </td>
+          <td class="memname"><a class="el" href="struct_basic_d_d_tunnel.html">JsonDDTunnel</a> * DumbDisplay::createJsonTunnel </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
           <td class="paramname"><em>endPoint</em>, </td>
@@ -1029,7 +1029,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
       </table>
 </div><div class="memdoc">
 <p>create a JSON 'tunnel' for thing like making RESTful calls </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>BasicDDTunnel </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_basic_d_d_tunnel.html">BasicDDTunnel</a> </dd></dl>
 
 </div>
 </div>

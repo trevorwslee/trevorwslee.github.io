@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r30</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r31</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -103,10 +103,10 @@ $(document).ready(function(){initNavTree('__dd__util_8h_source.html',''); initRe
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef _dd_util_h</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define _dd_util_h</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define DD_CONNECT_FOR_GET_DATE_TIME &quot;now:yyyy-MM-dd-HH-mm-ss&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define DD_CONNECT_FOR_GET_DATE_TIME &quot;now:yyyy-MM-dd-HH-mm-ss-Z&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="class_d_d_date_time.html">    5</a></span><span class="keyword">class </span><a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a> {</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>(<span class="keywordtype">int</span> year =  0, <span class="keywordtype">int</span> month =  0, <span class="keywordtype">int</span> day =  0, <span class="keywordtype">int</span> hour =  0, <span class="keywordtype">int</span> minute =  0, <span class="keywordtype">int</span> second =  0): year(year), month(month), day(day), hour(hour), minute(minute), second(second) {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>(<span class="keywordtype">int</span> year =  0, <span class="keywordtype">int</span> month =  0, <span class="keywordtype">int</span> day =  0, <span class="keywordtype">int</span> hour =  0, <span class="keywordtype">int</span> minute =  0, <span class="keywordtype">int</span> second =  0): year(year), month(month), day(day), hour(hour), minute(minute), second(second)   {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    }</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keywordtype">int</span> year;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordtype">int</span> month;</div>
@@ -115,10 +115,10 @@ $(document).ready(function(){initNavTree('__dd__util_8h_source.html',''); initRe
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">int</span> minute;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">int</span> second;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> DDParseGetDataTimeResponse(<span class="keyword">const</span> String&amp; response, <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>&amp; dateTime);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> DDParseGetDataTimeResponse(<span class="keyword">const</span> String&amp; response, <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>&amp; dateTime, <span class="keywordtype">int</span>* pTZMins = NULL);</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#if defined(ESP32)</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> Esp32SetDateTime(<span class="keyword">const</span> <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>&amp; dateTime);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> Esp32SetDateTime(<span class="keyword">const</span> <a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>&amp; dateTime, <span class="keywordtype">int</span> tz_minuteswest = 0, <span class="keywordtype">int</span> tz_dsttime = 0);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keywordtype">bool</span> Esp32GetDateTime(<a class="code hl_class" href="class_d_d_date_time.html">DDDateTime</a>&amp; dateTime);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>

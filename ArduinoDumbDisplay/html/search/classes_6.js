@@ -6,5 +6,6 @@ var searchData=
   ['joystickpress_3',['JoystickPress',['../struct_joystick_press.html',1,'']]],
   ['joystickpresscode_4',['JoystickPressCode',['../struct_joystick_press_code.html',1,'']]],
   ['joystickpresstracker_5',['JoystickPressTracker',['../class_joystick_press_tracker.html',1,'']]],
-  ['jsonddtunnelmultiplexer_6',['JsonDDTunnelMultiplexer',['../class_json_d_d_tunnel_multiplexer.html',1,'']]]
+  ['jsonddtunnel_6',['JsonDDTunnel',['../struct_json_d_d_tunnel.html',1,'']]],
+  ['jsonddtunnelmultiplexer_7',['JsonDDTunnelMultiplexer',['../class_json_d_d_tunnel_multiplexer.html',1,'']]]
 ];

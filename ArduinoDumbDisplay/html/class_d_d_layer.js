@@ -8,7 +8,8 @@ var class_d_d_layer =
     [ "debugOnly", "class_d_d_layer.html#ad1b5dbef97985ed7855e078b10ab938a", null ],
     [ "disabled", "class_d_d_layer.html#a33af44a362010163f3be2a62fa1079d5", null ],
     [ "disableFeedback", "class_d_d_layer.html#ad84bd3eb933e9ecce03211021c150acb", null ],
-    [ "enableFeedback", "class_d_d_layer.html#a23ef07b5f2616ee89a2c9a785c9d53a5", null ],
+    [ "enableFeedback", "class_d_d_layer.html#a15a8ec4e16b6b9cdb6e6fe0857f3db24", null ],
+    [ "explicitFeedback", "class_d_d_layer.html#a0d0f602e3da3549f6e0572ec7ff17956", null ],
     [ "flash", "class_d_d_layer.html#acff354518a030e79c7c5054a24fc5511", null ],
     [ "flashArea", "class_d_d_layer.html#af348c91ff9a0d39c0db410a5b336fe57", null ],
     [ "getFeedback", "class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb", null ],
@@ -24,7 +25,7 @@ var class_d_d_layer =
     [ "opacity", "class_d_d_layer.html#a9dd22c2a594cdfe81f3b5e4969eccbc9", null ],
     [ "padding", "class_d_d_layer.html#a2251ba06d946324f0cd4ad4c3ee95aa2", null ],
     [ "padding", "class_d_d_layer.html#af40e91f16c30d519e8947014ef5cdcac", null ],
-    [ "setFeedbackHandler", "class_d_d_layer.html#ad30bb2016420eb32eeee22408ea8a46c", null ],
+    [ "setFeedbackHandler", "class_d_d_layer.html#a2c03348b0b066608e11252279acb23dd", null ],
     [ "transparent", "class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6", null ],
     [ "visible", "class_d_d_layer.html#a08199164b2853bf63126db7524ff9956", null ]
 ];
