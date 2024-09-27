@@ -17,11 +17,12 @@ var searchData=
   ['recordlayersetupcommands_14',['recordLayerSetupCommands',['../class_dumb_display.html#a8adca053da4dfa85326381b77962a66a',1,'DumbDisplay']]],
   ['rectangle_15',['rectangle',['../class_turtle_d_d_layer.html#af671e427b52c8845525da9534552a357',1,'TurtleDDLayer::rectangle()'],['../class_graphical_d_d_layer.html#aee958843fe4cee5d76f2a280ce1ffdda',1,'GraphicalDDLayer::rectangle()']]],
   ['reorderlayer_16',['reorderLayer',['../class_dumb_display.html#a9cf77c3d03199ce88434f7883609a3e9',1,'DumbDisplay']]],
-  ['resetendpoint_17',['resetEndpoint',['../class_d_d_tunnel_endpoint.html#ae65148a4a14d5e051def7724438a4947',1,'DDTunnelEndpoint']]],
-  ['resetheaders_18',['resetHeaders',['../class_d_d_tunnel_endpoint.html#a4b646c88664ce4b0c7c5d117e4257f78',1,'DDTunnelEndpoint']]],
-  ['resetparams_19',['resetParams',['../class_d_d_tunnel_endpoint.html#a2f565d430c29e405c15acb5cda250f86',1,'DDTunnelEndpoint']]],
-  ['resetsegmentoffcolor_20',['resetSegmentOffColor',['../class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1',1,'SevenSegmentRowDDLayer']]],
-  ['resetsegmentoffnocolor_21',['resetSegmentOffNoColor',['../class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4',1,'SevenSegmentRowDDLayer']]],
-  ['resetsoundattachment_22',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
-  ['rightturn_23',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]]
+  ['reorderlevel_17',['reorderLevel',['../class_multi_level_d_d_layer.html#a34638824faecf0fe3f474d8719b5fddc',1,'MultiLevelDDLayer']]],
+  ['resetendpoint_18',['resetEndpoint',['../class_d_d_tunnel_endpoint.html#ae65148a4a14d5e051def7724438a4947',1,'DDTunnelEndpoint']]],
+  ['resetheaders_19',['resetHeaders',['../class_d_d_tunnel_endpoint.html#a4b646c88664ce4b0c7c5d117e4257f78',1,'DDTunnelEndpoint']]],
+  ['resetparams_20',['resetParams',['../class_d_d_tunnel_endpoint.html#a2f565d430c29e405c15acb5cda250f86',1,'DDTunnelEndpoint']]],
+  ['resetsegmentoffcolor_21',['resetSegmentOffColor',['../class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1',1,'SevenSegmentRowDDLayer']]],
+  ['resetsegmentoffnocolor_22',['resetSegmentOffNoColor',['../class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4',1,'SevenSegmentRowDDLayer']]],
+  ['resetsoundattachment_23',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
+  ['rightturn_24',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]]
 ];

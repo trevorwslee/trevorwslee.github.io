@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r31</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r33</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -126,7 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e84b3a8a6724da87d86013bf710956c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin</a> (const String &amp;layoutSpec=DD_AP_VERT, bool autoShowHideLayers=false)</td></tr>
 <tr class="separator:a6e84b3a8a6724da87d86013bf710956c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3">addRemainingAutoPinConfig</a> (const String &amp;remainingLayoutSpec)</td></tr>
+<tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top"><a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinConfig</b> (const String &amp;remainingLayoutSpec)</td></tr>
+<tr class="memdesc:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin()</a> <br /></td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#af4aa1442419d92e5a72f0bd8b2627f9d">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100, bool autoShowHideLayers=false)</td></tr>
 <tr class="separator:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,31 +353,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The core class for <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a>; everything starts here. The most important argument to <a class="el" href="class_dumb_display.html" title="The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...">DumbDisplay</a> is an <a class="el" href="class_d_d_input_output.html" title="Class for DD input/output; you explicitly constructed it, pass in when instantiate DumbDisplay,...">DDInputOutput</a> object. For an example, please refer to <a href="https://www.instructables.com/Blink-Test-With-Virtual-Display-DumbDisplay/">Blink Test With Virtual Display, DumbDisplay</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c4edf110fa40b238f1bdc6a2c1e91d3">&#9670;&#160;</a></span>addRemainingAutoPinConfig()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DumbDisplay::addRemainingAutoPinConfig </td>
-          <td>(</td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>remainingLayoutSpec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin()</a> </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">remainingLayoutSpec</td><td><br  />
- </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a1af37458f1034619132bca9ddeef1962" name="a1af37458f1034619132bca9ddeef1962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1af37458f1034619132bca9ddeef1962">&#9670;&#160;</a></span>backgroundColor()</h2>
 

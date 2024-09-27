@@ -50,17 +50,19 @@ var hierarchy =
     [ "DDObject", "struct_d_d_object.html", [
       [ "DDLayer", "class_d_d_layer.html", [
         [ "DumbDisplayWindowDDLayer", "class_dumb_display_window_d_d_layer.html", null ],
-        [ "GraphicalDDLayer", "class_graphical_d_d_layer.html", null ],
         [ "JoystickDDLayer", "class_joystick_d_d_layer.html", null ],
         [ "LcdDDLayer", "class_lcd_d_d_layer.html", null ],
         [ "LedGridDDLayer", "class_led_grid_d_d_layer.html", null ],
         [ "MbDDLayer", "class_mb_d_d_layer.html", null ],
+        [ "MultiLevelDDLayer", "class_multi_level_d_d_layer.html", [
+          [ "GraphicalDDLayer", "class_graphical_d_d_layer.html", null ],
+          [ "TurtleDDLayer", "class_turtle_d_d_layer.html", null ]
+        ] ],
         [ "PlotterDDLayer", "class_plotter_d_d_layer.html", null ],
         [ "SelectionDDLayer", "class_selection_d_d_layer.html", null ],
         [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", null ],
         [ "TerminalDDLayer", "class_terminal_d_d_layer.html", null ],
         [ "TomTomMapDDLayer", "class_tom_tom_map_d_d_layer.html", null ],
-        [ "TurtleDDLayer", "class_turtle_d_d_layer.html", null ],
         [ "WebViewDDLayer", "class_web_view_d_d_layer.html", null ]
       ] ],
       [ "DDTunnel", "class_d_d_tunnel.html", [

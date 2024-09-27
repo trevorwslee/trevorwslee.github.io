@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r31</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r33</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -118,18 +118,17 @@ Inheritance diagram for DDLayer:</div>
   <map id="DDLayer_map" name="DDLayer_map">
 <area href="struct_d_d_object.html" title="Base class for DD objects." alt="DDObject" shape="rect" coords="0,0,181,24"/>
 <area href="class_dumb_display_window_d_d_layer.html" alt="DumbDisplayWindowDDLayer" shape="rect" coords="191,112,372,136"/>
-<area href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()" alt="GraphicalDDLayer" shape="rect" coords="191,168,372,192"/>
-<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()" alt="JoystickDDLayer" shape="rect" coords="191,224,372,248"/>
-<area href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()" alt="LcdDDLayer" shape="rect" coords="191,280,372,304"/>
-<area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer; created with DumbDisplay::createLedGridLayer()" alt="LedGridDDLayer" shape="rect" coords="191,336,372,360"/>
-<area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer; created with DumbDisplay::createMicrobitLayer()" alt="MbDDLayer" shape="rect" coords="191,392,372,416"/>
+<area href="class_joystick_d_d_layer.html" title="Class for virtual joystick layer; created with DumbDisplay::createJoystickLayer()" alt="JoystickDDLayer" shape="rect" coords="191,168,372,192"/>
+<area href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()" alt="LcdDDLayer" shape="rect" coords="191,224,372,248"/>
+<area href="class_led_grid_d_d_layer.html" title="Class for LED grid layer; created with DumbDisplay::createLedGridLayer()" alt="LedGridDDLayer" shape="rect" coords="191,280,372,304"/>
+<area href="class_mb_d_d_layer.html" title="Class for Microbit-like DD layer; created with DumbDisplay::createMicrobitLayer()" alt="MbDDLayer" shape="rect" coords="191,336,372,360"/>
+<area href="class_multi_level_d_d_layer.html" alt="MultiLevelDDLayer" shape="rect" coords="191,392,372,416"/>
 <area href="class_plotter_d_d_layer.html" title="Class for plotter layer; created with DumbDisplay::createPlotterLayer() or DumbDisplay::createFixedRa..." alt="PlotterDDLayer" shape="rect" coords="191,448,372,472"/>
 <area href="class_selection_d_d_layer.html" title="Class for &quot;selection&quot; layer of multiple LCD-like &quot;selection&quot; units; created with DumbDisplay::createS..." alt="SelectionDDLayer" shape="rect" coords="191,504,372,528"/>
 <area href="class_seven_segment_row_d_d_layer.html" title="Class for 7-segment row layer; created with DumbDisplay::create7SegmentRowLayer()" alt="SevenSegmentRowDDLayer" shape="rect" coords="191,560,372,584"/>
 <area href="class_terminal_d_d_layer.html" title="Class for a terminal-like &quot;device dependent view&quot; layer, for logging etc; created with DumbDisplay::c..." alt="TerminalDDLayer" shape="rect" coords="191,616,372,640"/>
 <area href="class_tom_tom_map_d_d_layer.html" alt="TomTomMapDDLayer" shape="rect" coords="191,672,372,696"/>
-<area href="class_turtle_d_d_layer.html" title="Class for Turtle-like DD layer; created with DumbDisplay::createTurtleLayer()" alt="TurtleDDLayer" shape="rect" coords="191,728,372,752"/>
-<area href="class_web_view_d_d_layer.html" alt="WebViewDDLayer" shape="rect" coords="191,784,372,808"/>
+<area href="class_web_view_d_d_layer.html" alt="WebViewDDLayer" shape="rect" coords="191,728,372,752"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -137,47 +136,29 @@ Inheritance diagram for DDLayer:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ace35be671b65946edca32b63d4f9b7c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2">border</a> (float size, const String &amp;color, const String &amp;shape=&quot;flat&quot;, float extraSize=0)</td></tr>
 <tr class="separator:ace35be671b65946edca32b63d4f9b7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144aa8c2ab2f50fe9ad2882e91855713"><td class="memItemLeft" align="right" valign="top"><a id="a144aa8c2ab2f50fe9ad2882e91855713" name="a144aa8c2ab2f50fe9ad2882e91855713"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>noBorder</b> ()</td></tr>
-<tr class="memdesc:a144aa8c2ab2f50fe9ad2882e91855713"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no border <br /></td></tr>
+<tr class="memitem:a144aa8c2ab2f50fe9ad2882e91855713"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a144aa8c2ab2f50fe9ad2882e91855713">noBorder</a> ()</td></tr>
 <tr class="separator:a144aa8c2ab2f50fe9ad2882e91855713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af40e91f16c30d519e8947014ef5cdcac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#af40e91f16c30d519e8947014ef5cdcac">padding</a> (float size)</td></tr>
 <tr class="separator:af40e91f16c30d519e8947014ef5cdcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2251ba06d946324f0cd4ad4c3ee95aa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a2251ba06d946324f0cd4ad4c3ee95aa2">padding</a> (float left, float top, float right, float bottom)</td></tr>
 <tr class="separator:a2251ba06d946324f0cd4ad4c3ee95aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa065c36b3a49ef05a859dade7b5bd406"><td class="memItemLeft" align="right" valign="top"><a id="aa065c36b3a49ef05a859dade7b5bd406" name="aa065c36b3a49ef05a859dade7b5bd406"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>noPadding</b> ()</td></tr>
-<tr class="memdesc:aa065c36b3a49ef05a859dade7b5bd406"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no padding <br /></td></tr>
+<tr class="memitem:aa065c36b3a49ef05a859dade7b5bd406"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#aa065c36b3a49ef05a859dade7b5bd406">noPadding</a> ()</td></tr>
 <tr class="separator:aa065c36b3a49ef05a859dade7b5bd406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6281025d338dd92e172ffce158fad37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad6281025d338dd92e172ffce158fad37">margin</a> (float size)</td></tr>
 <tr class="separator:ad6281025d338dd92e172ffce158fad37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0e407a8f7fb093725f542bd2c32452a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad0e407a8f7fb093725f542bd2c32452a">margin</a> (float left, float top, float right, float bottom)</td></tr>
 <tr class="separator:ad0e407a8f7fb093725f542bd2c32452a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94862658a6710ed15d35e95e6ac99d1a"><td class="memItemLeft" align="right" valign="top"><a id="a94862658a6710ed15d35e95e6ac99d1a" name="a94862658a6710ed15d35e95e6ac99d1a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>noMargin</b> ()</td></tr>
-<tr class="memdesc:a94862658a6710ed15d35e95e6ac99d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no margin <br /></td></tr>
+<tr class="memitem:a94862658a6710ed15d35e95e6ac99d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a94862658a6710ed15d35e95e6ac99d1a">noMargin</a> ()</td></tr>
 <tr class="separator:a94862658a6710ed15d35e95e6ac99d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3255c9efadbdf3ac0e283b287eb4e698"><td class="memItemLeft" align="right" valign="top"><a id="a3255c9efadbdf3ac0e283b287eb4e698" name="a3255c9efadbdf3ac0e283b287eb4e698"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="memdesc:a3255c9efadbdf3ac0e283b287eb4e698"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the layer <br /></td></tr>
-<tr class="separator:a3255c9efadbdf3ac0e283b287eb4e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacbea5532035ff4c35778748a082f2cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#aacbea5532035ff4c35778748a082f2cb">backgroundColor</a> (const String &amp;color, int <a class="el" href="class_d_d_layer.html#a9dd22c2a594cdfe81f3b5e4969eccbc9">opacity</a>=100)</td></tr>
 <tr class="separator:aacbea5532035ff4c35778748a082f2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6effca7f22a44ee10afc44f478dfbf0"><td class="memItemLeft" align="right" valign="top"><a id="ad6effca7f22a44ee10afc44f478dfbf0" name="ad6effca7f22a44ee10afc44f478dfbf0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>noBackgroundColor</b> ()</td></tr>
-<tr class="memdesc:ad6effca7f22a44ee10afc44f478dfbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no layer background color <br /></td></tr>
+<tr class="memitem:ad6effca7f22a44ee10afc44f478dfbf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad6effca7f22a44ee10afc44f478dfbf0">noBackgroundColor</a> ()</td></tr>
 <tr class="separator:ad6effca7f22a44ee10afc44f478dfbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08199164b2853bf63126db7524ff9956"><td class="memItemLeft" align="right" valign="top"><a id="a08199164b2853bf63126db7524ff9956" name="a08199164b2853bf63126db7524ff9956"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>visible</b> (bool visible)</td></tr>
-<tr class="memdesc:a08199164b2853bf63126db7524ff9956"><td class="mdescLeft">&#160;</td><td class="mdescRight">set whether layer visible (not visible means hidden) <br /></td></tr>
+<tr class="memitem:a08199164b2853bf63126db7524ff9956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a08199164b2853bf63126db7524ff9956">visible</a> (bool visible)</td></tr>
 <tr class="separator:a08199164b2853bf63126db7524ff9956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69db9ece2f771a75a332a372794c8bd6"><td class="memItemLeft" align="right" valign="top"><a id="a69db9ece2f771a75a332a372794c8bd6" name="a69db9ece2f771a75a332a372794c8bd6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>transparent</b> (bool transparent)</td></tr>
-<tr class="memdesc:a69db9ece2f771a75a332a372794c8bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set whether layer transparent <br /></td></tr>
+<tr class="memitem:a69db9ece2f771a75a332a372794c8bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6">transparent</a> (bool transparent)</td></tr>
 <tr class="separator:a69db9ece2f771a75a332a372794c8bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33af44a362010163f3be2a62fa1079d5"><td class="memItemLeft" align="right" valign="top"><a id="a33af44a362010163f3be2a62fa1079d5" name="a33af44a362010163f3be2a62fa1079d5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>disabled</b> (bool disabled=true)</td></tr>
-<tr class="memdesc:a33af44a362010163f3be2a62fa1079d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set layer disabled or not; if disabled, layer will not have "feedback", and its appearance will be like disabled <br /></td></tr>
+<tr class="memitem:a33af44a362010163f3be2a62fa1079d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a33af44a362010163f3be2a62fa1079d5">disabled</a> (bool disabled=true)</td></tr>
 <tr class="separator:a33af44a362010163f3be2a62fa1079d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd22c2a594cdfe81f3b5e4969eccbc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a9dd22c2a594cdfe81f3b5e4969eccbc9">opacity</a> (int opacity)</td></tr>
 <tr class="separator:a9dd22c2a594cdfe81f3b5e4969eccbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,10 +166,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disabled</b> (bool di
 <tr class="separator:acad4324f599ff6f85e00e79c5657d003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27e4f289108d48fde2962113c8435831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a27e4f289108d48fde2962113c8435831">blend</a> (const String &amp;color, int <a class="el" href="class_d_d_layer.html#acad4324f599ff6f85e00e79c5657d003">alpha</a>=255, const String &amp;mode=&quot;darken&quot;)</td></tr>
 <tr class="separator:a27e4f289108d48fde2962113c8435831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30f8ca91f81ce101d085a3f6799e034a"><td class="memItemLeft" align="right" valign="top"><a id="a30f8ca91f81ce101d085a3f6799e034a" name="a30f8ca91f81ce101d085a3f6799e034a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>noblend</b> ()</td></tr>
-<tr class="memdesc:a30f8ca91f81ce101d085a3f6799e034a"><td class="mdescLeft">&#160;</td><td class="mdescRight">no blending <br /></td></tr>
+<tr class="memitem:a30f8ca91f81ce101d085a3f6799e034a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a30f8ca91f81ce101d085a3f6799e034a">noblend</a> ()</td></tr>
 <tr class="separator:a30f8ca91f81ce101d085a3f6799e034a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3255c9efadbdf3ac0e283b287eb4e698"><td class="memItemLeft" align="right" valign="top"><a id="a3255c9efadbdf3ac0e283b287eb4e698" name="a3255c9efadbdf3ac0e283b287eb4e698"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:a3255c9efadbdf3ac0e283b287eb4e698"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear the layer <br /></td></tr>
+<tr class="separator:a3255c9efadbdf3ac0e283b287eb4e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acff354518a030e79c7c5054a24fc5511"><td class="memItemLeft" align="right" valign="top"><a id="acff354518a030e79c7c5054a24fc5511" name="acff354518a030e79c7c5054a24fc5511"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr>
 <tr class="memdesc:acff354518a030e79c7c5054a24fc5511"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the default way (layer + border) <br /></td></tr>
@@ -272,12 +255,13 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set layer's alpha channel </p><dl class="params"><dt>Parameters</dt><dd>
+<p>set layer's alpha channel; it combines with opacity </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">alpha</td><td>0 - 255 </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -309,10 +293,11 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <p>set layer background color </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>DD_COLOR_XXX; DD_RGB_COLOR(...); can also be common "color name" </td></tr>
-    <tr><td class="paramname">opacity</td><td>background opacity (0 - 100) </td></tr>
+    <tr><td class="paramname">opacity</td><td>background opacity (0 - 100); it combines with layer opacity and alpha </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -355,6 +340,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -411,6 +397,26 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a33af44a362010163f3be2a62fa1079d5" name="a33af44a362010163f3be2a62fa1079d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33af44a362010163f3be2a62fa1079d5">&#9670;&#160;</a></span>disabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::disabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>disabled</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set layer disabled or not; if disabled, layer will not have "feedback", and its appearance will be like disabled </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -624,7 +630,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set margin for each side; for unit, see <a class="el" href="class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2">border()</a> </p>
+<p>set margin for each side; for unit, see <a class="el" href="class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2">DDLayer::border()</a> </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -649,6 +655,97 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="ad6effca7f22a44ee10afc44f478dfbf0" name="ad6effca7f22a44ee10afc44f478dfbf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6effca7f22a44ee10afc44f478dfbf0">&#9670;&#160;</a></span>noBackgroundColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::noBackgroundColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set no layer background color </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a30f8ca91f81ce101d085a3f6799e034a" name="a30f8ca91f81ce101d085a3f6799e034a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f8ca91f81ce101d085a3f6799e034a">&#9670;&#160;</a></span>noblend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::noblend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>no blending </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a144aa8c2ab2f50fe9ad2882e91855713" name="a144aa8c2ab2f50fe9ad2882e91855713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144aa8c2ab2f50fe9ad2882e91855713">&#9670;&#160;</a></span>noBorder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::noBorder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set no border </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a94862658a6710ed15d35e95e6ac99d1a" name="a94862658a6710ed15d35e95e6ac99d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94862658a6710ed15d35e95e6ac99d1a">&#9670;&#160;</a></span>noMargin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::noMargin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set no margin </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="aa065c36b3a49ef05a859dade7b5bd406" name="aa065c36b3a49ef05a859dade7b5bd406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa065c36b3a49ef05a859dade7b5bd406">&#9670;&#160;</a></span>noPadding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::noPadding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set no padding </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -673,6 +770,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -713,7 +811,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set padding for each side; for unit, see <a class="el" href="class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2">border()</a> </p>
+<p>set padding for each side; for unit, see <a class="el" href="class_d_d_layer.html#ace35be671b65946edca32b63d4f9b7c2">border()</a> </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -738,6 +836,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
@@ -782,6 +881,44 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>if you will not be making use of "feedback", you can disable it by defining DD_NO_FEEDBACK in order to reduce footprint <br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="a69db9ece2f771a75a332a372794c8bd6" name="a69db9ece2f771a75a332a372794c8bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69db9ece2f771a75a332a372794c8bd6">&#9670;&#160;</a></span>transparent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::transparent </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>transparent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set whether layer is transparent </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a08199164b2853bf63126db7524ff9956" name="a08199164b2853bf63126db7524ff9956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08199164b2853bf63126db7524ff9956">&#9670;&#160;</a></span>visible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::visible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>visible</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set whether layer visible (not visible means hidden) </p><dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
 
 </div>
 </div>
