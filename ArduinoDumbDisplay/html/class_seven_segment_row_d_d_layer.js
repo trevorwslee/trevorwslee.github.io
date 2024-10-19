@@ -7,7 +7,7 @@ var class_seven_segment_row_d_d_layer =
     [ "setOn", "class_seven_segment_row_d_d_layer.html#a6afb053afe25fd65b4996c75ab43fb26", null ],
     [ "showDigit", "class_seven_segment_row_d_d_layer.html#aa12f342f1cc27e3017aaf916b3648ee3", null ],
     [ "showFormatted", "class_seven_segment_row_d_d_layer.html#a186049f4f93f89c2e24a34389a8ad819", null ],
-    [ "showHexNumber", "class_seven_segment_row_d_d_layer.html#ab5178fea7b7734c47078e0fba6855602", null ],
+    [ "showHexNumber", "class_seven_segment_row_d_d_layer.html#a71e10e2ab0c0f60fc09bb32289b79df8", null ],
     [ "showNumber", "class_seven_segment_row_d_d_layer.html#a764b2b95f0b84633a2979246755d855d", null ],
     [ "turnOff", "class_seven_segment_row_d_d_layer.html#addbf892554797ed7c0b2f3393089a38a", null ],
     [ "turnOn", "class_seven_segment_row_d_d_layer.html#a0a6ea4f33150144046ded81abaf82fa5", null ]

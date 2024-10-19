@@ -5,7 +5,8 @@ var searchData=
   ['mbddlayer_2',['MbDDLayer',['../class_mb_d_d_layer.html',1,'MbDDLayer'],['../class_mb_d_d_layer.html#a4fea3d5832977911ce8b10c163c47c77',1,'MbDDLayer::MbDDLayer()']]],
   ['mbimage_3',['MbImage',['../class_mb_image.html',1,'']]],
   ['movecursorby_4',['moveCursorBy',['../class_graphical_d_d_layer.html#ae39b8508469afb22e5d26452912c1749',1,'GraphicalDDLayer']]],
-  ['movetocenter_5',['moveToCenter',['../class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7',1,'JoystickDDLayer']]],
-  ['movetopos_6',['moveToPos',['../class_joystick_d_d_layer.html#a4bcc78cca3cb2fb07e029b7dfdb0796e',1,'JoystickDDLayer']]],
-  ['multilevelddlayer_7',['MultiLevelDDLayer',['../class_multi_level_d_d_layer.html',1,'']]]
+  ['movelevelanchorby_5',['moveLevelAnchorBy',['../class_multi_level_d_d_layer.html#a07f586f1e32a38eeac356f997811d9ba',1,'MultiLevelDDLayer']]],
+  ['movetocenter_6',['moveToCenter',['../class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7',1,'JoystickDDLayer']]],
+  ['movetopos_7',['moveToPos',['../class_joystick_d_d_layer.html#a0cbf6ff5b6174ac5d8ff55342ab5eae8',1,'JoystickDDLayer']]],
+  ['multilevelddlayer_8',['MultiLevelDDLayer',['../class_multi_level_d_d_layer.html',1,'']]]
 ];

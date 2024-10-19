@@ -8,7 +8,7 @@ var searchData=
   ['levelopacity_5',['levelOpacity',['../class_multi_level_d_d_layer.html#a514579da15dc1bea9267e3716c8fc5a7',1,'MultiLevelDDLayer']]],
   ['leveltransparent_6',['levelTransparent',['../class_multi_level_d_d_layer.html#acd8ec7ed988c362c140f71d7a0e1f424',1,'MultiLevelDDLayer']]],
   ['loadimagefile_7',['loadImageFile',['../class_graphical_d_d_layer.html#a2cad3e85d630935cef72c6346c9aabf3',1,'GraphicalDDLayer']]],
-  ['loadimagefilecropped_8',['loadImageFileCropped',['../class_graphical_d_d_layer.html#af2dd5af3b6719751bec6d67c5e0216f5',1,'GraphicalDDLayer']]],
+  ['loadimagefilescaled_8',['loadImageFileScaled',['../class_graphical_d_d_layer.html#aecd0f3d0d02613c021e2e3aca6b8d2be',1,'GraphicalDDLayer']]],
   ['loadlayercommands_9',['loadLayerCommands',['../class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5',1,'DumbDisplay']]],
   ['log_10',['log',['../class_dumb_display.html#a7d5e115fb5a202ef6af041969bdc2c8c',1,'DumbDisplay']]],
   ['logconnectionstate_11',['logConnectionState',['../class_draw_text_d_d_debug_interface.html#a0471202735f9ce1ac93a020c99bd07b7',1,'DrawTextDDDebugInterface::logConnectionState()'],['../class_to_serial_d_d_debug_interface.html#a3f20855da08da4059809d48bfa57aa27',1,'ToSerialDDDebugInterface::logConnectionState()'],['../class_composite_d_d_debug_interface.html#a2024ed04720297195815d53f8cb82d5b',1,'CompositeDDDebugInterface::logConnectionState()'],['../class_d_d_debug_interface.html#aceb994cd8f63918ad3af71469640e825',1,'DDDebugInterface::logConnectionState()']]],

@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r33</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r34</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -205,20 +205,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a 
 void&#160;</td><td class="memItemRight" valign="bottom"><b>recordLayerSetupCommands</b> ()</td></tr>
 <tr class="memdesc:a8adca053da4dfa85326381b77962a66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">basically, functions the same as <a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">recordLayerCommands()</a> <br /></td></tr>
 <tr class="separator:a8adca053da4dfa85326381b77962a66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed399bf319526b8e6f764ccb95fb7150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aed399bf319526b8e6f764ccb95fb7150">playbackLayerSetupCommands</a> (const String &amp;persist_id)</td></tr>
-<tr class="separator:aed399bf319526b8e6f764ccb95fb7150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa55f448dc6033806dbcdc7f71b0f8a41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aa55f448dc6033806dbcdc7f71b0f8a41">playbackLayerSetupCommands</a> (const String &amp;layerSetupPersistId)</td></tr>
+<tr class="separator:aa55f448dc6033806dbcdc7f71b0f8a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41583800e07dcdc7232678838764fa29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">recordLayerCommands</a> ()</td></tr>
 <tr class="separator:a41583800e07dcdc7232678838764fa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab774f5365fbf619499fce8663c7ca802"><td class="memItemLeft" align="right" valign="top"><a id="ab774f5365fbf619499fce8663c7ca802" name="ab774f5365fbf619499fce8663c7ca802"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>playbackLayerCommands</b> ()</td></tr>
 <tr class="memdesc:ab774f5365fbf619499fce8663c7ca802"><td class="mdescLeft">&#160;</td><td class="mdescRight">playback recorded commands (unfreeze the display) <br /></td></tr>
 <tr class="separator:ab774f5365fbf619499fce8663c7ca802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f41348f4bc5cf96296766b40f98a5f6"><td class="memItemLeft" align="right" valign="top"><a id="a2f41348f4bc5cf96296766b40f98a5f6" name="a2f41348f4bc5cf96296766b40f98a5f6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>stopRecordLayerCommands</b> ()</td></tr>
-<tr class="memdesc:a2f41348f4bc5cf96296766b40f98a5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop recording commands (and forget what have recorded) <br /></td></tr>
-<tr class="separator:a2f41348f4bc5cf96296766b40f98a5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3824e1676bcf612eddc34120868ff8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a3824e1676bcf612eddc34120868ff8c3">saveLayerCommands</a> (const String &amp;id, bool persist=false)</td></tr>
-<tr class="separator:a3824e1676bcf612eddc34120868ff8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1386be587da1d83b14671f6799b6bc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ad1386be587da1d83b14671f6799b6bc0">stopRecordLayerCommands</a> (const String &amp;saveId=&quot;&quot;, bool persistSave=false)</td></tr>
+<tr class="separator:ad1386be587da1d83b14671f6799b6bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb714398ff0f1a19368796fe8f09c8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aabb714398ff0f1a19368796fe8f09c8e">saveLayerCommands</a> (const String &amp;id, bool persist=false, bool stopAfterSave=false)</td></tr>
+<tr class="separator:aabb714398ff0f1a19368796fe8f09c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9691733a7c974a3c58424fdb4bd871b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5">loadLayerCommands</a> (const String &amp;id)</td></tr>
 <tr class="separator:a9691733a7c974a3c58424fdb4bd871b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac515dd3defbfac8242fc5bfdfd708a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ac515dd3defbfac8242fc5bfdfd708a0e">capture</a> (const String &amp;imageFileName, int width, int height)</td></tr>
@@ -1230,8 +1228,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <p>load saved commands (as if recording those commands)</p><ul>
 <li>recording started or not, will add the commands to the buffer</li>
 <li>afterward, will keep recording</li>
-<li>use <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a> to playback loaded commands</li>
-<li>if not recording commands, this basically remove saved commands </li>
+<li>use <a class="el" href="class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802" title="playback recorded commands (unfreeze the display)">playbackLayerCommands()</a> to playback loaded commands </li>
 </ul>
 
 </div>
@@ -1370,8 +1367,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="aed399bf319526b8e6f764ccb95fb7150" name="aed399bf319526b8e6f764ccb95fb7150"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed399bf319526b8e6f764ccb95fb7150">&#9670;&#160;</a></span>playbackLayerSetupCommands()</h2>
+<a id="aa55f448dc6033806dbcdc7f71b0f8a41" name="aa55f448dc6033806dbcdc7f71b0f8a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa55f448dc6033806dbcdc7f71b0f8a41">&#9670;&#160;</a></span>playbackLayerSetupCommands()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1380,7 +1377,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="memname">void DumbDisplay::playbackLayerSetupCommands </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>persist_id</em></td><td>)</td>
+          <td class="paramname"><em>layerSetupPersistId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1463,8 +1460,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a3824e1676bcf612eddc34120868ff8c3" name="a3824e1676bcf612eddc34120868ff8c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3824e1676bcf612eddc34120868ff8c3">&#9670;&#160;</a></span>saveLayerCommands()</h2>
+<a id="aabb714398ff0f1a19368796fe8f09c8e" name="aabb714398ff0f1a19368796fe8f09c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb714398ff0f1a19368796fe8f09c8e">&#9670;&#160;</a></span>saveLayerCommands()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1479,7 +1476,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>persist</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>persist</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stopAfterSave</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1488,10 +1491,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>save the recorded commands (and continue recording) </p><dl class="params"><dt>Parameters</dt><dd>
+<p>save the recorded commands (continue recording or not depends on parameter passed in ); any pre-existed saved commands with the same id will be replaced with the recording commands (delete if not recording) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>identifier of the recorded commands, overwriting and previous one; if not recording, will delete previous recorded commands </td></tr>
-    <tr><td class="paramname">persist</td><td>store it to your phone or not </td></tr>
+    <tr><td class="paramname">persist</td><td>store it to your phone as well </td></tr>
+    <tr><td class="paramname">stopAfterSave</td><td>stop recording after saving </td></tr>
   </table>
   </dd>
 </dl>
@@ -1670,6 +1674,41 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
   <table class="params">
     <tr><td class="paramname">imageNames</td><td>'+' delimited </td></tr>
     <tr><td class="paramname">asImageName</td><td>name for the stitched image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad1386be587da1d83b14671f6799b6bc0" name="ad1386be587da1d83b14671f6799b6bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1386be587da1d83b14671f6799b6bc0">&#9670;&#160;</a></span>stopRecordLayerCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DumbDisplay::stopRecordLayerCommands </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>saveId</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>persistSave</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stop recording commands (if not saved, will forget what recorded) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveId</td><td>if provided, save like calling <a class="el" href="class_dumb_display.html#aabb714398ff0f1a19368796fe8f09c8e">saveLayerCommands()</a>; otherwise, forget what have been recording </td></tr>
+    <tr><td class="paramname">persistSave</td><td>if save, store it to your phone as well </td></tr>
   </table>
   </dd>
 </dl>

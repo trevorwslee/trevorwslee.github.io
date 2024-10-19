@@ -10,11 +10,14 @@ var searchData=
   ['pinlayer_7',['pinLayer',['../class_d_d_layout_helper.html#aab72c0be51cb358351b9858ce880246b',1,'DDLayoutHelper::pinLayer()'],['../class_dumb_display.html#a77a5d548805b36244d453700afeeea4f',1,'DumbDisplay::pinLayer()']]],
   ['pixelcolor_8',['pixelColor',['../class_lcd_d_d_layer.html#a485ea7464aed6f732e6a483c7b8be34d',1,'LcdDDLayer::pixelColor()'],['../class_selection_d_d_layer.html#a574ea9d0d5e7609862c567b58b06d3ca',1,'SelectionDDLayer::pixelColor()']]],
   ['playbacklayercommands_9',['playbackLayerCommands',['../class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802',1,'DumbDisplay']]],
-  ['playbacklayersetupcommands_10',['playbackLayerSetupCommands',['../class_dumb_display.html#aed399bf319526b8e6f764ccb95fb7150',1,'DumbDisplay']]],
+  ['playbacklayersetupcommands_10',['playbackLayerSetupCommands',['../class_dumb_display.html#aa55f448dc6033806dbcdc7f71b0f8a41',1,'DumbDisplay']]],
   ['playsound_11',['playSound',['../class_dumb_display.html#a98dbc3c8ddb81fe1ecdc39c87aa8f62a',1,'DumbDisplay']]],
   ['plot_12',['plot',['../class_mb_d_d_layer.html#a0dc2ee7c5ab6e81a44a5aa2e2a59665b',1,'MbDDLayer']]],
   ['plotterddlayer_13',['PlotterDDLayer',['../class_plotter_d_d_layer.html#af6bb67db94976b775a350ad92c397813',1,'PlotterDDLayer']]],
   ['polygon_14',['polygon',['../class_turtle_d_d_layer.html#a2e70c517d57a0faebab1e1ca8cbdb49c',1,'TurtleDDLayer::polygon()'],['../class_graphical_d_d_layer.html#a9a88eec405071bf293594068febcaa2d',1,'GraphicalDDLayer::polygon()']]],
-  ['print_15',['print',['../class_lcd_d_d_layer.html#a3f73ded445b3cdc82779c2de15f644a7',1,'LcdDDLayer::print()'],['../class_graphical_d_d_layer.html#a21e5adebcd9aa65800bf8f2b995489e5',1,'GraphicalDDLayer::print(const String &amp;text)']]],
-  ['println_16',['println',['../class_graphical_d_d_layer.html#a0f8509256a3e50d08accf4eb7526bf7c',1,'GraphicalDDLayer']]]
+  ['poplevel_15',['popLevel',['../class_multi_level_d_d_layer.html#a32a5b0fa8e2373a08fe555b73be87c22',1,'MultiLevelDDLayer']]],
+  ['print_16',['print',['../class_lcd_d_d_layer.html#a3f73ded445b3cdc82779c2de15f644a7',1,'LcdDDLayer::print()'],['../class_graphical_d_d_layer.html#a21e5adebcd9aa65800bf8f2b995489e5',1,'GraphicalDDLayer::print(const String &amp;text)']]],
+  ['println_17',['println',['../class_graphical_d_d_layer.html#a0f8509256a3e50d08accf4eb7526bf7c',1,'GraphicalDDLayer']]],
+  ['pushlevel_18',['pushLevel',['../class_multi_level_d_d_layer.html#abb4b423398c00491f26591012a22a628',1,'MultiLevelDDLayer']]],
+  ['pushlevelandswitchto_19',['pushLevelAndSwitchTo',['../class_multi_level_d_d_layer.html#a02dac4b30f2ff9a9491b72697e7202a3',1,'MultiLevelDDLayer']]]
 ];

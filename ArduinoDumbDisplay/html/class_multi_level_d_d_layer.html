@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r33</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r34</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -121,14 +121,50 @@ Inheritance diagram for MultiLevelDDLayer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af8dce7361540657fdde6c19eb729a620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#af8dce7361540657fdde6c19eb729a620">addLevel</a> (const String &amp;levelId, float width=0, float height=0, bool switchToIt=false)</td></tr>
+<tr class="separator:af8dce7361540657fdde6c19eb729a620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423ab0d924bd172b3bdfa4572a670fae"><td class="memItemLeft" align="right" valign="top"><a id="a423ab0d924bd172b3bdfa4572a670fae" name="a423ab0d924bd172b3bdfa4572a670fae"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addLevel</b> (const String &amp;levelId, bool switchToIt)</td></tr>
+<tr class="memdesc:a423ab0d924bd172b3bdfa4572a670fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">another version of <a class="el" href="class_multi_level_d_d_layer.html#af8dce7361540657fdde6c19eb729a620">addLevel()</a> <br /></td></tr>
+<tr class="separator:a423ab0d924bd172b3bdfa4572a670fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14b67169b0a7f773a5e9c1b181e8b7d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a14b67169b0a7f773a5e9c1b181e8b7d0">switchLevel</a> (const String &amp;levelId, bool addIfMissing=true)</td></tr>
 <tr class="separator:a14b67169b0a7f773a5e9c1b181e8b7d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4b423398c00491f26591012a22a628"><td class="memItemLeft" align="right" valign="top"><a id="abb4b423398c00491f26591012a22a628" name="abb4b423398c00491f26591012a22a628"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>pushLevel</b> ()</td></tr>
+<tr class="memdesc:abb4b423398c00491f26591012a22a628"><td class="mdescLeft">&#160;</td><td class="mdescRight">push the current level onto the level stack, to be pop with <a class="el" href="class_multi_level_d_d_layer.html#a32a5b0fa8e2373a08fe555b73be87c22" title="pop a level from the level stack and make it the current level">popLevel()</a> <br /></td></tr>
+<tr class="separator:abb4b423398c00491f26591012a22a628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02dac4b30f2ff9a9491b72697e7202a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a02dac4b30f2ff9a9491b72697e7202a3">pushLevelAndSwitchTo</a> (const String &amp;switchTolevelId, bool addIfMissing=true)</td></tr>
+<tr class="separator:a02dac4b30f2ff9a9491b72697e7202a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a5b0fa8e2373a08fe555b73be87c22"><td class="memItemLeft" align="right" valign="top"><a id="a32a5b0fa8e2373a08fe555b73be87c22" name="a32a5b0fa8e2373a08fe555b73be87c22"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>popLevel</b> ()</td></tr>
+<tr class="memdesc:a32a5b0fa8e2373a08fe555b73be87c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">pop a level from the level stack and make it the current level <br /></td></tr>
+<tr class="separator:a32a5b0fa8e2373a08fe555b73be87c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a514579da15dc1bea9267e3716c8fc5a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a514579da15dc1bea9267e3716c8fc5a7">levelOpacity</a> (int <a class="el" href="class_d_d_layer.html#a9dd22c2a594cdfe81f3b5e4969eccbc9">opacity</a>)</td></tr>
 <tr class="separator:a514579da15dc1bea9267e3716c8fc5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8ec7ed988c362c140f71d7a0e1f424"><td class="memItemLeft" align="right" valign="top"><a id="acd8ec7ed988c362c140f71d7a0e1f424" name="acd8ec7ed988c362c140f71d7a0e1f424"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>levelTransparent</b> (bool <a class="el" href="class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6">transparent</a>)</td></tr>
 <tr class="memdesc:acd8ec7ed988c362c140f71d7a0e1f424"><td class="mdescLeft">&#160;</td><td class="mdescRight">set whether level is transparent <br /></td></tr>
 <tr class="separator:acd8ec7ed988c362c140f71d7a0e1f424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a6de75709f9e89f08756f864aefa2a"><td class="memItemLeft" align="right" valign="top"><a id="a47a6de75709f9e89f08756f864aefa2a" name="a47a6de75709f9e89f08756f864aefa2a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLevelAnchor</b> (float x, float y, long reachInMillis=0)</td></tr>
+<tr class="memdesc:a47a6de75709f9e89f08756f864aefa2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the anchor of the level; note that level anchor is the top-left corner of the level "opening" <br /></td></tr>
+<tr class="separator:a47a6de75709f9e89f08756f864aefa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f586f1e32a38eeac356f997811d9ba"><td class="memItemLeft" align="right" valign="top"><a id="a07f586f1e32a38eeac356f997811d9ba" name="a07f586f1e32a38eeac356f997811d9ba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>moveLevelAnchorBy</b> (float byX, float byY, long reachInMillis=0)</td></tr>
+<tr class="memdesc:a07f586f1e32a38eeac356f997811d9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">move the level anchor <br /></td></tr>
+<tr class="separator:a07f586f1e32a38eeac356f997811d9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9407533f1f633b46b0b9293ed65bd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a6c9407533f1f633b46b0b9293ed65bd0">registerLevelBackground</a> (const String &amp;backgroundId, const String &amp;backgroundImageName, const String &amp;drawBackgroundOptions=&quot;&quot;)</td></tr>
+<tr class="separator:a6c9407533f1f633b46b0b9293ed65bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80069d1fce6dfa0d5199eebeb93f1d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#ad80069d1fce6dfa0d5199eebeb93f1d9">setLevelBackground</a> (const String &amp;backgroundId, const String &amp;backgroundImageName=&quot;&quot;, const String &amp;drawBackgroundOptions=&quot;&quot;)</td></tr>
+<tr class="separator:ad80069d1fce6dfa0d5199eebeb93f1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163849f18f913947dc8a88b48dc5807f"><td class="memItemLeft" align="right" valign="top"><a id="a163849f18f913947dc8a88b48dc5807f" name="a163849f18f913947dc8a88b48dc5807f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLevelNoBackground</b> ()</td></tr>
+<tr class="memdesc:a163849f18f913947dc8a88b48dc5807f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set that the current level uses no background image <br /></td></tr>
+<tr class="separator:a163849f18f913947dc8a88b48dc5807f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba482337fbe27c6e8cec869ed29ef00c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#aba482337fbe27c6e8cec869ed29ef00c">animateLevelBackground</a> (int fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
+<tr class="separator:aba482337fbe27c6e8cec869ed29ef00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da9df5bb9851f7eea6dcb8ff9726535"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a3da9df5bb9851f7eea6dcb8ff9726535">stopAnimateLevelBackground</a> (bool reset=true)</td></tr>
+<tr class="separator:a3da9df5bb9851f7eea6dcb8ff9726535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34638824faecf0fe3f474d8719b5fddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a34638824faecf0fe3f474d8719b5fddc">reorderLevel</a> (const String &amp;levelId, const String &amp;how)</td></tr>
 <tr class="separator:a34638824faecf0fe3f474d8719b5fddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2cb89b0ea61e63aa85c36584e18fff2"><td class="memItemLeft" align="right" valign="top"><a id="ab2cb89b0ea61e63aa85c36584e18fff2" name="ab2cb89b0ea61e63aa85c36584e18fff2"></a>
@@ -244,6 +280,96 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for a multi-level layer. A layer (single-level or multi-level) will have at least one level (DD_DEF_LAYER_LEVEL_ID). A multi-level layer can have other named levels, which act like separate sub-layers with separate sets of non-layer-specific properties. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af8dce7361540657fdde6c19eb729a620" name="af8dce7361540657fdde6c19eb729a620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8dce7361540657fdde6c19eb729a620">&#9670;&#160;</a></span>addLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::addLevel </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>levelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>height</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>switchToIt</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>add a level, optionally change its "opening" size </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">levelId</td><td>level ID; cannot be DD_DEF_LAYER_LEVEL_ID </td></tr>
+    <tr><td class="paramname">width</td><td>width of the level "opening"; 0 means the maximum width (the width of the layer) </td></tr>
+    <tr><td class="paramname">height</td><td>height of the level "opening"; 0 means the maximum height (the height of the layer) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba482337fbe27c6e8cec869ed29ef00c" name="aba482337fbe27c6e8cec869ed29ef00c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba482337fbe27c6e8cec869ed29ef00c">&#9670;&#160;</a></span>animateLevelBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::animateLevelBackground </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>options</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>start animate level background (if level background has a series of images) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fps</td><td>frames per second which is used to calculate the interval between the series of images </td></tr>
+    <tr><td class="paramname">reset</td><td>reset to the first image in the series </td></tr>
+    <tr><td class="paramname">options</td><td>can be "r" to reverse the order of the series of images </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a514579da15dc1bea9267e3716c8fc5a7" name="a514579da15dc1bea9267e3716c8fc5a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a514579da15dc1bea9267e3716c8fc5a7">&#9670;&#160;</a></span>levelOpacity()</h2>
 
@@ -262,6 +388,82 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 <p>set the opacity of the current level </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">opacity</td><td>background opacity (0 - 100) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a02dac4b30f2ff9a9491b72697e7202a3" name="a02dac4b30f2ff9a9491b72697e7202a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02dac4b30f2ff9a9491b72697e7202a3">&#9670;&#160;</a></span>pushLevelAndSwitchTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::pushLevelAndSwitchTo </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>switchTolevelId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>addIfMissing</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>push the current level onto the level stack, to be pop with <a class="el" href="class_multi_level_d_d_layer.html#a32a5b0fa8e2373a08fe555b73be87c22" title="pop a level from the level stack and make it the current level">popLevel()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">switchTolevelId</td><td>switch to level ID (after pushing current level) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6c9407533f1f633b46b0b9293ed65bd0" name="a6c9407533f1f633b46b0b9293ed65bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9407533f1f633b46b0b9293ed65bd0">&#9670;&#160;</a></span>registerLevelBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::registerLevelBackground </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>backgroundId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>backgroundImageName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>drawBackgroundOptions</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>register an image for setting as level's background </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backgroundId</td><td>id to identify the background </td></tr>
+    <tr><td class="paramname">backgroundImageName</td><td>name of the image </td></tr>
+    <tr><td class="paramname">drawBackgroundOptions</td><td>options for drawing the background; same means as the option param of GraphicalDDLayer::drawImageFiler() </td></tr>
   </table>
   </dd>
 </dl>
@@ -302,6 +504,72 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 
 </div>
 </div>
+<a id="ad80069d1fce6dfa0d5199eebeb93f1d9" name="ad80069d1fce6dfa0d5199eebeb93f1d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80069d1fce6dfa0d5199eebeb93f1d9">&#9670;&#160;</a></span>setLevelBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::setLevelBackground </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>backgroundId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>backgroundImageName</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>drawBackgroundOptions</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set a registered background image as the current level's background </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backgroundId</td><td></td></tr>
+    <tr><td class="paramname">backgroundImageName</td><td>if not registered, the name of the image to register </td></tr>
+    <tr><td class="paramname">drawBackgroundOptions</td><td>if not registered, the options for drawing the background </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3da9df5bb9851f7eea6dcb8ff9726535" name="a3da9df5bb9851f7eea6dcb8ff9726535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da9df5bb9851f7eea6dcb8ff9726535">&#9670;&#160;</a></span>stopAnimateLevelBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiLevelDDLayer::stopAnimateLevelBackground </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stop animate level background </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>reset to the first image in the series </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a14b67169b0a7f773a5e9c1b181e8b7d0" name="a14b67169b0a7f773a5e9c1b181e8b7d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14b67169b0a7f773a5e9c1b181e8b7d0">&#9670;&#160;</a></span>switchLevel()</h2>
 
@@ -327,7 +595,7 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
         </tr>
       </table>
 </div><div class="memdoc">
-<p>switch to a different level (which is like a sub-layer) </p><dl class="params"><dt>Parameters</dt><dd>
+<p>switch to a different level (which is like a sub-layer), making it the current level </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">levelId</td><td>level ID; use DD_DEF_LAYER_LEVEL_ID for the default level </td></tr>
     <tr><td class="paramname">addIfMissing</td><td>if true, add the level if it is missing </td></tr>

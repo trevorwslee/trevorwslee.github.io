@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r33</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r34</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -132,12 +132,12 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>colors</b> (const String &amp;stickColor, const String &amp;stickOutlineColor, const String &amp;socketColor=&quot;&quot;, const String &amp;socketOutlineColor=&quot;&quot;)</td></tr>
 <tr class="memdesc:a365d5462105d7c12abb2da7354811dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the colors of the stick UI <br /></td></tr>
 <tr class="separator:a365d5462105d7c12abb2da7354811dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bcc78cca3cb2fb07e029b7dfdb0796e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#a4bcc78cca3cb2fb07e029b7dfdb0796e">moveToPos</a> (int x, int y, bool sendFeedback=false)</td></tr>
-<tr class="separator:a4bcc78cca3cb2fb07e029b7dfdb0796e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbf6ff5b6174ac5d8ff55342ab5eae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#a0cbf6ff5b6174ac5d8ff55342ab5eae8">moveToPos</a> (int16_t x, int16_t y, bool sendFeedback=false)</td></tr>
+<tr class="separator:a0cbf6ff5b6174ac5d8ff55342ab5eae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b7b2ebbcbef78f64f035ee28fbe7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#ab5b7b2ebbcbef78f64f035ee28fbe7d7">moveToCenter</a> (bool sendFeedback=false)</td></tr>
 <tr class="separator:ab5b7b2ebbcbef78f64f035ee28fbe7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab461617380e61498ab7608064a8d4f32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#ab461617380e61498ab7608064a8d4f32">valueRange</a> (int minValue, int maxValue, int valueStep=1, bool sendFeedback=false)</td></tr>
-<tr class="separator:ab461617380e61498ab7608064a8d4f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b877bf34183594635a61959f98f0f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joystick_d_d_layer.html#a40b877bf34183594635a61959f98f0f9">valueRange</a> (int16_t minValue, int16_t maxValue, int valueStep=1, bool sendFeedback=false)</td></tr>
+<tr class="separator:a40b877bf34183594635a61959f98f0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51a073834481d458a389fb378b8ab385"><td class="memItemLeft" align="right" valign="top"><a id="a51a073834481d458a389fb378b8ab385" name="a51a073834481d458a389fb378b8ab385"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>snappy</b> (bool snappy=true)</td></tr>
 <tr class="memdesc:a51a073834481d458a389fb378b8ab385"><td class="mdescLeft">&#160;</td><td class="mdescRight">set 'snappy' makes stick snaps to closest value when moved <br /></td></tr>
@@ -293,8 +293,8 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 
 </div>
 </div>
-<a id="a4bcc78cca3cb2fb07e029b7dfdb0796e" name="a4bcc78cca3cb2fb07e029b7dfdb0796e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bcc78cca3cb2fb07e029b7dfdb0796e">&#9670;&#160;</a></span>moveToPos()</h2>
+<a id="a0cbf6ff5b6174ac5d8ff55342ab5eae8" name="a0cbf6ff5b6174ac5d8ff55342ab5eae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cbf6ff5b6174ac5d8ff55342ab5eae8">&#9670;&#160;</a></span>moveToPos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,13 +302,13 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
         <tr>
           <td class="memname">void JoystickDDLayer::moveToPos </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
@@ -335,8 +335,8 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 
 </div>
 </div>
-<a id="ab461617380e61498ab7608064a8d4f32" name="ab461617380e61498ab7608064a8d4f32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab461617380e61498ab7608064a8d4f32">&#9670;&#160;</a></span>valueRange()</h2>
+<a id="a40b877bf34183594635a61959f98f0f9" name="a40b877bf34183594635a61959f98f0f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b877bf34183594635a61959f98f0f9">&#9670;&#160;</a></span>valueRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,13 +344,13 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
         <tr>
           <td class="memname">void JoystickDDLayer::valueRange </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>minValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>maxValue</em>, </td>
         </tr>
         <tr>
