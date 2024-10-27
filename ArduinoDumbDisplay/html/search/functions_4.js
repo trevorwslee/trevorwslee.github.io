@@ -29,6 +29,7 @@ var searchData=
   ['drawrect_26',['drawRect',['../class_graphical_d_d_layer.html#a5caa0fedc1e03f422c95139a44f545a4',1,'GraphicalDDLayer']]],
   ['drawroundrect_27',['drawRoundRect',['../class_graphical_d_d_layer.html#a5f517ccf7f10f2cf77e55d6d98fdea6e',1,'GraphicalDDLayer']]],
   ['drawstr_28',['drawStr',['../class_graphical_d_d_layer.html#a7d0ad3d4b4a805644b217c17cf25cfef',1,'GraphicalDDLayer']]],
-  ['drawtriangle_29',['drawTriangle',['../class_graphical_d_d_layer.html#ac05a58adffd28f3ce891495998ef769f',1,'GraphicalDDLayer']]],
-  ['dumbdisplaywindowddlayer_30',['DumbDisplayWindowDDLayer',['../class_dumb_display_window_d_d_layer.html#ac034a59be15606e8483d5543ad037251',1,'DumbDisplayWindowDDLayer']]]
+  ['drawtextline_29',['drawTextLine',['../class_graphical_d_d_layer.html#aaf963f2647136e41c8b37903fc8c701d',1,'GraphicalDDLayer']]],
+  ['drawtriangle_30',['drawTriangle',['../class_graphical_d_d_layer.html#ac05a58adffd28f3ce891495998ef769f',1,'GraphicalDDLayer']]],
+  ['dumbdisplaywindowddlayer_31',['DumbDisplayWindowDDLayer',['../class_dumb_display_window_d_d_layer.html#ac034a59be15606e8483d5543ad037251',1,'DumbDisplayWindowDDLayer']]]
 ];

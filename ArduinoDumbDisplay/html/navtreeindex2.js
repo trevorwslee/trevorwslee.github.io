@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"struct_d_d_feedback.html#a5b2fb3a720e468eca97df67f02fe3c7d":[1,0,21,3],
+"struct_d_d_feedback.html#ad83f09e4374c00f8c66475a593cc2538":[1,0,21,1],
+"struct_d_d_feedback_handler.html":[1,0,22],
+"struct_d_d_feedback_type.html":[1,0,23],
 "struct_d_d_idle_callback.html":[1,0,25],
 "struct_d_d_idle_connection_state.html":[1,0,26],
 "struct_d_d_image_data.html":[1,0,27],

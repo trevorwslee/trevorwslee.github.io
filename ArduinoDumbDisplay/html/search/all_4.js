@@ -34,7 +34,7 @@ var searchData=
   ['ddreconnectpassiveconnectionhelper_31',['DDReconnectPassiveConnectionHelper',['../class_d_d_reconnect_passive_connection_helper.html',1,'DDReconnectPassiveConnectionHelper'],['../class_d_d_reconnect_passive_connection_helper.html#afe97ded6526ff7d4c8e6db7ae8971126',1,'DDReconnectPassiveConnectionHelper::DDReconnectPassiveConnectionHelper()']]],
   ['ddserial2io_32',['DDSerial2IO',['../class_d_d_serial2_i_o.html',1,'']]],
   ['ddsoftwareserialio_33',['DDSoftwareSerialIO',['../class_d_d_software_serial_i_o.html',1,'']]],
-  ['ddtunnel_34',['DDTunnel',['../class_d_d_tunnel.html',1,'DDTunnel'],['../class_d_d_tunnel.html#a5d06bce0a14451a815b3ceb0d52a6b7e',1,'DDTunnel::DDTunnel()']]],
+  ['ddtunnel_34',['DDTunnel',['../class_d_d_tunnel.html#a5d06bce0a14451a815b3ceb0d52a6b7e',1,'DDTunnel::DDTunnel()'],['../class_d_d_tunnel.html',1,'DDTunnel']]],
   ['ddtunnelendpoint_35',['DDTunnelEndpoint',['../class_d_d_tunnel_endpoint.html',1,'']]],
   ['ddvaluerecord_36',['DDValueRecord',['../class_d_d_value_record.html',1,'DDValueRecord&lt; T &gt;'],['../class_d_d_value_record.html#abae9a34b630ec4fe817625d5446d0d70',1,'DDValueRecord::DDValueRecord(T value)'],['../class_d_d_value_record.html#a0f5a939d17e00c96a5ab9faaf1f57e18',1,'DDValueRecord::DDValueRecord(T value, T knownValue)']]],
   ['ddvaluestore_37',['DDValueStore',['../class_d_d_value_store.html',1,'']]],
@@ -63,7 +63,8 @@ var searchData=
   ['drawroundrect_60',['drawRoundRect',['../class_graphical_d_d_layer.html#a5f517ccf7f10f2cf77e55d6d98fdea6e',1,'GraphicalDDLayer']]],
   ['drawstr_61',['drawStr',['../class_graphical_d_d_layer.html#a7d0ad3d4b4a805644b217c17cf25cfef',1,'GraphicalDDLayer']]],
   ['drawtextdddebuginterface_62',['DrawTextDDDebugInterface',['../class_draw_text_d_d_debug_interface.html',1,'']]],
-  ['drawtriangle_63',['drawTriangle',['../class_graphical_d_d_layer.html#ac05a58adffd28f3ce891495998ef769f',1,'GraphicalDDLayer']]],
-  ['dumbdisplay_64',['DumbDisplay',['../class_dumb_display.html',1,'']]],
-  ['dumbdisplaywindowddlayer_65',['DumbDisplayWindowDDLayer',['../class_dumb_display_window_d_d_layer.html',1,'DumbDisplayWindowDDLayer'],['../class_dumb_display_window_d_d_layer.html#ac034a59be15606e8483d5543ad037251',1,'DumbDisplayWindowDDLayer::DumbDisplayWindowDDLayer()']]]
+  ['drawtextline_63',['drawTextLine',['../class_graphical_d_d_layer.html#aaf963f2647136e41c8b37903fc8c701d',1,'GraphicalDDLayer']]],
+  ['drawtriangle_64',['drawTriangle',['../class_graphical_d_d_layer.html#ac05a58adffd28f3ce891495998ef769f',1,'GraphicalDDLayer']]],
+  ['dumbdisplay_65',['DumbDisplay',['../class_dumb_display.html',1,'']]],
+  ['dumbdisplaywindowddlayer_66',['DumbDisplayWindowDDLayer',['../class_dumb_display_window_d_d_layer.html',1,'DumbDisplayWindowDDLayer'],['../class_dumb_display_window_d_d_layer.html#ac034a59be15606e8483d5543ad037251',1,'DumbDisplayWindowDDLayer::DumbDisplayWindowDDLayer()']]]
 ];
