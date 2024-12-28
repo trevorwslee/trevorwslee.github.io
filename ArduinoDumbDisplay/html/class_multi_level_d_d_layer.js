@@ -1,7 +1,9 @@
 var class_multi_level_d_d_layer =
 [
-    [ "addLevel", "class_multi_level_d_d_layer.html#a423ab0d924bd172b3bdfa4572a670fae", null ],
-    [ "addLevel", "class_multi_level_d_d_layer.html#af8dce7361540657fdde6c19eb729a620", null ],
+    [ "addLevel", "class_multi_level_d_d_layer.html#abb194960b96cd9e2f1646b5c19abf139", null ],
+    [ "addLevel", "class_multi_level_d_d_layer.html#af924b490d6a92f5470cddd3848d53f7f", null ],
+    [ "addTopLevel", "class_multi_level_d_d_layer.html#a7f3c932929964379c1140770d6447065", null ],
+    [ "addTopLevel", "class_multi_level_d_d_layer.html#a4961cf7807ebc33e8d3e9406739a83ac", null ],
     [ "animateLevelBackground", "class_multi_level_d_d_layer.html#aba482337fbe27c6e8cec869ed29ef00c", null ],
     [ "deleteLevel", "class_multi_level_d_d_layer.html#ab2cb89b0ea61e63aa85c36584e18fff2", null ],
     [ "exportLevelsAsImage", "class_multi_level_d_d_layer.html#af61381783db587f044638d3bc2c0a988", null ],

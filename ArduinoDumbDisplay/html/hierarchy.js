@@ -36,6 +36,7 @@ var hierarchy =
     ] ],
     [ "DDInputOutput", "class_d_d_input_output.html", [
       [ "DDATWiFiIO", "class_d_d_a_t_wi_fi_i_o.html", null ],
+      [ "DDAmb82WiFiServerIO", "class_d_d_amb82_wi_fi_server_i_o.html", null ],
       [ "DDBLESerialIO", "class_d_d_b_l_e_serial_i_o.html", null ],
       [ "DDBluetoothSerialIO", "class_d_d_bluetooth_serial_i_o.html", null ],
       [ "DDGenericIO", "class_d_d_generic_i_o.html", null ],
@@ -59,6 +60,7 @@ var hierarchy =
           [ "TurtleDDLayer", "class_turtle_d_d_layer.html", null ]
         ] ],
         [ "PlotterDDLayer", "class_plotter_d_d_layer.html", null ],
+        [ "RtspClientDDLayer", "class_rtsp_client_d_d_layer.html", null ],
         [ "SelectionDDLayer", "class_selection_d_d_layer.html", null ],
         [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", null ],
         [ "TerminalDDLayer", "class_terminal_d_d_layer.html", null ],
