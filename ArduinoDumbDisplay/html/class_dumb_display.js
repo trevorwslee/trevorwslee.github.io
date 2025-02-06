@@ -33,6 +33,7 @@ var class_dumb_display =
     [ "createPlotterLayer", "class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96", null ],
     [ "createRtspClient", "class_dumb_display.html#a8ad062d150562d6d04e6914015da2b69", null ],
     [ "createSelectionLayer", "class_dumb_display.html#af8c3b5ce77593f2331bfd5d625b7959b", null ],
+    [ "createSelectionListLayer", "class_dumb_display.html#ad558e1be1fd798715ab6f0c2fcfbf050", null ],
     [ "createTerminalLayer", "class_dumb_display.html#a58ecf8df431cbd9ed7876984862bde7d", null ],
     [ "createTomTomMapLayer", "class_dumb_display.html#ad9a251e1e7779d70cfe060711cf6c2fc", null ],
     [ "createTurtleLayer", "class_dumb_display.html#a3d421f31c094624e8709fecc3badee04", null ],

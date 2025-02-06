@@ -3,6 +3,7 @@ var class_graphical_d_d_layer =
     [ "GraphicalDDLayer", "class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e", null ],
     [ "arc", "class_graphical_d_d_layer.html#a64f8cffd2f8eb4f6d8f2bbc045d2d639", null ],
     [ "cacheImage", "class_graphical_d_d_layer.html#ae2615a047b4a5ae66d72635269ae4ee3", null ],
+    [ "cacheImageWithTS", "class_graphical_d_d_layer.html#a397b997b701d0d93697463b85ea707e2", null ],
     [ "cachePixelImage", "class_graphical_d_d_layer.html#a968d50cef4dc6235584e46e3051f6f69", null ],
     [ "cachePixelImage16", "class_graphical_d_d_layer.html#a1a0f776252ea259ff50686ff20d53aab", null ],
     [ "cachePixelImageGS", "class_graphical_d_d_layer.html#a66828b7ff989735afb5630b6cb8b6c4e", null ],

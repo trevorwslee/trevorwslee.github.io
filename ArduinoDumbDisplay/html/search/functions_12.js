@@ -1,9 +1,9 @@
 var searchData=
 [
   ['terminalddlayer_0',['TerminalDDLayer',['../class_terminal_d_d_layer.html#ab97f10fd7bc2b8056fc713b1da2fcb40',1,'TerminalDDLayer']]],
-  ['text_1',['text',['../class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9',1,'SelectionDDLayer']]],
-  ['textcentered_2',['textCentered',['../class_selection_d_d_layer.html#a322ee37f03ab7fc9331090db8e86fa29',1,'SelectionDDLayer']]],
-  ['textrightaligned_3',['textRightAligned',['../class_selection_d_d_layer.html#aceb95964f1a63b85d16fb00054122812',1,'SelectionDDLayer']]],
+  ['text_1',['text',['../class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9',1,'SelectionDDLayer::text()'],['../class_selection_list_d_d_layer.html#aac66bb54b244ca783fa1dfd939744bac',1,'SelectionListDDLayer::text()']]],
+  ['textcentered_2',['textCentered',['../class_selection_d_d_layer.html#a322ee37f03ab7fc9331090db8e86fa29',1,'SelectionDDLayer::textCentered()'],['../class_selection_list_d_d_layer.html#a7b66c3abcdc2f6e138deb176ff7b32ce',1,'SelectionListDDLayer::textCentered()']]],
+  ['textrightaligned_3',['textRightAligned',['../class_selection_d_d_layer.html#aceb95964f1a63b85d16fb00054122812',1,'SelectionDDLayer::textRightAligned()'],['../class_selection_list_d_d_layer.html#ae5a0aed303e7a298c130cd87cc47d46b',1,'SelectionListDDLayer::textRightAligned()']]],
   ['timedout_4',['timedOut',['../class_d_d_buffered_tunnel.html#a4199e15a76ad313015680e2c3fcb7995',1,'DDBufferedTunnel']]],
   ['toggle_5',['toggle',['../class_mb_d_d_layer.html#aa27ffe867b3a9baddeaea643fdb081e4',1,'MbDDLayer::toggle()'],['../class_led_grid_d_d_layer.html#a2b3aa6f41f5f2cf91d4b0af33bf9f462',1,'LedGridDDLayer::toggle()']]],
   ['tomtommapddlayer_6',['TomTomMapDDLayer',['../class_tom_tom_map_d_d_layer.html#a1f670bcd7553072eda3976ad83e1e9f8',1,'TomTomMapDDLayer']]],

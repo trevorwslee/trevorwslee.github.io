@@ -1,9 +1,9 @@
 var searchData=
 [
   ['terminalddlayer_0',['TerminalDDLayer',['../class_terminal_d_d_layer.html',1,'TerminalDDLayer'],['../class_terminal_d_d_layer.html#ab97f10fd7bc2b8056fc713b1da2fcb40',1,'TerminalDDLayer::TerminalDDLayer()']]],
-  ['text_1',['text',['../struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4',1,'DDFeedback::text()'],['../class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9',1,'SelectionDDLayer::text(const String &amp;text, int y=0, int horiSelectionIdx=0, int vertSelectionIdx=0, const String &amp;align=&quot;L&quot;)']]],
-  ['textcentered_2',['textCentered',['../class_selection_d_d_layer.html#a322ee37f03ab7fc9331090db8e86fa29',1,'SelectionDDLayer']]],
-  ['textrightaligned_3',['textRightAligned',['../class_selection_d_d_layer.html#aceb95964f1a63b85d16fb00054122812',1,'SelectionDDLayer']]],
+  ['text_1',['text',['../struct_d_d_feedback.html#a325a37e9a3368fc568b93adaf08f60f4',1,'DDFeedback::text()'],['../class_selection_d_d_layer.html#a6d50b19ef0c278eb6692ff32bac605f9',1,'SelectionDDLayer::text()'],['../class_selection_list_d_d_layer.html#aac66bb54b244ca783fa1dfd939744bac',1,'SelectionListDDLayer::text()']]],
+  ['textcentered_2',['textCentered',['../class_selection_d_d_layer.html#a322ee37f03ab7fc9331090db8e86fa29',1,'SelectionDDLayer::textCentered()'],['../class_selection_list_d_d_layer.html#a7b66c3abcdc2f6e138deb176ff7b32ce',1,'SelectionListDDLayer::textCentered()']]],
+  ['textrightaligned_3',['textRightAligned',['../class_selection_d_d_layer.html#aceb95964f1a63b85d16fb00054122812',1,'SelectionDDLayer::textRightAligned()'],['../class_selection_list_d_d_layer.html#ae5a0aed303e7a298c130cd87cc47d46b',1,'SelectionListDDLayer::textRightAligned()']]],
   ['tftdddebuginterface_4',['TftDDDebugInterface',['../class_tft_d_d_debug_interface.html',1,'']]],
   ['timedout_5',['timedOut',['../class_d_d_buffered_tunnel.html#a4199e15a76ad313015680e2c3fcb7995',1,'DDBufferedTunnel']]],
   ['toggle_6',['toggle',['../class_mb_d_d_layer.html#aa27ffe867b3a9baddeaea643fdb081e4',1,'MbDDLayer::toggle()'],['../class_led_grid_d_d_layer.html#a2b3aa6f41f5f2cf91d4b0af33bf9f462',1,'LedGridDDLayer::toggle()']]],

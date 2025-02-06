@@ -8,7 +8,7 @@ var searchData=
   ['penup_5',['penUp',['../class_turtle_d_d_layer.html#a82409078457dfffd85fc7ed672fa5aad',1,'TurtleDDLayer']]],
   ['pinautopinlayers_6',['pinAutoPinLayers',['../class_d_d_layout_helper.html#a87a4709057e1c64bbfaddd04e17be7d0',1,'DDLayoutHelper::pinAutoPinLayers()'],['../class_dumb_display.html#aef6162f07bfccc613bbd35e118ca58f8',1,'DumbDisplay::pinAutoPinLayers()']]],
   ['pinlayer_7',['pinLayer',['../class_d_d_layout_helper.html#aab72c0be51cb358351b9858ce880246b',1,'DDLayoutHelper::pinLayer()'],['../class_dumb_display.html#a77a5d548805b36244d453700afeeea4f',1,'DumbDisplay::pinLayer()']]],
-  ['pixelcolor_8',['pixelColor',['../class_lcd_d_d_layer.html#a485ea7464aed6f732e6a483c7b8be34d',1,'LcdDDLayer::pixelColor()'],['../class_selection_d_d_layer.html#a574ea9d0d5e7609862c567b58b06d3ca',1,'SelectionDDLayer::pixelColor()']]],
+  ['pixelcolor_8',['pixelColor',['../class_lcd_d_d_layer.html#a485ea7464aed6f732e6a483c7b8be34d',1,'LcdDDLayer::pixelColor()'],['../class_selection_base_d_d_layer.html#a03bbba7c9d95c40a7885c798c17bcb92',1,'SelectionBaseDDLayer::pixelColor()']]],
   ['playbacklayercommands_9',['playbackLayerCommands',['../class_dumb_display.html#ab774f5365fbf619499fce8663c7ca802',1,'DumbDisplay']]],
   ['playbacklayersetupcommands_10',['playbackLayerSetupCommands',['../class_dumb_display.html#aa55f448dc6033806dbcdc7f71b0f8a41',1,'DumbDisplay']]],
   ['playsound_11',['playSound',['../class_dumb_display.html#a98dbc3c8ddb81fe1ecdc39c87aa8f62a',1,'DumbDisplay']]],

@@ -61,7 +61,10 @@ var hierarchy =
         ] ],
         [ "PlotterDDLayer", "class_plotter_d_d_layer.html", null ],
         [ "RtspClientDDLayer", "class_rtsp_client_d_d_layer.html", null ],
-        [ "SelectionDDLayer", "class_selection_d_d_layer.html", null ],
+        [ "SelectionBaseDDLayer", "class_selection_base_d_d_layer.html", [
+          [ "SelectionDDLayer", "class_selection_d_d_layer.html", null ],
+          [ "SelectionListDDLayer", "class_selection_list_d_d_layer.html", null ]
+        ] ],
         [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", null ],
         [ "TerminalDDLayer", "class_terminal_d_d_layer.html", null ],
         [ "TomTomMapDDLayer", "class_tom_tom_map_d_d_layer.html", null ],
@@ -98,5 +101,7 @@ var hierarchy =
     [ "JoystickPressTracker", "class_joystick_press_tracker.html", null ],
     [ "JsonDDTunnel", "struct_json_d_d_tunnel.html", null ],
     [ "JsonDDTunnelMultiplexer", "class_json_d_d_tunnel_multiplexer.html", null ],
-    [ "MbImage", "class_mb_image.html", null ]
+    [ "MbImage", "class_mb_image.html", null ],
+    [ "SelectionListLayerHelper", "class_selection_list_layer_helper.html", null ],
+    [ "SelectionListLayerWrapper", "class_selection_list_layer_wrapper.html", null ]
 ];
