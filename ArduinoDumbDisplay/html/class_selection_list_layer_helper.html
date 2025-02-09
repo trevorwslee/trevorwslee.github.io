@@ -104,6 +104,11 @@ $(document).ready(function(){initNavTree('class_selection_list_layer_helper.html
   <div class="headertitle"><div class="title">SelectionListLayerHelper Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>helper for using of <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a>; suggested to use <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a> whenever it makes sense  
+ <a href="class_selection_list_layer_helper.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,9 +124,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getOffset</b> ()</td><
 <tr class="memitem:afaaf56cac4b39c0075f7149ab4738157"><td class="memItemLeft" align="right" valign="top"><a id="afaaf56cac4b39c0075f7149ab4738157" name="afaaf56cac4b39c0075f7149ab4738157"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectionCount</b> ()</td></tr>
 <tr class="separator:afaaf56cac4b39c0075f7149ab4738157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427cc035ce86a94941c789e3ff2bd0b9"><td class="memItemLeft" align="right" valign="top"><a id="a427cc035ce86a94941c789e3ff2bd0b9" name="a427cc035ce86a94941c789e3ff2bd0b9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setListStateChangedCallback</b> (void(*listStateChangedCallback)(), int visibleSelectionCount=-1)</td></tr>
-<tr class="separator:a427cc035ce86a94941c789e3ff2bd0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46edea4213a7f02d3a37a7df15cbffa3"><td class="memItemLeft" align="right" valign="top"><a id="a46edea4213a7f02d3a37a7df15cbffa3" name="a46edea4213a7f02d3a37a7df15cbffa3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setListStateChangedCallback</b> (void(*listStateChangedCallback)(), int viewSelectionCount=-1)</td></tr>
+<tr class="memdesc:a46edea4213a7f02d3a37a7df15cbffa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the "list state changed" callback; here "state" refers to "list add/remove text or change of offset" <br /></td></tr>
+<tr class="separator:a46edea4213a7f02d3a37a7df15cbffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae53017764313f05ba9b131f3fda62b3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">add</a> (int selectionIdx=-1)</td></tr>
 <tr class="separator:ae53017764313f05ba9b131f3fda62b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d1fadcbeb93a165a332a484b091913"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">remove</a> (int selectionIdx=-1)</td></tr>
@@ -145,7 +151,9 @@ Protected Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>onListStateChanged</b> ()</td></tr>
 <tr class="separator:a321cdddcd8cf96463d247418c6cecedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>helper for using of <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a>; suggested to use <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a> whenever it makes sense </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae53017764313f05ba9b131f3fda62b3c" name="ae53017764313f05ba9b131f3fda62b3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae53017764313f05ba9b131f3fda62b3c">&#9670;&#160;</a></span>add()</h2>
 

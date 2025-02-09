@@ -83,7 +83,7 @@ var annotated_dup =
     [ "SelectionDDLayer", "class_selection_d_d_layer.html", "class_selection_d_d_layer" ],
     [ "SelectionListDDLayer", "class_selection_list_d_d_layer.html", "class_selection_list_d_d_layer" ],
     [ "SelectionListLayerHelper", "class_selection_list_layer_helper.html", "class_selection_list_layer_helper" ],
-    [ "SelectionListLayerWrapper", "class_selection_list_layer_wrapper.html", null ],
+    [ "SelectionListLayerWrapper", "class_selection_list_layer_wrapper.html", "class_selection_list_layer_wrapper" ],
     [ "SevenSegmentRowDDLayer", "class_seven_segment_row_d_d_layer.html", "class_seven_segment_row_d_d_layer" ],
     [ "SimpleToolDDTunnel", "class_simple_tool_d_d_tunnel.html", "class_simple_tool_d_d_tunnel" ],
     [ "TerminalDDLayer", "class_terminal_d_d_layer.html", "class_terminal_d_d_layer" ],

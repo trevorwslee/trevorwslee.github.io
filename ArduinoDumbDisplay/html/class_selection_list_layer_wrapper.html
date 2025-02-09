@@ -103,6 +103,11 @@ $(document).ready(function(){initNavTree('class_selection_list_layer_wrapper.htm
   <div class="headertitle"><div class="title">SelectionListLayerWrapper Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>wrapper for using of <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a> that help you to track the text added  
+ <a href="class_selection_list_layer_wrapper.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -111,6 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbf8276626ef1c9f7e86e4cb92d3c3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af999215ca1aa8763446e13df56a90b43"><td class="memItemLeft" align="right" valign="top"><a id="af999215ca1aa8763446e13df56a90b43" name="af999215ca1aa8763446e13df56a90b43"></a>
 <a class="el" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>initializeLayer</b> (<a class="el" href="class_dumb_display.html">DumbDisplay</a> &amp;dumbdisplay, int colCount, int rowCount, int horiSelectionCount, int vertSelectionCount, int charHeight=0, const String &amp;fontName=&quot;&quot;, bool canDrawDots=true, float selectionBorderSizeCharHeightFactor=0.3)</td></tr>
+<tr class="memdesc:af999215ca1aa8763446e13df56a90b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize a new <a class="el" href="class_selection_list_d_d_layer.html" title="Class for &quot;selection list&quot; layer, like SelectionDDLayer but &quot;selections&quot; can be added and removed dyn...">SelectionListDDLayer</a> (note that any old ones will not be deleted) <br /></td></tr>
 <tr class="separator:af999215ca1aa8763446e13df56a90b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b91ae77789bbb0c870f850a824ad345"><td class="memItemLeft" align="right" valign="top"><a id="a7b91ae77789bbb0c870f850a824ad345" name="a7b91ae77789bbb0c870f850a824ad345"></a>
 <a class="el" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getLayer</b> ()</td></tr>
@@ -132,13 +138,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>findSelection</b> (con
 <tr class="separator:a5b4d150b12326f8afc159686162a2d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746b024b88c9180dc4e08724ce109b82"><td class="memItemLeft" align="right" valign="top"><a id="a746b024b88c9180dc4e08724ce109b82" name="a746b024b88c9180dc4e08724ce109b82"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setListStateChangedCallback</b> (void(*listStateChangedCallback)())</td></tr>
+<tr class="memdesc:a746b024b88c9180dc4e08724ce109b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the "list state changed" callback; here "state" refers to "list add/remove text or change of offset" <br /></td></tr>
 <tr class="separator:a746b024b88c9180dc4e08724ce109b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493fceffe64d1c89723072235795724f"><td class="memItemLeft" align="right" valign="top"><a id="a493fceffe64d1c89723072235795724f" name="a493fceffe64d1c89723072235795724f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>addSelection</b> (int selectionIdx, const String &amp;text, const String &amp;align=&quot;L&quot;)</td></tr>
+<tr class="memitem:a493fceffe64d1c89723072235795724f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_list_layer_wrapper.html#a493fceffe64d1c89723072235795724f">addSelection</a> (int selectionIdx, const String &amp;text, const String &amp;align=&quot;L&quot;)</td></tr>
 <tr class="separator:a493fceffe64d1c89723072235795724f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88969086d2c67f4192a26a4344967d44"><td class="memItemLeft" align="right" valign="top"><a id="a88969086d2c67f4192a26a4344967d44" name="a88969086d2c67f4192a26a4344967d44"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>removeSelection</b> (int selectionIdx)</td></tr>
+<tr class="memitem:a88969086d2c67f4192a26a4344967d44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_list_layer_wrapper.html#a88969086d2c67f4192a26a4344967d44">removeSelection</a> (int selectionIdx)</td></tr>
 <tr class="separator:a88969086d2c67f4192a26a4344967d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c487f782a7c122df9911d8361b8d64"><td class="memItemLeft" align="right" valign="top"><a id="a58c487f782a7c122df9911d8361b8d64" name="a58c487f782a7c122df9911d8361b8d64"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removeAllSelections</b> ()</td></tr>
+<tr class="separator:a58c487f782a7c122df9911d8361b8d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca55ae6b1759e58934798afa162d1a10"><td class="memItemLeft" align="right" valign="top"><a id="aca55ae6b1759e58934798afa162d1a10" name="aca55ae6b1759e58934798afa162d1a10"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setOffset</b> (int offset)</td></tr>
 <tr class="separator:aca55ae6b1759e58934798afa162d1a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +175,91 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>selectAll</b> ()</td>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deselectAll</b> ()</td></tr>
 <tr class="separator:a04acd48bfe582b7c24df44af5b278086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>wrapper for using of <a class="el" href="class_selection_list_layer_wrapper.html" title="wrapper for using of SelectionListLayerWrapper that help you to track the text added">SelectionListLayerWrapper</a> that help you to track the text added </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a493fceffe64d1c89723072235795724f" name="a493fceffe64d1c89723072235795724f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493fceffe64d1c89723072235795724f">&#9670;&#160;</a></span>addSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SelectionListLayerWrapper::addSelection </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>selectionIdx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>align</em> = <code>&quot;L&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selectionIdx</td><td>-1 means append as the last selection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if selectionIdx is out of range </dd></dl>
+
+</div>
+</div>
+<a id="a88969086d2c67f4192a26a4344967d44" name="a88969086d2c67f4192a26a4344967d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88969086d2c67f4192a26a4344967d44">&#9670;&#160;</a></span>removeSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SelectionListLayerWrapper::removeSelection </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>selectionIdx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selectionIdx</td><td>-1 means the last selection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if selectionIdx is out of range </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

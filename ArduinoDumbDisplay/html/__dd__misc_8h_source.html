@@ -660,199 +660,190 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span> </div>
 <div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span> </div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html">  645</a></span><span class="keyword">class </span><a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a> {</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>(<a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer): selectionListLayer(selectionListLayer) {</div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>      this-&gt;selectionCount = 0;</div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>      this-&gt;selectionOffset = 0;</div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>      this-&gt;visibleSelectionCount = -1;</div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>      this-&gt;listStateChangedCallback = NULL;</div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    }</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    <span class="keyword">inline</span> <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* getLayer() {</div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>      <span class="keywordflow">return</span> selectionListLayer;</div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    }</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getOffset() {</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>      <span class="keywordflow">return</span> selectionOffset;</div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    }</div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getSelectionCount() {</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>      <span class="keywordflow">return</span> selectionCount;</div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    }</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>    <span class="keywordtype">void</span> setListStateChangedCallback(<span class="keywordtype">void</span> (*listStateChangedCallback)(), <span class="keywordtype">int</span> visibleSelectionCount = -1) {</div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>      this-&gt;listStateChangedCallback = listStateChangedCallback;</div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>      this-&gt;visibleSelectionCount = visibleSelectionCount;</div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    }</div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    <span class="comment">// void setScrollLayers(DDLayer* scrollUpLayer, DDLayer* scrollDownLayer, int visibleSelectionCount) {</span></div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    <span class="comment">//   this-&gt;scrollUpLayer = scrollUpLayer;</span></div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    <span class="comment">//   this-&gt;scrollDownLayer = scrollDownLayer;</span></div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    <span class="comment">//   this-&gt;visibleSelectionCount = visibleSelectionCount;</span></div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>    <span class="comment">//   syncScollState();</span></div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>    <span class="comment">// }</span></div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">  677</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">add</a>(<span class="keywordtype">int</span> selectionIdx = -1) {</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>      <span class="keywordtype">int</span> addSelectionIdx;</div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>      <span class="keywordflow">if</span> (selectionIdx == -1) {</div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>        addSelectionIdx = selectionCount;</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>      } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>        addSelectionIdx = selectionIdx;</div>
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>      } </div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      <span class="keywordflow">if</span> (addSelectionIdx &lt; 0 || addSelectionIdx &gt; selectionCount) {</div>
-<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>      }</div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a6a70a774e9d621962bfb4349a05fac9a">add</a>(addSelectionIdx);</div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>      selectionCount += 1;</div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>      onListStateChanged();</div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>      <span class="keywordflow">return</span> addSelectionIdx;</div>
-<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>    }  </div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">  694</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">remove</a>(<span class="keywordtype">int</span> selectionIdx = -1) {</div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>      <span class="keywordtype">int</span> removeSelectionIdx;</div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>      <span class="keywordflow">if</span> (selectionIdx == -1) {</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>        removeSelectionIdx = selectionCount;</div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>      } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>        removeSelectionIdx = selectionIdx;</div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>      } </div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>      <span class="keywordflow">if</span> (removeSelectionIdx &lt; 0 || removeSelectionIdx &gt;= selectionCount) {</div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>      }</div>
-<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#ae2378532f8b0cec48820839a489f940e">remove</a>(removeSelectionIdx);</div>
-<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>      selectionCount -= 1;</div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>      <span class="keywordflow">if</span> (selectionOffset &gt; selectionCount) {</div>
-<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>        selectionOffset = selectionCount;</div>
-<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>      }</div>
-<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>      onListStateChanged();</div>
-<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>      <span class="keywordflow">return</span> removeSelectionIdx;</div>
-<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span>    }</div>
-<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>    <span class="keywordtype">void</span> setOffset(<span class="keywordtype">int</span> offset) {</div>
-<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#aba97b299d008997db6a766c8a4693e63">offset</a>(offset);</div>
-<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>      selectionOffset = offset;</div>
-<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>      onListStateChanged();</div>
-<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>    }</div>
-<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> decrementOffset() {</div>
-<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>      setOffset(selectionOffset - 1);</div>
-<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    }</div>
-<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> incrementOffset() {</div>
-<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>      setOffset(selectionOffset + 1);</div>
-<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>    }</div>
-<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>    <span class="keywordtype">void</span> scrollToView(<span class="keywordtype">int</span> selectionIdx) {</div>
-<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>      <span class="keywordflow">if</span> (selectionIdx &lt; selectionOffset) {</div>
-<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>        setOffset(selectionIdx);</div>
-<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>      } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>        <span class="keywordflow">if</span> (this-&gt;visibleSelectionCount != -1) {</div>
-<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>          <span class="keywordflow">if</span> (selectionIdx &gt;= (selectionOffset + this-&gt;visibleSelectionCount)) {</div>
-<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>            setOffset(selectionIdx - this-&gt;visibleSelectionCount + 1);</div>
-<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>          }</div>
-<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>        }</div>
-<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>      }  </div>
-<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>    }</div>
-<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>  <span class="keyword">protected</span>:  </div>
-<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span>    <span class="keywordtype">void</span> onListStateChanged() {</div>
-<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>      <span class="keywordflow">if</span> (this-&gt;listStateChangedCallback != NULL) {</div>
-<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>        this-&gt;listStateChangedCallback();</div>
-<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span>      }</div>
-<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>      <span class="comment">// if (scrollUpLayer != NULL) {</span></div>
-<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>      <span class="comment">//   bool canScrollUp = selectionOffset &gt; 0;</span></div>
-<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>      <span class="comment">//   scrollUpLayer-&gt;disabled(!canScrollUp);</span></div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html">  646</a></span><span class="keyword">class </span><a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a> {</div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>(<a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer): selectionListLayer(selectionListLayer) {</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>      this-&gt;selectionCount = 0;</div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>      this-&gt;selectionOffset = 0;</div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>      this-&gt;viewSelectionCount = -1;</div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>      this-&gt;listStateChangedCallback = NULL;</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    }</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    <span class="keyword">inline</span> <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* getLayer() {</div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>      <span class="keywordflow">return</span> selectionListLayer;</div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>    }</div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getOffset() {</div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>      <span class="keywordflow">return</span> selectionOffset;</div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    }</div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getSelectionCount() {</div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>      <span class="keywordflow">return</span> selectionCount;</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>    }</div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html#a46edea4213a7f02d3a37a7df15cbffa3">  666</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_selection_list_layer_helper.html#a46edea4213a7f02d3a37a7df15cbffa3">setListStateChangedCallback</a>(<span class="keywordtype">void</span> (*listStateChangedCallback)(), <span class="keywordtype">int</span> viewSelectionCount = -1) {</div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>      this-&gt;listStateChangedCallback = listStateChangedCallback;</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>      this-&gt;viewSelectionCount = viewSelectionCount;</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    }</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">  673</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">add</a>(<span class="keywordtype">int</span> selectionIdx = -1) {</div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>      <span class="keywordtype">int</span> addSelectionIdx;</div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>      <span class="keywordflow">if</span> (selectionIdx == -1) {</div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>        addSelectionIdx = selectionCount;</div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>        addSelectionIdx = selectionIdx;</div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>      } </div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>      <span class="keywordflow">if</span> (addSelectionIdx &lt; 0 || addSelectionIdx &gt; selectionCount) {</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>      }</div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a6a70a774e9d621962bfb4349a05fac9a">add</a>(addSelectionIdx);</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      selectionCount += 1;</div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>      onListStateChanged();</div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>      <span class="keywordflow">return</span> addSelectionIdx;</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>    }  </div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno"><a class="line" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">  690</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">remove</a>(<span class="keywordtype">int</span> selectionIdx = -1) {</div>
+<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>      <span class="keywordtype">int</span> removeSelectionIdx;</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>      <span class="keywordflow">if</span> (selectionIdx == -1) {</div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>        removeSelectionIdx = selectionCount;</div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>        removeSelectionIdx = selectionIdx;</div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>      } </div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>      <span class="keywordflow">if</span> (removeSelectionIdx &lt; 0 || removeSelectionIdx &gt;= selectionCount) {</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>      }</div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#ae2378532f8b0cec48820839a489f940e">remove</a>(removeSelectionIdx);</div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>      selectionCount -= 1;</div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>      <span class="keywordflow">if</span> (selectionOffset &gt; selectionCount) {</div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>        selectionOffset = selectionCount;</div>
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>      }</div>
+<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>      onListStateChanged();</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>      <span class="keywordflow">return</span> removeSelectionIdx;</div>
+<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>    }</div>
+<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>    <span class="keywordtype">void</span> setOffset(<span class="keywordtype">int</span> offset) {</div>
+<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>      selectionListLayer-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#aba97b299d008997db6a766c8a4693e63">offset</a>(offset);</div>
+<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>      selectionOffset = offset;</div>
+<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span>      onListStateChanged();</div>
+<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>    }</div>
+<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> decrementOffset() {</div>
+<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>      setOffset(selectionOffset - 1);</div>
+<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>    }</div>
+<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> incrementOffset() {</div>
+<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span>      setOffset(selectionOffset + 1);</div>
+<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>    }</div>
+<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>    <span class="keywordtype">void</span> scrollToView(<span class="keywordtype">int</span> selectionIdx) {</div>
+<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>      <span class="keywordflow">if</span> (selectionIdx &lt; selectionOffset) {</div>
+<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>        setOffset(selectionIdx);</div>
+<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>        <span class="keywordflow">if</span> (this-&gt;viewSelectionCount != -1) {</div>
+<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>          <span class="keywordflow">if</span> (selectionIdx &gt;= (selectionOffset + this-&gt;viewSelectionCount)) {</div>
+<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>            setOffset(selectionIdx - this-&gt;viewSelectionCount + 1);</div>
+<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>          }</div>
+<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>        }</div>
+<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>      }  </div>
+<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>    }</div>
+<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>  <span class="keyword">protected</span>:  </div>
+<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>    <span class="keywordtype">void</span> onListStateChanged() {</div>
+<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>      <span class="keywordflow">if</span> (this-&gt;listStateChangedCallback != NULL) {</div>
+<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>        this-&gt;listStateChangedCallback();</div>
+<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>      }</div>
+<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span>      <span class="comment">// if (scrollUpLayer != NULL) {</span></div>
+<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>      <span class="comment">//   bool canScrollUp = selectionOffset &gt; 0;</span></div>
+<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>      <span class="comment">//   scrollUpLayer-&gt;disabled(!canScrollUp);</span></div>
+<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span>      <span class="comment">// }</span></div>
+<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>      <span class="comment">// if (scrollDownLayer != NULL) {</span></div>
+<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>      <span class="comment">//   bool canScrollDown = selectionOffset &lt; (selectionCount - visibleSelectionCount);</span></div>
+<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>      <span class="comment">//   scrollDownLayer-&gt;disabled(!canScrollDown);</span></div>
 <div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>      <span class="comment">// }</span></div>
-<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>      <span class="comment">// if (scrollDownLayer != NULL) {</span></div>
-<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>      <span class="comment">//   bool canScrollDown = selectionOffset &lt; (selectionCount - visibleSelectionCount);</span></div>
-<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>      <span class="comment">//   scrollDownLayer-&gt;disabled(!canScrollDown);</span></div>
-<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>      <span class="comment">// }</span></div>
-<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    }  </div>
-<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>  <span class="keyword">private</span>:  </div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer;</div>
-<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    <span class="keywordtype">int</span> selectionCount;</div>
-<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>    <span class="keywordtype">int</span> selectionOffset;</div>
-<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>    <span class="keywordtype">int</span> visibleSelectionCount;</div>
-<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>    void (*listStateChangedCallback)();</div>
-<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    <span class="comment">//DDLayer* scrollUpLayer;</span></div>
-<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>    <span class="comment">//DDLayer* scrollDownLayer;</span></div>
-<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>};</div>
-<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span> </div>
-<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span> </div>
-<div class="line"><a id="l00759" name="l00759"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html">  759</a></span><span class="keyword">class </span><a class="code hl_class" href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a> {</div>
-<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>    <a class="code hl_class" href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a>(<span class="keywordtype">short</span> bufferSizeInc = 2) {</div>
-<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>      this-&gt;bufferSizeInc = bufferSizeInc;</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>      this-&gt;helper = NULL;</div>
-<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span>      this-&gt;textBuffer = NULL;</div>
-<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>      this-&gt;textBufferSize = 0;</div>
-<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span>      this-&gt;trackedTextCount = 0;</div>
-<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>    }</div>
-<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>    <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* initializeLayer(<a class="code hl_class" href="class_dumb_display.html">DumbDisplay</a>&amp; dumbdisplay,</div>
-<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>                                         <span class="keywordtype">int</span> colCount, <span class="keywordtype">int</span> rowCount,</div>
-<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>                                         <span class="keywordtype">int</span> horiSelectionCount, <span class="keywordtype">int</span> vertSelectionCount,</div>
-<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>                                         <span class="keywordtype">int</span> charHeight = 0, <span class="keyword">const</span> String&amp; fontName = <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>                                         <span class="keywordtype">bool</span> canDrawDots = <span class="keyword">true</span>, <span class="keywordtype">float</span> selectionBorderSizeCharHeightFactor = 0.3) {</div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>      <span class="keywordflow">if</span> (this-&gt;helper != NULL) {</div>
-<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>        <span class="keyword">delete</span> this-&gt;helper;</div>
-<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>        this-&gt;helper = NULL;</div>
-<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>      }</div>
-<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>      <span class="keywordflow">if</span> (this-&gt;textBuffer != NULL) {</div>
-<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>        <span class="keyword">delete</span>[] this-&gt;textBuffer;</div>
-<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>        this-&gt;textBuffer = NULL;</div>
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>        this-&gt;textBufferSize = 0;</div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>        this-&gt;trackedTextCount = 0;</div>
-<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>      }</div>
-<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>      <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer = dumbdisplay.<a class="code hl_function" href="class_dumb_display.html#ad558e1be1fd798715ab6f0c2fcfbf050">createSelectionListLayer</a>(colCount, rowCount, horiSelectionCount, vertSelectionCount, charHeight, fontName, canDrawDots, selectionBorderSizeCharHeightFactor);</div>
-<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>      this-&gt;helper = <span class="keyword">new</span> <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>(selectionListLayer);</div>
-<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>      this-&gt;viewHoriSelectionCount = horiSelectionCount;</div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>      this-&gt;viewSelectionCount = horiSelectionCount * vertSelectionCount;</div>
-<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>      <span class="comment">// setScrollLayers(NULL, NULL);</span></div>
-<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>      <span class="keywordflow">return</span> selectionListLayer;</div>
-<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    }</div>
-<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>  <span class="keyword">public</span>:   </div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    <span class="keyword">inline</span> <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* getLayer() {</div>
-<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>      <span class="keywordflow">return</span> helper-&gt;getLayer();</div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>    }</div>
-<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getOffset() {</div>
-<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>      <span class="keywordflow">return</span> helper-&gt;getOffset();</div>
-<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>    }</div>
-<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getSelectionCount() {</div>
-<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>      <span class="keywordflow">return</span> helper-&gt;getSelectionCount();</div>
-<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>    }</div>
-<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    <span class="keywordtype">int</span> getSelectionIndexFromView(<span class="keywordtype">int</span> horiSelectionIdx, <span class="keywordtype">int</span> vertSelectionIdx) {</div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>      <span class="keywordflow">return</span> this-&gt;getOffset() + (vertSelectionIdx * this-&gt;viewHoriSelectionCount) + horiSelectionIdx;</div>
-<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>    }</div>
-<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    <span class="keyword">const</span> String&amp; getSelectionText(<span class="keywordtype">int</span> selectionIdx) {</div>
-<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>      <span class="keywordflow">return</span> this-&gt;textBuffer[selectionIdx];</div>
-<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>    }</div>
-<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>    <span class="keywordtype">int</span> findSelection(<span class="keyword">const</span> String&amp; text) {</div>
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; trackedTextCount; i++) {</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>        <span class="keywordflow">if</span> (textBuffer[i] == text) {</div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>          <span class="keywordflow">return</span> i;</div>
-<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>        }</div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>      }</div>
-<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>      <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>    }</div>
-<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>  <span class="keyword">public</span>:   </div>
-<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>    <span class="keywordtype">void</span> setListStateChangedCallback(<span class="keywordtype">void</span> (*listStateChangedCallback)()) {</div>
-<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>      helper-&gt;setListStateChangedCallback(listStateChangedCallback, this-&gt;viewSelectionCount);</div>
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>    }</div>
-<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>    <span class="comment">// void setScrollLayers(DDLayer* scrollUpLayer, DDLayer* scrollDownLayer) {</span></div>
-<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>    <span class="comment">//   this-&gt;helper-&gt;setScrollLayers(scrollUpLayer, scrollDownLayer, this-&gt;visibleSelectionCount);</span></div>
-<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>    <span class="comment">// }</span></div>
-<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>    <span class="keywordtype">int</span> addSelection(<span class="keywordtype">int</span> selectionIdx, <span class="keyword">const</span> String&amp; text, <span class="keyword">const</span> String&amp; align = <span class="stringliteral">&quot;L&quot;</span>) {</div>
-<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>      <span class="keywordtype">int</span> idx = helper-&gt;<a class="code hl_function" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">add</a>(selectionIdx);</div>
-<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>      <span class="keywordflow">if</span> (idx != -1) {</div>
-<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>        helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#aac66bb54b244ca783fa1dfd939744bac">text</a>(idx, text, 0, align);</div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>        <span class="keywordflow">if</span> ((trackedTextCount + 1) &gt; textBufferSize) {</div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>          <span class="keywordtype">int</span> newSize = textBufferSize + bufferSizeInc;</div>
-<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>          String* newTextBuffer = <span class="keyword">new</span> String[newSize];</div>
-<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; textBufferSize; i++) {</div>
-<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>            newTextBuffer[i] = textBuffer[i];</div>
-<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>          }</div>
-<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>          <span class="keywordflow">if</span> (textBuffer != NULL) {</div>
-<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>            <span class="keyword">delete</span>[] textBuffer;</div>
-<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>          }</div>
-<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span>          textBuffer = newTextBuffer;</div>
-<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>          textBufferSize = newSize;</div>
-<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span>        }</div>
-<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>        textBuffer[trackedTextCount++] = text;</div>
-<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>      }</div>
-<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>      <span class="keywordflow">return</span> idx;</div>
-<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>    }</div>
-<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span>    <span class="keywordtype">int</span> removeSelection(<span class="keywordtype">int</span> selectionIdx) {</div>
+<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>    }  </div>
+<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>  <span class="keyword">private</span>:  </div>
+<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>    <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer;</div>
+<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>    <span class="keywordtype">int</span> selectionCount;</div>
+<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    <span class="keywordtype">int</span> selectionOffset;</div>
+<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>    <span class="keywordtype">int</span> viewSelectionCount;</div>
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    void (*listStateChangedCallback)();</div>
+<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>    <span class="comment">//DDLayer* scrollUpLayer;</span></div>
+<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>    <span class="comment">//DDLayer* scrollDownLayer;</span></div>
+<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>};</div>
+<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span> </div>
+<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span> </div>
+<div class="line"><a id="l00756" name="l00756"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html">  756</a></span><span class="keyword">class </span><a class="code hl_class" href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a> {</div>
+<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>    <a class="code hl_class" href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a>(<span class="keywordtype">short</span> bufferSizeInc = 2) {</div>
+<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>      this-&gt;bufferSizeInc = bufferSizeInc;</div>
+<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>      this-&gt;helper = NULL;</div>
+<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>      this-&gt;textBuffer = NULL;</div>
+<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>      this-&gt;textBufferSize = 0;</div>
+<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>      this-&gt;trackedTextCount = 0;</div>
+<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span>    }</div>
+<div class="line"><a id="l00766" name="l00766"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html#af999215ca1aa8763446e13df56a90b43">  766</a></span>    <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* <a class="code hl_function" href="class_selection_list_layer_wrapper.html#af999215ca1aa8763446e13df56a90b43">initializeLayer</a>(<a class="code hl_class" href="class_dumb_display.html">DumbDisplay</a>&amp; dumbdisplay,</div>
+<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>                                          <span class="keywordtype">int</span> colCount, <span class="keywordtype">int</span> rowCount,</div>
+<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>                                          <span class="keywordtype">int</span> horiSelectionCount, <span class="keywordtype">int</span> vertSelectionCount,</div>
+<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>                                          <span class="keywordtype">int</span> charHeight = 0, <span class="keyword">const</span> String&amp; fontName = <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>                                          <span class="keywordtype">bool</span> canDrawDots = <span class="keyword">true</span>, <span class="keywordtype">float</span> selectionBorderSizeCharHeightFactor = 0.3) {</div>
+<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>      <span class="keywordflow">if</span> (this-&gt;helper != NULL) {</div>
+<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>        <span class="keyword">delete</span> this-&gt;helper;</div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>        this-&gt;helper = NULL;</div>
+<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>      }</div>
+<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>      <span class="keywordflow">if</span> (this-&gt;textBuffer != NULL) {</div>
+<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>        <span class="keyword">delete</span>[] this-&gt;textBuffer;</div>
+<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>        this-&gt;textBuffer = NULL;</div>
+<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>        this-&gt;textBufferSize = 0;</div>
+<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>        this-&gt;trackedTextCount = 0;</div>
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>      }</div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>      <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* selectionListLayer = dumbdisplay.<a class="code hl_function" href="class_dumb_display.html#ad558e1be1fd798715ab6f0c2fcfbf050">createSelectionListLayer</a>(colCount, rowCount, horiSelectionCount, vertSelectionCount, charHeight, fontName, canDrawDots, selectionBorderSizeCharHeightFactor);</div>
+<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>      this-&gt;helper = <span class="keyword">new</span> <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>(selectionListLayer);</div>
+<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>      this-&gt;viewHoriSelectionCount = horiSelectionCount;</div>
+<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>      this-&gt;viewSelectionCount = horiSelectionCount * vertSelectionCount;</div>
+<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>      <span class="comment">// setScrollLayers(NULL, NULL);</span></div>
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>      <span class="keywordflow">return</span> selectionListLayer;</div>
+<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>    }</div>
+<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>  <span class="keyword">public</span>:   </div>
+<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>    <span class="keyword">inline</span> <a class="code hl_class" href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a>* getLayer() {</div>
+<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>      <span class="keywordflow">return</span> helper-&gt;getLayer();</div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>    }</div>
+<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getOffset() {</div>
+<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>      <span class="keywordflow">return</span> helper-&gt;getOffset();</div>
+<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>    }</div>
+<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>    <span class="keyword">inline</span> <span class="keywordtype">int</span> getSelectionCount() {</div>
+<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>      <span class="keywordflow">return</span> helper-&gt;getSelectionCount();</div>
+<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>    }</div>
+<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>    <span class="keywordtype">int</span> getSelectionIndexFromView(<span class="keywordtype">int</span> horiSelectionIdx, <span class="keywordtype">int</span> vertSelectionIdx) {</div>
+<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>      <span class="keywordflow">return</span> this-&gt;getOffset() + (vertSelectionIdx * this-&gt;viewHoriSelectionCount) + horiSelectionIdx;</div>
+<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>    }</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    <span class="keyword">const</span> String&amp; getSelectionText(<span class="keywordtype">int</span> selectionIdx) {</div>
+<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>      <span class="keywordflow">return</span> this-&gt;textBuffer[selectionIdx];</div>
+<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    }</div>
+<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>    <span class="keywordtype">int</span> findSelection(<span class="keyword">const</span> String&amp; text) {</div>
+<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; trackedTextCount; i++) {</div>
+<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span>        <span class="keywordflow">if</span> (textBuffer[i] == text) {</div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>          <span class="keywordflow">return</span> i;</div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>        }</div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>      }</div>
+<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>      <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>    }</div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>  <span class="keyword">public</span>:   </div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html#a746b024b88c9180dc4e08724ce109b82">  814</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_selection_list_layer_wrapper.html#a746b024b88c9180dc4e08724ce109b82">setListStateChangedCallback</a>(<span class="keywordtype">void</span> (*listStateChangedCallback)()) {</div>
+<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span>      helper-&gt;<a class="code hl_function" href="class_selection_list_layer_helper.html#a46edea4213a7f02d3a37a7df15cbffa3">setListStateChangedCallback</a>(listStateChangedCallback, this-&gt;viewSelectionCount);</div>
+<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>    }</div>
+<div class="line"><a id="l00819" name="l00819"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html#a493fceffe64d1c89723072235795724f">  819</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_wrapper.html#a493fceffe64d1c89723072235795724f">addSelection</a>(<span class="keywordtype">int</span> selectionIdx, <span class="keyword">const</span> String&amp; text, <span class="keyword">const</span> String&amp; align = <span class="stringliteral">&quot;L&quot;</span>) {</div>
+<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>      <span class="keywordtype">int</span> idx = helper-&gt;<a class="code hl_function" href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">add</a>(selectionIdx);</div>
+<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>      <span class="keywordflow">if</span> (idx != -1) {</div>
+<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>        helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#aac66bb54b244ca783fa1dfd939744bac">text</a>(idx, text, 0, align);</div>
+<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>        <span class="keywordflow">if</span> ((trackedTextCount + 1) &gt; textBufferSize) {</div>
+<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>          <span class="keywordtype">int</span> newSize = textBufferSize + bufferSizeInc;</div>
+<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>          String* newTextBuffer = <span class="keyword">new</span> String[newSize];</div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; textBufferSize; i++) {</div>
+<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>            newTextBuffer[i] = textBuffer[i];</div>
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>          }</div>
+<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>          <span class="keywordflow">if</span> (textBuffer != NULL) {</div>
+<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>            <span class="keyword">delete</span>[] textBuffer;</div>
+<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>          }</div>
+<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>          textBuffer = newTextBuffer;</div>
+<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>          textBufferSize = newSize;</div>
+<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span>        }</div>
+<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>        textBuffer[trackedTextCount++] = text;</div>
+<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span>      }</div>
+<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>      <span class="keywordflow">return</span> idx;</div>
+<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>    }</div>
+<div class="line"><a id="l00841" name="l00841"></a><span class="lineno"><a class="line" href="class_selection_list_layer_wrapper.html#a88969086d2c67f4192a26a4344967d44">  841</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_selection_list_layer_wrapper.html#a88969086d2c67f4192a26a4344967d44">removeSelection</a>(<span class="keywordtype">int</span> selectionIdx) {</div>
 <div class="line"><a id="l00842" name="l00842"></a><span class="lineno">  842</span>      selectionIdx = helper-&gt;<a class="code hl_function" href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">remove</a>(selectionIdx);</div>
 <div class="line"><a id="l00843" name="l00843"></a><span class="lineno">  843</span>      <span class="keywordflow">if</span> (selectionIdx != -1) {</div>
 <div class="line"><a id="l00844" name="l00844"></a><span class="lineno">  844</span>        trackedTextCount -= 1;</div>
@@ -862,45 +853,51 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="line"><a id="l00848" name="l00848"></a><span class="lineno">  848</span>      }</div>
 <div class="line"><a id="l00849" name="l00849"></a><span class="lineno">  849</span>      <span class="keywordflow">return</span> selectionIdx;</div>
 <div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>    }</div>
-<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span>    <span class="keywordtype">void</span> setOffset(<span class="keywordtype">int</span> offset) {</div>
-<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>      helper-&gt;setOffset(offset);</div>
-<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>    }</div>
-<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> incrementOffset() {</div>
-<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>      helper-&gt;incrementOffset();</div>
+<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span>    <span class="keywordtype">void</span> removeAllSelections() {</div>
+<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>      <span class="keywordtype">int</span> nameCount = getSelectionCount();</div>
+<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nameCount; i++) {</div>
+<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>        <a class="code hl_function" href="class_selection_list_layer_wrapper.html#a88969086d2c67f4192a26a4344967d44">removeSelection</a>(0);</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span>      }</div>
 <div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>    }</div>
-<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> decrementOffset() {</div>
-<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>      helper-&gt;decrementOffset();</div>
+<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>    <span class="keywordtype">void</span> setOffset(<span class="keywordtype">int</span> offset) {</div>
+<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>      helper-&gt;setOffset(offset);</div>
 <div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>    }</div>
-<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>    <span class="keywordtype">void</span> scrollToView(<span class="keywordtype">int</span> selectionIdx) {</div>
-<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>      helper-&gt;scrollToView(selectionIdx);</div>
+<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> incrementOffset() {</div>
+<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>      helper-&gt;incrementOffset();</div>
 <div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>    }</div>
-<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>    <span class="keywordtype">void</span> select(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> deselectTheOthers = <span class="keyword">true</span>) {</div>
-<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a764171618ec76a8efe266d93b7211b90">select</a>(selectionIdx, deselectTheOthers);</div>
+<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> decrementOffset() {</div>
+<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>      helper-&gt;decrementOffset();</div>
 <div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>    }</div>
-<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>    <span class="keywordtype">void</span> deselect(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> selectTheOthers = <span class="keyword">false</span>) {</div>
-<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a833939320b1f08a4f6585a750a59cadf">deselect</a>(selectionIdx, selectTheOthers);</div>
+<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>    <span class="keywordtype">void</span> scrollToView(<span class="keywordtype">int</span> selectionIdx) {</div>
+<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>      helper-&gt;scrollToView(selectionIdx);</div>
 <div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>    }</div>
-<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>    <span class="keywordtype">void</span> selected(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> selected, <span class="keywordtype">bool</span> reverseTheOthers = <span class="keyword">false</span>) {</div>
-<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#adc20fc7df01d1e24221f913d2bbb3e4f">selected</a>(selectionIdx, selected, reverseTheOthers);</div>
+<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>    <span class="keywordtype">void</span> select(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> deselectTheOthers = <span class="keyword">true</span>) {</div>
+<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a764171618ec76a8efe266d93b7211b90">select</a>(selectionIdx, deselectTheOthers);</div>
 <div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>    }</div>
-<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>    <span class="keywordtype">void</span> selectAll() {</div>
-<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_base_d_d_layer.html#ad5daf1b1e894012e85d806c158680d7e">selectAll</a>();</div>
+<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>    <span class="keywordtype">void</span> deselect(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> selectTheOthers = <span class="keyword">false</span>) {</div>
+<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#a833939320b1f08a4f6585a750a59cadf">deselect</a>(selectionIdx, selectTheOthers);</div>
 <div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span>    }</div>
-<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    <span class="keywordtype">void</span> deselectAll() {</div>
-<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_base_d_d_layer.html#a69524d28039921afa32576e0da5a628d">deselectAll</a>();</div>
+<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    <span class="keywordtype">void</span> selected(<span class="keywordtype">int</span> selectionIdx, <span class="keywordtype">bool</span> selected, <span class="keywordtype">bool</span> reverseTheOthers = <span class="keyword">false</span>) {</div>
+<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_list_d_d_layer.html#adc20fc7df01d1e24221f913d2bbb3e4f">selected</a>(selectionIdx, selected, reverseTheOthers);</div>
 <div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>    }</div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>  <span class="keyword">private</span>: </div>
-<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>    <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>* helper; </div>
-<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>    String* textBuffer;</div>
-<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>    <span class="keywordtype">short</span> bufferSizeInc;</div>
-<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>    <span class="keywordtype">int</span> textBufferSize;</div>
-<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>    <span class="keywordtype">int</span> trackedTextCount;</div>
-<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>    <span class="keywordtype">int</span> viewHoriSelectionCount;</div>
-<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>    <span class="keywordtype">int</span> viewSelectionCount;</div>
-<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>};</div>
-<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span> </div>
-<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span> </div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>    <span class="keywordtype">void</span> selectAll() {</div>
+<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_base_d_d_layer.html#ad5daf1b1e894012e85d806c158680d7e">selectAll</a>();</div>
+<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>    }</div>
+<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>    <span class="keywordtype">void</span> deselectAll() {</div>
+<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>      helper-&gt;getLayer()-&gt;<a class="code hl_function" href="class_selection_base_d_d_layer.html#a69524d28039921afa32576e0da5a628d">deselectAll</a>();</div>
+<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>    }</div>
+<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>  <span class="keyword">private</span>: </div>
+<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>    <a class="code hl_class" href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a>* helper; </div>
+<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>    String* textBuffer;</div>
+<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>    <span class="keywordtype">short</span> bufferSizeInc;</div>
+<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>    <span class="keywordtype">int</span> textBufferSize;</div>
+<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>    <span class="keywordtype">int</span> trackedTextCount;</div>
+<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>    <span class="keywordtype">int</span> viewHoriSelectionCount;</div>
+<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>    <span class="keywordtype">int</span> viewSelectionCount;</div>
+<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>};</div>
+<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span> </div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span> </div>
 <div class="ttc" id="aclass_composite_d_d_debug_interface_html"><div class="ttname"><a href="class_composite_d_d_debug_interface.html">CompositeDDDebugInterface</a></div><div class="ttdef"><b>Definition:</b> _dd_misc.h:91</div></div>
 <div class="ttc" id="aclass_composite_d_d_debug_interface_html_a2024ed04720297195815d53f8cb82d5b"><div class="ttname"><a href="class_composite_d_d_debug_interface.html#a2024ed04720297195815d53f8cb82d5b">CompositeDDDebugInterface::logConnectionState</a></div><div class="ttdeci">virtual void logConnectionState(DDDebugConnectionState connectionState)</div><div class="ttdoc">See DDDebugConnectionState.</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:97</div></div>
 <div class="ttc" id="aclass_composite_d_d_debug_interface_html_ae39759724e227d8b999cf181d2fd02e0"><div class="ttname"><a href="class_composite_d_d_debug_interface.html#ae39759724e227d8b999cf181d2fd02e0">CompositeDDDebugInterface::logSendCommand</a></div><div class="ttdeci">virtual void logSendCommand(int state)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:101</div></div>
@@ -916,9 +913,9 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="ttc" id="aclass_d_d_auto_pin_config_html_af9cb99d5308894409f4a13e4d1bb8813"><div class="ttname"><a href="class_d_d_auto_pin_config.html#af9cb99d5308894409f4a13e4d1bb8813">DDAutoPinConfig::addRemainingGroup</a></div><div class="ttdeci">DDAutoPinConfig &amp; addRemainingGroup(char dir)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:356</div></div>
 <div class="ttc" id="aclass_d_d_connect_version_tracker_html"><div class="ttname"><a href="class_d_d_connect_version_tracker.html">DDConnectVersionTracker</a></div><div class="ttdoc">Helper class for tracking connection &quot;version&quot; change.</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:390</div></div>
 <div class="ttc" id="aclass_d_d_connect_version_tracker_html_aac0cbb179fc6eba49d95ad26f7509cbb"><div class="ttname"><a href="class_d_d_connect_version_tracker.html#aac0cbb179fc6eba49d95ad26f7509cbb">DDConnectVersionTracker::DDConnectVersionTracker</a></div><div class="ttdeci">DDConnectVersionTracker(int version=0)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:395</div></div>
-<div class="ttc" id="aclass_d_d_debug_interface_html"><div class="ttname"><a href="class_d_d_debug_interface.html">DDDebugInterface</a></div><div class="ttdoc">Base class for debug callback set by calling DumbDisplay::debugSetup()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1460</div></div>
-<div class="ttc" id="aclass_d_d_debug_interface_html_aceb994cd8f63918ad3af71469640e825"><div class="ttname"><a href="class_d_d_debug_interface.html#aceb994cd8f63918ad3af71469640e825">DDDebugInterface::logConnectionState</a></div><div class="ttdeci">virtual void logConnectionState(DDDebugConnectionState connectionState)</div><div class="ttdoc">See DDDebugConnectionState.</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1463</div></div>
-<div class="ttc" id="aclass_d_d_debug_interface_html_ae8aedfa326403d2c382ebae4a5952d6b"><div class="ttname"><a href="class_d_d_debug_interface.html#ae8aedfa326403d2c382ebae4a5952d6b">DDDebugInterface::logSendCommand</a></div><div class="ttdeci">virtual void logSendCommand(int state)</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1465</div></div>
+<div class="ttc" id="aclass_d_d_debug_interface_html"><div class="ttname"><a href="class_d_d_debug_interface.html">DDDebugInterface</a></div><div class="ttdoc">Base class for debug callback set by calling DumbDisplay::debugSetup()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1461</div></div>
+<div class="ttc" id="aclass_d_d_debug_interface_html_aceb994cd8f63918ad3af71469640e825"><div class="ttname"><a href="class_d_d_debug_interface.html#aceb994cd8f63918ad3af71469640e825">DDDebugInterface::logConnectionState</a></div><div class="ttdeci">virtual void logConnectionState(DDDebugConnectionState connectionState)</div><div class="ttdoc">See DDDebugConnectionState.</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1464</div></div>
+<div class="ttc" id="aclass_d_d_debug_interface_html_ae8aedfa326403d2c382ebae4a5952d6b"><div class="ttname"><a href="class_d_d_debug_interface.html#ae8aedfa326403d2c382ebae4a5952d6b">DDDebugInterface::logSendCommand</a></div><div class="ttdeci">virtual void logSendCommand(int state)</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1466</div></div>
 <div class="ttc" id="aclass_d_d_fading_layers_html"><div class="ttname"><a href="class_d_d_fading_layers.html">DDFadingLayers</a></div><div class="ttdoc">Utility class.</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:471</div></div>
 <div class="ttc" id="aclass_d_d_layer_html"><div class="ttname"><a href="class_d_d_layer.html">DDLayer</a></div><div class="ttdoc">Base class for the different layers support by DumbDisplay; created with various layer creation metho...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:156</div></div>
 <div class="ttc" id="aclass_d_d_layer_html_a3255c9efadbdf3ac0e283b287eb4e698"><div class="ttname"><a href="class_d_d_layer.html#a3255c9efadbdf3ac0e283b287eb4e698">DDLayer::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">clear the layer</div></div>
@@ -950,7 +947,7 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="ttc" id="aclass_d_d_value_store_html_aef5d84b044d8f92fe80c2311d4a52c23"><div class="ttname"><a href="class_d_d_value_store.html#aef5d84b044d8f92fe80c2311d4a52c23">DDValueStore::set</a></div><div class="ttdeci">bool set(T value)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:140</div></div>
 <div class="ttc" id="aclass_draw_text_d_d_debug_interface_html"><div class="ttname"><a href="class_draw_text_d_d_debug_interface.html">DrawTextDDDebugInterface</a></div><div class="ttdef"><b>Definition:</b> _dd_misc.h:7</div></div>
 <div class="ttc" id="aclass_draw_text_d_d_debug_interface_html_a0471202735f9ce1ac93a020c99bd07b7"><div class="ttname"><a href="class_draw_text_d_d_debug_interface.html#a0471202735f9ce1ac93a020c99bd07b7">DrawTextDDDebugInterface::logConnectionState</a></div><div class="ttdeci">virtual void logConnectionState(DDDebugConnectionState connectionState)</div><div class="ttdoc">See DDDebugConnectionState.</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:13</div></div>
-<div class="ttc" id="aclass_dumb_display_html"><div class="ttname"><a href="class_dumb_display.html">DumbDisplay</a></div><div class="ttdoc">The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1491</div></div>
+<div class="ttc" id="aclass_dumb_display_html"><div class="ttname"><a href="class_dumb_display.html">DumbDisplay</a></div><div class="ttdoc">The core class for DumbDisplay; everything starts here. The most important argument to DumbDisplay is...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1492</div></div>
 <div class="ttc" id="aclass_dumb_display_html_a0a2da2242a88df8b81eae09fd54cad45"><div class="ttname"><a href="class_dumb_display.html#a0a2da2242a88df8b81eae09fd54cad45">DumbDisplay::getConnectVersion</a></div><div class="ttdeci">int getConnectVersion() const</div></div>
 <div class="ttc" id="aclass_dumb_display_html_a4028834fea73745fe1be119c0ff74aa4"><div class="ttname"><a href="class_dumb_display.html#a4028834fea73745fe1be119c0ff74aa4">DumbDisplay::connectPassive</a></div><div class="ttdeci">bool connectPassive(DDConnectPassiveStatus *pStatus=NULL)</div></div>
 <div class="ttc" id="aclass_dumb_display_html_a41583800e07dcdc7232678838764fa29"><div class="ttname"><a href="class_dumb_display.html#a41583800e07dcdc7232678838764fa29">DumbDisplay::recordLayerCommands</a></div><div class="ttdeci">void recordLayerCommands()</div></div>
@@ -969,7 +966,7 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="ttc" id="aclass_led_d_d_debug_interface_html_ab125276020574c449a8313e3ec355225"><div class="ttname"><a href="class_led_d_d_debug_interface.html#ab125276020574c449a8313e3ec355225">LedDDDebugInterface::logSendCommand</a></div><div class="ttdeci">virtual void logSendCommand(int state)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:85</div></div>
 <div class="ttc" id="aclass_selection_base_d_d_layer_html_a69524d28039921afa32576e0da5a628d"><div class="ttname"><a href="class_selection_base_d_d_layer.html#a69524d28039921afa32576e0da5a628d">SelectionBaseDDLayer::deselectAll</a></div><div class="ttdeci">void deselectAll()</div><div class="ttdoc">deselect all &quot;selection&quot; units</div></div>
 <div class="ttc" id="aclass_selection_base_d_d_layer_html_ad5daf1b1e894012e85d806c158680d7e"><div class="ttname"><a href="class_selection_base_d_d_layer.html#ad5daf1b1e894012e85d806c158680d7e">SelectionBaseDDLayer::selectAll</a></div><div class="ttdeci">void selectAll()</div><div class="ttdoc">select all &quot;selection&quot; units</div></div>
-<div class="ttc" id="aclass_selection_list_d_d_layer_html"><div class="ttname"><a href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a></div><div class="ttdoc">Class for &quot;selection list&quot; layer, like SelectionDDLayer but &quot;selections&quot; can be added and removed dyn...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:649</div></div>
+<div class="ttc" id="aclass_selection_list_d_d_layer_html"><div class="ttname"><a href="class_selection_list_d_d_layer.html">SelectionListDDLayer</a></div><div class="ttdoc">Class for &quot;selection list&quot; layer, like SelectionDDLayer but &quot;selections&quot; can be added and removed dyn...</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:650</div></div>
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_a6a70a774e9d621962bfb4349a05fac9a"><div class="ttname"><a href="class_selection_list_d_d_layer.html#a6a70a774e9d621962bfb4349a05fac9a">SelectionListDDLayer::add</a></div><div class="ttdeci">void add(int selectionIdx)</div></div>
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_a764171618ec76a8efe266d93b7211b90"><div class="ttname"><a href="class_selection_list_d_d_layer.html#a764171618ec76a8efe266d93b7211b90">SelectionListDDLayer::select</a></div><div class="ttdeci">void select(int selectionIdx, bool deselectTheOthers=true)</div><div class="ttdoc">select a &quot;selection&quot; unit</div></div>
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_a833939320b1f08a4f6585a750a59cadf"><div class="ttname"><a href="class_selection_list_d_d_layer.html#a833939320b1f08a4f6585a750a59cadf">SelectionListDDLayer::deselect</a></div><div class="ttdeci">void deselect(int selectionIdx, bool selectTheOthers=false)</div><div class="ttdoc">deselect a &quot;selection&quot; unit</div></div>
@@ -977,15 +974,20 @@ $(document).ready(function(){initNavTree('__dd__misc_8h_source.html',''); initRe
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_aba97b299d008997db6a766c8a4693e63"><div class="ttname"><a href="class_selection_list_d_d_layer.html#aba97b299d008997db6a766c8a4693e63">SelectionListDDLayer::offset</a></div><div class="ttdeci">void offset(int offset)</div><div class="ttdoc">set the offset to the &quot;selection&quot; unit start showing</div></div>
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_adc20fc7df01d1e24221f913d2bbb3e4f"><div class="ttname"><a href="class_selection_list_d_d_layer.html#adc20fc7df01d1e24221f913d2bbb3e4f">SelectionListDDLayer::selected</a></div><div class="ttdeci">void selected(int selectionIdx, bool selected, bool reverseTheOthers=false)</div><div class="ttdoc">set a &quot;selection&quot; unit selected or not (combination of select() and deselect())</div></div>
 <div class="ttc" id="aclass_selection_list_d_d_layer_html_ae2378532f8b0cec48820839a489f940e"><div class="ttname"><a href="class_selection_list_d_d_layer.html#ae2378532f8b0cec48820839a489f940e">SelectionListDDLayer::remove</a></div><div class="ttdeci">void remove(int selectionIdx)</div></div>
-<div class="ttc" id="aclass_selection_list_layer_helper_html"><div class="ttname"><a href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a></div><div class="ttdef"><b>Definition:</b> _dd_misc.h:645</div></div>
-<div class="ttc" id="aclass_selection_list_layer_helper_html_a36d1fadcbeb93a165a332a484b091913"><div class="ttname"><a href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">SelectionListLayerHelper::remove</a></div><div class="ttdeci">int remove(int selectionIdx=-1)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:694</div></div>
-<div class="ttc" id="aclass_selection_list_layer_helper_html_ae53017764313f05ba9b131f3fda62b3c"><div class="ttname"><a href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">SelectionListLayerHelper::add</a></div><div class="ttdeci">int add(int selectionIdx=-1)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:677</div></div>
-<div class="ttc" id="aclass_selection_list_layer_wrapper_html"><div class="ttname"><a href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a></div><div class="ttdef"><b>Definition:</b> _dd_misc.h:759</div></div>
+<div class="ttc" id="aclass_selection_list_layer_helper_html"><div class="ttname"><a href="class_selection_list_layer_helper.html">SelectionListLayerHelper</a></div><div class="ttdoc">helper for using of SelectionListLayerWrapper; suggested to use SelectionListLayerWrapper whenever it...</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:646</div></div>
+<div class="ttc" id="aclass_selection_list_layer_helper_html_a36d1fadcbeb93a165a332a484b091913"><div class="ttname"><a href="class_selection_list_layer_helper.html#a36d1fadcbeb93a165a332a484b091913">SelectionListLayerHelper::remove</a></div><div class="ttdeci">int remove(int selectionIdx=-1)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:690</div></div>
+<div class="ttc" id="aclass_selection_list_layer_helper_html_a46edea4213a7f02d3a37a7df15cbffa3"><div class="ttname"><a href="class_selection_list_layer_helper.html#a46edea4213a7f02d3a37a7df15cbffa3">SelectionListLayerHelper::setListStateChangedCallback</a></div><div class="ttdeci">void setListStateChangedCallback(void(*listStateChangedCallback)(), int viewSelectionCount=-1)</div><div class="ttdoc">set the &quot;list state changed&quot; callback; here &quot;state&quot; refers to &quot;list add/remove text or change of offs...</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:666</div></div>
+<div class="ttc" id="aclass_selection_list_layer_helper_html_ae53017764313f05ba9b131f3fda62b3c"><div class="ttname"><a href="class_selection_list_layer_helper.html#ae53017764313f05ba9b131f3fda62b3c">SelectionListLayerHelper::add</a></div><div class="ttdeci">int add(int selectionIdx=-1)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:673</div></div>
+<div class="ttc" id="aclass_selection_list_layer_wrapper_html"><div class="ttname"><a href="class_selection_list_layer_wrapper.html">SelectionListLayerWrapper</a></div><div class="ttdoc">wrapper for using of SelectionListLayerWrapper that help you to track the text added</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:756</div></div>
+<div class="ttc" id="aclass_selection_list_layer_wrapper_html_a493fceffe64d1c89723072235795724f"><div class="ttname"><a href="class_selection_list_layer_wrapper.html#a493fceffe64d1c89723072235795724f">SelectionListLayerWrapper::addSelection</a></div><div class="ttdeci">int addSelection(int selectionIdx, const String &amp;text, const String &amp;align=&quot;L&quot;)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:819</div></div>
+<div class="ttc" id="aclass_selection_list_layer_wrapper_html_a746b024b88c9180dc4e08724ce109b82"><div class="ttname"><a href="class_selection_list_layer_wrapper.html#a746b024b88c9180dc4e08724ce109b82">SelectionListLayerWrapper::setListStateChangedCallback</a></div><div class="ttdeci">void setListStateChangedCallback(void(*listStateChangedCallback)())</div><div class="ttdoc">set the &quot;list state changed&quot; callback; here &quot;state&quot; refers to &quot;list add/remove text or change of offs...</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:814</div></div>
+<div class="ttc" id="aclass_selection_list_layer_wrapper_html_a88969086d2c67f4192a26a4344967d44"><div class="ttname"><a href="class_selection_list_layer_wrapper.html#a88969086d2c67f4192a26a4344967d44">SelectionListLayerWrapper::removeSelection</a></div><div class="ttdeci">int removeSelection(int selectionIdx)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:841</div></div>
+<div class="ttc" id="aclass_selection_list_layer_wrapper_html_af999215ca1aa8763446e13df56a90b43"><div class="ttname"><a href="class_selection_list_layer_wrapper.html#af999215ca1aa8763446e13df56a90b43">SelectionListLayerWrapper::initializeLayer</a></div><div class="ttdeci">SelectionListDDLayer * initializeLayer(DumbDisplay &amp;dumbdisplay, int colCount, int rowCount, int horiSelectionCount, int vertSelectionCount, int charHeight=0, const String &amp;fontName=&quot;&quot;, bool canDrawDots=true, float selectionBorderSizeCharHeightFactor=0.3)</div><div class="ttdoc">initialize a new SelectionListDDLayer (note that any old ones will not be deleted)</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:766</div></div>
 <div class="ttc" id="aclass_to_serial_d_d_debug_interface_html"><div class="ttname"><a href="class_to_serial_d_d_debug_interface.html">ToSerialDDDebugInterface</a></div><div class="ttdef"><b>Definition:</b> _dd_misc.h:53</div></div>
 <div class="ttc" id="aclass_to_serial_d_d_debug_interface_html_a3f20855da08da4059809d48bfa57aa27"><div class="ttname"><a href="class_to_serial_d_d_debug_interface.html#a3f20855da08da4059809d48bfa57aa27">ToSerialDDDebugInterface::logConnectionState</a></div><div class="ttdeci">virtual void logConnectionState(DDDebugConnectionState connectionState)</div><div class="ttdoc">See DDDebugConnectionState.</div><div class="ttdef"><b>Definition:</b> _dd_misc.h:55</div></div>
-<div class="ttc" id="astruct_d_d_connect_passive_status_html"><div class="ttname"><a href="struct_d_d_connect_passive_status.html">DDConnectPassiveStatus</a></div><div class="ttdoc">Struct for the status values of calling DumbDisplay::connectPassive()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1473</div></div>
-<div class="ttc" id="astruct_d_d_connect_passive_status_html_a4728f3679392c6b755fba5bd08258f81"><div class="ttname"><a href="struct_d_d_connect_passive_status.html#a4728f3679392c6b755fba5bd08258f81">DDConnectPassiveStatus::reconnecting</a></div><div class="ttdeci">bool reconnecting</div><div class="ttdoc">reconnecting: when connected; detected reconnecting (after lost of connection)</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1479</div></div>
-<div class="ttc" id="astruct_d_d_connect_passive_status_html_ac31717b9f085f8d1963f423446717ebf"><div class="ttname"><a href="struct_d_d_connect_passive_status.html#ac31717b9f085f8d1963f423446717ebf">DDConnectPassiveStatus::connected</a></div><div class="ttdeci">bool connected</div><div class="ttdoc">connection made or not – same as the return value of DumbDisplay::connectPassive()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1475</div></div>
+<div class="ttc" id="astruct_d_d_connect_passive_status_html"><div class="ttname"><a href="struct_d_d_connect_passive_status.html">DDConnectPassiveStatus</a></div><div class="ttdoc">Struct for the status values of calling DumbDisplay::connectPassive()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1474</div></div>
+<div class="ttc" id="astruct_d_d_connect_passive_status_html_a4728f3679392c6b755fba5bd08258f81"><div class="ttname"><a href="struct_d_d_connect_passive_status.html#a4728f3679392c6b755fba5bd08258f81">DDConnectPassiveStatus::reconnecting</a></div><div class="ttdeci">bool reconnecting</div><div class="ttdoc">reconnecting: when connected; detected reconnecting (after lost of connection)</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1480</div></div>
+<div class="ttc" id="astruct_d_d_connect_passive_status_html_ac31717b9f085f8d1963f423446717ebf"><div class="ttname"><a href="struct_d_d_connect_passive_status.html#ac31717b9f085f8d1963f423446717ebf">DDConnectPassiveStatus::connected</a></div><div class="ttdeci">bool connected</div><div class="ttdoc">connection made or not – same as the return value of DumbDisplay::connectPassive()</div><div class="ttdef"><b>Definition:</b> dumbdisplay.h:1476</div></div>
 <div class="ttc" id="astruct_d_d_debug_connection_state_html"><div class="ttname"><a href="struct_d_d_debug_connection_state.html">DDDebugConnectionState</a></div><div class="ttdoc">See DDDebugInterface.</div></div>
 <div class="ttc" id="astruct_d_d_idle_callback_html"><div class="ttname"><a href="struct_d_d_idle_callback.html">DDIdleCallback</a></div><div class="ttdoc">Type signature for callback function that will be called when idle. See DumbDisplay::setIdleCallback(...</div></div>
 </div><!-- fragment --></div><!-- contents -->

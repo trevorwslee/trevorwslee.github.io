@@ -1,0 +1,91 @@
+<!--
+          <img src="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg" class="grid-item" alt="Donald Trump">
+          <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75" class="grid-item" alt="Sam Altman">
+          <img src="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high" class="grid-item" alt="Tom Cruise">
+          <img src="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg" class="grid-item" alt="Bill Gates">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2x2 Photo Grid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      width: 500px;
+    }
+
+    .grid-item {
+      position: relative;
+      width: 100%;
+      padding-top: 100%; /* Makes the grid items square */
+      background-color: #ddd;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .grid-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .grid-item img.hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item" data-url="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg">
+      <img src="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg" alt="Donald Trump">
+    </div>
+    <div class="grid-item" data-url="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75">
+      <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75" alt="Sam Altman">
+    </div>
+    <div class="grid-item" data-url="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high">
+      <img src="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high" alt="Tom Cruise">
+    </div>
+    <div class="grid-item" data-url="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg">
+      <img src="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg" alt="Bill Gates">
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.grid-item').forEach(item => {
+      item.addEventListener('click', (event) => {
+        const img = item.querySelector('img');
+        const photoUrl = item.getAttribute('data-url');
+
+        // Check if the CTRL key is pressed
+        if (event.ctrlKey) {
+          // Open the photo in a new tab
+          window.open(photoUrl, '_blank');
+        } else {
+          // Toggle the visibility of the photo
+          img.classList.toggle('hidden');
+        }
+      });
+    });
+  </script>
+</body>
+</html>          
