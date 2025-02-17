@@ -1,10 +1,3 @@
-<!--
-          <img src="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg" class="grid-item" alt="Donald Trump">
-          <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75" class="grid-item" alt="Sam Altman">
-          <img src="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high" class="grid-item" alt="Tom Cruise">
-          <img src="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg" class="grid-item" alt="Bill Gates">
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +13,16 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #f4f4f4;
+      background-color: lightskyblue;
+      background-image: url('https://blog.mylio.com/wp-content/uploads/2021/07/many-different-faces-1024x512.jpg');
+      background-blend-mode: lighten;
     }
 
     .grid-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-      width: 500px;
+      grid-gap: 35px;
+      width: 700px;
     }
 
     .grid-item {
@@ -56,17 +51,17 @@
 </head>
 <body>
   <div class="grid-container">
-    <div class="grid-item" data-url="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg">
-      <img src="https://il.usembassy.gov/wp-content/uploads/sites/33/2017/01/AP_16351103689620-696x487.jpg" alt="Donald Trump">
+    <div class="grid-item" data-url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Elon_Musk_2019.jpg/800px-Elon_Musk_2019.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Elon_Musk_2019.jpg/800px-Elon_Musk_2019.jpg" alt="Elon Musk">
     </div>
-    <div class="grid-item" data-url="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75">
-      <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15800166/sam_altman.0.1546423352.png?quality=90&strip=all&crop=0,5.625,100,88.75" alt="Sam Altman">
+    <div class="grid-item" data-url="https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg">
+      <img src="https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg" alt="Donald Trump">
     </div>
-    <div class="grid-item" data-url="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high">
-      <img src="https://images.entertainment.ie/storage/images_content/rectangle/620x372/cruise20134251656705.jpg?w=640&h=384&q=high" alt="Tom Cruise">
+    <div class="grid-item" data-url="https://imageio.forbes.com/specials-images/imageserve/63dc1b4b3ae18f6e229afec8/header-mobile/0x0.jpg?format=jpg&crop=1440,1440,x0,y0,safe&width=960">
+      <img src="https://imageio.forbes.com/specials-images/imageserve/63dc1b4b3ae18f6e229afec8/header-mobile/0x0.jpg?format=jpg&crop=1440,1440,x0,y0,safe&width=960" alt="Sam Altman">
     </div>
-    <div class="grid-item" data-url="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg">
-      <img src="https://media.wired.com/photos/593332c2d80dd005b42b15d7/master/w_2560%2Cc_limit/42-21094770.jpg" alt="Bill Gates">
+    <div class="grid-item" data-url="https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+      <img src="https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Tom Cruise">
     </div>
   </div>
 
