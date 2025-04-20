@@ -9,6 +9,8 @@ var hierarchy =
     [ "BasicDDTunnel", "struct_basic_d_d_tunnel.html", null ],
     [ "ButtonPressTracker", "class_button_press_tracker.html", null ],
     [ "DDAutoPinConfig", "class_d_d_auto_pin_config.html", null ],
+    [ "DDAutoPinGroupHeader", "struct_d_d_auto_pin_group_header.html", null ],
+    [ "DDChangeStateInfo", "struct_d_d_change_state_info.html", null ],
     [ "DDConnectPassiveStatus", "struct_d_d_connect_passive_status.html", null ],
     [ "DDConnectVersionChangedCallback", "struct_d_d_connect_version_changed_callback.html", null ],
     [ "DDConnectVersionTracker", "class_d_d_connect_version_tracker.html", null ],
@@ -45,6 +47,10 @@ var hierarchy =
       [ "DDSoftwareSerialIO", "class_d_d_software_serial_i_o.html", null ],
       [ "DDWiFiServerIO", "class_d_d_wi_fi_server_i_o.html", null ]
     ] ],
+    [ "DDLayerHandle", "struct_d_d_layer_handle.html", [
+      [ "GraphicalDDLayerHandle", "struct_graphical_d_d_layer_handle.html", null ],
+      [ "LcdDDLayerHandle", "struct_lcd_d_d_layer_handle.html", null ]
+    ] ],
     [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
     [ "DDLocation", "struct_d_d_location.html", null ],
     [ "DDMasterResetPassiveConnectionHelper", "class_d_d_master_reset_passive_connection_helper.html", null ],
@@ -75,7 +81,9 @@ var hierarchy =
           [ "GpsServiceDDTunnel", "class_gps_service_d_d_tunnel.html", null ],
           [ "ImageRetrieverDDTunnel", "class_image_retriever_d_d_tunnel.html", null ],
           [ "ObjectDetectDemoServiceDDTunnel", "class_object_detect_demo_service_d_d_tunnel.html", null ],
-          [ "SimpleToolDDTunnel", "class_simple_tool_d_d_tunnel.html", null ]
+          [ "SimpleToolDDTunnel", "class_simple_tool_d_d_tunnel.html", [
+            [ "ImageDownloadDDTunnel", "class_image_download_d_d_tunnel.html", null ]
+          ] ]
         ] ]
       ] ]
     ] ],
@@ -83,6 +91,7 @@ var hierarchy =
     [ "DDPendingValue< T >", "class_d_d_pending_value.html", null ],
     [ "DDPixelImage16", "struct_d_d_pixel_image16.html", null ],
     [ "DDReconnectPassiveConnectionHelper", "class_d_d_reconnect_passive_connection_helper.html", null ],
+    [ "DDTimeChangeStateHelper", "class_d_d_time_change_state_helper.html", null ],
     [ "DDTunnelEndpoint", "class_d_d_tunnel_endpoint.html", null ],
     [ "DDValueRecord< T >", "class_d_d_value_record.html", null ],
     [ "DDValueStore< T >", "class_d_d_value_store.html", null ],

@@ -1,8 +1,9 @@
 var class_lcd_d_d_layer =
 [
+    [ "LcdDDLayer", "class_lcd_d_d_layer.html#a13bf925f61ea0c3520abcc1a989cd451", null ],
     [ "LcdDDLayer", "class_lcd_d_d_layer.html#ad1663f3e4a3fea054660390f73a7deff", null ],
     [ "autoscroll", "class_lcd_d_d_layer.html#aa26d736cb20815d0be675b10c231a18a", null ],
-    [ "bgPixelColor", "class_lcd_d_d_layer.html#a2996024f377937deee02b86b5685b367", null ],
+    [ "bgPixelColor", "class_lcd_d_d_layer.html#a36f55ebdd7a36a4c41d016947b4baba1", null ],
     [ "cursor", "class_lcd_d_d_layer.html#a0434dc0d06e181b18287929a4d2e09ee", null ],
     [ "home", "class_lcd_d_d_layer.html#adb3f456269230b0be230eaf88aa60eb8", null ],
     [ "noAutoscroll", "class_lcd_d_d_layer.html#abe1ce8d0fa3a4d0b013c496865896fcc", null ],

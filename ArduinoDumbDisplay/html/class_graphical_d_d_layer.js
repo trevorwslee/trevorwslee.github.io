@@ -1,7 +1,9 @@
 var class_graphical_d_d_layer =
 [
+    [ "GraphicalDDLayer", "class_graphical_d_d_layer.html#a9ffce38feed73135af3d1ba2aa7c9710", null ],
     [ "GraphicalDDLayer", "class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e", null ],
     [ "arc", "class_graphical_d_d_layer.html#a64f8cffd2f8eb4f6d8f2bbc045d2d639", null ],
+    [ "backward", "class_graphical_d_d_layer.html#a52666c5284cf2f14d9613b7bdeb1c8a7", null ],
     [ "cacheImage", "class_graphical_d_d_layer.html#ae2615a047b4a5ae66d72635269ae4ee3", null ],
     [ "cacheImageWithTS", "class_graphical_d_d_layer.html#a397b997b701d0d93697463b85ea707e2", null ],
     [ "cachePixelImage", "class_graphical_d_d_layer.html#a968d50cef4dc6235584e46e3051f6f69", null ],
@@ -33,7 +35,7 @@ var class_graphical_d_d_layer =
     [ "fillRoundRect", "class_graphical_d_d_layer.html#ae815e2106af7bf5c8d573b71ec612836", null ],
     [ "fillScreen", "class_graphical_d_d_layer.html#a7b2e44b0000ba5c34542906578fb41ce", null ],
     [ "fillTriangle", "class_graphical_d_d_layer.html#adeec82069cbbbe61ae6c0767550ea71f", null ],
-    [ "forward", "class_graphical_d_d_layer.html#a333bec0c676d67731013e5bb8070b80c", null ],
+    [ "forward", "class_graphical_d_d_layer.html#a82da876cc45c1805a6e73584f2f4ddcc", null ],
     [ "isoscelesTriangle", "class_graphical_d_d_layer.html#a5729798d6a0507488dd48e529729c683", null ],
     [ "leftTurn", "class_graphical_d_d_layer.html#ad94dc27c82693f8d4cc39b5943e8f1d4", null ],
     [ "loadImageFile", "class_graphical_d_d_layer.html#a2cad3e85d630935cef72c6346c9aabf3", null ],

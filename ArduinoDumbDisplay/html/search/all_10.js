@@ -12,8 +12,8 @@ var searchData=
   ['reconnectforpixelimage_9',['reconnectForPixelImage',['../class_image_retriever_d_d_tunnel.html#ad60b70b70ddbf6466b742b0cb56ae44b',1,'ImageRetrieverDDTunnel']]],
   ['reconnectforpixelimage16_10',['reconnectForPixelImage16',['../class_image_retriever_d_d_tunnel.html#acd11873d101a0c43bb1c2f606c304f98',1,'ImageRetrieverDDTunnel']]],
   ['reconnecting_11',['reconnecting',['../struct_d_d_connect_passive_status.html#a4728f3679392c6b755fba5bd08258f81',1,'DDConnectPassiveStatus']]],
-  ['reconnecttoendpoint_12',['reconnectToEndpoint',['../class_d_d_tunnel.html#a41f4fa68494089e26687ebb3fd872641',1,'DDTunnel']]],
-  ['reconnecttosetparams_13',['reconnectToSetParams',['../class_d_d_tunnel.html#a5233ddbdb27c7b315005456596152245',1,'DDTunnel']]],
+  ['reconnectto_12',['reconnectTo',['../class_d_d_tunnel.html#a7d18a1182022994a98c851528b4f89c3',1,'DDTunnel::reconnectTo()'],['../class_image_download_d_d_tunnel.html#adff2839fa4708a722034c4f6bd64c21c',1,'ImageDownloadDDTunnel::reconnectTo()']]],
+  ['reconnecttoendpoint_13',['reconnectToEndpoint',['../class_d_d_tunnel.html#a41f4fa68494089e26687ebb3fd872641',1,'DDTunnel']]],
   ['record_14',['record',['../class_d_d_value_record.html#a667a4f7662ad662ecaf34c4836084d31',1,'DDValueRecord']]],
   ['recordlayercommands_15',['recordLayerCommands',['../class_dumb_display.html#a41583800e07dcdc7232678838764fa29',1,'DumbDisplay']]],
   ['recordlayersetupcommands_16',['recordLayerSetupCommands',['../class_dumb_display.html#a8adca053da4dfa85326381b77962a66a',1,'DumbDisplay']]],
@@ -26,9 +26,10 @@ var searchData=
   ['resetendpoint_23',['resetEndpoint',['../class_d_d_tunnel_endpoint.html#ae65148a4a14d5e051def7724438a4947',1,'DDTunnelEndpoint']]],
   ['resetheaders_24',['resetHeaders',['../class_d_d_tunnel_endpoint.html#a4b646c88664ce4b0c7c5d117e4257f78',1,'DDTunnelEndpoint']]],
   ['resetparams_25',['resetParams',['../class_d_d_tunnel_endpoint.html#a2f565d430c29e405c15acb5cda250f86',1,'DDTunnelEndpoint']]],
-  ['resetsegmentoffcolor_26',['resetSegmentOffColor',['../class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1',1,'SevenSegmentRowDDLayer']]],
-  ['resetsegmentoffnocolor_27',['resetSegmentOffNoColor',['../class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4',1,'SevenSegmentRowDDLayer']]],
-  ['resetsoundattachment_28',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
-  ['rightturn_29',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]],
-  ['rtspclientddlayer_30',['RtspClientDDLayer',['../class_rtsp_client_d_d_layer.html',1,'RtspClientDDLayer'],['../class_rtsp_client_d_d_layer.html#a73800dcf6cdd9c781a2bb68940c3ce08',1,'RtspClientDDLayer::RtspClientDDLayer()']]]
+  ['resetpinlayers_26',['resetPinLayers',['../class_dumb_display.html#aabca1f947e21cc8517d75ee41beb528d',1,'DumbDisplay']]],
+  ['resetsegmentoffcolor_27',['resetSegmentOffColor',['../class_seven_segment_row_d_d_layer.html#a4a88e53869335a2c891ed82c870ef4c1',1,'SevenSegmentRowDDLayer']]],
+  ['resetsegmentoffnocolor_28',['resetSegmentOffNoColor',['../class_seven_segment_row_d_d_layer.html#ab47f976fc17e43816df1916bc9286df4',1,'SevenSegmentRowDDLayer']]],
+  ['resetsoundattachment_29',['resetSoundAttachment',['../class_d_d_tunnel_endpoint.html#a38c0fde12e455b66d38dce2ff070f0da',1,'DDTunnelEndpoint']]],
+  ['rightturn_30',['rightTurn',['../class_turtle_d_d_layer.html#ada40d3e96971fccd896a40e72658cea1',1,'TurtleDDLayer::rightTurn()'],['../class_graphical_d_d_layer.html#a6df2cb6c0e09f0cf856f868752e1d7ab',1,'GraphicalDDLayer::rightTurn()']]],
+  ['rtspclientddlayer_31',['RtspClientDDLayer',['../class_rtsp_client_d_d_layer.html',1,'RtspClientDDLayer'],['../class_rtsp_client_d_d_layer.html#a73800dcf6cdd9c781a2bb68940c3ce08',1,'RtspClientDDLayer::RtspClientDDLayer()']]]
 ];

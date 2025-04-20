@@ -1,7 +1,7 @@
 var searchData=
 [
   ['label_0',['label',['../class_plotter_d_d_layer.html#a15910c94ba0af326b569e468c9c0ff8a',1,'PlotterDDLayer']]],
-  ['lcdddlayer_1',['LcdDDLayer',['../class_lcd_d_d_layer.html#ad1663f3e4a3fea054660390f73a7deff',1,'LcdDDLayer']]],
+  ['lcdddlayer_1',['LcdDDLayer',['../class_lcd_d_d_layer.html#a13bf925f61ea0c3520abcc1a989cd451',1,'LcdDDLayer::LcdDDLayer(LcdDDLayerHandle layerHandle)'],['../class_lcd_d_d_layer.html#ad1663f3e4a3fea054660390f73a7deff',1,'LcdDDLayer::LcdDDLayer(int8_t layerId)']]],
   ['ledcolor_2',['ledColor',['../class_mb_d_d_layer.html#a980855f6380133d5b260f5ab3e215f89',1,'MbDDLayer']]],
   ['ledgridddlayer_3',['LedGridDDLayer',['../class_led_grid_d_d_layer.html#a1529f51dd7672952328cbfa86b1a10f3',1,'LedGridDDLayer']]],
   ['leftturn_4',['leftTurn',['../class_turtle_d_d_layer.html#aadd125fd04c08db87f23dde7136ad7a4',1,'TurtleDDLayer::leftTurn()'],['../class_graphical_d_d_layer.html#ad94dc27c82693f8d4cc39b5943e8f1d4',1,'GraphicalDDLayer::leftTurn()']]],

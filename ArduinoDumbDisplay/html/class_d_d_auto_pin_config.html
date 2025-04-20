@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -104,17 +104,21 @@ $(document).ready(function(){initNavTree('class_d_d_auto_pin_config.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>Class for building "auto pin" config, to be passed to <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">DumbDisplay::configAutoPin()</a>.  
+<p>Class for building "auto pin" config, to be passed to <a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">DumbDisplay::configAutoPin()</a>.  
  <a href="class_d_d_auto_pin_config.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="__dd__misc_8h_source.html">_dd_misc.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="____dd__misc__layout_8h_source.html">__dd_misc_layout.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2cd07e65bf143f657ba2e933385627ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a2cd07e65bf143f657ba2e933385627ef">DDAutoPinConfig</a> (char dir, int nestedDepth=5)</td></tr>
 <tr class="separator:a2cd07e65bf143f657ba2e933385627ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade59c990677db72259d53bd9831ca8de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#ade59c990677db72259d53bd9831ca8de">DDAutoPinConfig</a> (<a class="el" href="struct_d_d_auto_pin_group_header.html">DDAutoPinGroupHeader</a> header, int nestedDepth=5)</td></tr>
+<tr class="separator:ade59c990677db72259d53bd9831ca8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0373a2b1abc6bd40d8f99f31f8590c80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a0373a2b1abc6bd40d8f99f31f8590c80">beginGroup</a> (char dir)</td></tr>
 <tr class="separator:a0373a2b1abc6bd40d8f99f31f8590c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8159df16efdaf9813cd69b63769c156d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a8159df16efdaf9813cd69b63769c156d">beginGroup</a> (<a class="el" href="struct_d_d_auto_pin_group_header.html">DDAutoPinGroupHeader</a> header)</td></tr>
+<tr class="separator:a8159df16efdaf9813cd69b63769c156d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea69cbbae99c2bd2a85edb0add2e80d"><td class="memItemLeft" align="right" valign="top"><a id="a2ea69cbbae99c2bd2a85edb0add2e80d" name="a2ea69cbbae99c2bd2a85edb0add2e80d"></a>
 <a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>endGroup</b> ()</td></tr>
 <tr class="memdesc:a2ea69cbbae99c2bd2a85edb0add2e80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">end a begun group, returning to the previous level of nesting <br /></td></tr>
@@ -129,21 +133,35 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>addLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *layer)</td></tr>
 <tr class="memdesc:a80a3812ad1dbd776054e764007c8107d"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a layer to the current level <br /></td></tr>
 <tr class="separator:a80a3812ad1dbd776054e764007c8107d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f5dad3433538c1a46eee85be16d8fe"><td class="memItemLeft" align="right" valign="top"><a id="a71f5dad3433538c1a46eee85be16d8fe" name="a71f5dad3433538c1a46eee85be16d8fe"></a>
+<a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>addLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> &amp;layer)</td></tr>
+<tr class="memdesc:a71f5dad3433538c1a46eee85be16d8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a layer to the current level <br /></td></tr>
+<tr class="separator:a71f5dad3433538c1a46eee85be16d8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942e6046233ddcec924522cac60d078c"><td class="memItemLeft" align="right" valign="top"><a id="a942e6046233ddcec924522cac60d078c" name="a942e6046233ddcec924522cac60d078c"></a>
+<a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>addLayer</b> (<a class="el" href="struct_d_d_layer_handle.html">DDLayerHandle</a> layerHandle)</td></tr>
+<tr class="memdesc:a942e6046233ddcec924522cac60d078c"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a layer to the current level <br /></td></tr>
+<tr class="separator:a942e6046233ddcec924522cac60d078c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa675103b16f88d0cb3f7398d50319e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#aa675103b16f88d0cb3f7398d50319e19">addPaddedLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *layer, int left, int top, int right, int bottom)</td></tr>
+<tr class="separator:aa675103b16f88d0cb3f7398d50319e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3ee7be3db77c05438eb802cac5ecd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#acd3ee7be3db77c05438eb802cac5ecd5">addPaddedLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> &amp;layer, int left, int top, int right, int bottom)</td></tr>
+<tr class="separator:acd3ee7be3db77c05438eb802cac5ecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555f1e3284af168bb2bc5ddc73317275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a555f1e3284af168bb2bc5ddc73317275">addPaddedLayer</a> (<a class="el" href="struct_d_d_layer_handle.html">DDLayerHandle</a> layerHandle, int left, int top, int right, int bottom)</td></tr>
+<tr class="separator:a555f1e3284af168bb2bc5ddc73317275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f7568bdf96d0f5986172c08f7952cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#a06f7568bdf96d0f5986172c08f7952cd">addSpacer</a> (int width, int height)</td></tr>
 <tr class="separator:a06f7568bdf96d0f5986172c08f7952cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9cb99d5308894409f4a13e4d1bb8813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_auto_pin_config.html#af9cb99d5308894409f4a13e4d1bb8813">addRemainingGroup</a> (char dir)</td></tr>
 <tr class="separator:af9cb99d5308894409f4a13e4d1bb8813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734a181879b7e4b8867aa83fae7b67d9"><td class="memItemLeft" align="right" valign="top"><a id="a734a181879b7e4b8867aa83fae7b67d9" name="a734a181879b7e4b8867aa83fae7b67d9"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> ()</td></tr>
-<tr class="memdesc:a734a181879b7e4b8867aa83fae7b67d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">build the "auto pin" config string, to be passed to <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">DumbDisplay::configAutoPin()</a> <br /></td></tr>
+<tr class="memdesc:a734a181879b7e4b8867aa83fae7b67d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">build the "auto pin" config string, to be passed to <a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">DumbDisplay::configAutoPin()</a> <br /></td></tr>
 <tr class="separator:a734a181879b7e4b8867aa83fae7b67d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for building "auto pin" config, to be passed to <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">DumbDisplay::configAutoPin()</a>. </p>
+<div class="textblock"><p>Class for building "auto pin" config, to be passed to <a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">DumbDisplay::configAutoPin()</a>. </p>
 <dl class="section since"><dt>Since</dt><dd>v0.9.7-r2 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2cd07e65bf143f657ba2e933385627ef" name="a2cd07e65bf143f657ba2e933385627ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cd07e65bf143f657ba2e933385627ef">&#9670;&#160;</a></span>DDAutoPinConfig()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd07e65bf143f657ba2e933385627ef">&#9670;&#160;</a></span>DDAutoPinConfig() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +203,239 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
 
 </div>
 </div>
+<a id="ade59c990677db72259d53bd9831ca8de" name="ade59c990677db72259d53bd9831ca8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade59c990677db72259d53bd9831ca8de">&#9670;&#160;</a></span>DDAutoPinConfig() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DDAutoPinConfig::DDAutoPinConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_auto_pin_group_header.html">DDAutoPinGroupHeader</a>&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nestedDepth</em> = <code>5</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">header</td><td>group header </td></tr>
+    <tr><td class="paramname">nestedDepth</td><td>maximum depth of nesting; default is 5 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="acd3ee7be3db77c05438eb802cac5ecd5" name="acd3ee7be3db77c05438eb802cac5ecd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3ee7be3db77c05438eb802cac5ecd5">&#9670;&#160;</a></span>addPaddedLayer() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp; DDAutoPinConfig::addPaddedLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_d_layer.html">DDLayer</a> &amp;&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>add a layer, with specified padding </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>left padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">top</td><td>top padding (% of the contained area height) </td></tr>
+    <tr><td class="paramname">right</td><td>right padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">bottom</td><td>bottom padding (% of the contained area height) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa675103b16f88d0cb3f7398d50319e19" name="aa675103b16f88d0cb3f7398d50319e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa675103b16f88d0cb3f7398d50319e19">&#9670;&#160;</a></span>addPaddedLayer() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp; DDAutoPinConfig::addPaddedLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_d_layer.html">DDLayer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>add a layer, with specified padding </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>left padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">top</td><td>top padding (% of the contained area height) </td></tr>
+    <tr><td class="paramname">right</td><td>right padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">bottom</td><td>bottom padding (% of the contained area height) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a555f1e3284af168bb2bc5ddc73317275" name="a555f1e3284af168bb2bc5ddc73317275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555f1e3284af168bb2bc5ddc73317275">&#9670;&#160;</a></span>addPaddedLayer() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp; DDAutoPinConfig::addPaddedLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_layer_handle.html">DDLayerHandle</a>&#160;</td>
+          <td class="paramname"><em>layerHandle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>add a layer, with specified padding </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>left padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">top</td><td>top padding (% of the contained area height) </td></tr>
+    <tr><td class="paramname">right</td><td>right padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">bottom</td><td>bottom padding (% of the contained area height) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af9cb99d5308894409f4a13e4d1bb8813" name="af9cb99d5308894409f4a13e4d1bb8813"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9cb99d5308894409f4a13e4d1bb8813">&#9670;&#160;</a></span>addRemainingGroup()</h2>
 
@@ -262,7 +512,7 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
 </div>
 </div>
 <a id="a0373a2b1abc6bd40d8f99f31f8590c80" name="a0373a2b1abc6bd40d8f99f31f8590c80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0373a2b1abc6bd40d8f99f31f8590c80">&#9670;&#160;</a></span>beginGroup()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0373a2b1abc6bd40d8f99f31f8590c80">&#9670;&#160;</a></span>beginGroup() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,6 +525,38 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
           <td>(</td>
           <td class="paramtype">char&#160;</td>
           <td class="paramname"><em>dir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>begin a layer group, creating a new level of nesting </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>directory of layers at the new level; can be 'H' for horizontal, 'V' for vertical and 'S' for stacked </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8159df16efdaf9813cd69b63769c156d" name="a8159df16efdaf9813cd69b63769c156d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8159df16efdaf9813cd69b63769c156d">&#9670;&#160;</a></span>beginGroup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_d_auto_pin_config.html">DDAutoPinConfig</a> &amp; DDAutoPinConfig::beginGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_d_auto_pin_group_header.html">DDAutoPinGroupHeader</a>&#160;</td>
+          <td class="paramname"><em>header</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -347,11 +629,10 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>build</
 <p>begin a layer group, with specified padding </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dir</td><td>directory of layers at the new level; can be 'H' for horizontal, 'V' for vertical and 'S' for stacked </td></tr>
-    <tr><td class="paramname">left</td><td>left padding </td></tr>
-    <tr><td class="paramname">top</td><td>top padding <br  />
- </td></tr>
-    <tr><td class="paramname">right</td><td>right padding </td></tr>
-    <tr><td class="paramname">bottom</td><td>bottom padding </td></tr>
+    <tr><td class="paramname">left</td><td>left padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">top</td><td>top padding (% of the contained area height) </td></tr>
+    <tr><td class="paramname">right</td><td>right padding (% of the contained area width) </td></tr>
+    <tr><td class="paramname">bottom</td><td>bottom padding (% of the contained area height) </td></tr>
   </table>
   </dd>
 </dl>

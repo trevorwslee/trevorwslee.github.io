@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -124,6 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa5a0cccfc5846fc4f98af13dcaa79f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bbba7c9d95c40a7885c798c17bcb92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_base_d_d_layer.html#a03bbba7c9d95c40a7885c798c17bcb92">pixelColor</a> (const String &amp;color)</td></tr>
 <tr class="separator:a03bbba7c9d95c40a7885c798c17bcb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df64a93392a4ae9f6b102ad9cb0a35a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_selection_base_d_d_layer.html#a5df64a93392a4ae9f6b102ad9cb0a35a">pixelColor</a> (const String &amp;color, bool selected)</td></tr>
+<tr class="separator:a5df64a93392a4ae9f6b102ad9cb0a35a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5daf1b1e894012e85d806c158680d7e"><td class="memItemLeft" align="right" valign="top"><a id="ad5daf1b1e894012e85d806c158680d7e" name="ad5daf1b1e894012e85d806c158680d7e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>selectAll</b> ()</td></tr>
 <tr class="memdesc:ad5daf1b1e894012e85d806c158680d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">select all "selection" units <br /></td></tr>
@@ -155,6 +157,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deselectAll</b> ()</t
 <tr class="separator:aacbea5532035ff4c35778748a082f2cb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6effca7f22a44ee10afc44f478dfbf0 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad6effca7f22a44ee10afc44f478dfbf0">noBackgroundColor</a> ()</td></tr>
 <tr class="separator:ad6effca7f22a44ee10afc44f478dfbf0 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cae9e397e237d38e1eb8413d99413bb inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0cae9e397e237d38e1eb8413d99413bb">backgroundImage</a> (const String &amp;backgroundImageName, const String &amp;drawBackgroundOptions, int refImageWidth=0)</td></tr>
+<tr class="separator:a0cae9e397e237d38e1eb8413d99413bb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a0add9ec1780b73111d6ab1211f693d41" name="a0add9ec1780b73111d6ab1211f693d41"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>noBackgroundImage</b> ()</td></tr>
+<tr class="memdesc:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no layer background image <br /></td></tr>
+<tr class="separator:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed1a531ce8a9f7e7e07ae11da8866fe inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1ed1a531ce8a9f7e7e07ae11da8866fe">exportAsBackgroundImage</a> (bool replace=true, bool noDrawBackground=true, int exportAsWidth=0)</td></tr>
+<tr class="separator:a1ed1a531ce8a9f7e7e07ae11da8866fe inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000c1a24b1d838527b282e34f34fcba8 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a000c1a24b1d838527b282e34f34fcba8">animateBackgroundImage</a> (float fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
+<tr class="separator:a000c1a24b1d838527b282e34f34fcba8 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50bff29f4dc2f5fa6d8986e53edb467f inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a50bff29f4dc2f5fa6d8986e53edb467f">stopAnimateBackgroundImage</a> (bool reset=true)</td></tr>
+<tr class="separator:a50bff29f4dc2f5fa6d8986e53edb467f inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08199164b2853bf63126db7524ff9956 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a08199164b2853bf63126db7524ff9956">visible</a> (bool visible)</td></tr>
 <tr class="separator:a08199164b2853bf63126db7524ff9956 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69db9ece2f771a75a332a372794c8bd6 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6">transparent</a> (bool transparent)</td></tr>
@@ -181,8 +195,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flashArea</b> (int x, int y)</td></tr>
 <tr class="memdesc:af348c91ff9a0d39c0db410a5b336fe57 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the area (x, y) where the layer is clicked <br /></td></tr>
 <tr class="separator:af348c91ff9a0d39c0db410a5b336fe57 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0f602e3da3549f6e0572ec7ff17956 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0d0f602e3da3549f6e0572ec7ff17956">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=CLICK, const String &amp;option=&quot;&quot;)</td></tr>
-<tr class="separator:a0d0f602e3da3549f6e0572ec7ff17956 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd3c5e0f84c201d91eb51ea273d0e2d inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1dd3c5e0f84c201d91eb51ea273d0e2d">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=DDFeedbackType::CLICK, const String &amp;option=&quot;&quot;)</td></tr>
+<tr class="separator:a1dd3c5e0f84c201d91eb51ea273d0e2d inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0000f5bf64344786a3c43999c3bc8c26 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a0000f5bf64344786a3c43999c3bc8c26" name="a0000f5bf64344786a3c43999c3bc8c26"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getLayerId</b> () const</td></tr>
 <tr class="separator:a0000f5bf64344786a3c43999c3bc8c26 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,7 +292,7 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 </div>
 </div>
 <a id="a03bbba7c9d95c40a7885c798c17bcb92" name="a03bbba7c9d95c40a7885c798c17bcb92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03bbba7c9d95c40a7885c798c17bcb92">&#9670;&#160;</a></span>pixelColor()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03bbba7c9d95c40a7885c798c17bcb92">&#9670;&#160;</a></span>pixelColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,9 +306,43 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set pixel color </p><dl class="params"><dt>Parameters</dt><dd>
+<p>set pixel color (of bot selected and unselected "selection" units) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color name </td></tr>
+    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color name please use the other version of <a class="el" href="class_selection_base_d_d_layer.html#a03bbba7c9d95c40a7885c798c17bcb92">pixelColor()</a> to select different colors for selected and unselected </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5df64a93392a4ae9f6b102ad9cb0a35a" name="a5df64a93392a4ae9f6b102ad9cb0a35a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df64a93392a4ae9f6b102ad9cb0a35a">&#9670;&#160;</a></span>pixelColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectionBaseDDLayer::pixelColor </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>selected</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set pixel color (when whether selected or not have different colors) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>DD_RGB_COLOR(...) or common color name please use the other version of <a class="el" href="class_selection_base_d_d_layer.html#a03bbba7c9d95c40a7885c798c17bcb92">pixelColor()</a> to select a single color for both selected and unselected </td></tr>
   </table>
   </dd>
 </dl>

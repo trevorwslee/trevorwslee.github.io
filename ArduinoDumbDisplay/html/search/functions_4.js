@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ddautopinconfig_0',['DDAutoPinConfig',['../class_d_d_auto_pin_config.html#a2cd07e65bf143f657ba2e933385627ef',1,'DDAutoPinConfig']]],
+  ['ddautopinconfig_0',['DDAutoPinConfig',['../class_d_d_auto_pin_config.html#a2cd07e65bf143f657ba2e933385627ef',1,'DDAutoPinConfig::DDAutoPinConfig(char dir, int nestedDepth=5)'],['../class_d_d_auto_pin_config.html#ade59c990677db72259d53bd9831ca8de',1,'DDAutoPinConfig::DDAutoPinConfig(DDAutoPinGroupHeader header, int nestedDepth=5)']]],
   ['ddbufferedtunnel_1',['DDBufferedTunnel',['../class_d_d_buffered_tunnel.html#aceeacfb5cc40570a0b89bd8abb95984c',1,'DDBufferedTunnel']]],
   ['ddconnectversiontracker_2',['DDConnectVersionTracker',['../class_d_d_connect_version_tracker.html#aac0cbb179fc6eba49d95ad26f7509cbb',1,'DDConnectVersionTracker']]],
   ['ddmasterresetpassiveconnectionhelper_3',['DDMasterResetPassiveConnectionHelper',['../class_d_d_master_reset_passive_connection_helper.html#a28e8e24f386c020b517d0a6919616072',1,'DDMasterResetPassiveConnectionHelper']]],
@@ -9,7 +9,7 @@ var searchData=
   ['ddvaluerecord_6',['DDValueRecord',['../class_d_d_value_record.html#abae9a34b630ec4fe817625d5446d0d70',1,'DDValueRecord::DDValueRecord(T value)'],['../class_d_d_value_record.html#a0f5a939d17e00c96a5ab9faaf1f57e18',1,'DDValueRecord::DDValueRecord(T value, T knownValue)']]],
   ['debugonly_7',['debugOnly',['../class_d_d_layer.html#ad1b5dbef97985ed7855e078b10ab938a',1,'DDLayer']]],
   ['debugsetup_8',['debugSetup',['../class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e',1,'DumbDisplay']]],
-  ['deletelayer_9',['deleteLayer',['../class_dumb_display.html#a9c01dc261524e91875e583b8f297d530',1,'DumbDisplay']]],
+  ['deletelayer_9',['deleteLayer',['../class_dumb_display.html#a9c01dc261524e91875e583b8f297d530',1,'DumbDisplay::deleteLayer(DDLayer *pLayer)'],['../class_dumb_display.html#ace33e4dc445fd139461a29e1d9aff197',1,'DumbDisplay::deleteLayer(DDLayerHandle layerHandle)']]],
   ['deletelevel_10',['deleteLevel',['../class_multi_level_d_d_layer.html#ab2cb89b0ea61e63aa85c36584e18fff2',1,'MultiLevelDDLayer']]],
   ['deletetunnel_11',['deleteTunnel',['../class_dumb_display.html#a7759c27bea25dd216cb142ad06a68e05',1,'DumbDisplay']]],
   ['deselect_12',['deselect',['../class_selection_d_d_layer.html#ae8c3af51003d12e803a8ced11ef1c7ab',1,'SelectionDDLayer::deselect()'],['../class_selection_list_d_d_layer.html#a833939320b1f08a4f6585a750a59cadf',1,'SelectionListDDLayer::deselect()']]],

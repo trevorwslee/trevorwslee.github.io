@@ -8,5 +8,5 @@ var searchData=
   ['goby_5',['goBy',['../class_turtle_d_d_layer.html#a2dcc37fd0c13ecb2f2ff156e58607828',1,'TurtleDDLayer']]],
   ['goto_6',['goTo',['../class_turtle_d_d_layer.html#a317d1e6585996952edc64f4984e102cb',1,'TurtleDDLayer']]],
   ['gpsserviceddtunnel_7',['GpsServiceDDTunnel',['../class_gps_service_d_d_tunnel.html#abcf4bfb95b34185d80d0853283495725',1,'GpsServiceDDTunnel']]],
-  ['graphicalddlayer_8',['GraphicalDDLayer',['../class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e',1,'GraphicalDDLayer']]]
+  ['graphicalddlayer_8',['GraphicalDDLayer',['../class_graphical_d_d_layer.html#a9ffce38feed73135af3d1ba2aa7c9710',1,'GraphicalDDLayer::GraphicalDDLayer(GraphicalDDLayerHandle layerHandle)'],['../class_graphical_d_d_layer.html#a852cbbfb2e6349906408d6850bf7725e',1,'GraphicalDDLayer::GraphicalDDLayer(int8_t layerId)']]]
 ];

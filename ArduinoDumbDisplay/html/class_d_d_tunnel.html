@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -122,6 +122,7 @@ Inheritance diagram for DDTunnel:</div>
 <area href="class_image_retriever_d_d_tunnel.html" alt="ImageRetrieverDDTunnel" shape="rect" coords="227,168,444,192"/>
 <area href="class_object_detect_demo_service_d_d_tunnel.html" title="Class for &quot;object detection demo&quot; service &quot;tunnel&quot;." alt="ObjectDetectDemoServiceDDTunnel" shape="rect" coords="454,168,671,192"/>
 <area href="class_simple_tool_d_d_tunnel.html" title="Class for basic tool &quot;tunnel&quot;." alt="SimpleToolDDTunnel" shape="rect" coords="681,168,898,192"/>
+<area href="class_image_download_d_d_tunnel.html" title="Image download tool &quot;tunnel&quot; created with DumbDisplay::createImageDownloadTunnel()" alt="ImageDownloadDDTunnel" shape="rect" coords="681,224,898,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -140,26 +141,26 @@ const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getEndp
 <tr class="memitem:a254036c176f445c2802708a544cda592"><td class="memItemLeft" align="right" valign="top"><a id="a254036c176f445c2802708a544cda592" name="a254036c176f445c2802708a544cda592"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>release</b> ()</td></tr>
 <tr class="separator:a254036c176f445c2802708a544cda592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f26429f8dc3dce76546c5b7b887070e"><td class="memItemLeft" align="right" valign="top"><a id="a1f26429f8dc3dce76546c5b7b887070e" name="a1f26429f8dc3dce76546c5b7b887070e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnect</b> ()</td></tr>
-<tr class="separator:a1f26429f8dc3dce76546c5b7b887070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d18a1182022994a98c851528b4f89c3"><td class="memItemLeft" align="right" valign="top"><a id="a7d18a1182022994a98c851528b4f89c3" name="a7d18a1182022994a98c851528b4f89c3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnectTo</b> (const String &amp;endPoint)</td></tr>
+<tr class="memitem:a41eb7267e5adee66b7b6673917665fff"><td class="memItemLeft" align="right" valign="top"><a id="a41eb7267e5adee66b7b6673917665fff" name="a41eb7267e5adee66b7b6673917665fff"></a>
+const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getTunnelId</b> () const</td></tr>
+<tr class="separator:a41eb7267e5adee66b7b6673917665fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d18a1182022994a98c851528b4f89c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel.html#a7d18a1182022994a98c851528b4f89c3">reconnectTo</a> (const String &amp;endPoint)</td></tr>
 <tr class="separator:a7d18a1182022994a98c851528b4f89c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5233ddbdb27c7b315005456596152245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel.html#a5233ddbdb27c7b315005456596152245">reconnectToSetParams</a> (const String &amp;endPoint, const String &amp;params)</td></tr>
-<tr class="separator:a5233ddbdb27c7b315005456596152245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41f4fa68494089e26687ebb3fd872641"><td class="memItemLeft" align="right" valign="top"><a id="a41f4fa68494089e26687ebb3fd872641" name="a41f4fa68494089e26687ebb3fd872641"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reconnectToEndpoint</b> (const <a class="el" href="class_d_d_tunnel_endpoint.html">DDTunnelEndpoint</a> endpoint)</td></tr>
 <tr class="memdesc:a41f4fa68494089e26687ebb3fd872641"><td class="mdescLeft">&#160;</td><td class="mdescRight">reconnect to specified endpoint. See <a class="el" href="class_d_d_tunnel_endpoint.html" title="Helper class for constructing &quot;tunnel&quot; endpoint, if the endpoint is not a simple URL....">DDTunnelEndpoint</a>. <br /></td></tr>
 <tr class="separator:a41f4fa68494089e26687ebb3fd872641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41eb7267e5adee66b7b6673917665fff"><td class="memItemLeft" align="right" valign="top"><a id="a41eb7267e5adee66b7b6673917665fff" name="a41eb7267e5adee66b7b6673917665fff"></a>
-const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getTunnelId</b> () const</td></tr>
-<tr class="separator:a41eb7267e5adee66b7b6673917665fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb182729c557c8a66a2305ae43502670"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_tunnel.html#afb182729c557c8a66a2305ae43502670">handleInput</a> (const String &amp;data, uint8_t *fbBytes, bool final)</td></tr>
 <tr class="separator:afb182729c557c8a66a2305ae43502670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3c8bc244a2229c3a04c9ea110776d3e0"><td class="memItemLeft" align="right" valign="top"><a id="a3c8bc244a2229c3a04c9ea110776d3e0" name="a3c8bc244a2229c3a04c9ea110776d3e0"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_reconnect</b> (const String &amp;extraParams=&quot;&quot;)</td></tr>
+<tr class="separator:a3c8bc244a2229c3a04c9ea110776d3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1aaee4cb8f28ee0a7c24ea31ad28536"><td class="memItemLeft" align="right" valign="top"><a id="ac1aaee4cb8f28ee0a7c24ea31ad28536" name="ac1aaee4cb8f28ee0a7c24ea31ad28536"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_reconnectTo</b> (const String &amp;endPoint, const String &amp;extraParams=&quot;&quot;)</td></tr>
+<tr class="separator:ac1aaee4cb8f28ee0a7c24ea31ad28536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52812ac0b2022693949eb9d305257e66"><td class="memItemLeft" align="right" valign="top"><a id="a52812ac0b2022693949eb9d305257e66" name="a52812ac0b2022693949eb9d305257e66"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_pending</b> ()</td></tr>
 <tr class="separator:a52812ac0b2022693949eb9d305257e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,8 +263,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 
 </div>
 </div>
-<a id="a5233ddbdb27c7b315005456596152245" name="a5233ddbdb27c7b315005456596152245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5233ddbdb27c7b315005456596152245">&#9670;&#160;</a></span>reconnectToSetParams()</h2>
+<a id="a7d18a1182022994a98c851528b4f89c3" name="a7d18a1182022994a98c851528b4f89c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d18a1182022994a98c851528b4f89c3">&#9670;&#160;</a></span>reconnectTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,21 +273,11 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DDTunnel::reconnectToSetParams </td>
+          <td class="memname">void DDTunnel::reconnectTo </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>endPoint</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>endPoint</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -298,7 +289,6 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <p>reconnect to specified endpoint with parameters </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">endPoint</td><td>endpoint to connect to </td></tr>
-    <tr><td class="paramname">params</td><td>parameters to to end point; empty if none </td></tr>
   </table>
   </dd>
 </dl>

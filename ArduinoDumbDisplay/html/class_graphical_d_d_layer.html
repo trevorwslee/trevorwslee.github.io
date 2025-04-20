@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -122,6 +122,8 @@ Inheritance diagram for GraphicalDDLayer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9ffce38feed73135af3d1ba2aa7c9710"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphical_d_d_layer.html#a9ffce38feed73135af3d1ba2aa7c9710">GraphicalDDLayer</a> (<a class="el" href="struct_graphical_d_d_layer_handle.html">GraphicalDDLayerHandle</a> layerHandle)</td></tr>
+<tr class="separator:a9ffce38feed73135af3d1ba2aa7c9710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a852cbbfb2e6349906408d6850bf7725e"><td class="memItemLeft" align="right" valign="top"><a id="a852cbbfb2e6349906408d6850bf7725e" name="a852cbbfb2e6349906408d6850bf7725e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GraphicalDDLayer</b> (int8_t layerId)</td></tr>
 <tr class="memdesc:a852cbbfb2e6349906408d6850bf7725e"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use only <br /></td></tr>
@@ -200,10 +202,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (const St
 <tr class="separator:ae3adc7cebc84bd132e14f00eae37b219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92186eff0f998da0f67f906f6ca89579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graphical_d_d_layer.html#a92186eff0f998da0f67f906f6ca89579">fillArc</a> (int x, int y, int w, int h, int startAngle, int sweepAngle, bool useCenter, const String &amp;color=&quot;&quot;)</td></tr>
 <tr class="separator:a92186eff0f998da0f67f906f6ca89579"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a333bec0c676d67731013e5bb8070b80c"><td class="memItemLeft" align="right" valign="top"><a id="a333bec0c676d67731013e5bb8070b80c" name="a333bec0c676d67731013e5bb8070b80c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>forward</b> (int distance)</td></tr>
-<tr class="memdesc:a333bec0c676d67731013e5bb8070b80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">move forward (relative to cursor) <br /></td></tr>
-<tr class="separator:a333bec0c676d67731013e5bb8070b80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82da876cc45c1805a6e73584f2f4ddcc"><td class="memItemLeft" align="right" valign="top"><a id="a82da876cc45c1805a6e73584f2f4ddcc" name="a82da876cc45c1805a6e73584f2f4ddcc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>forward</b> (int distance, bool withPen=true)</td></tr>
+<tr class="memdesc:a82da876cc45c1805a6e73584f2f4ddcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">move forward (relative to cursor) <br /></td></tr>
+<tr class="separator:a82da876cc45c1805a6e73584f2f4ddcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52666c5284cf2f14d9613b7bdeb1c8a7"><td class="memItemLeft" align="right" valign="top"><a id="a52666c5284cf2f14d9613b7bdeb1c8a7" name="a52666c5284cf2f14d9613b7bdeb1c8a7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>backward</b> (int distance, bool withPen=true)</td></tr>
+<tr class="memdesc:a52666c5284cf2f14d9613b7bdeb1c8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">move backward (relative to cursor) <br /></td></tr>
+<tr class="separator:a52666c5284cf2f14d9613b7bdeb1c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad94dc27c82693f8d4cc39b5943e8f1d4"><td class="memItemLeft" align="right" valign="top"><a id="ad94dc27c82693f8d4cc39b5943e8f1d4" name="ad94dc27c82693f8d4cc39b5943e8f1d4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>leftTurn</b> (int angle)</td></tr>
 <tr class="memdesc:ad94dc27c82693f8d4cc39b5943e8f1d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn left <br /></td></tr>
@@ -348,14 +354,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>moveLevelAnchorBy</b>
 <tr class="separator:a07f586f1e32a38eeac356f997811d9ba inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c9407533f1f633b46b0b9293ed65bd0 inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a6c9407533f1f633b46b0b9293ed65bd0">registerLevelBackground</a> (const String &amp;backgroundId, const String &amp;backgroundImageName, const String &amp;drawBackgroundOptions=&quot;&quot;)</td></tr>
 <tr class="separator:a6c9407533f1f633b46b0b9293ed65bd0 inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b22980cd3af8732d684404d196533f9 inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a4b22980cd3af8732d684404d196533f9">exportLevelAsRegisteredBackground</a> (const String &amp;backgroundId, bool replace=true)</td></tr>
+<tr class="separator:a4b22980cd3af8732d684404d196533f9 inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80069d1fce6dfa0d5199eebeb93f1d9 inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#ad80069d1fce6dfa0d5199eebeb93f1d9">setLevelBackground</a> (const String &amp;backgroundId, const String &amp;backgroundImageName=&quot;&quot;, const String &amp;drawBackgroundOptions=&quot;&quot;)</td></tr>
 <tr class="separator:ad80069d1fce6dfa0d5199eebeb93f1d9 inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163849f18f913947dc8a88b48dc5807f inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a163849f18f913947dc8a88b48dc5807f" name="a163849f18f913947dc8a88b48dc5807f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setLevelNoBackground</b> ()</td></tr>
 <tr class="memdesc:a163849f18f913947dc8a88b48dc5807f inherit pub_methods_class_multi_level_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">set that the current level uses no background image <br /></td></tr>
 <tr class="separator:a163849f18f913947dc8a88b48dc5807f inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba482337fbe27c6e8cec869ed29ef00c inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#aba482337fbe27c6e8cec869ed29ef00c">animateLevelBackground</a> (int fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
-<tr class="separator:aba482337fbe27c6e8cec869ed29ef00c inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9e37f6a62480e7be9a68bed367c4ad inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#acf9e37f6a62480e7be9a68bed367c4ad">animateLevelBackground</a> (float fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
+<tr class="separator:acf9e37f6a62480e7be9a68bed367c4ad inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3da9df5bb9851f7eea6dcb8ff9726535 inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a3da9df5bb9851f7eea6dcb8ff9726535">stopAnimateLevelBackground</a> (bool reset=true)</td></tr>
 <tr class="separator:a3da9df5bb9851f7eea6dcb8ff9726535 inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34638824faecf0fe3f474d8719b5fddc inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#a34638824faecf0fe3f474d8719b5fddc">reorderLevel</a> (const String &amp;levelId, const String &amp;how)</td></tr>
@@ -389,6 +397,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLevel</b> (cons
 <tr class="separator:aacbea5532035ff4c35778748a082f2cb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6effca7f22a44ee10afc44f478dfbf0 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad6effca7f22a44ee10afc44f478dfbf0">noBackgroundColor</a> ()</td></tr>
 <tr class="separator:ad6effca7f22a44ee10afc44f478dfbf0 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cae9e397e237d38e1eb8413d99413bb inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0cae9e397e237d38e1eb8413d99413bb">backgroundImage</a> (const String &amp;backgroundImageName, const String &amp;drawBackgroundOptions, int refImageWidth=0)</td></tr>
+<tr class="separator:a0cae9e397e237d38e1eb8413d99413bb inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a0add9ec1780b73111d6ab1211f693d41" name="a0add9ec1780b73111d6ab1211f693d41"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>noBackgroundImage</b> ()</td></tr>
+<tr class="memdesc:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no layer background image <br /></td></tr>
+<tr class="separator:a0add9ec1780b73111d6ab1211f693d41 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed1a531ce8a9f7e7e07ae11da8866fe inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1ed1a531ce8a9f7e7e07ae11da8866fe">exportAsBackgroundImage</a> (bool replace=true, bool noDrawBackground=true, int exportAsWidth=0)</td></tr>
+<tr class="separator:a1ed1a531ce8a9f7e7e07ae11da8866fe inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000c1a24b1d838527b282e34f34fcba8 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a000c1a24b1d838527b282e34f34fcba8">animateBackgroundImage</a> (float fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
+<tr class="separator:a000c1a24b1d838527b282e34f34fcba8 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50bff29f4dc2f5fa6d8986e53edb467f inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a50bff29f4dc2f5fa6d8986e53edb467f">stopAnimateBackgroundImage</a> (bool reset=true)</td></tr>
+<tr class="separator:a50bff29f4dc2f5fa6d8986e53edb467f inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08199164b2853bf63126db7524ff9956 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a08199164b2853bf63126db7524ff9956">visible</a> (bool visible)</td></tr>
 <tr class="separator:a08199164b2853bf63126db7524ff9956 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69db9ece2f771a75a332a372794c8bd6 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6">transparent</a> (bool transparent)</td></tr>
@@ -415,8 +435,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flashArea</b> (int x, int y)</td></tr>
 <tr class="memdesc:af348c91ff9a0d39c0db410a5b336fe57 inherit pub_methods_class_d_d_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the area (x, y) where the layer is clicked <br /></td></tr>
 <tr class="separator:af348c91ff9a0d39c0db410a5b336fe57 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0f602e3da3549f6e0572ec7ff17956 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0d0f602e3da3549f6e0572ec7ff17956">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=CLICK, const String &amp;option=&quot;&quot;)</td></tr>
-<tr class="separator:a0d0f602e3da3549f6e0572ec7ff17956 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd3c5e0f84c201d91eb51ea273d0e2d inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1dd3c5e0f84c201d91eb51ea273d0e2d">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=DDFeedbackType::CLICK, const String &amp;option=&quot;&quot;)</td></tr>
+<tr class="separator:a1dd3c5e0f84c201d91eb51ea273d0e2d inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0000f5bf64344786a3c43999c3bc8c26 inherit pub_methods_class_d_d_layer"><td class="memItemLeft" align="right" valign="top"><a id="a0000f5bf64344786a3c43999c3bc8c26" name="a0000f5bf64344786a3c43999c3bc8c26"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getLayerId</b> () const</td></tr>
 <tr class="separator:a0000f5bf64344786a3c43999c3bc8c26 inherit pub_methods_class_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -474,7 +494,35 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for graphical LCD layer; created with <a class="el" href="class_dumb_display.html#a37c7d95157e5b8075f05203fd05635a8">DumbDisplay::createGraphicalLayer()</a> </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9ffce38feed73135af3d1ba2aa7c9710" name="a9ffce38feed73135af3d1ba2aa7c9710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffce38feed73135af3d1ba2aa7c9710">&#9670;&#160;</a></span>GraphicalDDLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GraphicalDDLayer::GraphicalDDLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_graphical_d_d_layer_handle.html">GraphicalDDLayerHandle</a>&#160;</td>
+          <td class="paramname"><em>layerHandle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>experimental: construct a "transient" <a class="el" href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()">LcdDDLayer</a> from <a class="el" href="struct_lcd_d_d_layer_handle.html">LcdDDLayerHandle</a> created using DUmbDisplay::createGraphicalLayerHandle() </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae2615a047b4a5ae66d72635269ae4ee3" name="ae2615a047b4a5ae66d72635269ae4ee3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2615a047b4a5ae66d72635269ae4ee3">&#9670;&#160;</a></span>cacheImage()</h2>
 

@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -124,18 +124,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab02a79c926114dd14147b6765b1d864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aa77b3e0133025f22004bb7f35e6f54b3">setFeedbackSingleClickOnly</a> (bool singleClickOnly=true)</td></tr>
 <tr class="separator:aa77b3e0133025f22004bb7f35e6f54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e84b3a8a6724da87d86013bf710956c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin</a> (const String &amp;layoutSpec=DD_AP_VERT, bool autoShowHideLayers=false)</td></tr>
-<tr class="separator:a6e84b3a8a6724da87d86013bf710956c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a961e4ca862caec75b10099cdcfafc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">configAutoPin</a> (const String &amp;layoutSpec=DD_AP_VERT, bool autoControlLayerVisible=false)</td></tr>
+<tr class="separator:a8a961e4ca862caec75b10099cdcfafc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memItemLeft" align="right" valign="top"><a id="a7c4edf110fa40b238f1bdc6a2c1e91d3" name="a7c4edf110fa40b238f1bdc6a2c1e91d3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinConfig</b> (const String &amp;remainingLayoutSpec)</td></tr>
-<tr class="memdesc:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin()</a> <br /></td></tr>
+<tr class="memdesc:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">add the "auto pin" config for layers not included in "auto pin" set by <a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">configAutoPin()</a> <br /></td></tr>
 <tr class="separator:a7c4edf110fa40b238f1bdc6a2c1e91d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#af4aa1442419d92e5a72f0bd8b2627f9d">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100, bool autoShowHideLayers=false)</td></tr>
-<tr class="separator:af4aa1442419d92e5a72f0bd8b2627f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5073395ba838dabcebd4e1599ee8193f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a5073395ba838dabcebd4e1599ee8193f">configPinFrame</a> (int xUnitCount=100, int yUnitCount=100, bool autoControlLayerVisible=false)</td></tr>
+<tr class="separator:a5073395ba838dabcebd4e1599ee8193f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a5d548805b36244d453700afeeea4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer</a> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
 <tr class="separator:a77a5d548805b36244d453700afeeea4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6162f07bfccc613bbd35e118ca58f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#aef6162f07bfccc613bbd35e118ca58f8">pinAutoPinLayers</a> (const String &amp;layoutSpec, int uLeft, int uTop, int uWidth, int uHeight, const String &amp;align=&quot;&quot;)</td></tr>
 <tr class="separator:aef6162f07bfccc613bbd35e118ca58f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabca1f947e21cc8517d75ee41beb528d"><td class="memItemLeft" align="right" valign="top"><a id="aabca1f947e21cc8517d75ee41beb528d" name="aabca1f947e21cc8517d75ee41beb528d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetPinLayers</b> ()</td></tr>
+<tr class="memdesc:aabca1f947e21cc8517d75ee41beb528d"><td class="mdescLeft">&#160;</td><td class="mdescRight">rest pinning of layers, as if they are not pinned <br /></td></tr>
+<tr class="separator:aabca1f947e21cc8517d75ee41beb528d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614460e772a875ae1b1aecd388acc6f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a614460e772a875ae1b1aecd388acc6f2">setRootLayer</a> (int width, int height, const String &amp;containedAlignment=&quot;&quot;)</td></tr>
+<tr class="separator:a614460e772a875ae1b1aecd388acc6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a337c89743f3580d8f4f549650a048e"><td class="memItemLeft" align="right" valign="top"><a id="a7a337c89743f3580d8f4f549650a048e" name="a7a337c89743f3580d8f4f549650a048e"></a>
 <a class="el" href="class_mb_d_d_layer.html">MbDDLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createMicrobitLayer</b> (int width=5, int height=5)</td></tr>
 <tr class="memdesc:a7a337c89743f3580d8f4f549650a048e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a Microbit-like layer <br /></td></tr>
@@ -188,8 +194,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinCo
 <tr class="separator:a8a341c2ab8a3ec964fc70b8c26908a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_basic_d_d_tunnel.html">JsonDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#abef3c3e2958fd86dee4907f78aaf7f13">createFilteredJsonTunnel</a> (const String &amp;endPoint, const String &amp;fileNames, bool connectNow=true, int8_t bufferSize=DD_TUNNEL_DEF_BUFFER_SIZE)</td></tr>
 <tr class="separator:abef3c3e2958fd86dee4907f78aaf7f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b6db5685e3fe9057669a976829a98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_tool_d_d_tunnel.html">SimpleToolDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#ae0b6db5685e3fe9057669a976829a98f">createImageDownloadTunnel</a> (const String &amp;endPoint, const String &amp;imageName, bool redownload=true)</td></tr>
-<tr class="separator:ae0b6db5685e3fe9057669a976829a98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af102d1166125bb5351c1af19e5db5503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_image_download_d_d_tunnel.html">ImageDownloadDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#af102d1166125bb5351c1af19e5db5503">createImageDownloadTunnel</a> (const String &amp;endPoint, const String &amp;imageName, bool redownload=true)</td></tr>
+<tr class="separator:af102d1166125bb5351c1af19e5db5503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b3479a00f946e98675a8c6dc8df4de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a33b3479a00f946e98675a8c6dc8df4de">createDateTimeServiceTunnel</a> ()</td></tr>
 <tr class="separator:a33b3479a00f946e98675a8c6dc8df4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14bff551a40621aa11eb0d1964d118fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_d_buffered_tunnel.html">BasicDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a14bff551a40621aa11eb0d1964d118fd">createGeneralServiceTunnel</a> ()</td></tr>
@@ -201,6 +207,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addRemainingAutoPinCo
 <tr class="memitem:af446ec0240fba85be440baa5d525d13f"><td class="memItemLeft" align="right" valign="top"><a id="af446ec0240fba85be440baa5d525d13f" name="af446ec0240fba85be440baa5d525d13f"></a>
 <a class="el" href="class_image_retriever_d_d_tunnel.html">ImageRetrieverDDTunnel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createImageRetrieverTunnel</b> ()</td></tr>
 <tr class="separator:af446ec0240fba85be440baa5d525d13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fe9a907edc2a6fcf066209c051eb997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_graphical_d_d_layer_handle.html">GraphicalDDLayerHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a4fe9a907edc2a6fcf066209c051eb997">createGraphicalLayerHandle</a> (int width, int height)</td></tr>
+<tr class="separator:a4fe9a907edc2a6fcf066209c051eb997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a015c8f4d4f86fcf8dcfae120dfaece83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_lcd_d_d_layer_handle.html">LcdDDLayerHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a015c8f4d4f86fcf8dcfae120dfaece83">createLcdLayerHandle</a> (int colCount=16, int rowCount=2, int charHeight=0, const String &amp;fontName=&quot;&quot;)</td></tr>
+<tr class="separator:a015c8f4d4f86fcf8dcfae120dfaece83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7759c27bea25dd216cb142ad06a68e05"><td class="memItemLeft" align="right" valign="top"><a id="a7759c27bea25dd216cb142ad06a68e05" name="a7759c27bea25dd216cb142ad06a68e05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteTunnel</b> (<a class="el" href="class_d_d_tunnel.html">DDTunnel</a> *pTunnel)</td></tr>
 <tr class="memdesc:a7759c27bea25dd216cb142ad06a68e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">if finished using a "tunnel", delete it to release resource <br /></td></tr>
@@ -269,7 +279,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cacheSound16</b> (con
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveCachedSound</b> (const String &amp;soundName)</td></tr>
 <tr class="memdesc:a41d5af518757fcb21801054e584c328f"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the cached sound <br /></td></tr>
 <tr class="separator:a41d5af518757fcb21801054e584c328f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e41545871cfa78c787db122dfe6ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dumb_display.html#a22e41545871cfa78c787db122dfe6ced">saveCachedSoundAsH</a> (const String &amp;soundName)</td></tr>
+<tr class="memitem:a22e41545871cfa78c787db122dfe6ced"><td class="memItemLeft" align="right" valign="top"><a id="a22e41545871cfa78c787db122dfe6ced" name="a22e41545871cfa78c787db122dfe6ced"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>saveCachedSoundAsH</b> (const String &amp;soundName)</td></tr>
+<tr class="memdesc:a22e41545871cfa78c787db122dfe6ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the cached sound as C header file (.h) <br /></td></tr>
 <tr class="separator:a22e41545871cfa78c787db122dfe6ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676ce273fcee34d0e0c05a67973b5249"><td class="memItemLeft" align="right" valign="top"><a id="a676ce273fcee34d0e0c05a67973b5249" name="a676ce273fcee34d0e0c05a67973b5249"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>streamSound8</b> (int sampleRate, int numChannels=1)</td></tr>
@@ -323,6 +335,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>alert</b> (const Stri
 void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLayer</b> (<a class="el" href="class_d_d_layer.html">DDLayer</a> *pLayer)</td></tr>
 <tr class="memdesc:a9c01dc261524e91875e583b8f297d530"><td class="mdescLeft">&#160;</td><td class="mdescRight">if layer is no longer used; delete it to release resources <br /></td></tr>
 <tr class="separator:a9c01dc261524e91875e583b8f297d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace33e4dc445fd139461a29e1d9aff197"><td class="memItemLeft" align="right" valign="top"><a id="ace33e4dc445fd139461a29e1d9aff197" name="ace33e4dc445fd139461a29e1d9aff197"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>deleteLayer</b> (<a class="el" href="struct_d_d_layer_handle.html">DDLayerHandle</a> layerHandle)</td></tr>
+<tr class="memdesc:ace33e4dc445fd139461a29e1d9aff197"><td class="mdescLeft">&#160;</td><td class="mdescRight">if layer is no longer used; delete it to release resources <br /></td></tr>
+<tr class="separator:ace33e4dc445fd139461a29e1d9aff197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad777166bf5236abead9c5e89676f5cf1"><td class="memItemLeft" align="right" valign="top"><a id="ad777166bf5236abead9c5e89676f5cf1" name="ad777166bf5236abead9c5e89676f5cf1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>walkLayers</b> (void(*walker)(<a class="el" href="class_d_d_layer.html">DDLayer</a> *))</td></tr>
 <tr class="memdesc:ad777166bf5236abead9c5e89676f5cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loop through all the existing layers calling the function passed in <br /></td></tr>
@@ -496,8 +512,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="a6e84b3a8a6724da87d86013bf710956c" name="a6e84b3a8a6724da87d86013bf710956c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e84b3a8a6724da87d86013bf710956c">&#9670;&#160;</a></span>configAutoPin()</h2>
+<a id="a8a961e4ca862caec75b10099cdcfafc5" name="a8a961e4ca862caec75b10099cdcfafc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a961e4ca862caec75b10099cdcfafc5">&#9670;&#160;</a></span>configAutoPin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,7 +528,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>autoShowHideLayers</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>autoControlLayerVisible</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -528,7 +544,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 <li>consider using the macros DD_AP_XXX <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layoutSpec</td><td>the layout specification </td></tr>
-    <tr><td class="paramname">autoShowHideLayers</td><td>auto set layer visible (visibility) according whether the layer is specified in the layoutSpec or not; false by default </td></tr>
+    <tr><td class="paramname">autoControlLayerVisible</td><td>auto set layer visible (visibility) according whether the layer is specified in the layoutSpec or not; false by default </td></tr>
   </table>
   </dd>
 </dl>
@@ -537,8 +553,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="af4aa1442419d92e5a72f0bd8b2627f9d" name="af4aa1442419d92e5a72f0bd8b2627f9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4aa1442419d92e5a72f0bd8b2627f9d">&#9670;&#160;</a></span>configPinFrame()</h2>
+<a id="a5073395ba838dabcebd4e1599ee8193f" name="a5073395ba838dabcebd4e1599ee8193f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5073395ba838dabcebd4e1599ee8193f">&#9670;&#160;</a></span>configPinFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +575,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>autoShowHideLayers</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>autoControlLayerVisible</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -570,7 +586,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 </div><div class="memdoc">
 <p>configure "pin frame" to be x-units by y-units (default 100x100) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">autoShowHideLayers</td><td>auto set layer visible (visibility) according whether the layer is specified in the layoutSpec or not; false by default </td></tr>
+    <tr><td class="paramname">autoControlLayerVisible</td><td>auto set layer visible (visibility) according whether the layer is pinned or not; false by default </td></tr>
   </table>
   </dd>
 </dl>
@@ -896,14 +912,43 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 
 </div>
 </div>
-<a id="ae0b6db5685e3fe9057669a976829a98f" name="ae0b6db5685e3fe9057669a976829a98f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0b6db5685e3fe9057669a976829a98f">&#9670;&#160;</a></span>createImageDownloadTunnel()</h2>
+<a id="a4fe9a907edc2a6fcf066209c051eb997" name="a4fe9a907edc2a6fcf066209c051eb997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fe9a907edc2a6fcf066209c051eb997">&#9670;&#160;</a></span>createGraphicalLayerHandle()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_simple_tool_d_d_tunnel.html">SimpleToolDDTunnel</a> * DumbDisplay::createImageDownloadTunnel </td>
+          <td class="memname"><a class="el" href="struct_graphical_d_d_layer_handle.html">GraphicalDDLayerHandle</a> DumbDisplay::createGraphicalLayerHandle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>experimental: create a visual-only graphical LCD layer handle which you can be used where <a class="el" href="struct_graphical_d_d_layer_handle.html">GraphicalDDLayerHandle</a> is accepted, like construction of <a class="el" href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()">GraphicalDDLayer</a>; </p><dl class="section since"><dt>Since</dt><dd>v0.9.9-r50 </dd></dl>
+
+</div>
+</div>
+<a id="af102d1166125bb5351c1af19e5db5503" name="af102d1166125bb5351c1af19e5db5503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af102d1166125bb5351c1af19e5db5503">&#9670;&#160;</a></span>createImageDownloadTunnel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_image_download_d_d_tunnel.html">ImageDownloadDDTunnel</a> * DumbDisplay::createImageDownloadTunnel </td>
           <td>(</td>
           <td class="paramtype">const String &amp;&#160;</td>
           <td class="paramname"><em>endPoint</em>, </td>
@@ -1011,6 +1056,47 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 </div><div class="memdoc">
 <p>create a JSON 'tunnel' for thing like making RESTful calls </p><dl class="section note"><dt>Note</dt><dd>if not connect now, need to connect via reconnect() </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_basic_d_d_tunnel.html">BasicDDTunnel</a> </dd></dl>
+
+</div>
+</div>
+<a id="a015c8f4d4f86fcf8dcfae120dfaece83" name="a015c8f4d4f86fcf8dcfae120dfaece83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a015c8f4d4f86fcf8dcfae120dfaece83">&#9670;&#160;</a></span>createLcdLayerHandle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_lcd_d_d_layer_handle.html">LcdDDLayerHandle</a> DumbDisplay::createLcdLayerHandle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>colCount</em> = <code>16</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rowCount</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>charHeight</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>fontName</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>experimental: create a visual-only LCD layer handle which you can be used where <a class="el" href="struct_lcd_d_d_layer_handle.html">LcdDDLayerHandle</a> is accepted, like construction of <a class="el" href="class_lcd_d_d_layer.html" title="Class for LCD layer; created with DumbDisplay::createLcdLayer()">LcdDDLayer</a>; </p><dl class="section since"><dt>Since</dt><dd>v0.9.9-r50 </dd></dl>
 
 </div>
 </div>
@@ -1337,7 +1423,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 </div><div class="memdoc">
 <p>pin "auto pin" layers @ some position, like <a class="el" href="class_dumb_display.html#a77a5d548805b36244d453700afeeea4f">pinLayer()</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">layoutSpec</td><td>the "auto pin" layout specification to pin; see <a class="el" href="class_dumb_display.html#a6e84b3a8a6724da87d86013bf710956c">configAutoPin()</a> for how spec is constructed </td></tr>
+    <tr><td class="paramname">layoutSpec</td><td>the "auto pin" layout specification to pin; see <a class="el" href="class_dumb_display.html#a8a961e4ca862caec75b10099cdcfafc5">configAutoPin()</a> for how spec is constructed </td></tr>
     <tr><td class="paramname">align</td><td>(e.g. "LB") &ndash; left align "L"; right align "R"; top align "T"; bottom align "B"; default is center align *&zwj;/ </td></tr>
   </table>
   </dd>
@@ -1473,25 +1559,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a22e41545871cfa78c787db122dfe6ced" name="a22e41545871cfa78c787db122dfe6ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e41545871cfa78c787db122dfe6ced">&#9670;&#160;</a></span>saveCachedSoundAsH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DumbDisplay::saveCachedSoundAsH </td>
-          <td>(</td>
-          <td class="paramtype">const String &amp;&#160;</td>
-          <td class="paramname"><em>soundName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>save the cached sound as C header file (.h) @warn this is experimental </p>
 
 </div>
 </div>
@@ -1677,6 +1744,47 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>debugOnly</b> (int i)
 </dl>
 </li>
 </ul>
+
+</div>
+</div>
+<a id="a614460e772a875ae1b1aecd388acc6f2" name="a614460e772a875ae1b1aecd388acc6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614460e772a875ae1b1aecd388acc6f2">&#9670;&#160;</a></span>setRootLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_graphical_d_d_layer.html">GraphicalDDLayer</a> * DumbDisplay::setRootLayer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>containedAlignment</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>experimental support of a "root" layer (<a class="el" href="class_graphical_d_d_layer.html" title="Class for graphical LCD layer; created with DumbDisplay::createGraphicalLayer()">GraphicalDDLayer</a>) that contain all other created layers; note that the "root" will always be placed as the container, and hence don't need be pined; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">containedAlignment</td><td>the alignment of the contained layers; "L" / "T" / "LT"; "" means centered currently, "container" layer does not support "feedback" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>v0.9.9-r50 </dd></dl>
 
 </div>
 </div>

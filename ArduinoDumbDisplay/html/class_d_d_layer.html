@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r41</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -155,6 +155,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aacbea5532035ff4c35778748a082f2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6effca7f22a44ee10afc44f478dfbf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#ad6effca7f22a44ee10afc44f478dfbf0">noBackgroundColor</a> ()</td></tr>
 <tr class="separator:ad6effca7f22a44ee10afc44f478dfbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cae9e397e237d38e1eb8413d99413bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0cae9e397e237d38e1eb8413d99413bb">backgroundImage</a> (const String &amp;backgroundImageName, const String &amp;drawBackgroundOptions, int refImageWidth=0)</td></tr>
+<tr class="separator:a0cae9e397e237d38e1eb8413d99413bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0add9ec1780b73111d6ab1211f693d41"><td class="memItemLeft" align="right" valign="top"><a id="a0add9ec1780b73111d6ab1211f693d41" name="a0add9ec1780b73111d6ab1211f693d41"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>noBackgroundImage</b> ()</td></tr>
+<tr class="memdesc:a0add9ec1780b73111d6ab1211f693d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no layer background image <br /></td></tr>
+<tr class="separator:a0add9ec1780b73111d6ab1211f693d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed1a531ce8a9f7e7e07ae11da8866fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1ed1a531ce8a9f7e7e07ae11da8866fe">exportAsBackgroundImage</a> (bool replace=true, bool noDrawBackground=true, int exportAsWidth=0)</td></tr>
+<tr class="separator:a1ed1a531ce8a9f7e7e07ae11da8866fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000c1a24b1d838527b282e34f34fcba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a000c1a24b1d838527b282e34f34fcba8">animateBackgroundImage</a> (float fps, bool reset=true, const String &amp;options=&quot;&quot;)</td></tr>
+<tr class="separator:a000c1a24b1d838527b282e34f34fcba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50bff29f4dc2f5fa6d8986e53edb467f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a50bff29f4dc2f5fa6d8986e53edb467f">stopAnimateBackgroundImage</a> (bool reset=true)</td></tr>
+<tr class="separator:a50bff29f4dc2f5fa6d8986e53edb467f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08199164b2853bf63126db7524ff9956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a08199164b2853bf63126db7524ff9956">visible</a> (bool visible)</td></tr>
 <tr class="separator:a08199164b2853bf63126db7524ff9956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69db9ece2f771a75a332a372794c8bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a69db9ece2f771a75a332a372794c8bd6">transparent</a> (bool transparent)</td></tr>
@@ -181,8 +193,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>flash</b> ()</td></tr
 void&#160;</td><td class="memItemRight" valign="bottom"><b>flashArea</b> (int x, int y)</td></tr>
 <tr class="memdesc:af348c91ff9a0d39c0db410a5b336fe57"><td class="mdescLeft">&#160;</td><td class="mdescRight">normally used for "feedback" &ndash; flash the area (x, y) where the layer is clicked <br /></td></tr>
 <tr class="separator:af348c91ff9a0d39c0db410a5b336fe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0f602e3da3549f6e0572ec7ff17956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a0d0f602e3da3549f6e0572ec7ff17956">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=CLICK, const String &amp;option=&quot;&quot;)</td></tr>
-<tr class="separator:a0d0f602e3da3549f6e0572ec7ff17956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd3c5e0f84c201d91eb51ea273d0e2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_layer.html#a1dd3c5e0f84c201d91eb51ea273d0e2d">explicitFeedback</a> (int16_t x=0, int16_t y=0, const String &amp;text=&quot;&quot;, <a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a> type=DDFeedbackType::CLICK, const String &amp;option=&quot;&quot;)</td></tr>
+<tr class="separator:a1dd3c5e0f84c201d91eb51ea273d0e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0000f5bf64344786a3c43999c3bc8c26"><td class="memItemLeft" align="right" valign="top"><a id="a0000f5bf64344786a3c43999c3bc8c26" name="a0000f5bf64344786a3c43999c3bc8c26"></a>
 const String &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getLayerId</b> () const</td></tr>
 <tr class="separator:a0000f5bf64344786a3c43999c3bc8c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,6 +278,48 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 
 </div>
 </div>
+<a id="a000c1a24b1d838527b282e34f34fcba8" name="a000c1a24b1d838527b282e34f34fcba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000c1a24b1d838527b282e34f34fcba8">&#9670;&#160;</a></span>animateBackgroundImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::animateBackgroundImage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>options</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>experimental: start animate background image series </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fps</td><td>frames per second which is used to calculate the interval between the series of images </td></tr>
+    <tr><td class="paramname">reset</td><td>reset to the first image in the series (before start animation) </td></tr>
+    <tr><td class="paramname">options</td><td>can be "r" to reverse the order of the series of images </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aacbea5532035ff4c35778748a082f2cb" name="aacbea5532035ff4c35778748a082f2cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacbea5532035ff4c35778748a082f2cb">&#9670;&#160;</a></span>backgroundColor()</h2>
 
@@ -299,6 +353,48 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>layer property </dd></dl>
+
+</div>
+</div>
+<a id="a0cae9e397e237d38e1eb8413d99413bb" name="a0cae9e397e237d38e1eb8413d99413bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cae9e397e237d38e1eb8413d99413bb">&#9670;&#160;</a></span>backgroundImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::backgroundImage </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>backgroundImageName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>drawBackgroundOptions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>refImageWidth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set layer background image (on top of background color; follow opacity of background color) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backgroundImageName</td><td>name of the image can be a series of images like dumbdisplay_##0-7##.png (for dumbdisplay_0.png to dumbdisplay_7.png) which can be used for animation with <a class="el" href="class_d_d_layer.html#a000c1a24b1d838527b282e34f34fcba8">animateBackgroundImage()</a> </td></tr>
+    <tr><td class="paramname">drawBackgroundOptions</td><td>options for drawing the background; same means as the option param of GraphicalDDLayer::drawImageFiler() </td></tr>
+    <tr><td class="paramname">refImageWidth</td><td>the reference width of the image to scale the image (while keeping the aspect ration); 0 means no scaling </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -466,8 +562,8 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 
 </div>
 </div>
-<a id="a0d0f602e3da3549f6e0572ec7ff17956" name="a0d0f602e3da3549f6e0572ec7ff17956"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d0f602e3da3549f6e0572ec7ff17956">&#9670;&#160;</a></span>explicitFeedback()</h2>
+<a id="a1dd3c5e0f84c201d91eb51ea273d0e2d" name="a1dd3c5e0f84c201d91eb51ea273d0e2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd3c5e0f84c201d91eb51ea273d0e2d">&#9670;&#160;</a></span>explicitFeedback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +590,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_d_d_feedback_type.html">DDFeedbackType</a>&#160;</td>
-          <td class="paramname"><em>type</em> = <code>CLICK</code>, </td>
+          <td class="paramname"><em>type</em> = <code>DDFeedbackType::CLICK</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -521,6 +617,48 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>feedback must be enabled for this to work </dd></dl>
+
+</div>
+</div>
+<a id="a1ed1a531ce8a9f7e7e07ae11da8866fe" name="a1ed1a531ce8a9f7e7e07ae11da8866fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed1a531ce8a9f7e7e07ae11da8866fe">&#9670;&#160;</a></span>exportAsBackgroundImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::exportAsBackgroundImage </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>replace</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>noDrawBackground</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>exportAsWidth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>export the layer as background image </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">replace</td><td>replace any existing background image; for add as an item of background image series that can be used for animation with <a class="el" href="class_d_d_layer.html#a000c1a24b1d838527b282e34f34fcba8">animateBackgroundImage()</a> </td></tr>
+    <tr><td class="paramname">noDrawBackground</td><td>during export, do not draw background </td></tr>
+    <tr><td class="paramname">exportAsWidth</td><td>the width of the image; 0 means the default (should be good enough) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -882,6 +1020,30 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>if you will not be making use of "feedback", you can disable it by defining DD_NO_FEEDBACK in order to reduce footprint <br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="a50bff29f4dc2f5fa6d8986e53edb467f" name="a50bff29f4dc2f5fa6d8986e53edb467f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50bff29f4dc2f5fa6d8986e53edb467f">&#9670;&#160;</a></span>stopAnimateBackgroundImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DDLayer::stopAnimateBackgroundImage </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stop animate background image </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>reset to the first image in the series </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
