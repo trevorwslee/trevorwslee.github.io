@@ -25,6 +25,7 @@ var class_graphical_d_d_layer =
     [ "drawRect", "class_graphical_d_d_layer.html#a5caa0fedc1e03f422c95139a44f545a4", null ],
     [ "drawRoundRect", "class_graphical_d_d_layer.html#a5f517ccf7f10f2cf77e55d6d98fdea6e", null ],
     [ "drawStr", "class_graphical_d_d_layer.html#a7d0ad3d4b4a805644b217c17cf25cfef", null ],
+    [ "drawText", "class_graphical_d_d_layer.html#ac40c20e824dff5dbd8fff812a642f7c8", null ],
     [ "drawTextLine", "class_graphical_d_d_layer.html#aaf963f2647136e41c8b37903fc8c701d", null ],
     [ "drawTriangle", "class_graphical_d_d_layer.html#ac05a58adffd28f3ce891495998ef769f", null ],
     [ "fillArc", "class_graphical_d_d_layer.html#a92186eff0f998da0f67f906f6ca89579", null ],
@@ -65,5 +66,6 @@ var class_graphical_d_d_layer =
     [ "triangle", "class_graphical_d_d_layer.html#add7525a943f869012e6911a718bc97a5", null ],
     [ "unloadAllImageFiles", "class_graphical_d_d_layer.html#a8c65cfe054ab42919992c5cd22784109", null ],
     [ "unloadImageFile", "class_graphical_d_d_layer.html#a856dad01ff779eb336e98ff9eac1a640", null ],
-    [ "write", "class_graphical_d_d_layer.html#a9615cf6f75306da8d4104edc57f66714", null ]
+    [ "write", "class_graphical_d_d_layer.html#ae1ebcc55fbf29be2549e0259edfd528a", null ],
+    [ "write", "class_graphical_d_d_layer.html#a4142443f4f92e244e6e0f960139dc583", null ]
 ];

@@ -38,7 +38,7 @@ var searchData=
   ['ddreconnectpassiveconnectionhelper_35',['DDReconnectPassiveConnectionHelper',['../class_d_d_reconnect_passive_connection_helper.html',1,'']]],
   ['ddserial2io_36',['DDSerial2IO',['../class_d_d_serial2_i_o.html',1,'']]],
   ['ddsoftwareserialio_37',['DDSoftwareSerialIO',['../class_d_d_software_serial_i_o.html',1,'']]],
-  ['ddtimechangestatehelper_38',['DDTimeChangeStateHelper',['../class_d_d_time_change_state_helper.html',1,'']]],
+  ['ddtimedchangestatehelper_38',['DDTimedChangeStateHelper',['../class_d_d_timed_change_state_helper.html',1,'']]],
   ['ddtunnel_39',['DDTunnel',['../class_d_d_tunnel.html',1,'']]],
   ['ddtunnelendpoint_40',['DDTunnelEndpoint',['../class_d_d_tunnel_endpoint.html',1,'']]],
   ['ddvaluerecord_41',['DDValueRecord',['../class_d_d_value_record.html',1,'']]],

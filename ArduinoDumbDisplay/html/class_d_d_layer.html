@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r53</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -545,7 +545,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
 <p>rely on <a class="el" href="class_d_d_layer.html#ac7a0d5d87704b796e89f1a88ff3294fb">getFeedback()</a> being called </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">autoFeedbackMethod</td><td><ul>
-<li>"" &ndash; no auto feedback flash (the default)</li>
+<li>"" &ndash; no auto feedback flash (the default); need explicit call to <a class="el" href="class_d_d_layer.html#acff354518a030e79c7c5054a24fc5511" title="normally used for &quot;feedback&quot; – flash the default way (layer + border)">DDLayer::flash()</a> or DDLayer::FlashArea() once detected feedback</li>
 <li>"f" &ndash; flash the standard way (layer + border)</li>
 <li>"fl" &ndash; flash the layer</li>
 <li>"fa" &ndash; flash the area where the layer is clicked</li>
@@ -1014,7 +1014,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>customData</b></td>
   <table class="params">
     <tr><td class="paramname">handler</td><td>"feedback" handler; see <a class="el" href="struct_d_d_feedback_handler.html" title="Type signature for &quot;feedback&quot; handler. See DDLayer::setFeedbackHandler()">DDFeedbackHandler</a> </td></tr>
     <tr><td class="paramname">autoFeedbackMethod</td><td>see <a class="el" href="class_d_d_layer.html#a15a8ec4e16b6b9cdb6e6fe0857f3db24">DDLayer::enableFeedback()</a> </td></tr>
-    <tr><td class="paramname">allowedFeedbackType</td><td>can be comma-delimited list of "CLICK", "LONGPRESS" and "DOUBLECLICK" </td></tr>
+    <tr><td class="paramname">allowedFeedbackTypes</td><td>can be comma-delimited list of "CLICK", "LONGPRESS" and "DOUBLECLICK" </td></tr>
   </table>
   </dd>
 </dl>

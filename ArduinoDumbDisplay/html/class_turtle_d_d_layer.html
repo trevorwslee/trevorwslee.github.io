@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="dd-icon-small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r50</span>
+   <div id="projectname">ArduinoDumbDisplay<span id="projectnumber">&#160;v0.9.9-r53</span>
    </div>
    <div id="projectbrief">DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay</div>
   </td>
@@ -170,10 +170,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>penSize</b> (int size
 void&#160;</td><td class="memItemRight" valign="bottom"><b>noFillColor</b> ()</td></tr>
 <tr class="memdesc:ac51ed0cb4d48d732059f59d05a44f2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set no fill color <br /></td></tr>
 <tr class="separator:ac51ed0cb4d48d732059f59d05a44f2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2db9b663531be530c0e57ec9a56b2e4b"><td class="memItemLeft" align="right" valign="top"><a id="a2db9b663531be530c0e57ec9a56b2e4b" name="a2db9b663531be530c0e57ec9a56b2e4b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>penFilled</b> (bool filled)</td></tr>
-<tr class="memdesc:a2db9b663531be530c0e57ec9a56b2e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set pen filled or not; if filled, shape drawn will be filled <br /></td></tr>
-<tr class="separator:a2db9b663531be530c0e57ec9a56b2e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73dc63a7ea298a5af5a1e9bef8a693ee"><td class="memItemLeft" align="right" valign="top"><a id="a73dc63a7ea298a5af5a1e9bef8a693ee" name="a73dc63a7ea298a5af5a1e9bef8a693ee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>penFilled</b> (bool filled=true)</td></tr>
+<tr class="memdesc:a73dc63a7ea298a5af5a1e9bef8a693ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">set pen filled or not; if filled, shape drawn will be filled <br /></td></tr>
+<tr class="separator:a73dc63a7ea298a5af5a1e9bef8a693ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab34db0fd4626a1b7d126df89b3fd22fd"><td class="memItemLeft" align="right" valign="top"><a id="ab34db0fd4626a1b7d126df89b3fd22fd" name="ab34db0fd4626a1b7d126df89b3fd22fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setTextSize</b> (int size)</td></tr>
 <tr class="memdesc:ab34db0fd4626a1b7d126df89b3fd22fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">set text size <br /></td></tr>
@@ -228,10 +228,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>polygon</b> (int side
 <tr class="separator:a2e70c517d57a0faebab1e1ca8cbdb49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c6bb5dc463ceba3ff032663ed3f3e20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turtle_d_d_layer.html#a3c6bb5dc463ceba3ff032663ed3f3e20">centeredPolygon</a> (int radius, int vertexCount, bool inside=false)</td></tr>
 <tr class="separator:a3c6bb5dc463ceba3ff032663ed3f3e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d2bd8adaa60459c04b16b86eeb06328"><td class="memItemLeft" align="right" valign="top"><a id="a7d2bd8adaa60459c04b16b86eeb06328" name="a7d2bd8adaa60459c04b16b86eeb06328"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (const String &amp;text, bool draw=false)</td></tr>
-<tr class="memdesc:a7d2bd8adaa60459c04b16b86eeb06328"><td class="mdescLeft">&#160;</td><td class="mdescRight">write text; draw means draw the text (honor heading) <br /></td></tr>
-<tr class="separator:a7d2bd8adaa60459c04b16b86eeb06328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865ae66a6ab0de17e6c0fc5f2dd33139"><td class="memItemLeft" align="right" valign="top"><a id="a865ae66a6ab0de17e6c0fc5f2dd33139" name="a865ae66a6ab0de17e6c0fc5f2dd33139"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (const String &amp;text)</td></tr>
+<tr class="memdesc:a865ae66a6ab0de17e6c0fc5f2dd33139"><td class="mdescLeft">&#160;</td><td class="mdescRight">write text <br /></td></tr>
+<tr class="separator:a865ae66a6ab0de17e6c0fc5f2dd33139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f6a2081e343eca3a4b6fc10fc90e2a"><td class="memItemLeft" align="right" valign="top"><a id="ac4f6a2081e343eca3a4b6fc10fc90e2a" name="ac4f6a2081e343eca3a4b6fc10fc90e2a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawText</b> (const String &amp;text)</td></tr>
+<tr class="memdesc:ac4f6a2081e343eca3a4b6fc10fc90e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw text (honor heading) <br /></td></tr>
+<tr class="separator:ac4f6a2081e343eca3a4b6fc10fc90e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bff61201670f3e5d319e1fe2e3518f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_turtle_d_d_layer.html#a5bff61201670f3e5d319e1fe2e3518f1">write</a> (const String &amp;text, bool draw)</td></tr>
+<tr class="separator:a5bff61201670f3e5d319e1fe2e3518f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_multi_level_d_d_layer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_multi_level_d_d_layer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_multi_level_d_d_layer.html">MultiLevelDDLayer</a></td></tr>
 <tr class="memitem:af924b490d6a92f5470cddd3848d53f7f inherit pub_methods_class_multi_level_d_d_layer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_multi_level_d_d_layer.html#af924b490d6a92f5470cddd3848d53f7f">addLevel</a> (const String &amp;levelId, float width, float height, bool switchToIt=false)</td></tr>
 <tr class="separator:af924b490d6a92f5470cddd3848d53f7f inherit pub_methods_class_multi_level_d_d_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -529,10 +535,47 @@ DDFeedbackManager *&#160;</td><td class="memItemRight" valign="bottom"><b>pFeedb
 </div><div class="memdoc">
 <p>set font </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">fontName</td><td>empty means default </td></tr>
     <tr><td class="paramname">textSize</td><td>0 means default </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5bff61201670f3e5d319e1fe2e3518f1" name="a5bff61201670f3e5d319e1fe2e3518f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bff61201670f3e5d319e1fe2e3518f1">&#9670;&#160;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TurtleDDLayer::write </td>
+          <td>(</td>
+          <td class="paramtype">const String &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>draw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

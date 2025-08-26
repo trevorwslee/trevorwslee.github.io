@@ -49,7 +49,8 @@ var hierarchy =
     ] ],
     [ "DDLayerHandle", "struct_d_d_layer_handle.html", [
       [ "GraphicalDDLayerHandle", "struct_graphical_d_d_layer_handle.html", null ],
-      [ "LcdDDLayerHandle", "struct_lcd_d_d_layer_handle.html", null ]
+      [ "LcdDDLayerHandle", "struct_lcd_d_d_layer_handle.html", null ],
+      [ "LedGridDDLayerHandle", "struct_led_grid_d_d_layer_handle.html", null ]
     ] ],
     [ "DDLayoutHelper", "class_d_d_layout_helper.html", null ],
     [ "DDLocation", "struct_d_d_location.html", null ],
@@ -91,7 +92,7 @@ var hierarchy =
     [ "DDPendingValue< T >", "class_d_d_pending_value.html", null ],
     [ "DDPixelImage16", "struct_d_d_pixel_image16.html", null ],
     [ "DDReconnectPassiveConnectionHelper", "class_d_d_reconnect_passive_connection_helper.html", null ],
-    [ "DDTimeChangeStateHelper", "class_d_d_time_change_state_helper.html", null ],
+    [ "DDTimedChangeStateHelper", "class_d_d_timed_change_state_helper.html", null ],
     [ "DDTunnelEndpoint", "class_d_d_tunnel_endpoint.html", null ],
     [ "DDValueRecord< T >", "class_d_d_value_record.html", null ],
     [ "DDValueStore< T >", "class_d_d_value_store.html", null ],

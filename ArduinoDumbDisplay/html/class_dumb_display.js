@@ -1,6 +1,6 @@
 var class_dumb_display =
 [
-    [ "addRemainingAutoPinConfig", "class_dumb_display.html#a7c4edf110fa40b238f1bdc6a2c1e91d3", null ],
+    [ "addRemainingAutoPinConfig", "class_dumb_display.html#af68e71319f8f8cec3e2f469f224dc2ad", null ],
     [ "alert", "class_dumb_display.html#a8be956a225685f7ef1437665c686a4cd", null ],
     [ "backgroundColor", "class_dumb_display.html#a1af37458f1034619132bca9ddeef1962", null ],
     [ "cacheSound16", "class_dumb_display.html#a882a1dcde95b7ce37a31ada1ddc45f97", null ],
@@ -18,7 +18,7 @@ var class_dumb_display =
     [ "createBasicTunnel", "class_dumb_display.html#ac4bc42eee673fd44f5f9837ccf2f8f5b", null ],
     [ "createDateTimeServiceTunnel", "class_dumb_display.html#a33b3479a00f946e98675a8c6dc8df4de", null ],
     [ "createDumbDisplayWindowLayer", "class_dumb_display.html#aa35f2113b942898427ce460fa8e99dba", null ],
-    [ "createFilteredJsonTunnel", "class_dumb_display.html#abef3c3e2958fd86dee4907f78aaf7f13", null ],
+    [ "createFilteredJsonTunnel", "class_dumb_display.html#aad59b1b2bbc82e9c41fbd2d83d2045c7", null ],
     [ "createFixedRatePlotterLayer", "class_dumb_display.html#a1b74a3352e0b76716c6910a86306528e", null ],
     [ "createGeneralServiceTunnel", "class_dumb_display.html#a14bff551a40621aa11eb0d1964d118fd", null ],
     [ "createGpsServiceTunnel", "class_dumb_display.html#aff291b56128cb372c5045afd634b530f", null ],
@@ -30,6 +30,7 @@ var class_dumb_display =
     [ "createLcdLayer", "class_dumb_display.html#a588e9f2696ef83249add36732604ed5c", null ],
     [ "createLcdLayerHandle", "class_dumb_display.html#a015c8f4d4f86fcf8dcfae120dfaece83", null ],
     [ "createLedGridLayer", "class_dumb_display.html#adf71aac7991060289302d936ca51b8ba", null ],
+    [ "createLedGridLayerHandle", "class_dumb_display.html#a38785bf8a873654d27f60b88e792bda2", null ],
     [ "createMicrobitLayer", "class_dumb_display.html#a7a337c89743f3580d8f4f549650a048e", null ],
     [ "createObjectDetectDemoServiceTunnel", "class_dumb_display.html#a18565c92861353757ad8ce1b8aca53f1", null ],
     [ "createPlotterLayer", "class_dumb_display.html#af94e59f25cc2f38c9c0c8264e9d73f96", null ],
@@ -41,9 +42,11 @@ var class_dumb_display =
     [ "createTurtleLayer", "class_dumb_display.html#a3d421f31c094624e8709fecc3badee04", null ],
     [ "createWebViewLayer", "class_dumb_display.html#a787b78a8880d469ff832fbed01cbf06f", null ],
     [ "debugSetup", "class_dumb_display.html#a12138b5a37200df06dbfb21c50708d4e", null ],
+    [ "deleteAllRemainingAutoPinConfigs", "class_dumb_display.html#a0ba02cdbc63cb5872a7d023d0d14cc62", null ],
     [ "deleteLayer", "class_dumb_display.html#a9c01dc261524e91875e583b8f297d530", null ],
     [ "deleteLayer", "class_dumb_display.html#ace33e4dc445fd139461a29e1d9aff197", null ],
     [ "deleteTunnel", "class_dumb_display.html#a7759c27bea25dd216cb142ad06a68e05", null ],
+    [ "freezeDrawing", "class_dumb_display.html#ae0585d11f11d866cd6788b971d63d5b1", null ],
     [ "getCompatibilityVersion", "class_dumb_display.html#ab02a79c926114dd14147b6765b1d864f", null ],
     [ "getConnectVersion", "class_dumb_display.html#a0a2da2242a88df8b81eae09fd54cad45", null ],
     [ "loadLayerCommands", "class_dumb_display.html#a9691733a7c974a3c58424fdb4bd871b5", null ],
@@ -82,6 +85,7 @@ var class_dumb_display =
     [ "streamSound16", "class_dumb_display.html#a76c1940e717aed8d2605dd9939a0f620", null ],
     [ "streamSound8", "class_dumb_display.html#a676ce273fcee34d0e0c05a67973b5249", null ],
     [ "tone", "class_dumb_display.html#afcfe6853200f6d99951eda5beb5d02c5", null ],
+    [ "unfreezeDrawing", "class_dumb_display.html#a27bf8862a7cc404bf2a396c4ff79c2ee", null ],
     [ "walkLayers", "class_dumb_display.html#ad777166bf5236abead9c5e89676f5cf1", null ],
     [ "writeComment", "class_dumb_display.html#ab263644dc77a65f87dbc91ad8b791b37", null ]
 ];
