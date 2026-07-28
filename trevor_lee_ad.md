@@ -9,7 +9,7 @@ Here are some selection personal projects of mine:
 
 * `gen_image_ui`
   - Next.js Web UI, with Python backend, for AI Image Generation (and LLM chatting)
-  - [Demo of `gen_image_ui` GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
+  - [Demo of 'gen_image_ui' GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
 * DumbDisplay Android App
   - An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
   - [DumbDisplay Android App Google Play Store link](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
@@ -19,7 +19,7 @@ Here are some selection personal projects of mine:
     controllers like ESP32 / Raspberry Pi Pico, for displaying as well as inputting purposes
   - [DumbDisplay Arduino Library GitHub repo](https://github.com/trevorwslee/Arduino-DumbDisplay)
 * DumbDisplay MicroPython Library
-  - A MicroPython library for framework for the above-mentioned DumbDisplay Android App
+  - A MicroPython library for the above-mentioned DumbDisplay Android App
   - [DumbDisplay MicroPython Library GitHub repo](https://github.com/trevorwslee/MicroPython-DumbDisplay)
   - The library not only works for MicroPython, it works for regular Python 3 as well.
     You may want to check out the YouTube video -- [
@@ -36,15 +36,16 @@ An Odd Way to Implement Simple Android Games in Python 3](https://www.youtube.co
     - [PyTorch Introductory Experiments GitHub repo](https://github.com/trevorwslee/PyTorchIntroductoryExperiments)
 * `rusty_dumb_tools`
   - A collection of simple tools in Rust as Rust modules
-  - [`rusty_dumb_tools` GitHub repo](https://github.com/trevorwslee/rusty_dumb_tools)
+  - ['rusty_dumb_tools' GitHub repo](https://github.com/trevorwslee/rusty_dumb_tools)
 
 As for my education background: I have three degrees – Bachelor of Computer Science, Master of Science and Master of Arts.
 I was granted my Bachelor of Computer Science degree by Canada's University of Manitoba back in 1991. I received the gold medal for the degree (Bachelor of Computer Science) that year.
 
-**The above advertisement are just to highlight my passion toward technology, especially in software development.**
+*The above advertisement are just to highlight my passion toward technology, especially in software development.*
 
 I am currently looking for opportunities to apply my technial skills in software development.
 I am open to contract / freelance work, on-site in Hong Kong or remote from anywhere in the world.
 If you are interested in my profile, please feel free to contact me
-* My [LinkedIn profile](https://www.linkedin.com/in/trevor-lee-5979a7423/)
-* Email to trevorwslee@gmail.com
+* my [LinkedIn profile](https://www.linkedin.com/in/trevor-lee-5979a7423/)
+* my [GitHub profile](https://github.com/trevorwslee)
+* email to trevorwslee@gmail.com
