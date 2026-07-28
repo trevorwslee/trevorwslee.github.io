@@ -12,7 +12,8 @@ Here are some selection personal projects of mine:
   - [Demo of 'gen_image_ui' GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
 * DumbDisplay Android App
   - An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
-  - [DumbDisplay Android App Google Play Store link](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
+  - [DumbDisplay Android App Google Play Store listing](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
+  - [YouTube video 'Introducing DumbDisplay'](https://www.youtube.com/watch?v=QZkhO6jTf0U)
 * DumbDisplay Arduino Library
   - An Arduino framework for connecting / making use of DumbDisplay Android
     App: For transforming Android phone as a virtual display for micro-
@@ -27,6 +28,7 @@ An Odd Way to Implement Simple Android Games in Python 3](https://www.youtube.co
 * A Calculator App
   - A demonstration on how to make use of WASM (Rush implementation) to develop a simple calculator Android app
   - [A Calculator App GitHub repo](https://github.com/trevorwslee/ACalculatorApp)
+  - [A Calculator App Google Play Store listing](https://play.google.com/store/apps/details?id=nobody.trevorlee.a_calculator_app&hl=en-US&ah=CtQ_lxl8tKdAiBNIZwSryVeoTZI)
 * A Weather Clock
   - A micro-controller project to build a clock with micro-controllers like ESP32 /
     Raspberry Pi Pico. The clock supports 1) showing of weather; 2) showing of time; 3) alarms; and 4) slide-show
