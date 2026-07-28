@@ -10,7 +10,7 @@ Here are some selection personal projects of mine:
 * `gen_image_ui`
   - Next.js Web UI, with Python backend, for AI Image Generation (and LLM chatting)
   - [Demo of 'gen_image_ui' GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
-  - Demo sites: [@ Google Cloud](https://demo-gen-image-ui-872437312899.asia-east2.run.app); alternatively [@ my personal server](http://trevorwslee.duckdns.org:13777/)
+  - Demo site: [@ Google Cloud](https://demo-gen-image-ui-872437312899.asia-east2.run.app) / [@ my personal server](http://trevorwslee.duckdns.org:13777/)
 * DumbDisplay Android App
   - An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
   - [DumbDisplay Android App Google Play Store listing](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
