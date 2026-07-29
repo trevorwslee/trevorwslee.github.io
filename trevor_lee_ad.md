@@ -8,10 +8,10 @@ Due to my passion for software development, I have many other [personal] develop
 Here are some selection personal projects of mine:
 
 * `gen_image_ui`
-  - Next.js Web UI, with Python backend, for AI Image Generation (and LLM chatting)
+  - Next.js Web UI, with Python backend, for AI image generation (and LLM chatting)
   - ['gen_image_ui' Docker Hub listing](https://hub.docker.com/r/trevorwslee/gen-image-ui)
   - ['gen_image_ui' Deployment Demo GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
-  - `gen_image_ui` demo site: [@ Google Cloud](https://demo-gen-image-ui-872437312899.asia-east2.run.app) / [@ my personal server](http://trevorwslee.duckdns.org:13777/)
+  - `gen_image_ui` demo site: [@ Google Cloud](https://demo-gen-image-ui-872437312899.asia-east2.run.app) / [@ my personal server](http://demo-gen-image-ui.trevorwslee.duckdns.org:13777/)
 * DumbDisplay Android App
   - An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
   - [DumbDisplay Android App Google Play Store listing](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
