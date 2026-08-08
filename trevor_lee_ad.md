@@ -11,7 +11,9 @@ Here are some selection personal projects of mine:
   - Skills: Next.js, TypeScript, TailwindCSS, Python, FastAPI, LangChain, SQLite and Docker
   - ['gen_image_ui' Docker Hub listing 🔗](https://hub.docker.com/r/trevorwslee/gen-image-ui)
   - ['gen_image_ui' Deployment Demo GitHub repo 🔗](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
-  - `gen_image_ui` demo site: [@ Google Cloud 🔗](https://demo-gen-image-ui-872437312899.asia-east2.run.app) / [@ my personal server 🔗](http://demo-gen-image-ui.trevorwslee.duckdns.org:13777/)
+  - `gen_image_ui` demo site @ [Google Cloud 🔗](https://demo-gen-image-ui-872437312899.asia-east2.run.app)
+    ... since it can be scaled down to 0, waking it up may take some waiting
+    ... hence, you may choose to try an alternative @ [my personal server 🔗](http://demo-gen-image-ui.trevorwslee.duckdns.org:13777/)
 * DumbDisplay Android App -- An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
   - Skills: Android SDK and Kotlin
   - [DumbDisplay Android App Google Play Store listing 🔗](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
