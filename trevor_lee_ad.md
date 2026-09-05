@@ -36,13 +36,13 @@ Here are some selection personal projects of mine:
     Raspberry Pi Pico. The clock supports 1) showing of weather; 2) showing of time; 3) alarms; and 4) slide-show
   - Skills: Microcontrollers (ESP32 / Raspberry Pi Pico), Arduino SDK and C/C++
   - [🔗 A Weather Clock GitHub repo](https://github.com/trevorwslee/AWeatherClock)
-* ESP32CamSnapper -- Turn ESP32-CAM (or equivalent) into an Android phone-managed snapshot taker, for snapshots like selfies and time-lapse pictures
-  - Skills: Microcontrollers (ESP32), Arduino SDK and C/C++
-  - [🔗 ESP32CamSnapper GitHub repo](https://github.com/trevorwslee/ESP32CamSnapper)
-  - [🔗 YouTube video 'Demo: Turn ESP32-CAM into a Snapshot Taker, for Selfies and Time Lapse Pictures'](https://www.youtube.com/watch?v=pHbXvHb8zV0)
 * PyTorch Introductory Experiments -- A few introductory PyTorch deep-learning experiments, including one that makes use of the Minst Dataset, via DumbDisplay as inputting devices for testing the end-result of DL model trained from the Mnist Dataset; and one that makes use of AI (deep-learning) to play the classical sliding puzzle game
     - Skills: Python and PyTorch
     - [🔗 PyTorch Introductory Experiments GitHub repo](https://github.com/trevorwslee/PyTorchIntroductoryExperiments)
+* `ESP32CamSnapper` -- Turn ESP32-CAM (or equivalent) into an Android phone-managed snapshot taker, for snapshots like selfies and time-lapse pictures
+  - Skills: Microcontrollers (ESP32), Arduino SDK and C/C++
+  - [🔗 ESP32CamSnapper GitHub repo](https://github.com/trevorwslee/ESP32CamSnapper)
+  - [🔗 YouTube video 'Demo: Turn ESP32-CAM into a Snapshot Taker, for Selfies and Time Lapse Pictures'](https://www.youtube.com/watch?v=pHbXvHb8zV0)
 * `rusty_dumb_tools` -- A collection of simple tools in Rust as Rust modules
   - Skills: Rust
   - [🔗 'rusty_dumb_tools' GitHub repo](https://github.com/trevorwslee/rusty_dumb_tools)
