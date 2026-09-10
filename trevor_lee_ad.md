@@ -5,7 +5,7 @@ I have more than 30 years of application / system development working experience
 
 Because of my passion for software development, I have many other [personal] development experiences for frontend, backend, Android mobile app, as well as embedded programming for micro-controllers; most of these development work you can check out from my [GitHub repos 🔗](https://github.com/trevorwslee?tab=repositories) 
 
-Here are some selection personal projects of mine:
+Here are some selected personal projects of mine:
 
 * `gen_image_ui` -- A Next.js web UI for AI image generation (and LLM chatting), with Python backend
   - Skills: Next.js, TypeScript, TailwindCSS, Python, FastAPI, LangChain, SQLite and Docker
@@ -40,7 +40,7 @@ Here are some selection personal projects of mine:
     - Skills: Python and PyTorch
     - [🔗 PyTorch Introductory Experiments GitHub repo](https://github.com/trevorwslee/PyTorchIntroductoryExperiments)
 * `ESP32CamSnapper` -- Turn ESP32-CAM (or equivalent) into an Android phone-managed snapshot taker, for snapshots like selfies and time-lapse pictures
-  - Skills: Microcontrollers (ESP32), Arduino SDK and C/C++
+  - Skills: Microcontrollers (ESP32-CAM), Arduino SDK and C/C++
   - [🔗 ESP32CamSnapper GitHub repo](https://github.com/trevorwslee/ESP32CamSnapper)
   - [🔗 YouTube video 'Demo: Turn ESP32-CAM into a Snapshot Taker, for Selfies and Time Lapse Pictures'](https://www.youtube.com/watch?v=pHbXvHb8zV0)
 * `rusty_dumb_tools` -- A collection of simple tools in Rust as Rust modules
@@ -50,11 +50,11 @@ Here are some selection personal projects of mine:
 As for my education background: I have three degrees – Bachelor of Computer Science, Master of Science and Master of Arts.
 I was granted my Bachelor of Computer Science degree by Canada's University of Manitoba back in 1991. I received the gold medal for the degree (Bachelor of Computer Science) that year.
 
-*The above advertisement are just to highlight my passion toward technology, especially in software development.*
+*The above advertisements are just to highlight my passion toward technology, especially in software development.*
 
 I am currently looking for opportunities to apply my technical skills in software development.
 I am open to contract / freelance work, on-site in Hong Kong or remote from anywhere in the world.
-If you are interested in my profile, please feel free to contact me
+If you find my profile interesting, feel free to contact me
 * [🔗 LinkedIn profile](https://www.linkedin.com/in/trevor-lee-5979a7423/)
 * [🔗 GitHub profile](https://github.com/trevorwslee)
 * trevorwslee@gmail.com
