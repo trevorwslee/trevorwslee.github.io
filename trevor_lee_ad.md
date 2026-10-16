@@ -13,7 +13,7 @@ Here are some selected personal projects of mine:
   - [🔗 'gen_image_ui' Deployment Demo GitHub repo](https://github.com/trevorwslee/gen_image_ui_deployment_demo)
   - `gen_image_ui` demo site
     * at [🔗 Google Cloud](https://demo-gen-image-ui-872437312899.asia-east2.run.app) ... which can be scaled down to 0; waking it up may take some waiting
-    * alternatively at [🔗 my personal server](http://demo-gen-image-ui.trevorwslee.duckdns.org:13777/) ... which should be up all the time
+    * alternatively at [🔗 my personal server](https://demo-gen-image-ui.trevorwslee.duckdns.org/) ... which should be up all the time
 * DumbDisplay Android App -- An Android mobile app for transforming Android phone as a virtual display for micro-controllers like ESP32 / Raspberry Pi Pico  
   - Skills: Android SDK and Kotlin
   - [🔗 DumbDisplay Android App Google Play Store listing](https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay&pli=1)
