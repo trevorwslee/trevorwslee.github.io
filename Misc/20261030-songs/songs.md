@@ -1,4 +1,6 @@
 
+
+
 # ...
 
 ## 一生一世 - 我心旋律
@@ -6,10 +8,18 @@
 [<img src="imgs/20261028153017.png" width="50%"/>](https://youtu.be/RCE4mZz8Cbk?si=i7JYYJOdDxpLtIQz)
 
 
+<div style="height: 400px;"></div>
 
----
----
+# 主禱文
 
+
+<p style="text-align: center;">
+<img src="imgs/prayer.jpeg" width="150%" alt="主禱文">
+</p>
+
+
+
+<div style="height: 400px;"></div>
 
 # 1
 
@@ -36,9 +46,7 @@
 神，我的主，誰又可媲美，頌讚，公義，聖潔，權柄，都歸於你。
 ```
 
----
----
-
+<div style="height: 400px;"></div>
 
 # 2
 
@@ -104,9 +112,7 @@
 ```
 
 
----
----
-
+<div style="height: 400px;"></div>
 
 # 3
 
@@ -133,10 +139,7 @@
 這一切也靠著神跨過。
 ```
 
----
----
-
-
+<div style="height: 400px;"></div>
 
 # 4
 
@@ -170,9 +173,7 @@
 ```
 
 
----
----
-
+<div style="height: 400px;"></div>
 
 # 5
 
@@ -203,9 +204,7 @@
 ```
 
 
----
----
-
+<div style="height: 400px;"></div>
 
 # 6
 
@@ -230,10 +229,7 @@
 ```
 
 
----
----
-
-
+<div style="height: 400px;"></div>
 
 # 7
 
