@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>songs-show.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="">...</h1>
+<h2 id="一生一世---我心旋律">一生一世 - 我心旋律</h2>
+<p><a href="https://youtu.be/RCE4mZz8Cbk?si=i7JYYJOdDxpLtIQz"><img src="imgs/20261028153017.png" width="50%"/></a></p>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="主禱文">主禱文</h1>
+<p style="text-align: center;">
+<img src="imgs/prayer.jpeg" width="150%" alt="主禱文">
+</p>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="1">1</h1>
+<h2 id="我們的神">我們的神</h2>
+<p><a href="https://youtu.be/2vCYXbbq8mw?si=b76r8syc7aniHMDK"><img src="imgs/20261028153618.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>諸天說述，神榮耀璀璨，造物奇妙，讓蒼生驚嘆，
+伸手賜下，無窮盡恩惠，統管四方，權能越過天際。
+神，我的主，榮耀寶座前，列國俯伏敬拜，至高的你，
+神，我的主，誰又可媲美，頌讚，公義，聖潔，權柄，都歸於你。
+你話語，創建一切，看萬有，無從推諉，
+峻嶺吶喊，大海呼應，頌唱哈利路亞。
+神，我的主，榮耀寶座前，列國俯伏敬拜，至高的你，
+神，我的主，誰又可媲美，頌讚，公義，聖潔，權柄，都歸於你。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="2">2</h1>
+<h2 id="感謝一生有祢">感謝一生有祢</h2>
+<p><a href="https://youtu.be/kF-xR8Z04p4?si=maZd3k322MMrF0rP"><img src="imgs/20261028154714.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>抬頭看看是一片藍天
+真的很美 但不時也有轉變
+* 有起有跌 是祢給我的試鍊
+* 挑戰靠著祢一定會走完
+我雖走過死蔭的幽谷
+卻不驚怕 有祢與我同在
+祢的杆 祢的杖都安慰我
+一生一世必有恩惠慈愛隨著我
+這一生很美只因有祢
+感謝祢賜下萬有生氣
+望望四周花草散發出旋律都很美
+我願將我所有奉上給祢
+這一生很美只因有祢
+感謝祢賜下萬有福氣
+* 縱使變遷 也不掛牽
+* 因我一生仰望祢的臉
+抬頭看看是一片藍天
+真的很美 但不時也有轉變
+有起有跌 是祢給我的試鍊
+挑戰靠著祢一定會走完
+我雖走過死蔭的幽谷
+卻不驚怕 有祢與我同在
+祢的杆 祢的杖都安慰我
+一生一世必有恩惠慈愛隨著我
+這一生很美只因有祢
+感謝祢賜下萬有生氣
+望望四周花草散發出旋律都很美
+我願將我所有奉上給祢
+這一生很美只因有祢
+感謝祢賜下萬有福氣
+縱使變遷 也不掛牽
+因我一生仰望祢的臉
+這一生很美只因有祢
+感謝祢賜下萬有生氣
+望望四周花草散發出旋律都很美
+我願將我所有奉上給祢
+這一生很美只因有祢
+感謝祢賜下萬有福氣
+縱使變遷 也不掛牽
+因我一生仰望祢的臉
+縱使變遷 也不掛牽
+因我一生仰望祢的臉
+因我一生仰望祢的臉
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="3">3</h1>
+<h2 id="陪我走過春夏秋冬">陪我走過春夏秋冬</h2>
+<p><a href="https://youtu.be/d2IP-JO2ueM?si=lpaNQgInJ1lCLDyd"><img src="imgs/20261028163325.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>歷經風浪人生中，更清楚你在保守，
+在過去和永遠，仍是信靠你恩手，
+度過歲月成長中，更加深切慕恩主，
+是你慰藉憐憫我，主耶穌。
+你說始終會伴我秋冬春與夏，
+疼我，保守我，引導一生，
+信靠恩主哪懼怕經多少變幻，
+信靠主我神 永遠被懷抱。
+* 你永不捨棄我，永遠與我一起，
+* 深宵清早你亦陪我過，
+過去今天如何，有你恩典加多，
+這一切也靠著神跨過。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="4">4</h1>
+<h2 id="親愛主牽我手-聖詩介紹">親愛主，牽我手 聖詩介紹</h2>
+<p><a href="https://youtu.be/BU3SXTLvMpc?si=Job2uLdrehAP39bi">青年聖歌故事、聖詩共賞：親愛主、牽我手</a></p>
+<h2 id="親愛主牽我手">親愛主、牽我手</h2>
+<p><a href="https://youtu.be/dqcifxe2L-s?si=U5N0EyJ0-qmLHDRx"><img src="imgs/20261028155038.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>親愛主，牽我手，建立我，領我走；
+我疲倦，我軟弱，我苦愁；
+經風暴，過黑夜，求領我進光明，
+親愛主，牽我手，到天庭。
+我道路，雖淒涼，主臨近，慰憂傷；
+我在世快打完美好杖，
+聽我求，聽我禱，攙我手，防跌倒；
+親愛主，牽我手，常引導。
+親愛主，牽我手，建立我，領我走；
+我疲倦，我軟弱，我苦愁；
+經風暴，過黑夜，求領我進光明，
+親愛主，牽我手，到天庭。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="5">5</h1>
+<h2 id="最好的福氣">最好的福氣</h2>
+<p><a href="https://youtu.be/HcpvUZoIv70?si=o6nUa2c4LtmM0dK4"><img src="imgs/20261028155841.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>願我的心讚頌我的主，願唱出讚美感恩的話語，
+在你恩典中，幾多的好處，清早到晚上也未停住，
+藏在你帳幕的隱密處，渴想一心盡力愛主。
+* 也許一生多困苦，被世間撇棄恨惡，
+* 但你總看顧，樂意攙扶，愁悶慨嘆變作歡呼，	
+人海中多昏暗迷糊，但我的心始終堅固，
+投靠你，便覺恩典豐富。
+* 也許心中感痛悲，甚至失去了力氣，
+* 讓我抓緊你，熱暖的手臂，攜著我再振翅高飛，
+人海中雖顛沛流離，但你應許不捨不棄，
+投靠你，是最好的福氣，
+全賴有著你，才令這生極美。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="6">6</h1>
+<h2 id="獻給我天上的主">獻給我天上的主</h2>
+<p><a href="https://youtu.be/0rh6R51MRls?si=WKGb6X2kia7a3zNs"><img src="imgs/20261028160037.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>在我心中有千百萬心聲，來呈獻給我天上的主。
+願讚美崇揚都一一歸給你，主你是偉大完美。
+在我心中有數不盡感恩，來呈獻給我天上恩主。
+願見證傳揚主恩典多麼美，感激你常顧念扶持。
+齊真心呈獻讚美給你，盡我心意頌唱每篇的詩句；
+* 齊舉手呈獻敬拜永遠歸給你，為你我獻上頌讚。
+為你我獻作活祭。讓我永化作活祭。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<hr>
+<h1 id="7">7</h1>
+<pre class="hljs"><code><div>...
+樂奏起天軍讚美
+萬國都屈膝向地
+...
+過去的終於過去
+祢抹乾所有眼淚
+...
+</div></code></pre>
+<h2 id="到那日">到那日</h2>
+<p><a href="https://youtu.be/9BL1pMD0Uo8?si=otuB123ywiUfCFk8"><img src="imgs/20261028160345.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>[Verse 1]
+到那日我站於玻璃海
+到那日晝夜唱聖哉
+樂奏起天軍讚美
+萬國都屈膝向地
+我望見座前是我主一張臉
+[Verse 2]
+到那日我列身眾聖民
+到那日我明了救恩
+過去的終於過去
+祢抹乾所有眼淚
+一切更新了祢聖光今普照
+[Chorus]
+悠揚歌聲諸天都可聽
+永永遠遠也為榮耀祢聖名
+隨着天兵宣稱主得勝
+四處敬拜這天籟聲永沒停
+</div></code></pre>
+<p><em><strong>Here I am</strong></em> -- <em><strong>我在這裡</strong></em>
+<img src="imgs/20261028171844.png" alt=""></p>
+<p><em><strong>Here you are</strong></em> -- <em><strong>你在這裡</strong></em>
+<img src="imgs/20261028171943.png" alt=""></p>
+<p><em><strong>Singing Hallelujah</strong></em> -- <em><strong>唱哈利路亞</strong></em>
+<img src="imgs/20261028172412.png" alt=""></p>
+
+</body>
+</html>
