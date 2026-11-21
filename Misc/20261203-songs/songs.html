@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>songs.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="">...</h1>
+<h2 id="耶穌生平72首讚美詩">耶穌生平72首讚美詩</h2>
+<p><a href="https://www.youtube.com/watch?v=b3CdoX5Qvvg"><img src="imgs/72-jesus-songs.jpg" width="50%"/></a></p>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="主禱文">主禱文</h1>
+<p style="text-align: center;">
+<img src="imgs/prayer.jpeg" width="150%" alt="主禱文">
+</p>
+<p><em><strong>我們在天上的父</strong></em></p>
+<p>...</p>
+<p><em><strong>因為國度、權柄、榮耀，全是祢的</strong></em></p>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="耶穌是誰">耶穌是誰?</h1>
+<blockquote>
+<ul>
+<li>主禱文是耶穌教導我們如何向天父禱告 ... 那麼，耶穌是誰呢？</li>
+<li>耶穌，祢是誰?</li>
+</ul>
+<p><em><strong>約翰福音 1:14</strong></em></p>
+<pre class="hljs"><code><div>道成了肉身，住在我們中間，充充滿滿地有恩典有真理。我們也見過他的榮光，正是父獨生子的榮光。
+</div></code></pre>
+<p><img src="imgs/john-1-14.jpeg" alt=""></p>
+<ul>
+<li>今天將分享一些關於耶穌基督生平的歌曲。</li>
+<li>第一首 ... <code>耶穌豈是凡人</code></li>
+<li><em>想唱就跟著唱，不想唱的話，就單純聽就好。</em></li>
+</ul>
+</blockquote>
+<h2 id="耶穌豈是凡人">耶穌豈是凡人</h2>
+<p><a href="https://www.youtube.com/watch?v=OF1Y8tYd6E4&amp;list=RDOF1Y8tYd6E4&amp;start_radio=1"><img src="imgs/20261120204203.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>何因被祂所惑困？感微妙我心靈更新；
+耶穌祂只是凡人，因何令我心靈堅穩？
+何因被祂所惑困？心靈內似春雷震撼。
+耶穌祂只是凡人，竟然令世界變更。
+聽，祂每一句話，能帶有大能力。
+我默然地想，默想那每一句話。
+
+何因祂敢於面對？祂行事卻出塵脫俗；
+耶穌祂只是凡人，竟然為我舒懷解困！
+耶穌祂顯出大愛，點燃著我心頭的光。
+耶穌祂豈是凡人，欣然地復活再生。
+看，祂每一舉動，除去了苦與憂。
+我默然地想，十架那每一顆淚。
+看，祂的眼神，神態更具寧靜。
+我默然地呼，耶穌我更加想念你。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="我的知心友">我的知心友</h1>
+<blockquote>
+<p>*　在我年輕的時候，在教會團契裡，我們常唱<code>耶穌是我‵知心友</code></p>
+</blockquote>
+<h2 id="耶穌是我知心友">耶穌是我知心友</h2>
+<p><a href="https://www.youtube.com/watch?v=3duylp_xKPI&amp;list=RD3duylp_xKPI&amp;start_radio=1"><img src="imgs/20261120210148.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>耶穌是我的知心友 祂知道我深透
+細心帶領我向天路走 祂牽扶著我手
+我向祂傾訴我憂與愁 我信祂必去困憂
+永記祂因我將寶血流 我靈得拯救
+耶穌是我的知心友 明我祈求或苦與憂
+神到處將我施恩救 慈愛永遠伴我走
+在這世界道路多歧途 誰明白我主恩高
+曾為我要被死煎與熬 神奇恩我仰慕
+我向祂低首向祂渴求 要帶福音往遠處走
+願我一生一世跟主腳步 完成主使命
+耶穌是我的知心友 明我祈求或苦與憂
+神到處將我施恩救 慈愛永遠伴我走
+在這世界道路多歧途 誰明白我主恩高
+曾為我要被死煎與熬 神奇恩我仰慕
+願這福音恩光遍地球 為人所接受
+</div></code></pre>
+<p><em><strong>永記祂因我將寶血流 我靈得拯救</strong></em></p>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="我的救主">我的救主</h1>
+<blockquote>
+<ul>
+<li>耶穌是我的知心友 ... 因為祂救了我 ... <em><strong>永記祂因我將寶血流 我靈得拯救</strong></em></li>
+<li>這份救恩，是人們長久以來所渴望的 ... 從以色列人 ... 到所有的人</li>
+</ul>
+<p><em><strong>羅馬書 1:16</strong></em></p>
+<pre class="hljs"><code><div>我不以福音為恥；這福音本是神的大能，要救一切相信的，先是猶太人，後是 希臘人。
+</div></code></pre>
+<p><em>猶太人指的是以色列人。</em>
+<em>希臘人指的是非猶太人，也就是外邦人。</em></p>
+<ul>
+<li>下一首歌是 ... <code>以馬內利來臨</code></li>
+<li>誰是以馬內利？</li>
+</ul>
+<p><em><strong>以賽亞書 7:14</strong></em></p>
+<pre class="hljs"><code><div>因此，主自己要給你們一個兆頭：必有童女懷孕生子，給他起名叫以馬內利。
+</div></code></pre>
+</blockquote>
+<h2 id="以馬內利來臨">以馬內利來臨</h2>
+<p><a href="https://www.youtube.com/watch?v=3Vq-5jl1vr4&amp;list=RD3Vq-5jl1vr4&amp;start_radio=1"><img src="imgs/20261120214708.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>以馬內利，懇求降臨，救贖釋放以色列民；
+淪落異邦，寂寞傷心，引頸渴望神子降臨。
+
+耶西之條，懇求降臨，撒但手中，釋放子民；
+地獄深處，拯救子民，使眾信徒勝過死亡。
+
+清晨日光，懇求降臨，藉主降臨，歡慰眾心；
+衝開長夜幽暗愁雲，驅散黑影進入光明。
+
+大衛之鑰，懇求降臨，大開我眾天上家庭；
+安排我眾登天路程，斷絕人間多愁苦徑。
+
+副歌：歡欣！歡欣！以色列民，以馬內利，定要降臨！
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="耶穌傳道">耶穌傳道</h1>
+<ul>
+<li>耶穌在三十歲時出來傳道。</li>
+<li>耶穌講過很多比喻，其中一個是<code>浪子的比喻</code>(<em><strong>路加福音 15:11-32</strong></em>)</li>
+<li>這個比喻講述了一個浪子離家後，最終悔改回到父親身邊的故事，象徵上帝對悔改罪人的接納與愛。</li>
+<li><code>浪子的我</code>，正是每一個在罪中迷失的人，而父親的愛，正是上帝對我們的接納與救贖。</li>
+<li>這首歌描述了浪子回頭的心路歷程，提醒我們上帝的愛無條件地接納每一個悔改的人。</li>
+</ul>
+<h2 id="浪子的我">浪子的我</h2>
+<p><a href="https://www.youtube.com/watch?v=dhP3ejJYa7s&amp;list=RDdhP3ejJYa7s&amp;start_radio=1"><img src="imgs/20261120221953.png" width="50%"/></a></p>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="耶穌受難">耶穌受難</h1>
+<blockquote>
+<ul>
+<li>耶穌在三十三歲時，為了我們的罪被釘在十字架上。</li>
+</ul>
+<p><em><strong>以賽亞書 53:4-6</strong></em></p>
+<pre class="hljs"><code><div>他誠然擔當我們的憂患， 背負我們的痛苦； 我們卻以為他受責罰， 被神擊打苦待了。 
+哪知他為我們的過犯受害， 為我們的罪孽壓傷。 因他受的刑罰，我們得平安； 因他受的鞭傷，我們得醫治。 
+我們都如羊走迷； 各人偏行己路； 耶和華使我們眾人的罪孽都歸在他身上。
+</div></code></pre>
+<p><img src="imgs/isaiah-53-4-6.png" alt=""></p>
+<ul>
+<li>耶穌為我們的罪受苦，承擔了我們的痛苦，這是上帝對我們的愛的極致表現。</li>
+<li>耶穌為我們走上 <em><strong>苦難之路</strong></em> Via Dolorosa
+... <em><strong>全為愛不退半步，決定走上苦難之路，殘酷傷害，無悔經過，作犧牲，正為你我。</strong></em></li>
+</ul>
+</blockquote>
+<h2 id="苦難之路">苦難之路</h2>
+<p><a href="https://www.youtube.com/watch?v=CXFTaBGRomU&amp;list=PLM_OKCfckXn4"><img src="imgs/20261120225814.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>人浪翻騰，士兵穿插，千夫指向這個祂，
+受死前被鞭打，劇痛掙扎，
+昨日歡呼的群眾，正在冷嘲戲弄唾罵欺壓。
+遍體傷痕，額角淌血，荊棘冠冕正刺穿，
+承受世人罪債的沉重身影，
+步步艱辛的路徑，背負四周冷酷肆虐呼聲。
+
+榮耀君王，救主基督，性命以十架結束，
+無罪羔羊何故遭宰殺凌辱，
+全為愛不退半步，決定走上苦難之路，
+殘酷傷害，無悔經過，作犧牲，正為你我。
+
+窄路被血洗，實踐神大計，無價贖罪救恩，發自各各他，
+榮耀君王，救主基督，性命以十架結束，
+無罪羔羊何故任屠宰侮辱，
+為著愛不退半步，決定走上苦難之路，
+曾在Via Dolorosa，喝苦杯，正為你我。
+</div></code></pre>
+<p><em><strong>全為愛不退半步，決定走上苦難之路，殘酷傷害，無悔經過，作犧牲，正為你我。</strong></em></p>
+<hr>
+<div style="height: 600px;"></div>
+<blockquote>
+<ul>
+<li><em><strong>主耶穌，我感謝你，你的身體，為我而捨。</strong></em></li>
+</ul>
+</blockquote>
+<h2 id="寶貴十架">寶貴十架</h2>
+<p><a href="https://www.youtube.com/watch?v=0YJZUyVOQVY"><img src="imgs/20261121213121.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>主耶穌，我感謝你，你的身體，為我而捨。
+帶我出黑暗，進入光明國度，使我再次能看見。
+主耶穌，我感謝你，你的寶血，為我而流。
+寶貴十架上，醫治恩典湧流，使我完全得自由。
+寶貴十架的大能賜我生命，主耶穌我俯伏敬拜你。
+寶貴十架的救恩，是你所立的約，你的愛永遠不會改變。
+</div></code></pre>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="耶穌復活">耶穌復活</h1>
+<blockquote>
+<ul>
+<li>三天後，他復活了。</li>
+<li>這是上帝對人類罪的最終勝利，象徵著生命戰勝死亡，光明戰勝黑暗。</li>
+</ul>
+</blockquote>
+<h2 id="基督今復活">基督今復活</h2>
+<p><a href="https://www.youtube.com/watch?v=GFYeugaAttQ&amp;list=RDGFYeugaAttQ&amp;start_radio=1"><img src="imgs/20261120233152.png" width="50%"/></a></p>
+<hr>
+<div style="height: 600px;"></div>
+<h1 id="榮耀的盼望">榮耀的盼望</h1>
+<blockquote>
+<ul>
+<li>耶穌基督依然活著 ... 因著耶穌基督，我們擁有這份 <em><strong>榮耀的盼望</strong></em>。</li>
+<li><code>到那日</code>這首歌描述了末日的景象，信徒在神面前敬拜，萬國都屈膝，所有的眼淚都被抹去。</li>
+</ul>
+</blockquote>
+<h2 id="到那日">到那日</h2>
+<p><a href="https://youtu.be/9BL1pMD0Uo8?si=otuB123ywiUfCFk8"><img src="imgs/20261028160345.png" width="50%"/></a></p>
+<pre class="hljs"><code><div>[Verse 1]
+到那日我站於玻璃海
+到那日晝夜唱聖哉
+樂奏起天軍讚美
+萬國都屈膝向地
+我望見座前是我主一張臉
+[Verse 2]
+到那日我列身眾聖民
+到那日我明了救恩
+過去的終於過去
+祢抹乾所有眼淚
+一切更新了祢聖光今普照
+[Chorus]
+悠揚歌聲諸天都可聽
+永永遠遠也為榮耀祢聖名
+隨着天兵宣稱主得勝
+四處敬拜這天籟聲永沒停
+</div></code></pre>
+<p><em><strong>Here I am</strong></em> -- <em><strong>我在這裡</strong></em>
+<img src="imgs/20261028171844.png" alt=""></p>
+<p><em><strong>Here you are</strong></em> -- <em><strong>你在這裡</strong></em>
+<img src="imgs/20261028171943.png" alt=""></p>
+<p><em><strong>Singing Hallelujah</strong></em> -- <em><strong>唱哈利路亞</strong></em>
+<img src="imgs/20261028172412.png" alt=""></p>
+
+</body>
+</html>
