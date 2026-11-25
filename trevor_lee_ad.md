@@ -8,8 +8,8 @@ Because of my passion for software development, I have many other [personal] dev
 Here are some selected personal projects of mine:
 
 * A demo website for my church (賢會沙田堂), with `/admin` interface for updating certain information shown on the website
-  - Skills: AI assisted development, Next.js, Payload CMS, TailwindCSS
-  - [🔗 賢會沙田堂 Demo website](https://stc-demo-site.trevorwslee.duckdns.org/)  
+  - Skills: AI assisted software development, Next.js, Payload CMS, TailwindCSS
+  - [🔗 賢會沙田堂 demo website](https://stc-demo-site.trevorwslee.duckdns.org/)  
 * `gen_image_ui` -- A Next.js web UI for AI image generation (and LLM chatting; add local PaddleOCR), with Python backend
   - Skills: Next.js, TypeScript, TailwindCSS, Python, FastAPI, LangChain, SQLite and Docker
   - [🔗 'gen_image_ui' Docker Hub listing](https://hub.docker.com/r/trevorwslee/gen-image-ui)
@@ -49,7 +49,7 @@ Here are some selected personal projects of mine:
 * `rusty_dumb_tools` -- A collection of simple tools in Rust as Rust modules
   - Skills: Rust
   - [🔗 'rusty_dumb_tools' GitHub repo](https://github.com/trevorwslee/rusty_dumb_tools)
-  - One utilization of one of the tools of `rusty_dumb_tools` -- [🔗 DumbCalculator](https://trevorwslee.github.io/DumbCalculator/) -- a WASM calculator
+  - One demo of utilization of one of the tools of `rusty_dumb_tools` -- [🔗 DumbCalculator](https://trevorwslee.github.io/DumbCalculator/) -- a WASM calculator
 
 As for my education background: I have three degrees – Bachelor of Computer Science, Master of Science and Master of Arts.
 I was granted my Bachelor of Computer Science degree by Canada's University of Manitoba back in 1991. I received the gold medal for the degree (Bachelor of Computer Science) that year.
