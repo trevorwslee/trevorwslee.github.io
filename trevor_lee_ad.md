@@ -7,6 +7,9 @@ Because of my passion for software development, I have many other [personal] dev
 
 Here are some selected personal projects of mine:
 
+* A demo website for my church (賢會沙田堂), with `/admin` interface for updating certain information shown on the website
+  - Skills: AI assisted development, Next.js, Playload CMS, TailwindCSS
+  - [賢會沙田堂 Demo website](https://stc-demo-site.trevorwslee.duckdns.org/)  
 * `gen_image_ui` -- A Next.js web UI for AI image generation (and LLM chatting; add local PaddleOCR), with Python backend
   - Skills: Next.js, TypeScript, TailwindCSS, Python, FastAPI, LangChain, SQLite and Docker
   - [🔗 'gen_image_ui' Docker Hub listing](https://hub.docker.com/r/trevorwslee/gen-image-ui)
