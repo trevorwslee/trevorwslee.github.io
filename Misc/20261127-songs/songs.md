@@ -33,6 +33,18 @@
 ---
 <div style="height: 600px;"></div>
 
+# 我們的神
+
+> * <span style="font-size: 24px; font-weight: bold;">因為國度、權柄、榮耀，全是祢的</span>
+
+
+[<img src="imgs/20261028153618.png" width="50%"/>](https://youtu.be/2vCYXbbq8mw?si=b76r8syc7aniHMDK)
+
+
+
+---
+<div style="height: 600px;"></div>
+
 # 耶穌是誰?
 
 > * 主禱文是耶穌教導我們如何向天父禱告 ... 那麼，耶穌是誰呢？ 
